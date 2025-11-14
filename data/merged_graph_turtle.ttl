@@ -1,0 +1,3540 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://jbc.bj.uj.edu.pl/Content/257952> dc:creator "Gęsiak, Leszek"@pl ;
+    dc:date "2004"@pl ;
+    dc:format "image/x.djvu"@en,
+        "image/x.djvu"@pl ;
+    dc:issued "2004"@pl ;
+    dc:language "pol"@pl ;
+    dc:publisher "Uniwersytet Jagielloński w Krakowie"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:180039"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:180039"@pl ;
+    dc:rights "Copyright"@pl ;
+    dc:source "Archiwum UJ, Dokt. 2004/193"@pl ;
+    dc:subject "core values"@pl,
+        "multiculturalism"@pl,
+        "państwo"@pl,
+        "religia"@pl,
+        "religion"@pl,
+        "society"@pl,
+        "społeczeństwo"@pl,
+        "state"@pl,
+        "wartości rdzenne"@pl,
+        "wielokulturowość"@pl ;
+    dc:title "Wielokulturowość - rola religii w dynamice zjawiska"@pl ;
+    dc:type "rozprawa doktorska"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/499435> dc:coverage "20 w."@pl ;
+    dc:creator "Labour Party"@pl ;
+    dc:date "ca 1946"@pl ;
+    dc:format "application/octet-stream"@en,
+        "application/octet-stream"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/499435/NDIGDZS024864.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/499435/NDIGDZS024864.pdf"@pl ;
+    dc:issued "ca 1946"@pl ;
+    dc:language "eng"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:421001"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:421001"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 639986 III 110"@pl ;
+    dc:subject "Partia Pracy (Wielka Brytania)"@pl,
+        "druki ulotne 20 w."@pl,
+        "laburzyści"@pl ;
+    dc:title "„Your Future”"@pl ;
+    dc:type "druk ulotny"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/510136> dc:coverage "20 w."@pl ;
+    dc:creator "Cambridge Anglo-Polish Society"@pl ;
+    dc:date "1948"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/510136/NDIGDZS023940.pdf"@pl ;
+    dc:issued "1948"@pl ;
+    dc:language "eng"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:535690"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 639986 III 78"@pl ;
+    dc:subject "Ciołkosz, Adam (1901-1978)"@pl,
+        "druki ulotne 20 w."@pl ;
+    dc:title "Dr. Adam Ciolkosz [...] will speak on „Central & South-Eastern European Federation, is it possible, is it advisable?”"@pl ;
+    dc:type "druk ulotny"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/510137> dc:coverage "20 w."@pl ;
+    dc:date "ca 1948"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/510137/NDIGDZS023948.pdf"@pl ;
+    dc:issued "ca 1948"@pl ;
+    dc:language "eng"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:535691"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 639986 III 85"@pl ;
+    dc:subject "druki ulotne 20 w."@pl ;
+    dc:title "British Fund for Warsaw : (under the auspices of the Poland Relief Fund)"@pl ;
+    dc:type "druk ulotny"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/550767> dc:coverage "19 w."@pl ;
+    dc:date "ca 1900"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/550767/NDIGDZS019096.pdf"@pl ;
+    dc:issued "ca 1900"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:579328"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224655 V 20"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Kundmachung : Aussergewöhnliche Markt Anzeige"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/550793> dc:coverage "19 w."@pl ;
+    dc:date "1893"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/550793/NDIGDZS019093.pdf"@pl ;
+    dc:issued "1893"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:579397"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224655 V 5"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Cennik Zakładu Obserwacyjnego dla Nierogacizny w Krakowie zatwierdzony przez c. k. Namiestnictwo do L. 42764 z dnia 25. maja 1893 roku"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/550799> dc:coverage "19 w."@pl ;
+    dc:date "ca 1882"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/550799/NDIGDZS019097.pdf"@pl ;
+    dc:issued "ca 1882"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:579399"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224655 V 11"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Katalog dzieł nakładowych, komisowych i w większej ilości nabytych znajdujących się w księgarnii F. K. Pobudkiewicza (wydawnictwo dzieł J. Bartoszewicza) w Krakowie, Rynek, Hotel Drezdeński"@pl ;
+    dc:type "druk ulotny"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/550812> dc:coverage "19 w."@pl ;
+    dc:date "1879"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/550812/NDIGDZS019101.pdf"@pl ;
+    dc:issued "1879"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:579419"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224655 V 34"@pl ;
+    dc:subject "Wydawnictwo „Czytelni Ludowej”"@pl,
+        "druki ulotne 19 w."@pl ;
+    dc:title "Nakładem Wydawnictwa Czytelni Ludowej wyszły już Kalendarze na rok 1880 układu A. Nowoleckiego"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/569962> dc:coverage "19 w."@pl ;
+    dc:date "1860"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/569962/NDIGDZS024568.pdf"@pl ;
+    dc:issued "1860"@pl ;
+    dc:language "ger"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:599804"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224653 IV 174"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Kundmachung : die k. k. Militär- Schwimmanstalt für den heurigen Lehrcurs wird den 15. Mai eröffnet werden"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/570003> dc:coverage "19 w."@pl ;
+    dc:date "1860"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/570003/NDIGDZS024672.pdf"@pl ;
+    dc:issued "1860"@pl ;
+    dc:language "ger"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:599842"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224653 IV 73"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Der große Wundermann"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/570105> dc:coverage "19 w."@pl ;
+    dc:date "1859"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/570105/NDIGDZS024315.pdf"@pl ;
+    dc:issued "1859"@pl ;
+    dc:language "ger"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:599998"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224653 IV 33"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Einladung zu einer musikalischen Soirée"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/570108> dc:coverage "19 w."@pl ;
+    dc:date "1860"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/570108/NDIGDZS024564.pdf"@pl ;
+    dc:issued "1860"@pl ;
+    dc:language "ger"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:600001"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224653 IV 170"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "M. Neumann eine Vorstellung in der höheren Magie"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/570109> dc:coverage "19 w."@pl ;
+    dc:date "1860"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/570109/NDIGDZS024565.pdf"@pl ;
+    dc:issued "1860"@pl ;
+    dc:language "ger"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:600002"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224653 IV 171"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Anonce Kaffée-haus M. Zucker"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/570275> dc:coverage "19 w."@pl ;
+    dc:date "1872"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/570275/NDIGDZS032329.pdf"@pl ;
+    dc:issued "1872"@pl ;
+    dc:language "ger"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:600330"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224630 V e/7"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Bekanntmachung : Personen, welche zum Besuch der industriel-agronomischen Ausstellung nach Tarnow"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/577130> dc:coverage "19 w."@pl ;
+    dc:date "1874"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/577130/NDIGDZS032342.pdf"@pl ;
+    dc:issued "1874"@pl ;
+    dc:language "ger"@pl,
+        "yid"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:600353"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224630 V e/20"@pl ;
+    dc:subject "druki ulotne 19 w."@pl ;
+    dc:title "Kundmachung : Der Buchhalter und Korrespondent der hierortigen Dampfmühle giebt sich die Ehre auf wiederholte Aufragen hiermit anzuzeigen"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/603029> dc:coverage "19 w."@pl ;
+    dc:date "1884"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/603029/NDIGDZS031113.pdf"@pl ;
+    dc:issued "1884"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:601649"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224657 V 3/6"@pl ;
+    dc:subject "Sienkiewicz, Henryk (1846-1916)"@pl,
+        "Teatr Krakowski 19 w."@pl,
+        "druki ulotne 19 w."@pl ;
+    dc:title "W poniedziałek d. 31 marca 1884 r. na korzyść Domu pracy na Kazimierzu żywe obrazy z powieści Henryka Sienkiewicza Ogniem i mieczem"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/603761> dc:coverage "19 w."@pl ;
+    dc:date "1884"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/603761/NDIGDZS031136.pdf"@pl ;
+    dc:issued "1884"@pl ;
+    dc:language "fre"@pl,
+        "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:601724"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224657 V 3/16"@pl ;
+    dc:subject "Chaumont, Céline (1848-1926)"@pl,
+        "Teatr Krakowski 19 w."@pl,
+        "Towarzystwo Paryskie"@pl,
+        "druki ulotne 19 w."@pl ;
+    dc:title "Céline Chaumont avec la troupe parisienne"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/603763> dc:coverage "20 w."@pl ;
+    dc:date "[1930-1936]"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/603763/NDIGDZS031138.pdf"@pl ;
+    dc:issued "[1930-1936]"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "https://audiovis.nac.gov.pl/search/bce12eb58b7c438c284cce758f457f0c:1/ Zobacz w NAC, Fragment przedstawienia Ludwika Hieronima Morstina „Mikołaj Kopernik” (1936-1937)"@pl,
+        "oai:jbc.bj.uj.edu.pl:publication:601717"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224657 V 3/18"@pl ;
+    dc:subject "Frycz, Karol Józef (1877-1963)"@pl,
+        "Kielanowski Leopold (1907-1988)"@pl,
+        "Kopernik, Mikołaj (1473-1543)"@pl,
+        "Morstin, Ludwik Hieronim (1886-1966)"@pl,
+        "Polski Teatr Akademicki UJ"@pl,
+        "Teatr im. Juliusza Słowackiego w Krakowie"@pl,
+        "druki ulotne 20 w."@pl,
+        "Żuliński, Antoni"@pl ;
+    dc:title "Dziś w niedzielę po raz ostatni w ramach programu „Dni Krakowa” na Wawelu o godz. 20.30 Mikołaj Kopernik wielkie widowisko, wizja sceniczna Ludwika Hieronima Morsztina"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/603767> dc:coverage "19 w."@pl ;
+    dc:date "[1878]"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/603767/NDIGMUZ032871.pdf"@pl ;
+    dc:issued "[1878]"@pl ;
+    dc:language "pol"@pl ;
+    dc:publisher "I. Związkowa Drukarnia"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:636131"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ Muz. DŻS 4,21"@pl ;
+    dc:subject "Mikuli, Karol (1819-1897)"@pl,
+        "Pierwsza Związkowa Drukarnia (Lwów)"@pl,
+        "Stowarzyszenie Rękodzielników „Gwiazda”"@pl,
+        "afisz muzyczny"@pl,
+        "druki ulotne 19 w."@pl,
+        "koncert instrumentalny"@pl,
+        "koncert wokalny"@pl ;
+    dc:title "Na dochód funduszu inwalidów, wdów i sierót Stowarzyszenia rękodzielników lwowskich „Gwiazda” odbędzie się w niedzielę dnia 5. maja 1878 r. w sali Stowarzyszenia „Gwiazda” przy ulicy Frańciszkańskiej z powodu obchodu uroczystości dziesięcioletniej rocznicy zawiązania tegoż Stowarzyszenia koncert pod kierownictwem ... K. Mikulego"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/630677> dc:coverage "20 w."@pl ;
+    dc:date "1944"@pl ;
+    dc:description "Plakat niemieckich władz okupacyjnych"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/630677/NDIGDZS021897.pdf"@pl ;
+    dc:issued "1944"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:666375"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, R 4962 IV"@pl ;
+    dc:subject "II wojna światowa (1939-1945)"@pl,
+        "druki ulotne 20 w."@pl,
+        "plakaty polityczne"@pl ;
+    dc:title "Katyn"@pl ;
+    dc:type "plakat"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/630680> dc:coverage "20 w."@pl ;
+    dc:date "[1901]"@pl ;
+    dc:description "Afisz dwustronny"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/630680/NDIGDZS031805.pdf"@pl ;
+    dc:issued "[1901]"@pl ;
+    dc:language "pol"@pl,
+        "rus"@pl ;
+    dc:publisher "Jermułowicz i Bergman"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:605481"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224660 IV 30/1"@pl ;
+    dc:subject "Shakespeare, William (1564-1616)"@pl,
+        "druki ulotne 20 w."@pl,
+        "teatr 20 w."@pl ;
+    dc:title "No 50 Teatr Zimowy w czwartek, d. 21 marca 1901 r. benefis Wacława Szymborskiego, pierwszy raz Wesołe Kumoszki Windsorskie, komedja w 5-ciu aktach"@pl,
+        "No 50 Zimnìj Teatr v četverg 8 marta 1901 g. benefis Vaclava Šimborskago, v pervyj raz Veselyâ Kumuški iz Vindsora, komedìâ v 5-ti dějstvìâh"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/630708> dc:coverage "19 w."@pl ;
+    dc:date "[1896]"@pl ;
+    dc:description "Afisz dwustronny"@pl ;
+    dc:format "application/octet-stream"@en,
+        "application/octet-stream"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/630708/NDIGDZS019769.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/630708/NDIGDZS019769.pdf"@pl ;
+    dc:issued "[1896]"@pl ;
+    dc:language "pol"@pl,
+        "rus"@pl ;
+    dc:publisher "M. Stochalski"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:398707"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:398707"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224660 IV 5/48"@pl ;
+    dc:subject "Teatr Łódzki (Polska)"@pl,
+        "druki ulotne 19 w."@pl,
+        "teatr polski 19 w."@pl ;
+    dc:title "No 24 Eŝe tolʹko šestʹ predstavlenìj Artisty Lodzinskago Teatra, vʺ městnomʺ teatrě, vʺ voskresenìe 10-go marta 1896 goda poslĕdnìj raz : Podprefekt"@pl,
+        "No 50 Tylko sześć przedstawień Artyści Teatru Łódzkiego w teatrze miejscowym, w niedzielę dnia 22-go marca 1896 roku ostatni raz : Podprefekt"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/630710> dc:coverage "19 w."@pl ;
+    dc:date "[1896]"@pl ;
+    dc:description "Afisz dwustronny"@pl ;
+    dc:format "application/octet-stream"@en,
+        "application/octet-stream"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/630710/NDIGDZS019776.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/630710/NDIGDZS019776.pdf"@pl ;
+    dc:issued "[1896]"@pl ;
+    dc:language "pol"@pl,
+        "rus"@pl ;
+    dc:publisher "M. Stochalski"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:398735"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:398735"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224660 IV 5/44"@pl ;
+    dc:subject "Przybylski, Zygmunt"@pl,
+        "Teatr Łódzki (Polska)"@pl,
+        "druki ulotne 19 w."@pl,
+        "teatr polski 19 w."@pl ;
+    dc:title "No 39 Artisty Lodzinskago Teatra, vʺ mĕstnomʺ teatrě vʺ voskresenìe 3-go marta 1896 goda debûtʺ Ganny Horinskoj, 1-yj razʺ : Vicekʺ i Vacekʺ"@pl,
+        "No 47 Artyści Teatru Łódzkiego, w teatrze miejscowym w niedzielę dnia 15-go marca 1896 roku debiut Hanny Choryńskiej, 1-szy raz : Wicek i Wacek"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/630711> dc:coverage "19 w."@pl ;
+    dc:date "[1896]"@pl ;
+    dc:description "Afisz dwustronny"@pl ;
+    dc:format "application/octet-stream"@en,
+        "application/octet-stream"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/630711/NDIGDZS020900.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/630711/NDIGDZS020900.pdf"@pl ;
+    dc:issued "[1896]"@pl ;
+    dc:language "pol"@pl,
+        "rus"@pl ;
+    dc:publisher "M. Stochalski"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:399883"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:399883"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, 224660 IV 5/5"@pl ;
+    dc:subject "Teatr Łódzki (Polska)"@pl,
+        "druki ulotne 19 w."@pl,
+        "teatr polski 19 w."@pl ;
+    dc:title "Artisty Lodzinskago Teatra vʺ mĕstnomʺ teatrě, vʺ ponedĕlʹnikʺ 25-go dekabrâ 1895 goda pervyj razʺ : Lûbovʹ bědnago (Le romance dʹun jeune homme pauvre)"@pl,
+        "No 4 Artyści Teatru Łódzkiego w teatrze miejscowym, w poniedziałek dnia 6 stycznia 1896 roku pierwszy raz : Miłość ubogiego (Le romance dʹun jeune homme pauvre)"@pl ;
+    dc:type "afisz"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981023> dc:coverage "20 w."@pl ;
+    dc:date "1966"@en,
+        "1966"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981023/NDIGDZS106106.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981023/NDIGDZS106106.pdf"@pl ;
+    dc:issued "1966"@en,
+        "1966"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029443"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029443"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 197"@pl ;
+    dc:subject "Akademia Medyczna (Kraków)"@pl,
+        "Collegium Medicum (Uniwersytet Jagielloński)"@pl,
+        "Gastoł, Błażej (1905-1966)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "nauczyciele akademiccy"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Błażej Gastoł, doktór medycyny, profesor nadzwyczajny higieny, kierownik Katedry i Zakładu Higieny Akademii Medycznej w Krakowie [...] urodzony 15 lutego 1905 r. w Bieżanowie, zmarł w Krakowie dnia 6 grudnia 1966 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981245> dc:coverage "19-20 w."@pl ;
+    dc:date "1961"@en,
+        "1961"@pl ;
+    dc:description "U dołu karty: Rzemieślnicza Spółdzielnia Pracy Stolarzy i Pracowników Pogrzebowych. Zakład Nr 1, Kraków, pl. Szczepański 2"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981245/NDIGDZS106410_15874105.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981245/NDIGDZS106410_15874105.pdf"@pl ;
+    dc:issued "1961"@en,
+        "1961"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029628"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029628"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 205"@pl ;
+    dc:subject "Gąsiorowska, Zofia (1885-1961)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "nauczyciele"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Zofia Gąsiorowska, emer. nauczycielka [...] przeżywszy lat 76 [...] zmarła dnia 8 sierpnia 1961 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981317> dc:coverage "19-20 w."@pl ;
+    dc:date "1960"@en,
+        "1960"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981317/NDIGDZS106384.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981317/NDIGDZS106384.pdf"@pl ;
+    dc:issued "1960"@en,
+        "1960"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030876"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030876"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 122"@pl ;
+    dc:subject "Gałek, Julian (1887-1960)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Julian Gałek [...] zmarł dnia 3 stycznia 1960 roku [...]"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981338> dc:coverage "19-20 w."@pl ;
+    dc:date "1967"@en,
+        "1967"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981338/NDIGDZS106831.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981338/NDIGDZS106831.pdf"@pl ;
+    dc:issued "1967"@en,
+        "1967"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1031501"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1031501"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 284"@pl ;
+    dc:subject "Gawroński, Juliusz (1874-1967)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. dr praw Juliusz Gawroński b. dyrektor Banku Małopolskiego w Krakowie, b. Prezes Towarzystwa Muzycznego w Krakowie, pianista, odznaczony złotym i srebrnym medalem za talent i pracę [...] przeżywszy lat 93 [...] zasnął w Panu dnia 4 listopada 1967 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981339> dc:coverage "20 w."@pl ;
+    dc:date "1991"@en,
+        "1991"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981339/NDIGDZS106834.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981339/NDIGDZS106834.pdf"@pl ;
+    dc:issued "1991"@en,
+        "1991"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1031500"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1031500"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 286"@pl ;
+    dc:subject "Gawryś, Stanisław (1945-1991)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr inż. Stanisław Gawryś [...] przeżywszy lat 46, po krótkiej a ciężkiej chorobie, zmarł dnia 29 kwietnia 1991 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981343> dc:coverage "20 w."@pl ;
+    dc:date "1978"@en,
+        "1978"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981343/NDIGDZS106205.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981343/NDIGDZS106205.pdf"@pl ;
+    dc:issued "1978"@en,
+        "1978"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030288"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030288"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Ib-Iz 40"@pl ;
+    dc:subject "Inglotowa, Elżbieta Krystyna (1902?-1978)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Elżbieta Krystyna Inglotowa [...] przeżywszy lat 76, po długej a ciężkiej chorobie, opatrzona św. Sakramentami, zasnęła w Panu dnia 25 października 1978 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981356> dc:coverage "20 w."@pl ;
+    dc:date "1964"@en,
+        "1964"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981356/NDIGDZS106359.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981356/NDIGDZS106359.pdf"@pl ;
+    dc:issued "1964"@en,
+        "1964"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1031191"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1031191"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 112"@pl ;
+    dc:subject "Galas, Leokadia (?-1964)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "działacze partyjni"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Tow. Leokadia Galas pracownik [...] Huty Aluminium [...] zmarła w dniu 2-go marca 1964 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981357> dc:coverage "20-21 w."@pl ;
+    dc:date "2004"@en,
+        "2004"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981357/NDIGDZS106820.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981357/NDIGDZS106820.pdf"@pl ;
+    dc:issued "2004"@en,
+        "2004"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030913"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030913"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 276"@pl ;
+    dc:subject "Gaworek, Jadwiga (?-2004)"@pl,
+        "Związek Nauczycielstwa Polskiego"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Społeczność Uniwersytetu Jagiellońskiego z głębokim żalem zawiadamia, że w dniu 21 listopada 2004 roku zmarła śp. Jadwiga Gaworek emerytowany, długoletni, ceniony i szanowany pracownik sekretariatu Związku Nauczycielstwa Polskiego"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981359> dc:coverage "19-20 w."@pl ;
+    dc:date "1963"@en,
+        "1963"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981359/NDIGDZS106812.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981359/NDIGDZS106812.pdf"@pl ;
+    dc:issued "1963"@en,
+        "1963"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030922"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030922"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 269"@pl ;
+    dc:subject "Gawlikowski, Roman (1888-1963)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Roman Gawlikowski b. dyrektor Teatru przeżywszy lat 75, po krótkich a ciężkich cierpieniach, opatrzony św. Sakramentami, zasnął w Panu dnia 22 marca 1963 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981360> dc:coverage "19-20 w."@pl ;
+    dc:date "1971"@en,
+        "1971"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981360/NDIGDZS106813.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981360/NDIGDZS106813.pdf"@pl ;
+    dc:issued "1971"@en,
+        "1971"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030921"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030921"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 270"@pl ;
+    dc:subject "Gawlikowski, Tadeusz (1889-1971)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "nauczyciele gimnazjów"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Tadeusz Gawlikowski profesor gimnazjum i liceum przeżywszy lat 82, po długiej a ciężkiej chorobie, opatrzony św. Sakramentami, zmarł dnia 1 maja 1971 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981363> dc:coverage "20 w."@pl ;
+    dc:date "1962"@en,
+        "1962"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981363/NDIGDZS106835.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981363/NDIGDZS106835.pdf"@pl ;
+    dc:issued "1962"@en,
+        "1962"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030864"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030864"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 287"@pl ;
+    dc:subject "Gawryś, Stanisław (1901-1962)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Stanisław Gawryś mistrz krawiecki, długoletni wiceprezes Chóru „Symfonia”, przeżywszy lat 61, po długiej a ciężkiej chorobie, opatrzony św. Sakramentami, zasnął w Panu dnia 17 września 1962 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981368> dc:coverage "20-21 w."@pl ;
+    dc:date "2010"@en,
+        "2010"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981368/NDIGDZS106817.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981368/NDIGDZS106817.pdf"@pl ;
+    dc:issued "2010"@en,
+        "2010"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030919"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030919"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 273"@pl ;
+    dc:subject "Collegium Medicum (Uniwersytet Jagielloński)"@pl,
+        "Gawłowska, Maria (1910-2010)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z głębokim żalem zawiadamiamy, że w dniu 24 stycznia 2010 r. zmarła dr hab. Maria Gawłowska emerytowana docent Wydziału Farmaceutycznego Uniwersytetu Jagiellońskiego Collegium Medicum"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981370> dc:coverage "20 w."@pl ;
+    dc:date "1987"@en,
+        "1987"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981370/NDIGDZS106807.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981370/NDIGDZS106807.pdf"@pl ;
+    dc:issued "1987"@en,
+        "1987"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030937"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030937"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 265"@pl ;
+    dc:subject "Gawlikowska, Bronisława (1903?-1987)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Bronisława Gawlikowska przeżywszy lat 84, opatrzona św. Sakramentami, zasnęła w Panu, dnia 9 kwietnia 1987 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981375> dc:coverage "20 w."@pl ;
+    dc:date "1971"@en,
+        "1971"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981375/NDIGDZS106839.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981375/NDIGDZS106839.pdf"@pl ;
+    dc:issued "1971"@en,
+        "1971"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030915"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030915"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 290"@pl ;
+    dc:subject "Gawrzyński, Kazimierz (1916-1971)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Kazimierz Gawrzyński mgr praw przeżywszy lat 55, zmarł śmiercią tragiczną dnia 26 listopada 1971 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981626> dc:coverage "20 w."@pl ;
+    dc:date "1984"@en,
+        "1984"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981626/NDIGDZS106836.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981626/NDIGDZS106836.pdf"@pl ;
+    dc:issued "1984"@en,
+        "1984"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030862"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030862"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 288"@pl ;
+    dc:subject "Gawrzewski, Julian (1908-1984)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Julian Gawrzewski mgr praw [...]. uczestnik II wojny światowej, przeżywszy lat 76, po krótkiej a ciężkie chorobie, opatrzony św. Sakramentami, zmarł dnia 2 września 1984 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/981627> dc:coverage "19-20 w."@pl ;
+    dc:date "1959"@en,
+        "1959"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/981627/NDIGDZS106838.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/981627/NDIGDZS106838.pdf"@pl ;
+    dc:issued "1959"@en,
+        "1959"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030861"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030861"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 289"@pl ;
+    dc:subject "Gawrzyńska, Teofila (1886-1959)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z Pawlusów Teofila Gawrzyńska emerytowana nauczycielka przeżywszy lat 73, po długiej a ciężkiej chorobie [...] zasnęła w Panu dnia 23 stycznia 1959 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/982422> dc:coverage "20 w."@pl ;
+    dc:date "1979"@en,
+        "1979"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/982422/NDIGDZS106182.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/982422/NDIGDZS106182.pdf"@pl ;
+    dc:issued "1979"@en,
+        "1979"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029510"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029510"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Ib-Iz 19"@pl ;
+    dc:subject "Ilnicka, Julia (1905-1979)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Julia Ilnicka najukochańsza matka i babcia, długoletnia artystka śpiewaczka operowa i estradowa okresu międzywojennego, przeżywszy lat 74, po długich a ciężkich cierpieniach, opatrzona św. Sakramentami, zasnęła w Panu dnia 23 czerwca 1979 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984656> dc:coverage "20 w."@pl ;
+    dc:date "1970"@en,
+        "1970"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984656/NDIGDZS107687.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984656/NDIGDZS107687.pdf"@pl ;
+    dc:issued "1970"@en,
+        "1970"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1033705"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1033705"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Fin-Fuz 64"@pl ;
+    dc:subject "Florek, Mieczysław (1903-1970)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mieczysław Florek nauczyciel [...] przeżywszy lat 67 [...] zasnął w Panu dnia 11 kwietnia 1970 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984675> dc:coverage "20 w."@pl ;
+    dc:date "1981"@en,
+        "1981"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984675/NDIGDZS108361.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984675/NDIGDZS108361.pdf"@pl ;
+    dc:issued "1981"@en,
+        "1981"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035574"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035574"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 76"@pl ;
+    dc:subject "Goliński, Jan (1903-1981)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Jan Goliński najukochańszy mąż, ojciec i dziadzio, em. kustosz Biblioteki Jagiellońskiej, przeżywszy lat 78, zmarł nagle 14 marca 1981 [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984677> dc:coverage "19-20 w."@pl ;
+    dc:date "1979"@en,
+        "1979"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984677/NDIGDZS106446.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984677/NDIGDZS106446.pdf"@pl ;
+    dc:issued "1979"@en,
+        "1979"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029569"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029569"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 226"@pl ;
+    dc:subject "Gatty-Kostyal, Helena (1892-1979)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Z Fedorowiczów Helena Gatty-Kostyal [...] były więzień Gestapo na Montelupich [...] zmarła dnia 3 marca 1979 roku w wieku 86 lat [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984679> dc:coverage "19-20 w."@pl ;
+    dc:date "1972"@en,
+        "1972"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984679/NDIGDZS108366.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984679/NDIGDZS108366.pdf"@pl ;
+    dc:issued "1972"@en,
+        "1972"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035577"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035577"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 81"@pl ;
+    dc:subject "Golonek, Karol (1890-1972)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. dr Karol Golonek najukochańszy ojciec i brat, przeżywszy lat 82, po długiej a ciężkiej chorobie, opatrzony św. Sakramentami, zmarł dnia 3 kwietnia 1972 r. w Sosnowcu [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984680> dc:coverage "19-20 w."@pl ;
+    dc:date "1957"@en,
+        "1957"@pl ;
+    dc:description "U dołu Karty: Rzemieślnicza Spółdzielnia Pracy Stolarzy i Pracow. Pogrzebowych. Zakład Nr 5, Kraków, ul. Grzegórzecka 7"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984680/NDIGDZS106447.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984680/NDIGDZS106447.pdf"@pl ;
+    dc:issued "1957"@en,
+        "1957"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029575"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029575"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 229"@pl ;
+    dc:subject "Gaudyn, Piotr (1884-1957)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Piotr Gaudyn emeryt wojskowy przeżywszy lat 73 [...] zasnął w Panu dnia 7-go grudnia 1957 toku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984681> dc:coverage "20 w."@pl ;
+    dc:date "1987"@en,
+        "1987"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984681/NDIGDZS106456.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984681/NDIGDZS106456.pdf"@pl ;
+    dc:issued "1987"@en,
+        "1987"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029610"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029610"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 237"@pl ;
+    dc:subject "Gawalewicz, Adolf (1916-1987)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Dr praw Adolf Gawalewicz [...] więzień Oświęcimia Nr 9225 [...] przeżywszy lat 71 zasnął w Panu 11 czerwca 1987 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984682> dc:coverage "20 w."@pl ;
+    dc:date "1985"@en,
+        "1985"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984682/NDIGDZS108373.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984682/NDIGDZS108373.pdf"@pl ;
+    dc:issued "1985"@en,
+        "1985"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035584"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035584"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 86"@pl ;
+    dc:subject "Gólski, Stanisław Leon (1902-1985)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Dr Stanisław Leon Gólski najukochańszy ojciec i dziadek, przeżywszy lat 83, opatrzony św. Sakramentami, zasnął w Panu, dnia 27 października 1985 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984683> dc:coverage "20 w."@pl ;
+    dc:date "1971"@en,
+        "1971"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984683/NDIGDZS106466.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984683/NDIGDZS106466.pdf"@pl ;
+    dc:issued "1971"@en,
+        "1971"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029611"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029611"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 245"@pl ;
+    dc:subject "Gaweł, Krystyna Marcela (1933-1971)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Z Bombów Krystyna Marcela Gaweł [...] nauczycielka Szkoły Podst. 93 i 94 przeżywszy lat 37 [...] zmarła dnia 9 czerwca 1971 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984684> dc:coverage "19-20 w."@pl ;
+    dc:date "1960"@en,
+        "1960"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984684/NDIGDZS108474.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984684/NDIGDZS108474.pdf"@pl ;
+    dc:issued "1960"@en,
+        "1960"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035786"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035786"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 121"@pl ;
+    dc:subject "Gołębski, Adam (1898-1960)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "oficerowie"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Adam Gołębski porucznik 6-go Pułku Ułanów urodz. 13. XII. 1898 r. w Sławentynie [...] zasnął w Panu dnia 7 lutego 1960 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984685> dc:coverage "19-20 w."@pl ;
+    dc:date "1971"@en,
+        "1971"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984685/NDIGDZS108473.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984685/NDIGDZS108473.pdf"@pl ;
+    dc:issued "1971"@en,
+        "1971"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035785"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035785"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 120"@pl ;
+    dc:subject "Gołębiowska, Rozalia (1899-1971)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Rozalia Gołębiowska em. nauczycielka szkół podstawowych w Skałce, Lwowie i Krakowie, przeżywszy lat 72 [...] zasnęła w Panu dnia 27 listopada 1971 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984686> dc:coverage "20 w."@pl ;
+    dc:date "1986"@en,
+        "1986"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984686/NDIGDZS108471.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984686/NDIGDZS108471.pdf"@pl ;
+    dc:issued "1986"@en,
+        "1986"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035768"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035768"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 118"@pl ;
+    dc:subject "Gołębiowski, Franciszek (1908-1986)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Franciszek Gołębiowski członek ZBoWid, odznaczony Krzyżem Kawaleskim Orderu Odrodzenia Polski, przeżywszy lat 77, zasnął w Panu, dnia 3 lipca 1986 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984687> dc:coverage "20 w."@pl ;
+    dc:date "1973"@en,
+        "1973"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984687/NDIGDZS108464.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984687/NDIGDZS108464.pdf"@pl ;
+    dc:issued "1973"@en,
+        "1973"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035766"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035766"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 112"@pl ;
+    dc:subject "Gołdyn, Janusz (1920-1973)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Dr Janusz Gołdyn nnajukochańszy mąż i ojciec przeżywszy lat 52, podługiej a ciężkiej chorobiee, zmarł dnia 15 lutego 1973 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984688> dc:coverage "20 w."@pl ;
+    dc:date "1981"@en,
+        "1981"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984688/NDIGDZS108426.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984688/NDIGDZS108426.pdf"@pl ;
+    dc:issued "1981"@en,
+        "1981"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035688"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035688"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 110"@pl ;
+    dc:subject "Gołda, Władysław (1901-1981)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Władysław Gołda [...] przeżywszy lat 80, opatrzony św. Sakramentami, zasnął w Panu 11 sierpnia 1981 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984689> dc:coverage "20 w."@pl ;
+    dc:date "1978"@en,
+        "1978"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984689/NDIGDZS106468.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984689/NDIGDZS106468.pdf"@pl ;
+    dc:issued "1978"@en,
+        "1978"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029612"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029612"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 246"@pl ;
+    dc:subject "Gaweł, Krzysztof (1952-1978)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Krzysztof Gaweł inżynier elektryk [...] przeżywszy lat 26 [... ] zmarł dnia 29 grudnia 1978 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984690> dc:coverage "20 w."@pl ;
+    dc:date "1967"@en,
+        "1967"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984690/NDIGDZS106469.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984690/NDIGDZS106469.pdf"@pl ;
+    dc:issued "1967"@en,
+        "1967"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029614"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029614"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 247"@pl ;
+    dc:subject "Gaweski, Bohdan Antoni (1904-1967)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Bohdan Antoni Gaweski, mgr inż. leśnik, nadleśniczy w Stęgnie i Suleczynie, b. główny inżynier Zarządu Lasów w Lublinie, st. inspektor Krakowskiego Przedsiębiorstwa Produkcji Leśnej „Las” [...] przeżywszy lat 62 zmarł [...] 20 stycznia 1967 w Krakowie [...]"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984691> dc:coverage "20 w."@pl ;
+    dc:date "1996"@en,
+        "1996"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984691/NDIGDZS108420.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984691/NDIGDZS108420.pdf"@pl ;
+    dc:issued "1996"@en,
+        "1996"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035708"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035708"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 106"@pl ;
+    dc:subject "Gołda, Franciszek (1923-1996)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Franciszek Gołda najdroższy mąż, ojciec i dziadek, kombatant, członek ZBOWiD-u [...] zmarł dnia 6 czerwca 1996 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984692> dc:coverage "20 w."@pl ;
+    dc:date "1986"@en,
+        "1986"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984692/NDIGDZS106488.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984692/NDIGDZS106488.pdf"@pl ;
+    dc:issued "1986"@en,
+        "1986"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029615"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029615"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 252"@pl ;
+    dc:subject "Gawlik, Aleksandra (1934-1986)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Z d. Mikuła mgr Aleksandra Gawlik [...] przeżywszy lat 52 [...] zasnęła w Panu dnia 5 lipca 1986 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984693> dc:coverage "20 w."@pl ;
+    dc:date "1980"@en,
+        "1980"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984693/NDIGDZS106491.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984693/NDIGDZS106491.pdf"@pl ;
+    dc:issued "1980"@en,
+        "1980"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029632"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029632"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 254"@pl ;
+    dc:subject "Gawlik, Aleksander (1930-1980)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Inż. Aleksander Gawlik, generalny projektant Biura Projektów „Bipronaft” w Krakowie [...] przeżywszy lat 50 [...], zmarł śmiercią tragiczną dnia 7 listopada 1980 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984694> dc:coverage "20 w."@pl ;
+    dc:date "1971"@en,
+        "1971"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984694/NDIGDZS108382.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984694/NDIGDZS108382.pdf"@pl ;
+    dc:issued "1971"@en,
+        "1971"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035597"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035597"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 95"@pl ;
+    dc:subject "Gołąb, Jakub (1901-1971)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Jakub Gołąb b. oficer W. P., członek ZBOW i D [...] zmarł dnia 10 sierpnia 1971 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984695> dc:coverage "19-20 w."@pl ;
+    dc:date "1960"@en,
+        "1960"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984695/NDIGDZS108374.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984695/NDIGDZS108374.pdf"@pl ;
+    dc:issued "1960"@en,
+        "1960"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035590"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035590"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 87"@pl ;
+    dc:subject "Gólski, Stanisław (1877-1960)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Stanisław Michał Gólski dr medycyny przeżywszy lat 84, opatrzony św. Sakramentami, zmarł dnia 5 września 1960 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984697> dc:coverage "19-20 w."@pl ;
+    dc:date "1980"@en,
+        "1980"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984697/NDIGDZS108380.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984697/NDIGDZS108380.pdf"@pl ;
+    dc:issued "1980"@en,
+        "1980"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035596"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035596"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 93"@pl ;
+    dc:subject "Gołąb, Walenty (1895-1980)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Walenty Gołąb magister praw, emerytowany kierownik działu DOKP Kraków [...] zmarł 10 lutego 1980 r., w wieku 85 lat [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984699> dc:coverage "20 w."@pl ;
+    dc:date "1988"@en,
+        "1988"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984699/NDIGDZS108375.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984699/NDIGDZS108375.pdf"@pl ;
+    dc:issued "1988"@en,
+        "1988"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035588"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035588"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 88"@pl ;
+    dc:subject "Gołąb, Henryk (1921-1988)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. mgr inż. Henryk Gołąb rolnik - ichtiolog [...] w wieku 67 lat, zmarł dnia 11 sierpnia 1988 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984702> dc:coverage "20 w."@pl ;
+    dc:date "1984"@en,
+        "1984"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984702/NDIGDZS108377.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984702/NDIGDZS108377.pdf"@pl ;
+    dc:issued "1984"@en,
+        "1984"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035594"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035594"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 90"@pl ;
+    dc:subject "Gołąb, Michał (1910-1984)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Michał Gołąb historyk sztuki, najukochańszy mąż, przeżywszy lat 74 [...] zasnął w Panu dnia 21maja 1984 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984703> dc:coverage "19-20 w."@pl ;
+    dc:date "1972"@en,
+        "1972"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984703/NDIGDZS106492.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984703/NDIGDZS106492.pdf"@pl ;
+    dc:issued "1972"@en,
+        "1972"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029624"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029624"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 255"@pl ;
+    dc:subject "Gawlik, Stanisław (1894-1972)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Stanisław Gawlik, emer. kierownik szkoły, b. więzień hitlerowskich obozów koncentracyjnych [...] przeżywszy lat 78 [...] zasnął w Panu w dniu 30 października 1972 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984704> dc:coverage "20 w."@pl ;
+    dc:date "1984"@en,
+        "1984"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984704/NDIGDZS106497.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984704/NDIGDZS106497.pdf"@pl ;
+    dc:issued "1984"@en,
+        "1984"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029620"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029620"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 257"@pl ;
+    dc:subject "Gawlik, Andrzej (1934-1984)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr inż. Andrzej Gawlik [...] przeżywszy lat 49 [...] zasnął w Panu dnia 31 lipca 1984 roku. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984725> dc:coverage "20 w."@pl ;
+    dc:date "1978"@en,
+        "1978"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984725/NDIGDZS107688.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984725/NDIGDZS107688.pdf"@pl ;
+    dc:issued "1978"@en,
+        "1978"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1033703"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1033703"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Fin-Fuz 65"@pl ;
+    dc:subject "Florek, Mieczysław (1918-1978)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr inż. Mieczysław Florek [...] przeżywszy lat 60 [...] zmarł nagle dnia 29 listopada 1978 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984727> dc:coverage "20 w."@pl ;
+    dc:date "1984"@en,
+        "1984"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984727/NDIGDZS107877.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984727/NDIGDZS107877.pdf"@pl ;
+    dc:issued "1984"@en,
+        "1984"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034247"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034247"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 96"@pl ;
+    dc:subject "Gierowska, Danuta (1921-1984)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Danuta z Wolniaków Gierowska ur. 11 października 1921 roku w Częstochowie, żołnierz AK, Bibliotekarka Miejskiej Biblioteki Publicznej w Krakowie, zmarła 27 października 1984 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984728> dc:coverage "20-21 w."@pl ;
+    dc:date "2006"@en,
+        "2006"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984728/NDIGDZS107878.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984728/NDIGDZS107878.pdf"@pl ;
+    dc:issued "2006"@en,
+        "2006"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034246"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034246"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 98"@pl ;
+    dc:subject "Gierowski, Józef Andrzej (1922-2006)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Społeczność Uniwersytetu Jagiellońskiego z głębokim smutkiem przyjęła wiadomość o śmierci w dniu 17 lutego 2006 roku ś.p. prof. dra Józefa Andrzeja Gierowskiego"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984730> dc:coverage "20-21 w."@pl ;
+    dc:date "2006"@en,
+        "2006"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984730/NDIGDZS107879.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984730/NDIGDZS107879.pdf"@pl ;
+    dc:issued "2006"@en,
+        "2006"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034245"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034245"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 99"@pl ;
+    dc:subject "Gierowski, Józef Andrzej (1922-2006)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Uniwersytet Jagielloński z głębokim żalem zawiadamia, że w dniu 17 lutego 2006 roku zmarł Śp. Prof. dr Józef Andrzej Gierowski były Rektor Uniwersytetu Jagiellońskiego, emerytowany profesor zwyczajny w Instytucie Historii UJ"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984731> dc:coverage "20 w."@pl ;
+    dc:date "1975"@en,
+        "1975"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984731/NDIGDZS107886.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984731/NDIGDZS107886.pdf"@pl ;
+    dc:issued "1975"@en,
+        "1975"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034249"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034249"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 101"@pl ;
+    dc:subject "Gierula, Jerzy (1917-1975)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Dr Jerzy Gierula prof. zwyczajny Instytut Fizyki Jądrowej w Krakowie, przeżywszy lat 57, po wielkich cierpieniach, oddał dusze Panu dnia 14 stycznia 1975 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984734> dc:coverage "20 w."@pl ;
+    dc:date "1995"@en,
+        "1995"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984734/NDIGDZS107889.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984734/NDIGDZS107889.pdf"@pl ;
+    dc:issued "1995"@en,
+        "1995"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034248"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034248"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 102"@pl ;
+    dc:subject "Gierulanka, Danuta (1908-1995)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z głębokim żalem zawiadamiamy, że w dniu 29 kwietnia 1995 roku zmarła w Krakowie w wieku 87 lat śp. dr hab Danuta Gierulanka docent Uniwersytetu Jagiellońskiego, filozof i psycholog"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984735> dc:coverage "20 w."@pl ;
+    dc:date "1963"@en,
+        "1963"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984735/NDIGDZS107890.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984735/NDIGDZS107890.pdf"@pl ;
+    dc:issued "1963"@en,
+        "1963"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034243"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034243"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 103"@pl ;
+    dc:subject "Gieruszyński, Tadeusz (1903-1963)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Tadeusz Gieruszyński prof. dr inż. b. Dziekan Wydziału Leśnego U.J., [...] ur. 18 czerwca 1903 w Delatynie [...] zasnął w Panu 7 czerwca 1963 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984737> dc:coverage "20 w."@pl ;
+    dc:date "1985"@en,
+        "1985"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984737/NDIGDZS107891.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984737/NDIGDZS107891.pdf"@pl ;
+    dc:issued "1985"@en,
+        "1985"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034241"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034241"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 104"@pl ;
+    dc:subject "Gierwielaniec, Stanisław (1911-1985)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Inż. Stanisław Gierwielaniec uczestnik Kampanii Wrześniowej [...] przeżywszy lat 73, zmarł dnia 4 kwietnia 1985 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984738> dc:coverage "19-20 w."@pl ;
+    dc:date "1987"@en,
+        "1987"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984738/NDIGDZS107892.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984738/NDIGDZS107892.pdf"@pl ;
+    dc:issued "1987"@en,
+        "1987"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034240"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034240"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 105"@pl ;
+    dc:subject "Gilewicz, Alicja (1898-1987)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Alicja Gilewicz emerytowana nauczycielka, ur. 4 grudnia 1898 [...] zmarła dnia 3 lipca 1987 roku w Tarnowie [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984739> dc:coverage "20 w."@pl ;
+    dc:date "1973"@en,
+        "1973"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984739/NDIGDZS107895.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984739/NDIGDZS107895.pdf"@pl ;
+    dc:issued "1973"@en,
+        "1973"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034239"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034239"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 107"@pl ;
+    dc:subject "Gilewicz, Wanda (1909-1973)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Wanda z Kawskich Gilewiczowa mgr farmacji [...] przeżywszy lat 64 [...] zmarła dnia 3 maja 1973 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984741> dc:coverage "20 w."@pl ;
+    dc:date "1989"@en,
+        "1989"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984741/NDIGDZS107905.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984741/NDIGDZS107905.pdf"@pl ;
+    dc:issued "1989"@en,
+        "1989"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034237"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034237"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 113"@pl ;
+    dc:subject "Gimiński, Eugeniusz (1919-1989)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z głębokim żalem zawiadamiamy, że w dniu 10 stycznia 1989 r. odszedł od nas na zawsze w wieku 70 lat, opatrzony św. Sakramentami Ś.P. Eugeniusz Gimiński były żołnierz A.K. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984742> dc:coverage "19-20 w."@pl ;
+    dc:date "1968"@en,
+        "1968"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984742/NDIGDZS107908.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984742/NDIGDZS107908.pdf"@pl ;
+    dc:issued "1968"@en,
+        "1968"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034171"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034171"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 116"@pl ;
+    dc:subject "Gintel, Jan (1899-1968)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Jan Jacek Gintel redaktor Wydawnictwa Literackiego [...] przeżywszy lat 68, zmarł dnia 9 maja 1968 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984744> dc:coverage "20 w."@pl ;
+    dc:date "1973"@en,
+        "1973"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984744/NDIGDZS107920.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984744/NDIGDZS107920.pdf"@pl ;
+    dc:issued "1973"@en,
+        "1973"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034299"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034299"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 126"@pl ;
+    dc:subject "Giza, Zdzisław (1930-1973)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Zdzisław Giza mgr farmacji [...] przeżywszy lat 42 [...] zmarł dnia 1 stycznia 1973 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984765> dc:coverage "19-20 w."@pl ;
+    dc:date "1973"@en,
+        "1973"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984765/NDIGDZS106556.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984765/NDIGDZS106556.pdf"@pl ;
+    dc:issued "1973"@en,
+        "1973"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029551"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029551"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 143"@pl ;
+    dc:subject "Gancarczyk, Jadwiga (1886-1973)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. p. Z Chrząszczów Jadwiga Gancarczyk, em. prof. pryw. Seminarium Nauczycielskiego i Liceum Ogólnokształcącego w Krakowie [...] zmarła 24.IV.1973 roku w Warszawie"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984767> dc:coverage "19-20 w."@pl ;
+    dc:date "1977"@en,
+        "1977"@pl ;
+    dc:description "U dołu karty: Miejskie Przedsiębiorstwo Usług Komunalnych w Krakowie, Punkt Usług Pogrzebowych nr 1"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984767/NDIGDZS106557.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984767/NDIGDZS106557.pdf"@pl ;
+    dc:issued "1977"@en,
+        "1977"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029550"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029550"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 144"@pl ;
+    dc:subject "Gancarczyk, Władysław (1889-1977)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. p. Władysław Gancarczyk, em. prof. szkół średnich, długoletni pracownik Miejskiej Bibliotek Publicznej w Krakowie, żołnierz Legionów [...] zmarł 23 grudnia 1977 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/984768> dc:coverage "20 w."@pl ;
+    dc:date "1983"@en,
+        "1983"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/984768/NDIGDZS106563.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/984768/NDIGDZS106563.pdf"@pl ;
+    dc:issued "1983"@en,
+        "1983"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1029520"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1029520"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 150"@pl ;
+    dc:subject "Gandurski, Stanisław (1919?-1983)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. p. Mgr Stanisław Gandurski [...] wieloletni pracownik „PRODLEW-u” [...] zmarł nagle 14 września 1983 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985321> dc:coverage "20 w."@pl ;
+    dc:date "1989"@en,
+        "1989"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985321/NDIGDZS108317.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985321/NDIGDZS108317.pdf"@pl ;
+    dc:issued "1989"@en,
+        "1989"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035526"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035526"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 38"@pl ;
+    dc:subject "Górecka, Wanda (1921-1989)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Wanda Górecka z domu Romaszko [...] emerytowany długoletni pracownik Zakładu Energetycznego Kraków [...] przeżywszy lat 67 [...], zasnęła w Panu dnia 26 lutego 1989 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985322> dc:coverage "20 w."@pl ;
+    dc:date "1981"@en,
+        "1981"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985322/NDIGDZS108319.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985322/NDIGDZS108319.pdf"@pl ;
+    dc:issued "1981"@en,
+        "1981"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035561"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035561"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 40"@pl ;
+    dc:subject "Górecki, Bronisław (19..-1981)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Bronisław Górecki emerytowany inżynier górniczy [...] zmarł w Katowicach, dnia 3 listopada 1981 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985323> dc:coverage "20 w."@pl ;
+    dc:date "1984"@en,
+        "1984"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985323/NDIGDZS108320.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985323/NDIGDZS108320.pdf"@pl ;
+    dc:issued "1984"@en,
+        "1984"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035560"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035560"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 41"@pl ;
+    dc:subject "Górecki, Eugeniusz (1923-1984)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Eugeniusz Górecki [...] długoletni pracownik Elektrowni w Krakowie [...] przeżywszy lat 61 [...], zasnął w Panu dnia 9 maja 1984 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985324> dc:coverage "20 w."@pl ;
+    dc:date "1981"@en,
+        "1981"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985324/NDIGDZS108321.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985324/NDIGDZS108321.pdf"@pl ;
+    dc:issued "1981"@en,
+        "1981"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035554"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035554"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 42"@pl ;
+    dc:subject "Gorecki, Wiesław (1903-1981)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Wiesław Gorecki literat i profesor Państwowej Szkoły Teatralnej w Krakowie [...] zmarł 13 kwietnia 1981 r. w wieku 77 lat [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985325> dc:coverage "20 w."@pl ;
+    dc:date "1986"@en,
+        "1986"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985325/NDIGDZS108323.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985325/NDIGDZS108323.pdf"@pl ;
+    dc:issued "1986"@en,
+        "1986"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035571"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035571"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 44"@pl ;
+    dc:subject "Górecki, Zbigniew (1924-1986)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Ppłk rez. W. P. Zbigniew Górecki długoletni pracownik PP i DKO „Chemadex” [...] przeżywszy lat 62, zmarł nagle 24 lutego 1986 roku w CSRS [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985326> dc:coverage "20 w."@pl ;
+    dc:date "1989"@en,
+        "1989"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985326/NDIGDZS108339.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985326/NDIGDZS108339.pdf"@pl ;
+    dc:issued "1989"@en,
+        "1989"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035557"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035557"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 56"@pl ;
+    dc:subject "Górka, Józef (1927-1989)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr Józef Górka [...] przeżywszy lat 62 [...], zasnął w Panu dnia 27 lutego 1989 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985327> dc:coverage "20 w."@pl ;
+    dc:date "1995"@en,
+        "1995"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985327/NDIGDZS108345.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985327/NDIGDZS108345.pdf"@pl ;
+    dc:issued "1995"@en,
+        "1995"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035573"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035573"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 62"@pl ;
+    dc:subject "Górkiewicz, Jadwiga (1912-1995)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr Jadwiga Górkiewicz [...] w czasie wojny więzień Obozu w Oświęcimiu, Ravensbrück i Hamburgu. Po wojnie profesor i wieloletni dyrektor Liceum w Gdowie ur. 2 maja 1912 r., zmarła 25 listopada 1995 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985328> dc:coverage "20-21 w."@pl ;
+    dc:date "2001"@en,
+        "2001"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985328/NDIGDZS108346.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985328/NDIGDZS108346.pdf"@pl ;
+    dc:issued "2001"@en,
+        "2001"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035569"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035569"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 63"@pl ;
+    dc:subject "Górkiewicz, Mieczysław (1925-2001)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mieczysław Górkiewicz aktor, reżyser wieloletni dyrektor Teatrów w Bielsku Białej, Katowicach i Krakowie [...] przeżywszy lat 76, zmarł nagle dnia 14 marca 2001 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985345> dc:coverage "20 w."@pl ;
+    dc:date "1980"@en,
+        "1980"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985345/NDIGDZS108771.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985345/NDIGDZS108771.pdf"@pl ;
+    dc:issued "1980"@en,
+        "1980"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036423"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036423"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 172"@pl ;
+    dc:subject "Głażewska, Halina (1924-1980)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Z d. Jaruszewicz Halina Głażewska lek. med. [...] przeżywszy lat 56, zginęła tragicznie 12 grudnia 1980 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985346> dc:coverage "19-20 w."@pl ;
+    dc:date "1962"@en,
+        "1962"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985346/NDIGDZS108772.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985346/NDIGDZS108772.pdf"@pl ;
+    dc:issued "1962"@en,
+        "1962"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036408"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036408"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 173"@pl ;
+    dc:subject "Głębocka, Maria (1888-1962)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Dr Maria Głębocka b. sekundariusz Oddziału Ginekologicznego św. Łazarza [...] zmarła nagle dnia 27 grudnia 1962 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985347> dc:coverage "19-20 w."@pl ;
+    dc:date "1983"@en,
+        "1983"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985347/NDIGDZS108787.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985347/NDIGDZS108787.pdf"@pl ;
+    dc:issued "1983"@en,
+        "1983"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036453"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036453"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 179"@pl ;
+    dc:subject "Głogowski, Mieczysław (1900-1983)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mieczysław Głogowski [...] emeryt MPK, członek AK, przeżywszy lat 83 [...] zasnął w Panu, dnia 15 lipca 1983 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985348> dc:coverage "20 w."@pl ;
+    dc:date "1983"@en,
+        "1983"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985348/NDIGDZS108789.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985348/NDIGDZS108789.pdf"@pl ;
+    dc:issued "1983"@en,
+        "1983"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036450"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036450"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 181"@pl ;
+    dc:subject "Głowa, Józef (1923-1983)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Józef Głowa były nauczyciel Zespołu Szkół Mechanicznych w Nowej Hucie [...] przeżywszy lat 60 [...] zmarł 10 września 1983 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985349> dc:coverage "19-20 w."@pl ;
+    dc:date "1973"@en,
+        "1973"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985349/NDIGDZS108793.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985349/NDIGDZS108793.pdf"@pl ;
+    dc:issued "1973"@en,
+        "1973"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036456"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036456"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 185"@pl ;
+    dc:subject "Głowacki, Franciszek Jan (1893-1973)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Franciszek Jan Głowacki Towarzysz Sztuki Drukarskiej, wieloletni pracownik krakowskich drukarni [...] przeżywszy lat 80 [...] zmarł dnia 30 listopada 1973 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985350> dc:coverage "19-20 w."@pl ;
+    dc:date "1965"@en,
+        "1965"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985350/NDIGDZS108795.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985350/NDIGDZS108795.pdf"@pl ;
+    dc:issued "1965"@en,
+        "1965"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036454"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036454"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 187"@pl ;
+    dc:subject "Głowacki, Stanisław (1878-1965)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Stanisław Głowacki emer. prof. techn. górniczo-hutniczego w Krakowie przeżywszy lat 87 [...] zasnął w Panu dnia 10 grudnia 1965 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985351> dc:coverage "20 w."@pl ;
+    dc:date "1990"@en,
+        "1990"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985351/NDIGDZS108798.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985351/NDIGDZS108798.pdf"@pl ;
+    dc:issued "1990"@en,
+        "1990"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036389"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036389"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 190"@pl ;
+    dc:subject "Głowacka, Zofia (?-1990)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "Wieliczka (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr Zofia Głowacka z domu Czekaj [...] zmarła tragicznie 27 stycznia 1990 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985352> dc:coverage "20 w."@pl ;
+    dc:date "1979"@en,
+        "1979"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985352/NDIGDZS106832.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985352/NDIGDZS106832.pdf"@pl ;
+    dc:issued "1979"@en,
+        "1979"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030723"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030723"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gab-Gaw 285"@pl ;
+    dc:subject "Gawroński, Ireneusz (1900-1979)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr inż. Ireneusz Gawroński urodzony 15 grudnia 1900 roku, opatrzony św. Sakramentami, zmarł dnia 22 s tycznia 1979 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985353> dc:coverage "20 w."@pl ;
+    dc:date "1973"@en,
+        "1973"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985353/NDIGDZS106830.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985353/NDIGDZS106830.pdf"@pl ;
+    dc:issued "1973"@en,
+        "1973"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030752"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030752"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 283"@pl ;
+    dc:subject "Gawroński, Józef (oficer)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Józef Gawroński były długoletni pracownik ZBM I Ap., im. St. Szadkowskiego w Krakowie [...] zmarł w sześćdziesiątym pierwszym roku życia dnia 29 kwietnia 1973 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985355> dc:coverage "19-20 w."@pl ;
+    dc:date "1981"@en,
+        "1981"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985355/NDIGDZS108427.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985355/NDIGDZS108427.pdf"@pl ;
+    dc:issued "1981"@en,
+        "1981"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036546"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036546"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 111"@pl ;
+    dc:subject "Gołdowa, Józefa (1889-1981)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Józefa Gołdowa emerytowana nauczycielka [...] zmarła dnia 2 stycznia 1981 r. w 92 roku życia [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985356> dc:coverage "19-20 w."@pl ;
+    dc:date "1954"@en,
+        "1954"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985356/NDIGDZS108249.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985356/NDIGDZS108249.pdf"@pl ;
+    dc:issued "1954"@en,
+        "1954"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036548"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036548"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 61"@pl ;
+    dc:subject "Golczewski, Emil (1880-1954)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. dr Emil Golczewski pracownik Państw. Szpitala Klinicznego Akademi Medycznej [...] przeżywszy lat 73, po długich a ciężkich cierpieniach, opatrzony św. Sakramentami, zasnął w Panu dnia 10-go stycznia 1954 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985357> dc:coverage "20 w."@pl ;
+    dc:date "1982"@en,
+        "1982"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985357/NDIGDZS108472.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985357/NDIGDZS108472.pdf"@pl ;
+    dc:issued "1982"@en,
+        "1982"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036549"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036549"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 119"@pl ;
+    dc:subject "Gołębiowski, Gabriel (1913-1982)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. inż. Gabriel Gołębiowski, urodzony 16 grudnia 1913 r. w Krzeszowicach, zmarł nagle w Krakowie, w dniu 20 lipca 1982 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985360> dc:coverage "19-20 w."@pl ;
+    dc:date "1956"@en,
+        "1956"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985360/NDIGDZS106824.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985360/NDIGDZS106824.pdf"@pl ;
+    dc:issued "1956"@en,
+        "1956"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1030831"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1030831"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 279"@pl ;
+    dc:subject "Gawron, Paweł Jan (1890-1956)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Paweł Jan Gawron inwalida wojenny przeżywszy lat 66, po długiej a ciężkiej chorobie, opatrzony św. Sakramentami, zasnął w Panu dnia 8 marca 1956 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985373> dc:coverage "20 w."@pl ;
+    dc:date "2020"@en,
+        "2020"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985373/NDIGDZS108714.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985373/NDIGDZS108714.pdf"@pl ;
+    dc:issued "2020"@en,
+        "2020"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036260"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036260"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI GRU-GZ 53"@pl ;
+    dc:subject "Grygiel, Jerzy (1953-2020)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z głębokim żalem zawiadamiamy, że 8 lipca 2020 roku zmarł dr Jerzy Grygiel historyk mediewista [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/985376> dc:coverage "20 w."@pl ;
+    dc:date "1990"@en,
+        "1990"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/985376/NDIGDZS108712.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/985376/NDIGDZS108712.pdf"@pl ;
+    dc:issued "1990"@en,
+        "1990"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036258"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036258"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI GRU-GZ 51"@pl ;
+    dc:subject "Kraków (Polska ; region)"@pl,
+        "Kwiatkowski, Zbigniew (?-1990)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Zbigniew Gryf Kwiatkowski prawnik [...] odszedł do Pana w dniu 25-go października [...] 1990 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986121> dc:coverage "19-20 w."@pl ;
+    dc:date "1962"@en,
+        "1962"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986121/NDIGDZS108407.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986121/NDIGDZS108407.pdf"@pl ;
+    dc:issued "1962"@en,
+        "1962"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035629"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035629"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 98"@pl ;
+    dc:subject "Gołąb, Julian (1880-1962)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "Poznań (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowieństwo"@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Ks. Kanonik dr Julian Gołąb, b. prof. Historii Wydziału Teologii w Poznaniu, prepozyt parafii św. Mikołaja w Krakowie, Jubilat urodzony 1 stycznia 1880 roku [...] zmarł 2 października 1962 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986122> dc:coverage "19-20 w."@pl ;
+    dc:date "1972"@en,
+        "1972"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986122/NDIGDZS108408.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986122/NDIGDZS108408.pdf"@pl ;
+    dc:issued "1972"@en,
+        "1972"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035628"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035628"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 99"@pl ;
+    dc:subject "Gołąb, Leon Juliusz (1894-1972)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Leon Juliusz Gołąb [...] ur. 10. IV. 1894 r. w Krakowie, po długich a ciężkich cierpieniach, opatrzony św. Sakramentami, zasnął w Panu dnia 17 marca 1972 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986123> dc:coverage "20 w."@pl ;
+    dc:date "1978"@en,
+        "1978"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986123/NDIGDZS108410.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986123/NDIGDZS108410.pdf"@pl ;
+    dc:issued "1978"@en,
+        "1978"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035625"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035625"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 100"@pl ;
+    dc:subject "Gołąb, Zdzisław (1924-1978)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. mgr inż. Zdzisław Gołąb architekt, przeżywszy lat 54, opatrzony św. Sakramentami, zmarł dnia 11 października 1978 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986125> dc:coverage "20 w."@pl ;
+    dc:date "1990"@en,
+        "1990"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986125/NDIGDZS108411.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986125/NDIGDZS108411.pdf"@pl ;
+    dc:issued "1990"@en,
+        "1990"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035624"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035624"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 101"@pl ;
+    dc:subject "Gołajewski, Andrzej (1923-1990)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "lekarze"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Andrzej Gołajewski dr medycyny najukochańszy mąż, ojciec i syn po krótkiej a ciężkiej chorobie, opatrzony św. Sakramentami, zmarł dnia 25 lipca 1990 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986128> dc:coverage "20 w."@pl ;
+    dc:date "1977"@en,
+        "1977"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986128/NDIGDZS108331.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986128/NDIGDZS108331.pdf"@pl ;
+    dc:issued "1977"@en,
+        "1977"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035532"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035532"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 48"@pl ;
+    dc:subject "Górecki, Henryk (1904-1977)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "architekci polscy"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Henryk Górecki [...] Mgr Inż. architekt przeżywszy lat 73, zmarł nagle dnia 24.XII.1977 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986145> dc:coverage "19-20 w."@pl ;
+    dc:date "1961"@en,
+        "1961"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986145/NDIGDZS108403.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986145/NDIGDZS108403.pdf"@pl ;
+    dc:issued "1961"@en,
+        "1961"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035612"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035612"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 152"@pl ;
+    dc:subject "Gorzkowski, Józef (ok. 1887-1961)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "drogiści"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl,
+        "więźniowie obozów"@pl ;
+    dc:title "Ś. P. Józef Gorzkowski, drogista, b. więzień obozów koncentracyjnych przeżywszy lat 74 [...] zmarł dnia 8-go kwietnia 1961 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986147> dc:coverage "19-20 w."@pl ;
+    dc:date "1971"@en,
+        "1971"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986147/NDIGDZS108404.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986147/NDIGDZS108404.pdf"@pl ;
+    dc:issued "1971"@en,
+        "1971"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035613"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035613"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 153"@pl ;
+    dc:subject "Dyrekcja Okręgowa PKP (Kraków)"@pl,
+        "Gorzkowski, Józef (ok. 1892-1971)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "kolejarze"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Józef Gorzkowski [...] emer. instruktor służby mechanicznej D.O.K.P. Kraków [...] przeżywszy lat 78 [...] zasnął w Panu dnia 15 lutego 1971 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986150> dc:coverage "20 w."@pl ;
+    dc:date "[1965]"@en,
+        "[1965]"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986150/NDIGDZS108406.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986150/NDIGDZS108406.pdf"@pl ;
+    dc:issued "[1965]"@en,
+        "[1965]"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035614"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035614"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 154"@pl ;
+    dc:subject "Gorzkowski, Kazimierz (1894-1964)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "Wojsko Polskie (1918-1939)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "oficerowie"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl,
+        "zawodowa służba wojskowa"@pl ;
+    dc:title "Ś. P. Kazimierz Gorzkowski, pułkownik Wojska Polskiego, więzień Oficerskiego Obozu w Murnau [...] przeżywszy lat 70, zmarł dnia 1 grudnia 1964 roku w Melborne w Australii [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986151> dc:coverage "20 w."@pl ;
+    dc:date "1969"@en,
+        "1969"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986151/NDIGDZS108409.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986151/NDIGDZS108409.pdf"@pl ;
+    dc:issued "1969"@en,
+        "1969"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035627"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035627"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 155"@pl ;
+    dc:subject "Gorzkowski, Maciej (ok. 1901-1969)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "poczta"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Maciej Gorzkowski, dług. pracownik Poczty, Kraków 2 [...] przeżywszy lat 68 [...] zmarł dnia 3 grudnia 1969 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986153> dc:coverage "20 w."@pl ;
+    dc:date "1982"@en,
+        "1982"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986153/NDIGDZS108428.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986153/NDIGDZS108428.pdf"@pl ;
+    dc:issued "1982"@en,
+        "1982"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035631"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035631"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 160"@pl ;
+    dc:subject "Gorzula, Stanisław (1916-1982)"@pl,
+        "Huta im. Lenina (Kraków)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Stanisław Gorzula [...] długoletni pracownik HiL [...] przeżywszy lat 66 [...] zmarł dnia 23 czerwca 1982 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986154> dc:coverage "19-20 w."@pl ;
+    dc:date "1977"@en,
+        "1977"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986154/NDIGDZS108432.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986154/NDIGDZS108432.pdf"@pl ;
+    dc:issued "1977"@en,
+        "1977"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035632"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035632"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 162"@pl ;
+    dc:subject "Gorzycka, Walentyna (1896-1977)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "pracownice i pracownicy ochrony zdrowia"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Walentyna Gorzycka [...] długoletni pracownik służby zdrowia przeżywszy lat 81 [...] zasnęła w Panu dnia 1 października 1977 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986155> dc:coverage "20 w."@pl ;
+    dc:date "1974"@en,
+        "1974"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986155/NDIGDZS108439.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986155/NDIGDZS108439.pdf"@pl ;
+    dc:issued "1974"@en,
+        "1974"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035636"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035636"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 164"@pl ;
+    dc:subject "Górzyńska, Helena (1905-1974)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Ze Szlagorów Helena Górzyńska [...] przeżywszy lat 69 [...] zasnęła w Panu dnia 10 marca 1974 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986156> dc:coverage "20 w."@pl ;
+    dc:date "1953"@en,
+        "1953"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986156/NDIGDZS108440.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986156/NDIGDZS108440.pdf"@pl ;
+    dc:issued "1953"@en,
+        "1953"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035638"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035638"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 165"@pl ;
+    dc:subject "Górzyńska, Zofia (ok. 1902-1953)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "pracownicy biurowi"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Zofia Górzyńska, referentka odpowiedzialna Centr. Aptek Społecznych w Lublinie przeżywszy lat 49 [...] zasnęła w Panu dnia 5 stycznia 1953 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986497> dc:coverage "20 w."@pl ;
+    dc:date "1982"@en,
+        "1982"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986497/NDIGDZS108481.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986497/NDIGDZS108481.pdf"@pl ;
+    dc:issued "1982"@en,
+        "1982"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035712"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035712"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 127"@pl ;
+    dc:subject "Gołogórski, Przemysław (1913?-1982)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Przemysław Gołogórski adwokat przeżywszy lat 69, opatrzony św. Sakramentami, zmarła(sic!) dnia 16 lutego 1982 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986498> dc:coverage "19-20 w."@pl ;
+    dc:date "1953"@en,
+        "1953"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986498/NDIGDZS108482.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986498/NDIGDZS108482.pdf"@pl ;
+    dc:issued "1953"@en,
+        "1953"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035714"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035714"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 128"@pl ;
+    dc:subject "Gołogórski, Eugeniusz (1881?-1953)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Dr Eugeniusz Gołogórski adwokat przeżywszy lat 72 [...] zasnął w Panu dnia 26 września 1953 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986499> dc:coverage "20 w."@pl ;
+    dc:date "1979"@en,
+        "1979"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986499/NDIGDZS108484.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986499/NDIGDZS108484.pdf"@pl ;
+    dc:issued "1979"@en,
+        "1979"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035719"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035719"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 130"@pl ;
+    dc:subject "Gołubiew, Antoni (1907-1979)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "Tygodnik Powszechny"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pisarze"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Antoni Gołubiew pisarz, członek zespołu „Tygodnika Powszechnego” urodzony 25 lutego 1907 r. w Wilnie, zmarł opatrzony św. Sakramentami w dniu 27 czerwca 1979 w Krakowie [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986500> dc:coverage "19-20 w."@pl ;
+    dc:date "1969"@en,
+        "1969"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986500/NDIGDZS108485.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986500/NDIGDZS108485.pdf"@pl ;
+    dc:issued "1969"@en,
+        "1969"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035720"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035720"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 131"@pl ;
+    dc:subject "Gołubiewowa, Antonina (1878-1969)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. z Wiszniewskich Antonina Gołubiewowa ur. 14 kwietnia 1878 roku w Wilnie, opatrzona św. Sakramentami, zmarła dnia 12 marca 1969 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986502> dc:coverage "20 w."@pl ;
+    dc:date "1975"@en,
+        "1975"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986502/NDIGDZS108486.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986502/NDIGDZS108486.pdf"@pl ;
+    dc:issued "1975"@en,
+        "1975"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035722"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035722"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 132"@pl ;
+    dc:subject "Gołubiew, Stanisław (1938-1975)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Stanisław Gołubiew urodz. dnia 29. XII. 1938 r. w Wilnie - zmarł tragicznie dnia 12 czerwca 1975 r. w Mikołajakach [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986504> dc:coverage "20-21 w."@pl ;
+    dc:date "2022"@en,
+        "2022"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986504/NDIGDZS108488.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986504/NDIGDZS108488.pdf"@pl ;
+    dc:issued "2022"@en,
+        "2022"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035723"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035723"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 134"@pl ;
+    dc:subject "Gołubiew, Zofia (1942-2022)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z głębokim smutkiem żegnamy Zofię Gołubiew historyka sztuki, muzealnika, od 1974 roku związaną z Muzeum Narodowym w Krakowie [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986507> dc:coverage "20 w."@pl ;
+    dc:date "1995"@en,
+        "1995"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986507/NDIGDZS109435.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986507/NDIGDZS109435.pdf"@pl ;
+    dc:issued "1995"@en,
+        "1995"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1037646"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1037646"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gra-Gro 23"@pl ;
+    dc:subject "Grabowski, Henryk (1927-1995)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Henryk Grabowski najukochańszy mąż i ojciec, muzyk przeżywszy lat 67 [...] zasnął w Panu dnia 31 stycznia 1995 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986508> dc:coverage "20-21 w."@pl ;
+    dc:date "2022"@en,
+        "2022"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986508/NDIGDZS108489.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986508/NDIGDZS108489.pdf"@pl ;
+    dc:issued "2022"@en,
+        "2022"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035725"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035725"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 135"@pl ;
+    dc:subject "Gołubiew, Zofia (1942-2022)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "Muzeum Narodowe (Kraków)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "muzealnicy"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ze smutkiem zawiadamiamy, że w dniu 9 marca 2022 roku, zmarła opatrzona Sakramentem Chorych, kochana żona, mama, babcia ś. p. Zofia Anna z Olesiów Gołubiewowa [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986509> dc:coverage "20 w."@pl ;
+    dc:date "1983"@en,
+        "1983"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986509/NDIGDZS109437.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986509/NDIGDZS109437.pdf"@pl ;
+    dc:issued "1983"@en,
+        "1983"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1037641"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1037641"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gra-Gro 25"@pl ;
+    dc:subject "Grabowski, Roman (1916-1983)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Roman Grabowski mgr prawa UJ, były pracownik NBP w Katowicach i Krakowie urodzony dnia 9 marca 1916 r. w Krakowie, zmarł w Krakowie 23 czerwca 1983 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986513> dc:coverage "20 w."@pl ;
+    dc:date "1990"@en,
+        "1990"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986513/NDIGDZS108493.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986513/NDIGDZS108493.pdf"@pl ;
+    dc:issued "1990"@en,
+        "1990"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035737"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035737"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 139"@pl ;
+    dc:subject "Gomółka, Jerzy (1929-1990)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr inż. Jerzy Gomółka pracownik Okręgowego Urzędu Górniczego w Krakowie [...] odszedł od nas dnia 14 września 1990 roku, przeżywszy lat 61 [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986514> dc:coverage "20-21 w."@pl ;
+    dc:date "2004"@en,
+        "2004"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986514/NDIGDZS108494.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986514/NDIGDZS108494.pdf"@pl ;
+    dc:issued "2004"@en,
+        "2004"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035761"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035761"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 140"@pl ;
+    dc:subject "Gomółka, Halina (1934?-2004)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Halina Gomółka z domu Grzybczyk [...] przeżywszy lat 70, opatrzona Św. Sakramentami, zasnęła w Panu dnia 26 maja 2004 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986515> dc:coverage "20 w."@pl ;
+    dc:date "1974"@en,
+        "1974"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986515/NDIGDZS108495.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986515/NDIGDZS108495.pdf"@pl ;
+    dc:issued "1974"@en,
+        "1974"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035760"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035760"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 141"@pl ;
+    dc:subject "Gonciarz, Stanisław (1929-1974)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Stanisław Gonciarz major Ludowego W. P. [...] zmarł nagle w 45 roku życia, dnia 7 września 1974 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986517> dc:coverage "20-21 w."@pl ;
+    dc:date "2006"@en,
+        "2006"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986517/NDIGDZS108496.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986517/NDIGDZS108496.pdf"@pl ;
+    dc:issued "2006"@en,
+        "2006"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035758"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035758"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 142"@pl ;
+    dc:subject "Gonciarczyk, Kazimierz (1926-2006)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Kazimierz Gonciarczyk najukochańszy Mąż, Dziadek i Brat Przeżywszy lat 79 [...] zasnął w Panu 06 luty 2006 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986518> dc:coverage "20-21 w."@pl ;
+    dc:date "2006"@en,
+        "2006"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986518/NDIGDZS108497.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986518/NDIGDZS108497.pdf"@pl ;
+    dc:issued "2006"@en,
+        "2006"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035742"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035742"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 143"@pl ;
+    dc:subject "Gonciarczyk, Kazimierz (1926-2006)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 21 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Społeczność Uniwesytetu Jagiellońskiego z głębokim żalem zawiadamia, że w dniu 6 lutego 2006 roku zmarł śp. Kazimierz Gonciarczyk, emerytowny, długoletni, ceniony i szanowny(sic!) pracownik administracji centralnej [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986519> dc:coverage "19-20 w."@pl ;
+    dc:date "1957"@en,
+        "1957"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986519/NDIGDZS108498.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986519/NDIGDZS108498.pdf"@pl ;
+    dc:issued "1957"@en,
+        "1957"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035747"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035747"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 144"@pl ;
+    dc:subject "Gończowski, Piotr (1880-1957)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Piotr Gończowski emer. st. ogniomistrz W. P., pracownik Stacji Sanitarno-Epidemiologicznej [...] zasnął w Panu dnia 14 września 1957 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986520> dc:coverage "20 w."@pl ;
+    dc:date "1982"@en,
+        "1982"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986520/NDIGDZS108499.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986520/NDIGDZS108499.pdf"@pl ;
+    dc:issued "1982"@en,
+        "1982"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035751"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035751"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 145"@pl ;
+    dc:subject "Gończowski, Wilhelm (1917-1982)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Mgr Wilhelm Gończowski [...] odszedł od nas na zawsze, dnia 8 kwietnia 1982 roku, w wieku lat 65, uczestnik kampanii wrześniowej 1939 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986521> dc:coverage "19-20 w."@pl ;
+    dc:date "1972"@en,
+        "1972"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986521/NDIGDZS108501.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986521/NDIGDZS108501.pdf"@pl ;
+    dc:issued "1972"@en,
+        "1972"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035756"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035756"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 146"@pl ;
+    dc:subject "Gondek, Kazimierz (1891-1972)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Kazimierz Gondek [...] emerytowany pracownik Centr. Zarządu Przemysłu Paliw Płynnych w Krakowie, b. jeniec oflagu IIC Waldenberg przeżywszy lat 81, po krótkiej a ciężkiej chorobie, zmarł dnia 4-go lutego 1972 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986522> dc:coverage "20 w."@pl ;
+    dc:date "1954"@en,
+        "1954"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986522/NDIGDZS108502.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986522/NDIGDZS108502.pdf"@pl ;
+    dc:issued "1954"@en,
+        "1954"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035757"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035757"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Goc-Gon 147"@pl ;
+    dc:subject "Gondek, Genowefa (1929?-1954)"@pl,
+        "Gondek, Ludwik (1925-1954)"@pl,
+        "Gondek, Ryszard (1951-1954)"@pl,
+        "Gondek, Zbigniew (1951-1954)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ludwik Gondek stolarz - lat 29, z Grabowskich Genowefa Gondek lat 25, ich synowie Rysio lat 3 1/2 i Zbysio lat 3 1/2, zmarli tragicznie dnia 29 stycznia 1954 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986525> dc:coverage "19-20 w."@pl ;
+    dc:date "1965"@en,
+        "1965"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986525/NDIGDZS108443.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986525/NDIGDZS108443.pdf"@pl ;
+    dc:issued "1965"@en,
+        "1965"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035690"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035690"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 167"@pl ;
+    dc:subject "Kraków (Polska ; region)"@pl,
+        "Lubicz Gościcka, Janina (ok. 1888-1965)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "nauczyciele"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Z Ryszkowskich Janina Lubicz Gościcka, em. nauczycielka, b. pracownik Zarządu Aptek Społecznych [...] przeżywszy lat 77 [...] zasnęła w Panu dnia 17 grudnia 1965 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986526> dc:coverage "19-20 w."@pl ;
+    dc:date "1969"@en,
+        "1969"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986526/NDIGDZS108465.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986526/NDIGDZS108465.pdf"@pl ;
+    dc:issued "1969"@en,
+        "1969"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035681"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035681"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 187"@pl ;
+    dc:subject "Gostyńska, Maria Bronisława (1896-1969)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Z Podłowskich Maria Bronisława Gostyńska [...] przeżywszy lat 73 [...] zasnęła w Panu dnia 7 października 1969 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986528> dc:coverage "19-20 w."@pl ;
+    dc:date "1975"@en,
+        "1975"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986528/NDIGDZS108466.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986528/NDIGDZS108466.pdf"@pl ;
+    dc:issued "1975"@en,
+        "1975"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1035682"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1035682"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 188"@pl ;
+    dc:subject "Gostyński, Tadeusz Karol (1893-1975)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Tadeusz Karol Gostyński [...] przeżywszy lat 82 [...] zmarł 15 lutego 1975 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/986866> dc:coverage "19-20 w."@pl ;
+    dc:date "1954"@en,
+        "1954"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/986866/NDIGDZS109678.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/986866/NDIGDZS109678.pdf"@pl ;
+    dc:issued "1954"@en,
+        "1954"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1037999"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1037999"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI GRU-GZ 79"@pl ;
+    dc:subject "Grzegorczyk, Zygmunt (1880?-1954)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Zygmunt Grzegorczyk emer. kierownik szkoły przeżywszy lat 74 [...] zasnął w Panu dnia 12 września 1954 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987041> dc:coverage "20 w."@pl ;
+    dc:date "1990"@en,
+        "1990"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987041/NDIGDZS109497.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987041/NDIGDZS109497.pdf"@pl ;
+    dc:issued "1990"@en,
+        "1990"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1037665"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1037665"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gra-Gro 70"@pl ;
+    dc:subject "Gralewski, Zbigniew (1909-1990)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. p. Zbigniew Gralewski inż. budownictwa [...] przeżywszy lat 81, opatrzony św. Sakramentami, zmarł dnia 3 grudnia 1990 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987066> dc:coverage "20 w."@pl ;
+    dc:date "1969"@en,
+        "1969"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987066/NDIGDZS107960.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987066/NDIGDZS107960.pdf"@pl ;
+    dc:issued "1969"@en,
+        "1969"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034007"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034007"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 164"@pl ;
+    dc:subject "Gładyszowa, Zofia (1913?-1969)"@pl,
+        "Krosno (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z Łosowskich Zofia Gładyszowa długoletnia pracownica Przedsiębiorstwa „Mostosal” w Krakowie zmarła tragicznie dnia 18 grudnia 1969 r., żyła lat 56"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987067> dc:coverage "20 w."@pl ;
+    dc:date "1995"@en,
+        "1995"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987067/NDIGDZS107961.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987067/NDIGDZS107961.pdf"@pl ;
+    dc:issued "1995"@en,
+        "1995"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034176"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034176"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 165"@pl ;
+    dc:subject "Głaz, Jan (1923?-1995)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Jan Głaz [...] inwalida wojenny [...] przeżywszy lat 72 [...] zmarł dnia 13 listopada 1995 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987068> dc:coverage "20 w."@pl ;
+    dc:date "1967"@en,
+        "1967"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987068/NDIGDZS109663.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987068/NDIGDZS109663.pdf"@pl ;
+    dc:issued "1967"@en,
+        "1967"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1037935"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1037935"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI GRU-GZ 68"@pl ;
+    dc:subject "Grzanowska, Zofia (1901-1967)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Z Pankiewiczów Zofia Grzanowska nauczycielka muzyki przeżywszy lat 66 [...] zasnęła w Panu dnia 3 października 1967 roku [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987069> dc:coverage "19-20 w."@pl ;
+    dc:date "1956"@en,
+        "1956"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987069/NDIGDZS109664.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987069/NDIGDZS109664.pdf"@pl ;
+    dc:issued "1956"@en,
+        "1956"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1037932"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1037932"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI GRU-GZ 69"@pl ;
+    dc:subject "Grzebień, Adela (1894-1956)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Z Weiglów Adela Grzebieniowa nauczycielka [...] przeżywszy lat 62 [...] zasnęła w Panu 31 VIII 1956 r. [...]"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987070> dc:coverage "20 w."@pl ;
+    dc:date "1994"@en,
+        "1994"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987070/NDIGDZS107962.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987070/NDIGDZS107962.pdf"@pl ;
+    dc:issued "1994"@en,
+        "1994"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1033938"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1033938"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gaz-Gno 166"@pl ;
+    dc:subject "Głaz, Józef (1909?-1994)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Józef Głaz ur. 1909 w Kurzynie Małej [...] zmarł po długiej i ciężkiej chorobie w 85 roku życia"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987071> dc:coverage "20 w."@pl ;
+    dc:date "1972"@en,
+        "1972"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987071/NDIGDZS107965.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987071/NDIGDZS107965.pdf"@pl ;
+    dc:issued "1972"@en,
+        "1972"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1034061"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1034061"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Gór-Goz 108"@pl ;
+    dc:subject "Górski, Leszek (1905-1972)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. p. Leszek Górski, artysta malarz [...] zasnął w Panu dnia 31 I. 1972 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987738> dc:coverage "20 w."@pl ;
+    dc:date "1982"@en,
+        "1982"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987738/NDIGDZS109962.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987738/NDIGDZS109962.pdf"@pl ;
+    dc:issued "1982"@en,
+        "1982"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1038458"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1038458"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Jas-Juź 37"@pl ;
+    dc:subject "Jasiński, Tadeusz (1922-1982)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Inż. Tadeusz Jasiński [...] przeżywszy lat 60 [...] zmarł 18 czerwca 1982 r."@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987812> dc:coverage "19-20 w."@pl ;
+    dc:date "1980"@en,
+        "1980"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987812/NDIGDZS109041.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987812/NDIGDZS109041.pdf"@pl ;
+    dc:issued "1980"@en,
+        "1980"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1037258"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1037258"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Hir-Hyt 41"@pl ;
+    dc:subject "Hojak, Stanisław (1890-1980)"@pl,
+        "Kraków (Polska ; region)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. Stanisław Hojak, emerytowany kierownik Szkoły Podstawowej nr 31 w Krakowie [...] zmarł dnia 22 lutego 1980 roku"@pl ;
+    dc:type "klepsydra"@pl .
+
+<http://jbc.bj.uj.edu.pl/Content/987821> dc:coverage "20 w."@pl ;
+    dc:date "2012"@en,
+        "2012"@pl ;
+    dc:format "pdf"@pl ;
+    dc:identifier "https://jbc.bj.uj.edu.pl/Content/987821/NDIGDZS109039.pdf"@en,
+        "https://jbc.bj.uj.edu.pl/Content/987821/NDIGDZS109039.pdf"@pl ;
+    dc:issued "2012"@en,
+        "2012"@pl ;
+    dc:language "pol"@pl ;
+    dc:relation "oai:jbc.bj.uj.edu.pl:publication:1036708"@en,
+        "oai:jbc.bj.uj.edu.pl:publication:1036708"@pl ;
+    dc:rights "Domena publiczna (public domain)"@pl ;
+    dc:source "Biblioteka Jagiellońska, BJ DŻS XXI Hir-Hyt 39"@pl ;
+    dc:subject "Hohol, Michał (1976-2012)"@pl,
+        "druki ulotne 20 w."@pl,
+        "duchowość"@pl,
+        "nabożeństwo żałobne"@pl,
+        "pogrzeb"@pl,
+        "religia"@pl,
+        "socjologia"@pl,
+        "społeczeństwo"@pl ;
+    dc:title "Ś. P. dr Michał Hohol [...] Przyjaciel Osób Niepełnosprawnych ze Wspólnoty \"Migdałki\", wspaniały wykładowca Uniwersytetu Jagiellońskiego"@pl ;
+    dc:type "klepsydra"@pl .
+
