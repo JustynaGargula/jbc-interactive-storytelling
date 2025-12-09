@@ -6,16 +6,16 @@
     ],
     "description": [],
     "subject": [
-      "religion",
+      "core values",
       "religia",
-      "wartości rdzenne",
-      "państwo",
       "society",
+      "religion",
       "state",
       "społeczeństwo",
       "multiculturalism",
-      "core values",
-      "wielokulturowość"
+      "wartości rdzenne",
+      "wielokulturowość",
+      "państwo"
     ],
     "identifier": []
   },
@@ -26,9 +26,9 @@
     ],
     "description": [],
     "subject": [
-      "Partia Pracy (Wielka Brytania)",
+      "druki ulotne 20 w.",
       "laburzyści",
-      "druki ulotne 20 w."
+      "Partia Pracy (Wielka Brytania)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/499435/NDIGDZS024864.pdf"
@@ -41,8 +41,8 @@
     ],
     "description": [],
     "subject": [
-      "druki ulotne 20 w.",
-      "Ciołkosz, Adam (1901-1978)"
+      "Ciołkosz, Adam (1901-1978)",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/510136/NDIGDZS023940.pdf"
@@ -212,8 +212,8 @@
     ],
     "description": [],
     "subject": [
-      "druki ulotne 19 w.",
       "Teatr Krakowski 19 w.",
+      "druki ulotne 19 w.",
       "Sienkiewicz, Henryk (1846-1916)"
     ],
     "identifier": [
@@ -227,9 +227,9 @@
     ],
     "description": [],
     "subject": [
-      "druki ulotne 19 w.",
       "Teatr Krakowski 19 w.",
       "Chaumont, Céline (1848-1926)",
+      "druki ulotne 19 w.",
       "Towarzystwo Paryskie"
     ],
     "identifier": [
@@ -243,14 +243,14 @@
     ],
     "description": [],
     "subject": [
-      "Teatr im. Juliusza Słowackiego w Krakowie",
-      "Żuliński, Antoni",
-      "Kielanowski Leopold (1907-1988)",
-      "Kopernik, Mikołaj (1473-1543)",
-      "Polski Teatr Akademicki UJ",
-      "Morstin, Ludwik Hieronim (1886-1966)",
       "Frycz, Karol Józef (1877-1963)",
-      "druki ulotne 20 w."
+      "Morstin, Ludwik Hieronim (1886-1966)",
+      "Teatr im. Juliusza Słowackiego w Krakowie",
+      "Polski Teatr Akademicki UJ",
+      "Kielanowski Leopold (1907-1988)",
+      "Żuliński, Antoni",
+      "druki ulotne 20 w.",
+      "Kopernik, Mikołaj (1473-1543)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/603763/NDIGDZS031138.pdf"
@@ -263,13 +263,13 @@
     ],
     "description": [],
     "subject": [
-      "druki ulotne 19 w.",
-      "Pierwsza Związkowa Drukarnia (Lwów)",
       "Mikuli, Karol (1819-1897)",
+      "Pierwsza Związkowa Drukarnia (Lwów)",
+      "Stowarzyszenie Rękodzielników „Gwiazda”",
       "koncert wokalny",
       "afisz muzyczny",
       "koncert instrumentalny",
-      "Stowarzyszenie Rękodzielników „Gwiazda”"
+      "druki ulotne 19 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/603767/NDIGMUZ032871.pdf"
@@ -285,8 +285,8 @@
     ],
     "subject": [
       "druki ulotne 20 w.",
-      "II wojna światowa (1939-1945)",
-      "plakaty polityczne"
+      "plakaty polityczne",
+      "II wojna światowa (1939-1945)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/630677/NDIGDZS021897.pdf"
@@ -301,9 +301,9 @@
       "Afisz dwustronny"
     ],
     "subject": [
-      "Shakespeare, William (1564-1616)",
       "druki ulotne 20 w.",
-      "teatr 20 w."
+      "teatr 20 w.",
+      "Shakespeare, William (1564-1616)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/630680/NDIGDZS031805.pdf"
@@ -318,9 +318,9 @@
       "Afisz dwustronny"
     ],
     "subject": [
+      "teatr polski 19 w.",
       "druki ulotne 19 w.",
-      "Teatr Łódzki (Polska)",
-      "teatr polski 19 w."
+      "Teatr Łódzki (Polska)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/630708/NDIGDZS019769.pdf"
@@ -335,10 +335,10 @@
       "Afisz dwustronny"
     ],
     "subject": [
-      "druki ulotne 19 w.",
+      "teatr polski 19 w.",
       "Przybylski, Zygmunt",
-      "Teatr Łódzki (Polska)",
-      "teatr polski 19 w."
+      "druki ulotne 19 w.",
+      "Teatr Łódzki (Polska)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/630710/NDIGDZS019776.pdf"
@@ -353,9 +353,9 @@
       "Afisz dwustronny"
     ],
     "subject": [
+      "teatr polski 19 w.",
       "druki ulotne 19 w.",
-      "Teatr Łódzki (Polska)",
-      "teatr polski 19 w."
+      "Teatr Łódzki (Polska)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/630711/NDIGDZS020900.pdf"
@@ -368,18 +368,18 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Akademia Medyczna (Kraków)",
-      "Gastoł, Błażej (1905-1966)",
+      "społeczeństwo",
       "Collegium Medicum (Uniwersytet Jagielloński)",
       "duchowość",
+      "socjologia",
+      "nauczyciele akademiccy",
+      "Akademia Medyczna (Kraków)",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "społeczeństwo",
-      "nauczyciele akademiccy"
+      "Gastoł, Błażej (1905-1966)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981023/NDIGDZS106106.pdf"
@@ -394,16 +394,16 @@
       "U dołu karty: Rzemieślnicza Spółdzielnia Pracy Stolarzy i Pracowników Pogrzebowych. Zakład Nr 1, Kraków, pl. Szczepański 2"
     ],
     "subject": [
-      "socjologia",
       "religia",
-      "Gąsiorowska, Zofia (1885-1961)",
+      "nauczyciele",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w.",
-      "nauczyciele"
+      "Gąsiorowska, Zofia (1885-1961)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981245/NDIGDZS106410_15874105.pdf"
@@ -416,15 +416,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "Gałek, Julian (1887-1960)",
-      "społeczeństwo",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "nabożeństwo żałobne"
+      "Gałek, Julian (1887-1960)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981317/NDIGDZS106384.pdf"
@@ -437,15 +437,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gawroński, Juliusz (1874-1967)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "społeczeństwo"
+      "Gawroński, Juliusz (1874-1967)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981338/NDIGDZS106831.pdf"
@@ -458,15 +458,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
       "społeczeństwo",
-      "Gawryś, Stanisław (1945-1991)"
+      "duchowość",
+      "socjologia",
+      "Gawryś, Stanisław (1945-1991)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981339/NDIGDZS106834.pdf"
@@ -479,14 +479,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Inglotowa, Elżbieta Krystyna (1902?-1978)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo",
-      "Inglotowa, Elżbieta Krystyna (1902?-1978)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981343/NDIGDZS106205.pdf"
@@ -499,13 +499,13 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "działacze partyjni",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w.",
       "Galas, Leokadia (?-1964)"
     ],
@@ -520,15 +520,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Gaworek, Jadwiga (?-2004)",
       "duchowość",
+      "druki ulotne 21 w.",
+      "socjologia",
       "pogrzeb",
-      "Związek Nauczycielstwa Polskiego",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 21 w."
+      "Związek Nauczycielstwa Polskiego"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981357/NDIGDZS106820.pdf"
@@ -541,13 +541,13 @@
     ],
     "description": [],
     "subject": [
-      "Gawlikowski, Roman (1888-1963)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Gawlikowski, Roman (1888-1963)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -561,15 +561,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
+      "Gawlikowski, Tadeusz (1889-1971)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
       "nauczyciele gimnazjów",
-      "Gawlikowski, Tadeusz (1889-1971)"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981360/NDIGDZS106813.pdf"
@@ -582,15 +582,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Gawryś, Stanisław (1901-1962)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gawryś, Stanisław (1901-1962)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981363/NDIGDZS106835.pdf"
@@ -603,15 +603,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Collegium Medicum (Uniwersytet Jagielloński)",
       "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 21 w.",
-      "Gawłowska, Maria (1910-2010)"
+      "socjologia",
+      "Gawłowska, Maria (1910-2010)",
+      "pogrzeb",
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981368/NDIGDZS106817.pdf"
@@ -624,14 +624,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gawlikowska, Bronisława (1903?-1987)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "społeczeństwo"
+      "Gawlikowska, Bronisława (1903?-1987)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981370/NDIGDZS106807.pdf"
@@ -644,14 +644,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gawrzyński, Kazimierz (1916-1971)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Gawrzyński, Kazimierz (1916-1971)",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -665,15 +665,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gawrzewski, Julian (1908-1984)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/981626/NDIGDZS106836.pdf"
@@ -686,14 +686,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gawrzyńska, Teofila (1886-1959)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Gawrzyńska, Teofila (1886-1959)",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -707,14 +707,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Ilnicka, Julia (1905-1979)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Ilnicka, Julia (1905-1979)",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/982422/NDIGDZS106182.pdf"
@@ -727,15 +727,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Florek, Mieczysław (1903-1970)",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Florek, Mieczysław (1903-1970)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984656/NDIGDZS107687.pdf"
@@ -748,15 +748,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "pogrzeb",
       "Goliński, Jan (1903-1981)",
       "nabożeństwo żałobne",
-      "pogrzeb",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Kraków (Polska ; region)"
+      "Kraków (Polska ; region)",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984675/NDIGDZS108361.pdf"
@@ -769,15 +769,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gatty-Kostyal, Helena (1892-1979)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "społeczeństwo"
+      "Gatty-Kostyal, Helena (1892-1979)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984677/NDIGDZS106446.pdf"
@@ -790,15 +790,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
       "Golonek, Karol (1890-1972)",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "nabożeństwo żałobne"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984679/NDIGDZS108366.pdf"
@@ -813,15 +813,15 @@
       "U dołu Karty: Rzemieślnicza Spółdzielnia Pracy Stolarzy i Pracow. Pogrzebowych. Zakład Nr 5, Kraków, ul. Grzegórzecka 7"
     ],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "Gaudyn, Piotr (1884-1957)",
+      "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "pogrzeb"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984680/NDIGDZS106447.pdf"
@@ -834,14 +834,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Gawalewicz, Adolf (1916-1987)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gawalewicz, Adolf (1916-1987)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984681/NDIGDZS106456.pdf"
@@ -854,15 +854,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Gólski, Stanisław Leon (1902-1985)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo",
-      "Gólski, Stanisław Leon (1902-1985)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984682/NDIGDZS108373.pdf"
@@ -875,14 +875,14 @@
     ],
     "description": [],
     "subject": [
-      "Gaweł, Krystyna Marcela (1933-1971)",
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Gaweł, Krystyna Marcela (1933-1971)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984683/NDIGDZS106466.pdf"
@@ -895,16 +895,16 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "oficerowie",
-      "Gołębski, Adam (1898-1960)",
+      "społeczeństwo",
       "duchowość",
+      "Gołębski, Adam (1898-1960)",
+      "socjologia",
+      "oficerowie",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984684/NDIGDZS108474.pdf"
@@ -917,15 +917,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "Gołębiowska, Rozalia (1899-1971)",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "nabożeństwo żałobne"
+      "Gołębiowska, Rozalia (1899-1971)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984685/NDIGDZS108473.pdf"
@@ -938,15 +938,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gołębiowski, Franciszek (1908-1986)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984686/NDIGDZS108471.pdf"
@@ -959,14 +959,14 @@
     ],
     "description": [],
     "subject": [
-      "Gołdyn, Janusz (1920-1973)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
+      "Gołdyn, Janusz (1920-1973)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -980,15 +980,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gołda, Władysław (1901-1981)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984688/NDIGDZS108426.pdf"
@@ -1001,14 +1001,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "Gaweł, Krzysztof (1952-1978)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gaweł, Krzysztof (1952-1978)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984689/NDIGDZS106468.pdf"
@@ -1021,13 +1021,13 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gaweski, Bohdan Antoni (1904-1967)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Gaweski, Bohdan Antoni (1904-1967)",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1041,15 +1041,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "Gołda, Franciszek (1923-1996)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gołda, Franciszek (1923-1996)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984691/NDIGDZS108420.pdf"
@@ -1062,14 +1062,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
-      "Gawlik, Aleksandra (1934-1986)",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w."
+      "druki ulotne 20 w.",
+      "Gawlik, Aleksandra (1934-1986)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984692/NDIGDZS106488.pdf"
@@ -1082,14 +1082,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gawlik, Aleksander (1930-1980)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1103,15 +1103,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
+      "Gołąb, Jakub (1901-1971)",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo",
-      "Gołąb, Jakub (1901-1971)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984694/NDIGDZS108382.pdf"
@@ -1124,14 +1124,14 @@
     ],
     "description": [],
     "subject": [
-      "Gólski, Stanisław (1877-1960)",
-      "socjologia",
       "religia",
+      "Gólski, Stanisław (1877-1960)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1145,14 +1145,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Gołąb, Walenty (1895-1980)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1166,14 +1166,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gołąb, Henryk (1921-1988)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1187,15 +1187,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gołąb, Michał (1910-1984)"
+      "duchowość",
+      "socjologia",
+      "Gołąb, Michał (1910-1984)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984702/NDIGDZS108377.pdf"
@@ -1208,14 +1208,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "druki ulotne 20 w.",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "Gawlik, Stanisław (1894-1972)",
-      "druki ulotne 20 w."
+      "Gawlik, Stanisław (1894-1972)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984703/NDIGDZS106492.pdf"
@@ -1228,14 +1228,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "Gawlik, Andrzej (1934-1984)",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gawlik, Andrzej (1934-1984)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984704/NDIGDZS106497.pdf"
@@ -1248,15 +1248,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Florek, Mieczysław (1918-1978)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984725/NDIGDZS107688.pdf"
@@ -1269,15 +1269,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Gierowska, Danuta (1921-1984)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984727/NDIGDZS107877.pdf"
@@ -1290,15 +1290,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "druki ulotne 21 w.",
+      "socjologia",
       "Gierowski, Józef Andrzej (1922-2006)",
-      "druki ulotne 21 w."
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984728/NDIGDZS107878.pdf"
@@ -1311,15 +1311,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "druki ulotne 21 w.",
       "duchowość",
+      "socjologia",
+      "Gierowski, Józef Andrzej (1922-2006)",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "Gierowski, Józef Andrzej (1922-2006)",
-      "społeczeństwo",
-      "druki ulotne 21 w."
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984730/NDIGDZS107879.pdf"
@@ -1332,15 +1332,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gierula, Jerzy (1917-1975)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w."
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w.",
+      "Gierula, Jerzy (1917-1975)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984731/NDIGDZS107886.pdf"
@@ -1353,15 +1353,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
-      "Gierulanka, Danuta (1908-1995)",
+      "socjologia",
+      "druki ulotne 20 w.",
+      "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "pogrzeb",
-      "druki ulotne 20 w."
+      "Gierulanka, Danuta (1908-1995)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984734/NDIGDZS107889.pdf"
@@ -1374,14 +1374,14 @@
     ],
     "description": [],
     "subject": [
-      "Gieruszyński, Tadeusz (1903-1963)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "Gieruszyński, Tadeusz (1903-1963)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1395,14 +1395,14 @@
     ],
     "description": [],
     "subject": [
-      "Gierwielaniec, Stanisław (1911-1985)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
+      "Gierwielaniec, Stanisław (1911-1985)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1416,15 +1416,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "nabożeństwo żałobne",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gilewicz, Alicja (1898-1987)"
+      "Gilewicz, Alicja (1898-1987)",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984738/NDIGDZS107892.pdf"
@@ -1437,14 +1437,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Gilewicz, Wanda (1909-1973)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "Gilewicz, Wanda (1909-1973)",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984739/NDIGDZS107895.pdf"
@@ -1457,14 +1457,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gimiński, Eugeniusz (1919-1989)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "Gimiński, Eugeniusz (1919-1989)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1478,13 +1478,13 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w.",
       "Gintel, Jan (1899-1968)"
     ],
@@ -1499,15 +1499,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
+      "Giza, Zdzisław (1930-1973)",
       "społeczeństwo",
-      "Giza, Zdzisław (1930-1973)"
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984744/NDIGDZS107920.pdf"
@@ -1520,14 +1520,14 @@
     ],
     "description": [],
     "subject": [
-      "Gancarczyk, Jadwiga (1886-1973)",
-      "socjologia",
       "religia",
+      "Gancarczyk, Jadwiga (1886-1973)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1543,14 +1543,14 @@
       "U dołu karty: Miejskie Przedsiębiorstwo Usług Komunalnych w Krakowie, Punkt Usług Pogrzebowych nr 1"
     ],
     "subject": [
-      "socjologia",
       "religia",
       "Gancarczyk, Władysław (1889-1977)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1564,15 +1564,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
+      "Gandurski, Stanisław (1919?-1983)",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gandurski, Stanisław (1919?-1983)"
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/984768/NDIGDZS106563.pdf"
@@ -1585,14 +1585,14 @@
     ],
     "description": [],
     "subject": [
-      "Górecka, Wanda (1921-1989)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
+      "Górecka, Wanda (1921-1989)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1606,14 +1606,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Górecki, Bronisław (19..-1981)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
-      "społeczeństwo",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1627,14 +1627,14 @@
     ],
     "description": [],
     "subject": [
-      "Górecki, Eugeniusz (1923-1984)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "Górecki, Eugeniusz (1923-1984)",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1648,15 +1648,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gorecki, Wiesław (1903-1981)"
+      "Gorecki, Wiesław (1903-1981)",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985324/NDIGDZS108321.pdf"
@@ -1670,14 +1670,14 @@
     "description": [],
     "subject": [
       "Górecki, Zbigniew (1924-1986)",
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985325/NDIGDZS108323.pdf"
@@ -1690,14 +1690,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w.",
       "Górka, Józef (1927-1989)"
     ],
     "identifier": [
@@ -1711,14 +1711,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Górkiewicz, Jadwiga (1912-1995)",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "Górkiewicz, Jadwiga (1912-1995)",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1732,15 +1732,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Górkiewicz, Mieczysław (1925-2001)",
+      "społeczeństwo",
+      "druki ulotne 21 w.",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 21 w."
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985328/NDIGDZS108346.pdf"
@@ -1753,14 +1753,14 @@
     ],
     "description": [],
     "subject": [
+      "religia",
+      "społeczeństwo",
+      "duchowość",
       "Głażewska, Halina (1924-1980)",
       "socjologia",
-      "religia",
-      "duchowość",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
-      "społeczeństwo",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1774,14 +1774,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Głębocka, Maria (1888-1962)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Głębocka, Maria (1888-1962)",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1795,14 +1795,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Głogowski, Mieczysław (1900-1983)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1816,15 +1816,15 @@
     ],
     "description": [],
     "subject": [
-      "Głowa, Józef (1923-1983)",
       "religia",
-      "socjologia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w."
+      "duchowość",
+      "socjologia",
+      "druki ulotne 20 w.",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "Głowa, Józef (1923-1983)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985348/NDIGDZS108789.pdf"
@@ -1837,15 +1837,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
+      "Głowacki, Franciszek Jan (1893-1973)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Głowacki, Franciszek Jan (1893-1973)"
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985349/NDIGDZS108793.pdf"
@@ -1858,14 +1858,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
       "Głowacki, Stanisław (1878-1965)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1879,15 +1879,15 @@
     ],
     "description": [],
     "subject": [
+      "religia",
+      "społeczeństwo",
+      "duchowość",
       "Głowacka, Zofia (?-1990)",
       "socjologia",
-      "religia",
-      "duchowość",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
       "Wieliczka (Polska ; region)",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -1901,15 +1901,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gawroński, Ireneusz (1900-1979)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w."
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w.",
+      "Gawroński, Ireneusz (1900-1979)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985352/NDIGDZS106832.pdf"
@@ -1922,15 +1922,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gawroński, Józef (oficer)",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "duchowość"
+      "duchowość",
+      "Gawroński, Józef (oficer)",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985353/NDIGDZS106830.pdf"
@@ -1943,15 +1943,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gołdowa, Józefa (1889-1981)"
+      "duchowość",
+      "Gołdowa, Józefa (1889-1981)",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985355/NDIGDZS108427.pdf"
@@ -1964,15 +1964,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Golczewski, Emil (1880-1954)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
+      "Golczewski, Emil (1880-1954)",
       "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985356/NDIGDZS108249.pdf"
@@ -1985,15 +1985,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Gołębiowski, Gabriel (1913-1982)",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo",
-      "Gołębiowski, Gabriel (1913-1982)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985357/NDIGDZS108472.pdf"
@@ -2006,15 +2006,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gawron, Paweł Jan (1890-1956)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
+      "Gawron, Paweł Jan (1890-1956)",
       "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/985360/NDIGDZS106824.pdf"
@@ -2027,14 +2027,14 @@
     ],
     "description": [],
     "subject": [
-      "Grygiel, Jerzy (1953-2020)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "Grygiel, Jerzy (1953-2020)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2048,14 +2048,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Kwiatkowski, Zbigniew (?-1990)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "Kwiatkowski, Zbigniew (?-1990)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2069,17 +2069,17 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowieństwo",
       "Gołąb, Julian (1880-1962)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
+      "Poznań (Polska ; region)",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w.",
-      "Poznań (Polska ; region)"
+      "duchowieństwo"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986121/NDIGDZS108407.pdf"
@@ -2092,15 +2092,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
+      "Gołąb, Leon Juliusz (1894-1972)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gołąb, Leon Juliusz (1894-1972)"
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986122/NDIGDZS108408.pdf"
@@ -2113,14 +2113,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gołąb, Zdzisław (1924-1978)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "Gołąb, Zdzisław (1924-1978)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2134,16 +2134,16 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Gołajewski, Andrzej (1923-1990)",
       "duchowość",
+      "socjologia",
+      "lekarze",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "lekarze",
-      "Gołajewski, Andrzej (1923-1990)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986125/NDIGDZS108411.pdf"
@@ -2156,16 +2156,16 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "nabożeństwo żałobne",
+      "pogrzeb",
       "architekci polscy",
       "Kraków (Polska ; region)",
-      "Górecki, Henryk (1904-1977)",
-      "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w.",
-      "pogrzeb"
+      "Górecki, Henryk (1904-1977)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986128/NDIGDZS108331.pdf"
@@ -2178,17 +2178,17 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Gorzkowski, Józef (ok. 1887-1961)",
       "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
-      "społeczeństwo",
-      "więźniowie obozów",
+      "socjologia",
       "druki ulotne 20 w.",
-      "drogiści"
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "drogiści",
+      "więźniowie obozów"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986145/NDIGDZS108403.pdf"
@@ -2201,17 +2201,17 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Dyrekcja Okręgowa PKP (Kraków)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Dyrekcja Okręgowa PKP (Kraków)",
+      "kolejarze",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w.",
-      "Gorzkowski, Józef (ok. 1892-1971)",
-      "kolejarze"
+      "Gorzkowski, Józef (ok. 1892-1971)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986147/NDIGDZS108404.pdf"
@@ -2224,17 +2224,17 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "oficerowie",
       "Gorzkowski, Kazimierz (1894-1964)",
-      "zawodowa służba wojskowa",
-      "Wojsko Polskie (1918-1939)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "zawodowa służba wojskowa",
+      "socjologia",
+      "Wojsko Polskie (1918-1939)",
+      "oficerowie",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2248,16 +2248,16 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gorzkowski, Maciej (ok. 1901-1969)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
       "społeczeństwo",
-      "poczta"
+      "duchowość",
+      "socjologia",
+      "nabożeństwo żałobne",
+      "pogrzeb",
+      "poczta",
+      "Kraków (Polska ; region)",
+      "Gorzkowski, Maciej (ok. 1901-1969)",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986151/NDIGDZS108409.pdf"
@@ -2270,16 +2270,16 @@
     ],
     "description": [],
     "subject": [
-      "Gorzula, Stanisław (1916-1982)",
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
       "Huta im. Lenina (Kraków)",
-      "nabożeństwo żałobne",
+      "socjologia",
       "pogrzeb",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Kraków (Polska ; region)"
+      "Gorzula, Stanisław (1916-1982)",
+      "nabożeństwo żałobne",
+      "Kraków (Polska ; region)",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986153/NDIGDZS108428.pdf"
@@ -2292,16 +2292,16 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "pracownice i pracownicy ochrony zdrowia",
       "duchowość",
+      "Gorzycka, Walentyna (1896-1977)",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "pracownice i pracownicy ochrony zdrowia",
-      "druki ulotne 20 w.",
-      "Gorzycka, Walentyna (1896-1977)",
-      "społeczeństwo",
-      "nabożeństwo żałobne"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986154/NDIGDZS108432.pdf"
@@ -2314,14 +2314,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Górzyńska, Helena (1905-1974)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Górzyńska, Helena (1905-1974)",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2335,16 +2335,16 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "pracownicy biurowi",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "nabożeństwo żałobne",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo",
       "Górzyńska, Zofia (ok. 1902-1953)",
-      "pracownicy biurowi"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986156/NDIGDZS108440.pdf"
@@ -2357,15 +2357,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "Gołogórski, Przemysław (1913?-1982)",
-      "społeczeństwo"
+      "Gołogórski, Przemysław (1913?-1982)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986497/NDIGDZS108481.pdf"
@@ -2378,14 +2378,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
-      "religia",
       "Gołogórski, Eugeniusz (1881?-1953)",
+      "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2399,15 +2399,15 @@
     ],
     "description": [],
     "subject": [
-      "Gołubiew, Antoni (1907-1979)",
       "religia",
-      "socjologia",
-      "Tygodnik Powszechny",
+      "społeczeństwo",
+      "Gołubiew, Antoni (1907-1979)",
       "duchowość",
+      "socjologia",
+      "nabożeństwo żałobne",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "społeczeństwo",
+      "Tygodnik Powszechny",
       "druki ulotne 20 w.",
       "pisarze"
     ],
@@ -2422,15 +2422,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gołubiewowa, Antonina (1878-1969)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986500/NDIGDZS108485.pdf"
@@ -2443,15 +2443,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Gołubiew, Stanisław (1938-1975)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986502/NDIGDZS108486.pdf"
@@ -2464,15 +2464,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gołubiew, Zofia (1942-2022)",
+      "społeczeństwo",
+      "druki ulotne 21 w.",
       "duchowość",
+      "socjologia",
+      "Gołubiew, Zofia (1942-2022)",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 21 w."
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986504/NDIGDZS108488.pdf"
@@ -2485,13 +2485,13 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w.",
       "Grabowski, Henryk (1927-1995)"
     ],
@@ -2506,17 +2506,17 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gołubiew, Zofia (1942-2022)",
-      "Muzeum Narodowe (Kraków)",
+      "muzealnicy",
+      "społeczeństwo",
       "duchowość",
+      "druki ulotne 21 w.",
+      "socjologia",
+      "Gołubiew, Zofia (1942-2022)",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 21 w.",
-      "muzealnicy"
+      "Muzeum Narodowe (Kraków)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986508/NDIGDZS108489.pdf"
@@ -2529,15 +2529,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
+      "Grabowski, Roman (1916-1983)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Grabowski, Roman (1916-1983)"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986509/NDIGDZS109437.pdf"
@@ -2550,15 +2550,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gomółka, Jerzy (1929-1990)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w."
+      "druki ulotne 20 w.",
+      "Gomółka, Jerzy (1929-1990)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986513/NDIGDZS108493.pdf"
@@ -2571,15 +2571,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
-      "społeczeństwo",
       "Gomółka, Halina (1934?-2004)",
-      "druki ulotne 21 w."
+      "społeczeństwo",
+      "druki ulotne 21 w.",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986514/NDIGDZS108494.pdf"
@@ -2592,15 +2592,15 @@
     ],
     "description": [],
     "subject": [
-      "Gonciarz, Stanisław (1929-1974)",
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Gonciarz, Stanisław (1929-1974)",
       "pogrzeb",
-      "nabożeństwo żałobne",
       "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986515/NDIGDZS108495.pdf"
@@ -2613,15 +2613,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gonciarczyk, Kazimierz (1926-2006)",
+      "społeczeństwo",
       "duchowość",
+      "druki ulotne 21 w.",
+      "socjologia",
+      "Gonciarczyk, Kazimierz (1926-2006)",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 21 w."
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986517/NDIGDZS108496.pdf"
@@ -2634,15 +2634,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Gonciarczyk, Kazimierz (1926-2006)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 21 w."
+      "druki ulotne 21 w.",
+      "duchowość",
+      "socjologia",
+      "Gonciarczyk, Kazimierz (1926-2006)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986518/NDIGDZS108497.pdf"
@@ -2655,14 +2655,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gończowski, Piotr (1880-1957)",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2676,15 +2676,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gończowski, Wilhelm (1917-1982)"
+      "duchowość",
+      "socjologia",
+      "Gończowski, Wilhelm (1917-1982)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986520/NDIGDZS108499.pdf"
@@ -2697,14 +2697,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Gondek, Kazimierz (1891-1972)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2718,18 +2718,18 @@
     ],
     "description": [],
     "subject": [
-      "Gondek, Ryszard (1951-1954)",
-      "socjologia",
       "religia",
-      "Gondek, Zbigniew (1951-1954)",
       "Gondek, Genowefa (1929?-1954)",
       "Gondek, Ludwik (1925-1954)",
+      "społeczeństwo",
+      "Gondek, Zbigniew (1951-1954)",
       "duchowość",
+      "socjologia",
+      "nabożeństwo żałobne",
       "pogrzeb",
       "Kraków (Polska ; region)",
-      "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "Gondek, Ryszard (1951-1954)",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986522/NDIGDZS108502.pdf"
@@ -2742,16 +2742,16 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "nauczyciele",
+      "społeczeństwo",
+      "Lubicz Gościcka, Janina (ok. 1888-1965)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Lubicz Gościcka, Janina (ok. 1888-1965)",
-      "nauczyciele"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986525/NDIGDZS108443.pdf"
@@ -2764,15 +2764,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gostyńska, Maria Bronisława (1896-1969)"
+      "duchowość",
+      "socjologia",
+      "Gostyńska, Maria Bronisława (1896-1969)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986526/NDIGDZS108465.pdf"
@@ -2785,15 +2785,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
+      "Gostyński, Tadeusz Karol (1893-1975)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Gostyński, Tadeusz Karol (1893-1975)"
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/986528/NDIGDZS108466.pdf"
@@ -2806,14 +2806,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
-      "druki ulotne 20 w.",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w.",
       "Grzegorczyk, Zygmunt (1880?-1954)"
     ],
     "identifier": [
@@ -2827,14 +2827,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "Gralewski, Zbigniew (1909-1990)",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2848,15 +2848,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
       "Gładyszowa, Zofia (1913?-1969)",
-      "Krosno (Polska ; region)"
+      "pogrzeb",
+      "Krosno (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/987066/NDIGDZS107960.pdf"
@@ -2869,15 +2869,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Głaz, Jan (1923?-1995)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
       "druki ulotne 20 w.",
-      "społeczeństwo"
+      "Głaz, Jan (1923?-1995)"
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/987067/NDIGDZS107961.pdf"
@@ -2890,15 +2890,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "Grzanowska, Zofia (1901-1967)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
+      "Grzanowska, Zofia (1901-1967)",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/987068/NDIGDZS109663.pdf"
@@ -2911,14 +2911,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
+      "społeczeństwo",
       "duchowość",
+      "Grzebień, Adela (1894-1956)",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
-      "Grzebień, Adela (1894-1956)",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2932,15 +2932,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
-      "druki ulotne 20 w.",
-      "Głaz, Józef (1909?-1994)"
+      "Głaz, Józef (1909?-1994)",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/987070/NDIGDZS107962.pdf"
@@ -2953,14 +2953,14 @@
     ],
     "description": [],
     "subject": [
-      "Górski, Leszek (1905-1972)",
-      "socjologia",
       "religia",
-      "duchowość",
-      "pogrzeb",
-      "nabożeństwo żałobne",
-      "Kraków (Polska ; region)",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "Górski, Leszek (1905-1972)",
+      "pogrzeb",
+      "Kraków (Polska ; region)",
+      "nabożeństwo żałobne",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -2974,15 +2974,15 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Jasiński, Tadeusz (1922-1982)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "druki ulotne 20 w.",
-      "społeczeństwo"
+      "druki ulotne 20 w."
     ],
     "identifier": [
       "https://jbc.bj.uj.edu.pl/Content/987738/NDIGDZS109962.pdf"
@@ -2995,14 +2995,14 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
       "Hojak, Stanisław (1890-1980)",
+      "społeczeństwo",
       "duchowość",
+      "socjologia",
       "pogrzeb",
       "Kraków (Polska ; region)",
       "nabożeństwo żałobne",
-      "społeczeństwo",
       "druki ulotne 20 w."
     ],
     "identifier": [
@@ -3016,13 +3016,13 @@
     ],
     "description": [],
     "subject": [
-      "socjologia",
       "religia",
-      "duchowość",
-      "Hohol, Michał (1976-2012)",
-      "nabożeństwo żałobne",
-      "pogrzeb",
       "społeczeństwo",
+      "duchowość",
+      "socjologia",
+      "pogrzeb",
+      "nabożeństwo żałobne",
+      "Hohol, Michał (1976-2012)",
       "druki ulotne 20 w."
     ],
     "identifier": [
