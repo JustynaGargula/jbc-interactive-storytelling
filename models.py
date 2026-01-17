@@ -260,3 +260,14 @@ class KnowledgeGraph:
 
         return result
 
+    def get_document_by_id(self, id):
+        return self.documents.get(id)
+
+    def get_documents_by_subject(self, subject):
+        return self.by_subject.get(subject.lower())
+
+    def get_documents_by_year(self, year):
+        return self.by_year.get(year)
+
+    def get_documents_by_century(self, century):
+        return self.by_century.get(century)

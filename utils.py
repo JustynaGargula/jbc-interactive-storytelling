@@ -293,3 +293,67 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
         json.dump(jsonld_graph, f, ensure_ascii=False, indent=2)
 
     print(f"Zapisano graf do {output_file}")
+
+def get_documents_from_filters(knowledge_graph, years, centuries, subjects):
+    docs_years = []
+    for year in years:
+        docs_years += knowledge_graph.get_documents_by_year(year)
+
+    docs_centuries = []
+    for century in centuries:
+        docs_centuries += knowledge_graph.get_documents_by_century(century)
+
+    docs_subjects = []
+    for subject in subjects:
+        docs_subjects += knowledge_graph.get_documents_by_subject(subject)
+
+    documents_ids = []
+    if not docs_years and not docs_centuries and not docs_subjects:
+        documents_ids = []
+    elif docs_years and not docs_centuries and not docs_subjects:
+        documents_ids = docs_years
+    elif not docs_years and docs_centuries and not docs_subjects:
+        documents_ids = docs_centuries
+    elif not docs_years and not docs_centuries and docs_subjects:
+        documents_ids = docs_subjects
+    elif docs_years and docs_centuries and not docs_subjects:
+        documents_ids = list(set(docs_years) & set(docs_centuries))
+    elif docs_years and not docs_centuries and docs_subjects:
+        documents_ids = list(set(docs_years) & set(docs_subjects))
+    elif not docs_years and docs_centuries and docs_subjects:
+        documents_ids = list(set(docs_centuries) & set(docs_subjects))
+    else:
+        documents_ids = list(set(docs_years) & set(docs_centuries) & set(docs_subjects))
+
+    documents = []
+    for id in documents_ids:
+        doc = knowledge_graph.get_document_by_id(id)
+        documents.append(doc)
+
+    return documents
+
+
+def get_documents_from_filters_and_related(knowledge_graph, years, centuries, subjects, max_related=5):
+    selected_docs = get_documents_from_filters(knowledge_graph, years, centuries, subjects)
+
+    def check_doc_in_list(doc, doc_list):
+        for d, _ in doc_list:
+            if d.identifier == doc.identifier:
+                return True
+        return False
+
+    related_docs_with_scores = []
+    for doc in selected_docs:
+        related = knowledge_graph.get_related_documents(doc.identifier)
+        for related_doc, score in related:
+            if related_doc not in selected_docs and not check_doc_in_list(related_doc, related_docs_with_scores) and score >= 4.0:
+                related_docs_with_scores.append((related_doc, score))
+
+    related_docs = []
+    if len(related_docs_with_scores) > max_related:
+        related_docs_with_scores = sorted(related_docs_with_scores, key=lambda x: x[1], reverse=True)[:max_related]
+
+    for doc, score in related_docs_with_scores:
+        related_docs.append(doc)
+
+    return selected_docs + related_docs
