@@ -11,4 +11,4 @@ all_subject_names = kg.get_all_subject_names()
 available_centuries = kg.get_all_centuries()
 dates__range = kg.get_dates_range()
 
-app.main_interface(all_subject_names, available_centuries, dates__range)
+app.main_interface(all_subject_names, available_centuries, dates__range, kg)

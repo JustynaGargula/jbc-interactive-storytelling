@@ -7,6 +7,7 @@ from collections import defaultdict
 import json
 from models import Document, Subject, Relation, KnowledgeGraph
 import streamlit as st
+from google import genai
 
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
@@ -297,8 +298,12 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
 
 def get_documents_from_filters(knowledge_graph, years, centuries, subjects):
     docs_years = []
-    for year in years:
-        docs_years += knowledge_graph.get_documents_by_year(year)
+
+    if years:
+        for year in years:
+            docs = knowledge_graph.get_documents_by_year(year)
+            if docs:
+                docs_years += docs
 
     docs_centuries = []
     for century in centuries:
@@ -379,3 +384,40 @@ def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, part:
         save_jsonld_to_file(jsonld_graph, "data/jbc_knowledge_graph.jsonld")
 
     return kg
+
+def generate_story_from_data(data):
+    prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: wygenereuj interaktywną opowieść na ich podstawie."
+
+    # The client gets the API key from the environment variable `GEMINI_API_KEY`.
+    client = genai.Client()
+
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview", contents=prompt
+    )
+    return response.text
+
+def handle_button_click(selected_subject_names, selected_centuries, selected_date_range, selected_related, kg):
+    years = []
+    if len(selected_date_range) == 1:
+        years = [selected_date_range[0]]
+    elif len(selected_date_range) == 2:
+        years = list(range(selected_date_range[0], selected_date_range[1]+1))
+    else:
+        years = []
+
+    if selected_related:
+        data = get_documents_from_filters_and_related(
+            kg,
+            years,
+            selected_centuries,
+            selected_subject_names,
+        )
+    else:
+        data = get_documents_from_filters(
+            kg,
+            years,
+            selected_centuries,
+            selected_subject_names,
+        )
+    story = generate_story_from_data(data)
+    return story
