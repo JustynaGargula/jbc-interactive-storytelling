@@ -1,3 +1,4 @@
 requests
 rdflib
 google-genai
+streamlit

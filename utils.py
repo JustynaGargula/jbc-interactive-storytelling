@@ -1,4 +1,4 @@
-import re       # regular expressions
+import re     # regular expressions
 import requests
 from rdflib import Graph
 import glob
@@ -6,6 +6,7 @@ from typing import List, Optional, Dict
 from collections import defaultdict
 import json
 from models import Document, Subject, Relation, KnowledgeGraph
+import streamlit as st
 
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
@@ -357,3 +358,24 @@ def get_documents_from_filters_and_related(knowledge_graph, years, centuries, su
         related_docs.append(doc)
 
     return selected_docs + related_docs
+
+@st.cache_data
+def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, part: int = 1, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
+
+    ids = get_ids(ris_file)
+
+    if not already_downloaded_rdfs:
+        rdfs = get_rdfs(ids)
+        save_rdfs_to_file(rdfs, ids, part)
+
+    g = create_graph(rdfs_directory_path)
+    # utils.save_data_to_one_file(g, "turtle", ".ttl")
+
+    kg = build_kg_from_rdf(g)
+    print(f"Wczytano {len(kg.documents)} dokumentów do grafu wiedzy.")
+
+    if not already_saved_jsonld:
+        jsonld_graph = export_kg_to_jsonld(kg)
+        save_jsonld_to_file(jsonld_graph, "data/jbc_knowledge_graph.jsonld")
+
+    return kg

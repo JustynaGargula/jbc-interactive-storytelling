@@ -271,3 +271,19 @@ class KnowledgeGraph:
 
     def get_documents_by_century(self, century):
         return self.by_century.get(century)
+
+    def get_all_subject_names(self) -> List[str]:
+        subject_names = []
+        for subject_key in self.subjects.keys():
+            subject_names.append(self.subjects[subject_key].name)
+
+        return subject_names
+
+    def get_all_centuries(self) -> List[int]:
+        return sorted(self.by_century.keys())
+
+    def get_dates_range(self) -> Tuple[int, int]:
+        years = [doc.year for doc in self.documents.values() if doc.year is not None]
+        if not years:
+            return (0, 0)
+        return (min(years), max(years))
