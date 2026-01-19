@@ -8,6 +8,9 @@ import json
 from models import Document, Subject, Relation, KnowledgeGraph
 import streamlit as st
 from google import genai
+import plotly.express as px
+import plotly.graph_objects as go
+import pandas as pd
 
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
@@ -393,7 +396,7 @@ def generate_story_from_data(data):
     )
     return response.text
 
-def handle_button_click(selected_subject_names, selected_centuries, selected_date_range, selected_related, kg):
+def get_data_based_on_selected_filters(selected_subject_names, selected_centuries, selected_date_range, selected_related, kg):
     years = []
 
     if not selected_date_range:
@@ -417,5 +420,57 @@ def handle_button_click(selected_subject_names, selected_centuries, selected_dat
             selected_centuries,
             selected_subject_names,
         )
-    story = generate_story_from_data(data)
-    return story
+    return data
+
+def generate_timeline(data):
+
+    # przygotowanie danych do wykresu
+    timeline_data = []
+    for doc in data:
+        timeline_data.append({
+            'title': doc.title,
+            'year': doc.year,
+            'date_display': doc.get_date_display(),
+            'subjects': ', '.join(doc.subjects[:3]),  # pierwsze 3 tematy
+            'type': doc.type,
+            'url': doc.identifier,
+        })
+
+    df = pd.DataFrame(timeline_data)
+    df = df[df['year'].notna()] # usuwa wiersze bez roku
+    df = df.sort_values('year')
+
+    type_heights = {doc_type: i for i, doc_type in enumerate(df['type'].unique())}
+    df['height'] = df['type'].map(type_heights)
+
+
+    fig = px.scatter(
+        df,
+        x='year',
+        y='height',
+        color='type',  # kolor według typu dokumentu
+        hover_name='title',
+        hover_data={
+            'year': True,
+            'date_display': True,
+            'subjects': True,
+            'type': True,
+            'height': False,
+        },
+        title=f'Oś czasu {len(df)} dokumentów',
+        labels={'year': 'Rok'},
+        size_max=15
+    )
+
+    # Dostosuj wygląd
+    fig.update_traces(marker=dict(size=12, line=dict(width=1, color='white')))
+
+    fig.update_layout(
+        height=400,
+        showlegend=True,
+        yaxis={'visible': False, 'showticklabels': False},  # ukryj oś Y
+        xaxis={'title': 'Rok', 'showgrid': True},
+        hovermode='closest'
+    )
+
+    return fig, df

@@ -22,19 +22,66 @@ def main_interface(all_subject_names, all_centuries, dates__range, kg):
         value=dates__range
     )
 
-    if st.button("Generuj opowieść"):
-        with st.spinner("Generuję opowieść... ⏳"):
-            story = utils.handle_button_click(
-                selected_subject_names,
-                selected_centuries,
-                selected_date_range,
-                selected_related,
-                kg
-            )
+    output_type = st.segmented_control(
+        "Wybierz typ opowieści:",
+        ["Interaktywna opowieść", "Oś czasu"],
+        selection_mode="single", default="Oś czasu")
 
-        if story:
-            st.divider()
-            st.subheader("📖 Wygenerowana opowieść")
-            st.markdown(story)
-        else:
-            st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
+    if st.button("Generuj"):
+        if output_type == "Interaktywna opowieść":
+            with st.spinner("Generuję opowieść... ⏳"):
+                data = utils.get_data_based_on_selected_filters(
+                    selected_subject_names,
+                    selected_centuries,
+                    selected_date_range,
+                    selected_related,
+                    kg
+                )
+            story = utils.generate_story_from_data(data)
+
+            if story:
+                st.divider()
+                st.subheader("📖 Wygenerowana opowieść")
+                st.markdown(story)
+            else:
+                st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
+
+        elif output_type == "Oś czasu":
+            with st.spinner("Generuję oś czasu... ⏳"):
+                data = utils.get_data_based_on_selected_filters(
+                    selected_subject_names,
+                    selected_centuries,
+                    selected_date_range,
+                    selected_related,
+                    kg
+                )
+                timeline, df = utils.generate_timeline(data)
+
+            if timeline:
+                st.divider()
+                st.subheader("🕰️ Wygenerowana oś czasu")
+                st.plotly_chart(timeline, use_container_width=True)
+
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("Liczba dokumentów", len(df))
+                with col2:
+                    st.metric("Zakres lat", f"{int(df['year'].min())} - {int(df['year'].max())}")
+                with col3:
+                    st.metric("Typy dokumentów", len(df['type'].unique()))
+
+                with st.expander("📋 Zobacz wszystkie dokumenty w tabeli"):
+                    for idx, row in df.iterrows():
+                        col1, col2, col3 = st.columns([3, 1, 1])
+                        with col1:
+                            st.markdown(f"**{row['title']}**")
+                            st.caption(f"{row['subjects']}")
+                        with col2:
+                            st.text(row['date_display'])
+                        with col3:
+                            if row['url']:
+                                st.link_button("Otwórz", row['url'], use_container_width=True)
+                        st.divider()
+
+            else:
+                st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")

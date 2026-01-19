@@ -2,3 +2,4 @@ requests
 rdflib
 google-genai
 streamlit
+plotly
