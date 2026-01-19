@@ -299,19 +299,16 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
 def get_documents_from_filters(knowledge_graph, years, centuries, subjects):
     docs_years = []
 
-    if years:
-        for year in years:
-            docs = knowledge_graph.get_documents_by_year(year)
-            if docs:
-                docs_years += docs
+    for year in years or []:
+        docs_years += knowledge_graph.get_documents_by_year(year) or []
 
     docs_centuries = []
-    for century in centuries:
-        docs_centuries += knowledge_graph.get_documents_by_century(century)
+    for century in centuries or []:
+        docs_centuries += knowledge_graph.get_documents_by_century(century) or []
 
     docs_subjects = []
-    for subject in subjects:
-        docs_subjects += knowledge_graph.get_documents_by_subject(subject)
+    for subject in subjects or []:
+        docs_subjects += knowledge_graph.get_documents_by_subject(subject) or []
 
     documents_ids = []
     if not docs_years and not docs_centuries and not docs_subjects:
@@ -398,12 +395,13 @@ def generate_story_from_data(data):
 
 def handle_button_click(selected_subject_names, selected_centuries, selected_date_range, selected_related, kg):
     years = []
-    if len(selected_date_range) == 1:
-        years = [selected_date_range[0]]
-    elif len(selected_date_range) == 2:
+
+    if not selected_date_range:
+        years = []
+    elif type(selected_date_range) == tuple:
         years = list(range(selected_date_range[0], selected_date_range[1]+1))
     else:
-        years = []
+        years = [selected_date_range]
 
     if selected_related:
         data = get_documents_from_filters_and_related(
