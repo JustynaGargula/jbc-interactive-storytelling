@@ -11,9 +11,10 @@ def main_interface(all_subject_names, all_centuries, dates__range, kg):
     st.header("Wybierz filtry do tematu opowieści lub osi czasu:")
 
     selected_subject_names = st.multiselect("Wybierz tematy:", all_subject_names, placeholder="Wybierz jeden lub więcej tematów")
-    selected_centuries = st.pills("Wybierz wiek(i):", all_centuries, selection_mode="multi")
+    st.space("xxsmall")
 
-    selected_related = st.checkbox("Uwzględnij dokumenty powiązane z tematami i/lub datami")
+    selected_centuries = st.pills("Wybierz wiek(i):", all_centuries, selection_mode="multi")
+    st.space("xxsmall")
 
     selected_date_range = st.slider(
         "Wybierz zakres lat (opcjonalnie):",
@@ -21,11 +22,16 @@ def main_interface(all_subject_names, all_centuries, dates__range, kg):
         max_value=dates__range[1],
         value=dates__range
     )
+    st.space("xxsmall")
 
     output_type = st.segmented_control(
         "Wybierz typ opowieści:",
-        ["Interaktywna opowieść", "Oś czasu"],
+        ["Historyczna opowieść", "Interaktywna opowieść", "Oś czasu"],
         selection_mode="single", default="Oś czasu")
+    st.space("xxsmall")
+
+    selected_related = st.checkbox("Uwzględnij dokumenty powiązane z tematami i/lub datami")
+    st.space("xxsmall")
 
     if st.button("Generuj"):
         with st.spinner("Znajduję odpowiednie dokumenty... ⏳"):
@@ -37,9 +43,20 @@ def main_interface(all_subject_names, all_centuries, dates__range, kg):
                 kg
             )
 
+        if output_type == "Historyczna opowieść":
+            with st.spinner("Generuję opowieść... ⏳"):
+                story = utils.generate_historical_story_from_data(data)
+
+            if story:
+                st.divider()
+                st.subheader("📖 Wygenerowana opowieść")
+                st.markdown(story)
+            else:
+                st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
+
         if output_type == "Interaktywna opowieść":
             with st.spinner("Generuję opowieść... ⏳"):
-                story = utils.generate_story_from_data(data)
+                story = utils.generate_interactive_story_from_data(data)
 
             if story:
                 st.divider()

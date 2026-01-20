@@ -385,9 +385,23 @@ def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, part:
 
     return kg
 
-def generate_story_from_data(data):
+def generate_interactive_story_from_data(data):
+    if not data:
+        return None
     prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: wygenereuj interaktywną opowieść na ich podstawie."
 
+    # The client gets the API key from the environment variable `GEMINI_API_KEY`.
+    client = genai.Client()
+
+    response = client.models.generate_content(
+        model="gemini-3-flash-preview", contents=prompt
+    )
+    return response.text
+
+def generate_historical_story_from_data(data):
+    if not data:
+        return None
+    prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie."
     # The client gets the API key from the environment variable `GEMINI_API_KEY`.
     client = genai.Client()
 
@@ -426,6 +440,8 @@ def generate_timeline(data):
 
     # przygotowanie danych do wykresu
     timeline_data = []
+    if not data:
+        return None, None
     for doc in data:
         timeline_data.append({
             'title': doc.title,
