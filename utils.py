@@ -8,6 +8,7 @@ import json
 from models import Document, Subject, Relation, KnowledgeGraph
 import streamlit as st
 from google import genai
+from google.api_core import exceptions
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
@@ -385,30 +386,63 @@ def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, part:
 
     return kg
 
+def handle_llm(prompt, model):
+    try:
+        # The client gets the API key from the environment variable `GEMINI_API_KEY`.
+        client = genai.Client()
+
+        response = client.models.generate_content(
+            model=model, contents=prompt
+        )
+
+        return response.text
+
+    except exceptions.ResourceExhausted as e:
+        # 429 - przekroczono limit requestów
+        st.error("⚠️ **Przekroczono limit zapytań do API.**\n\nSpróbuj ponownie za kilka minut.")
+        st.info("💡 Darmowa wersja Gemini API ma ograniczenia: 5 zapytań/minutę i 20 zapytań/dzień.")
+        return None
+
+    except exceptions.ServiceUnavailable as e:
+        # 503 - serwer przeciążony
+        st.error("⚠️ **Serwer API jest chwilowo przeciążony.**\n\nSpróbuj ponownie za chwilę.")
+        st.info("💡 Możesz spróbować ponownie klikając przycisk 'Generuj opowieść'.")
+        return None
+
+    except exceptions.InvalidArgument as e:
+        # 400 - błędne dane wejściowe
+        st.error("⚠️ **Błąd w danych wejściowych.**")
+        st.code(str(e))
+        return None
+
+    except exceptions.PermissionDenied as e:
+        # 403 - problem z kluczem API
+        st.error("⚠️ **Problem z autoryzacją API.**\n\nSprawdź czy klucz API jest poprawny.")
+        return None
+
+    except Exception as e:
+        # Inne nieoczekiwane błędy
+        st.error(f"⚠️ **Wystąpił nieoczekiwany błąd:**\n\n{type(e).__name__}")
+        with st.expander("Szczegóły błędu (dla deweloperów)"):
+            st.code(str(e))
+        return None
+
 def generate_interactive_story_from_data(data):
     if not data:
         return None
     prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: wygenereuj interaktywną opowieść na ich podstawie."
 
-    # The client gets the API key from the environment variable `GEMINI_API_KEY`.
-    client = genai.Client()
-
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview", contents=prompt
-    )
-    return response.text
+    response_text = handle_llm(prompt, model="gemini-3-flash-preview")
+    # response_text = f"Dostałem takie dane: {data}"
+    return response_text
 
 def generate_historical_story_from_data(data):
     if not data:
         return None
     prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie."
-    # The client gets the API key from the environment variable `GEMINI_API_KEY`.
-    client = genai.Client()
-
-    response = client.models.generate_content(
-        model="gemini-3-flash-preview", contents=prompt
-    )
-    return response.text
+    response_text = handle_llm(prompt, model="gemini-3-flash-preview")
+    # response_text = f"Dostałem takie dane: {data}"
+    return response_text
 
 def get_data_based_on_selected_filters(selected_subject_names, selected_centuries, selected_date_range, selected_related, kg):
     years = []
