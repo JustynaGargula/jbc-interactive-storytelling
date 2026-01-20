@@ -364,7 +364,7 @@ def get_documents_from_filters_and_related(knowledge_graph, years, centuries, su
 
     return selected_docs + related_docs
 
-@st.cache_data
+@st.cache_data(show_spinner=False)
 def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, part: int = 1, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
 
     ids = get_ids(ris_file)

@@ -5,12 +5,12 @@ import utils
 def top_part():
     st.title("Interaktywne Opowieści z danych JBC")
     st.write("Aplikacja do eksploracji danych z Jagiellońskiej Biblioteki Cyfrowej za pomocą modeli językowych Google GenAI.")
-
+    st.space("small")
 
 def main_interface(all_subject_names, all_centuries, dates__range, kg):
-    st.write("Wybierz filtry do tematu, o którym chciałbyś usłyszeć opowieść:")
+    st.header("Wybierz filtry do tematu opowieści lub osi czasu:")
 
-    selected_subject_names = st.multiselect("Wybierz tematy:", all_subject_names)
+    selected_subject_names = st.multiselect("Wybierz tematy:", all_subject_names, placeholder="Wybierz jeden lub więcej tematów")
     selected_centuries = st.pills("Wybierz wiek(i):", all_centuries, selection_mode="multi")
 
     selected_related = st.checkbox("Uwzględnij dokumenty powiązane z tematami i/lub datami")
@@ -28,16 +28,18 @@ def main_interface(all_subject_names, all_centuries, dates__range, kg):
         selection_mode="single", default="Oś czasu")
 
     if st.button("Generuj"):
+        with st.spinner("Znajduję odpowiednie dokumenty... ⏳"):
+            data = utils.get_data_based_on_selected_filters(
+                selected_subject_names,
+                selected_centuries,
+                selected_date_range,
+                selected_related,
+                kg
+            )
+
         if output_type == "Interaktywna opowieść":
             with st.spinner("Generuję opowieść... ⏳"):
-                data = utils.get_data_based_on_selected_filters(
-                    selected_subject_names,
-                    selected_centuries,
-                    selected_date_range,
-                    selected_related,
-                    kg
-                )
-            story = utils.generate_story_from_data(data)
+                story = utils.generate_story_from_data(data)
 
             if story:
                 st.divider()
@@ -48,13 +50,6 @@ def main_interface(all_subject_names, all_centuries, dates__range, kg):
 
         elif output_type == "Oś czasu":
             with st.spinner("Generuję oś czasu... ⏳"):
-                data = utils.get_data_based_on_selected_filters(
-                    selected_subject_names,
-                    selected_centuries,
-                    selected_date_range,
-                    selected_related,
-                    kg
-                )
                 timeline, df = utils.generate_timeline(data)
 
             if timeline:
