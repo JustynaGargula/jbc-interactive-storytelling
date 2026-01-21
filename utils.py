@@ -307,6 +307,20 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
 
 @st.cache_data(show_spinner=False)
 def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
+    """
+    Tworzy graf wiedzy na podstawie pliku RIS i folderu z rdfami.
+
+    :param ris_file: Plik w formacie RIS zawierający dane o dokumentach
+    :type ris_file: str
+    :param rdfs_directory_path: Ścieżka do folderu z plikami RDF
+    :type rdfs_directory_path: str
+    :param already_downloaded_rdfs: Czy pliki RDF zostały już pobrane
+    :type already_downloaded_rdfs: bool
+    :param already_saved_jsonld: Czy graf JSON-LD został już zapisany
+    :type already_saved_jsonld: bool
+    :return: Graf wiedzy
+    :rtype: KnowledgeGraph
+    """
 
     ids = get_ids(ris_file)
     rdfs_path = Path(rdfs_directory_path)
@@ -327,7 +341,21 @@ def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, alrea
 
     return kg
 
-def get_documents_from_filters(knowledge_graph, years, centuries, subjects):
+def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, centuries: list, subjects: list) -> List[Document]:
+    """
+    Zwraca dokumenty pasujące do podanych filtrów.
+
+    :param knowledge_graph: Graf wiedzy
+    :type knowledge_graph: KnowledgeGraph
+    :param years: Lista lat do filtrowania
+    :type years: List[int]
+    :param centuries: Lista stuleci do filtrowania
+    :type centuries: List[int]
+    :param subjects: Lista tematów do filtrowania
+    :type subjects: List[str]
+    :return: Lista dokumentów pasujących do filtrów
+    :rtype: List[Document]
+    """
     docs_years = []
 
     for year in years or []:
@@ -367,7 +395,22 @@ def get_documents_from_filters(knowledge_graph, years, centuries, subjects):
     return documents
 
 
-def get_documents_from_filters_and_related(knowledge_graph, years, centuries, subjects, max_related=5):
+def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, years: list, centuries: list, subjects: list, max_related: int=10) -> List[Document]:
+    """
+    Zwraca dokumenty pasujące do podanych filtrów oraz powiązane z nimi dokumenty.
+    :param knowledge_graph: Graf wiedzy
+    :type knowledge_graph: KnowledgeGraph
+    :param years: Lista lat do filtrowania
+    :type years: List[int]
+    :param centuries: Lista stuleci do filtrowania
+    :type centuries: List[int]
+    :param subjects: Lista tematów do filtrowania
+    :type subjects: List[str]
+    :param max_related: Maksymalna liczba powiązanych dokumentów do dodania (domyślnie 10)
+    :type max_related: int
+    :return: Lista dokumentów pasujących do filtrów oraz powiązanych z nimi
+    :rtype: List[Document]
+    """
     selected_docs = get_documents_from_filters(knowledge_graph, years, centuries, subjects)
 
     def check_doc_in_list(doc, doc_list):
@@ -393,7 +436,60 @@ def get_documents_from_filters_and_related(knowledge_graph, years, centuries, su
     return selected_docs + related_docs
 
 
-def handle_llm(prompt, model):
+def get_data_based_on_selected_filters(selected_subject_names: list, selected_centuries: list, selected_date_range: tuple, selected_related: bool, kg: KnowledgeGraph) -> List[Document]:
+    """
+    Zwraca dokumenty pasujące do wybranych filtrów.
+
+    :param selected_subject_names: Lista nazw wybranych tematów
+    :type selected_subject_names: list
+    :param selected_centuries: Lista wybranych stuleci
+    :type selected_centuries: list
+    :param selected_date_range: Zakres dat (np. (1800, 1900))
+    :type selected_date_range: tuple
+    :param selected_related: Czy uwzględniać powiązane dokumenty
+    :type selected_related: bool
+    :param kg: Graf wiedzy
+    :type kg: KnowledgeGraph
+    :return: Lista dokumentów pasujących do filtrów
+    :rtype: List[Document]
+    """
+    years = []
+
+    if not selected_date_range:
+        years = []
+    elif type(selected_date_range) == tuple:
+        years = list(range(selected_date_range[0], selected_date_range[1]+1))
+    else:
+        years = [selected_date_range]
+
+    if selected_related:
+        data = get_documents_from_filters_and_related(
+            kg,
+            years,
+            selected_centuries,
+            selected_subject_names,
+        )
+    else:
+        data = get_documents_from_filters(
+            kg,
+            years,
+            selected_centuries,
+            selected_subject_names,
+        )
+    return data
+
+
+def handle_llm(prompt: str, model: str = "gemini-3-flash-preview") -> Optional[str]:
+    """
+    Obsługuje komunikację z modelem językowym Gemini i zarządza błędami.
+
+    :param prompt: Tekst zapytania do modelu językowego
+    :type prompt: str
+    :param model: Model językowy do użycia (domyślnie "gemini-3-flash-preview")
+    :type model: str
+    :return: Odpowiedź modelu językowego lub None w przypadku błędu
+    :rtype: str | None
+    """
     try:
         # The client gets the API key from the environment variable `GEMINI_API_KEY`.
         client = genai.Client()
@@ -434,7 +530,16 @@ def handle_llm(prompt, model):
             st.code(str(e))
         return None
 
-def generate_interactive_story_from_data(data):
+
+def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
+    """
+    Generuje interaktywną opowieść na podstawie podanych dokumentów.
+
+    :param data: Lista dokumentów do wygenerowania interaktywnej opowieści
+    :type data: List[Document]
+    :return: Wygenerowana interaktywna opowieść lub None, jeśli dane są puste
+    :rtype: str | None
+    """
     if not data:
         return None
     prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: wygenereuj interaktywną opowieść na ich podstawie."
@@ -443,7 +548,16 @@ def generate_interactive_story_from_data(data):
     # response_text = f"Dostałem takie dane: {data}"
     return response_text
 
-def generate_historical_story_from_data(data):
+
+def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
+    """
+    Generuje historyczną opowieść na podstawie podanych dokumentów.
+
+    :param data: Lista dokumentów do wygenerowania historycznej opowieści
+    :type data: List[Document]
+    :return: Wygenerowana historyczna opowieść lub None, jeśli dane są puste
+    :rtype: str | None
+    """
     if not data:
         return None
     prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie."
@@ -451,34 +565,16 @@ def generate_historical_story_from_data(data):
     # response_text = f"Dostałem takie dane: {data}"
     return response_text
 
-def get_data_based_on_selected_filters(selected_subject_names, selected_centuries, selected_date_range, selected_related, kg):
-    years = []
 
-    if not selected_date_range:
-        years = []
-    elif type(selected_date_range) == tuple:
-        years = list(range(selected_date_range[0], selected_date_range[1]+1))
-    else:
-        years = [selected_date_range]
+def generate_timeline(data: List[Document]) -> Optional[str]:
+    """
+    Generuje oś czasu na podstawie podanych dokumentów.
 
-    if selected_related:
-        data = get_documents_from_filters_and_related(
-            kg,
-            years,
-            selected_centuries,
-            selected_subject_names,
-        )
-    else:
-        data = get_documents_from_filters(
-            kg,
-            years,
-            selected_centuries,
-            selected_subject_names,
-        )
-    return data
-
-def generate_timeline(data):
-
+    :param data: Lista dokumentów do wygenerowania osi czasu
+    :type data: List[Document]
+    :return: Wygenerowana oś czasu lub None, jeśli dane są puste
+    :rtype: str | None
+    """
     # przygotowanie danych do wykresu
     timeline_data = []
     if not data:
@@ -533,12 +629,27 @@ def generate_timeline(data):
 
 
 def get_interface_top_part():
+    """
+    Wyświetla górną część interfejsu użytkownika (tytuł i opis) w aplikacji Streamlit.
+    """
     st.title("Interaktywne Opowieści z danych JBC")
     st.write("Aplikacja do eksploracji danych z Jagiellońskiej Biblioteki Cyfrowej za pomocą modeli językowych Google GenAI.")
     st.space("small")
 
 
-def get_interface_main_part(all_subject_names, all_centuries, dates__range, kg):
+def get_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph):
+    """
+    Wyświetla główną część interfejsu użytkownika w aplikacji Streamlit, umożliwiając wybór filtrów i generowanie opowieści lub osi czasu.
+
+    :param all_subject_names: Lista wszystkich nazw tematów
+    :type all_subject_names: List[str]
+    :param all_centuries: Lista wszystkich wieków
+    :type all_centuries: List[str]
+    :param dates__range: Zakres lat (np. (1800, 1900))
+    :type dates__range: tuple
+    :param kg: Graf wiedzy
+    :type kg: KnowledgeGraph
+    """
     st.header("Wybierz filtry do tematu opowieści lub osi czasu:")
 
     selected_subject_names = st.multiselect("Wybierz tematy:", all_subject_names, placeholder="Wybierz jeden lub więcej tematów")

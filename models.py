@@ -261,18 +261,48 @@ class KnowledgeGraph:
         return result
 
     def get_document_by_id(self, id):
+        """
+        Zwraca dokument o podanym ID.
+
+        :param id: ID dokumentu
+        :type id: str
+        """
         return self.documents.get(id)
 
     def get_documents_by_subject(self, subject):
+        """
+        Zwraca listę dokumentów powiązanych z podanym tematem.
+
+        :param subject: nazwa tematu
+        :type subject: str
+        """
         return self.by_subject.get(subject.lower())
 
     def get_documents_by_year(self, year):
+        """
+        Zwraca listę dokumentów z podanego roku.
+
+        :param year: rok
+        :type year: int
+        """
         return self.by_year.get(year)
 
     def get_documents_by_century(self, century):
+        """
+        Zwraca listę dokumentów z podanego wieku.
+
+        :param century: wiek
+        :type century: int
+        """
         return self.by_century.get(century)
 
     def get_all_subject_names(self) -> List[str]:
+        """
+        Zwraca listę wszystkich nazw tematów w grafie wiedzy.
+
+        :return: lista nazw tematów
+        :rtype: List[str]
+        """
         subject_names = []
         for subject_key in self.subjects.keys():
             subject_names.append(self.subjects[subject_key].name)
@@ -280,9 +310,21 @@ class KnowledgeGraph:
         return subject_names
 
     def get_all_centuries(self) -> List[int]:
+        """
+        Zwraca listę wszystkich wieków obecnych w grafie wiedzy.
+
+        :return: lista wieków
+        :rtype: List[int]
+        """
         return sorted(self.by_century.keys())
 
     def get_dates_range(self) -> Tuple[int, int]:
+        """
+        Zwraca zakres lat (min, max) obecnych w grafie wiedzy.
+
+        :return: zakres lat (min, max)
+        :rtype: Tuple[int, int]
+        """
         years = [doc.year for doc in self.documents.values() if doc.year is not None]
         if not years:
             return (0, 0)
