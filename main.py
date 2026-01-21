@@ -1,4 +1,4 @@
-import utils, app
+import utils
 import streamlit as st
 
 ris_file = ".\data\data_ris\dlibra.ris"
@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide",
 )
 
-app.top_part()
+utils.get_interface_top_part()
 
 with st.spinner("Ładowanie danych do działania aplikacji... ⏳"):
     kg = utils.get_knowledge_graph_from_ris(ris_file, rdfs_directory_path, part, True, True)
@@ -19,7 +19,7 @@ with st.spinner("Ładowanie danych do działania aplikacji... ⏳"):
     available_centuries = kg.get_all_centuries()
     dates__range = kg.get_dates_range()
 
-app.main_interface(all_subject_names, available_centuries, dates__range, kg)
+utils.get_interface_main_part(all_subject_names, available_centuries, dates__range, kg)
 
 st.space("large")
 st.caption("💡 **Zmiana motywu na ciemny lub jasny:** Kliknij 3 kropki - ⋮ - w prawym górnym rogu → Settings → Theme")
