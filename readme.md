@@ -24,7 +24,7 @@ Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Bi
 
 3. Uruchom ponownie terminal i/lub IDE. Upewnij się, że masz aktywne wirtualne środowisko (`source venv/scripts/activate`).
 
-4. Uruchom aplikację komendą `streamlit run main.py`. Otworzy się ona w przeglądarce pod adresem `http://localhost:8501/`.
+4. Uruchom aplikację komendą `streamlit run main.py`. Otworzy się ona w przeglądarce pod adresem `http://localhost:8501/`. _Uwaga: Pierwsze uruchomienie może potrwać kilka minut, ponieważ aplikacja będzie pobierać i przetwarzać dane z Jagiellońskiej Biblioteki Cyfrowej._
 
 5. Aby pobrać więcej danych (albo dane z innej kategorii) z Jagiellońskiej Biblioteki Cyfrowej:
    - Wejdź na stronę: [jbc.bj.uj.edu.pl](https://jbc.bj.uj.edu.pl/dlibra/results).

@@ -585,7 +585,7 @@ def get_interface_main_part(all_subject_names, all_centuries, dates__range, kg):
             else:
                 st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
 
-        if output_type == "Interaktywna opowieść":
+        elif output_type == "Interaktywna opowieść":
             with st.spinner("Generuję opowieść... ⏳"):
                 story = generate_interactive_story_from_data(data)
 
@@ -628,3 +628,6 @@ def get_interface_main_part(all_subject_names, all_centuries, dates__range, kg):
 
             else:
                 st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
+
+        else:
+            st.error("Nie wybrano typu opowieści.")
