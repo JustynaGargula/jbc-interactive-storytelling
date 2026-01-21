@@ -32,9 +32,8 @@ Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Bi
    - Na koniec linka strony wklej `&ipp=50`, gdzie zamiast `50` wpisz liczbę dokumentów, które chcesz pobrać.
    - Po załadowaniu wyników na stronie kliknij w prawym górnym rogu (pod paskiem wyszukiwania) `Dodaj wszystkie obiekty z listy do bibliografii`.
    - Pobrany plik umieść w folderze `/data` jako `dlibra.ris`.
-   - W pliku `main.py` zmień w 17 linijce 2 ostatnie parametry z `True` na `False` (`kg = utils.get_knowledge_graph_from_ris(ris_file, rdfs_directory_path, part, True, True)`).
+   - Usuń folder `/data/rdfs`.
    - Uruchom aplikację komendą `streamlit run main.py`. Dla dużej liczby dokumentów pobranie i przetworzenie ich może długo zająć.
-   - Zmień z powrotem parametry na `True`, aby dane nie musiały się ponownie pobierać przy kolejnym uruchomieniu aplikacji.
 
 ## Struktura projektu
 
