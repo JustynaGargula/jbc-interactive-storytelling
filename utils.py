@@ -12,6 +12,7 @@ from google.api_core import exceptions
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
+from pathlib import Path
 
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
@@ -59,19 +60,23 @@ def get_rdfs(ids: List[str]) -> List[bytes]:
     return rdfs
 
 
-def save_rdfs_to_file(rdfs: List[bytes], ids: List[str], part: int):
+def save_rdfs_to_file(rdfs: List[bytes], ids: List[str], path: str = "./data/rdfs"):
     """
-    Zapisuje rdfy do plików w folerze `/data/partX`, gdzie X jest numerem określonym parametrem *part*.
+    Zapisuje rdfy do plików w folerze `/data/rdfs`, chyba że podano inaczej.
 
     :param rdfs: lista pobranych danych o obiektach w formacie rdf
     :type rdfs: List[bytes]
     :param ids: lista id obiektów w JBC odpowiadającym podanym danym RDF
     :type ids: List[str]
-    :param part: numer części (folderu), do którego zapisywane są pliki (partia danych)
-    :type part: int
+    :param path: ścieżka do folderu, w którym zapisywane są pliki rdf, domyślnie "./data/rdfs"
+    :type path: str
     """
+    rdfs_path = Path(path)
+    if not rdfs_path.exists():
+        rdfs_path.mkdir(parents=True, exist_ok=True)
+
     for i, id in enumerate(ids):
-        with open(f"./data/part{part}/{id}.rdf", "wb") as f:
+        with open(f"{path}/{id}.rdf", "wb") as f:
             f.write(rdfs[i])
 
 
@@ -86,7 +91,7 @@ def create_graph(directory_path_with_rdfs: str) -> Graph:
     """
     graph = Graph()
 
-    for rdf_file in glob.glob(directory_path_with_rdfs):
+    for rdf_file in glob.glob(f"{directory_path_with_rdfs}" + "/*.rdf"):
         graph.parse(rdf_file)
     print(f"Łącznie wczytano {len(graph)} trójek.")
 
@@ -300,6 +305,28 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
 
     print(f"Zapisano graf do {output_file}")
 
+@st.cache_data(show_spinner=False)
+def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
+
+    ids = get_ids(ris_file)
+    rdfs_path = Path(rdfs_directory_path)
+
+    if not already_downloaded_rdfs or not (rdfs_path.exists() and rdfs_path.is_dir() and any(rdfs_path.iterdir())):
+        rdfs = get_rdfs(ids)
+        save_rdfs_to_file(rdfs, ids, rdfs_directory_path)
+
+    g = create_graph(rdfs_directory_path)
+    # utils.save_data_to_one_file(g, "turtle", ".ttl")
+
+    kg = build_kg_from_rdf(g)
+    print(f"Wczytano {len(kg.documents)} dokumentów do grafu wiedzy.")
+
+    if not already_saved_jsonld:
+        jsonld_graph = export_kg_to_jsonld(kg)
+        save_jsonld_to_file(jsonld_graph, "data/jbc_knowledge_graph.jsonld")
+
+    return kg
+
 def get_documents_from_filters(knowledge_graph, years, centuries, subjects):
     docs_years = []
 
@@ -365,26 +392,6 @@ def get_documents_from_filters_and_related(knowledge_graph, years, centuries, su
 
     return selected_docs + related_docs
 
-@st.cache_data(show_spinner=False)
-def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, part: int = 1, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
-
-    ids = get_ids(ris_file)
-
-    if not already_downloaded_rdfs:
-        rdfs = get_rdfs(ids)
-        save_rdfs_to_file(rdfs, ids, part)
-
-    g = create_graph(rdfs_directory_path)
-    # utils.save_data_to_one_file(g, "turtle", ".ttl")
-
-    kg = build_kg_from_rdf(g)
-    print(f"Wczytano {len(kg.documents)} dokumentów do grafu wiedzy.")
-
-    if not already_saved_jsonld:
-        jsonld_graph = export_kg_to_jsonld(kg)
-        save_jsonld_to_file(jsonld_graph, "data/jbc_knowledge_graph.jsonld")
-
-    return kg
 
 def handle_llm(prompt, model):
     try:
@@ -596,7 +603,7 @@ def get_interface_main_part(all_subject_names, all_centuries, dates__range, kg):
             if timeline:
                 st.divider()
                 st.subheader("🕰️ Wygenerowana oś czasu")
-                st.plotly_chart(timeline, use_container_width=True)
+                st.plotly_chart(timeline, width="stretch")
 
                 col1, col2, col3 = st.columns(3)
                 with col1:
@@ -616,7 +623,7 @@ def get_interface_main_part(all_subject_names, all_centuries, dates__range, kg):
                             st.text(row['date_display'])
                         with col3:
                             if row['url']:
-                                st.link_button("Otwórz", row['url'], use_container_width=True)
+                                st.link_button("Otwórz", row['url'], width="stretch")
                         st.divider()
 
             else:
