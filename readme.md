@@ -6,6 +6,7 @@
 - [Użyte technologie](#użyte-technologie)
 - [Uruchomienie aplikacji](#uruchomienie-aplikacji)
 - [Struktura projektu](#struktura-projektu)
+- [Zrzuty ekranu aplikacji](#zrzuty-ekranu-aplikacji)
 
 ## Opis projektu
 
@@ -51,3 +52,17 @@ Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Bi
 - `data/` - folder zawierający pliki danych (np. plik RIS z metadanymi JBC).
 - `.streamlit/config.toml` - plik dostosowujący styl aplikacji Streamlit.
 - `jupyter_notebooks/` - folder z notatnikami Jupyter używanymi do eksperymentów i analizy danych przed implementacją aplikacji.
+
+## Zrzuty ekranu aplikacji
+
+Interfejs aplikacji z wybranymi filtrami:
+
+![Interfejs aplikacji](data/printscreens/interface.png)
+
+Przykładowa oś czasu wygenerowana przez aplikację:
+
+![Oś czasu](data/printscreens/timeline.png)
+
+Przykładowa interaktywna narracja wygenerowana przez aplikację:
+
+![Narracja](data/printscreens/interactive_story.png)
