@@ -1,5 +1,12 @@
 # JBC Interactive Storytelling
 
+## Spis treści
+
+- [Opis projektu](#opis-projektu)
+- [Użyte technologie](#użyte-technologie)
+- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
+- [Struktura projektu](#struktura-projektu)
+
 ## Opis projektu
 
 Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Biblioteka Cyfrowa) w graf wiedzy, tworzy powiązania semantyczne i wykorzystuje LLM do generowania narracji tematycznych lub chronologicznych. Interfejs umożliwia eksplorację kolekcji w formie osi czasu lub ciągłych opowieści, wspierając kontekstowe odkrywanie treści w badaniach historycznych i edukacyjnych.

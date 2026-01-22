@@ -13,6 +13,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 from pathlib import Path
+import roman
 
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
@@ -565,20 +566,19 @@ def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
     # response_text = f"Dostałem takie dane: {data}"
     return response_text
 
-
-def generate_timeline(data: List[Document]) -> Optional[str]:
+def convert_data_to_dataframe(data: List[Document]) -> pd.DataFrame:
     """
-    Generuje oś czasu na podstawie podanych dokumentów.
+    Konwertuje listę dokumentów na DataFrame Pandas do wykorzystania np. w osi czasu.
 
-    :param data: Lista dokumentów do wygenerowania osi czasu
+    :param data: Lista dokumentów do konwersji
     :type data: List[Document]
-    :return: Wygenerowana oś czasu lub None, jeśli dane są puste
-    :rtype: str | None
+    :return: DataFrame zawierający dane dokumentów
+    :rtype: DataFrame
     """
-    # przygotowanie danych do wykresu
     timeline_data = []
     if not data:
-        return None, None
+        return None
+
     for doc in data:
         timeline_data.append({
             'title': doc.title,
@@ -592,7 +592,21 @@ def generate_timeline(data: List[Document]) -> Optional[str]:
     df = pd.DataFrame(timeline_data)
     df = df[df['year'].notna()] # usuwa wiersze bez roku
     df = df.sort_values('year')
+    return df
 
+def generate_timeline(data: List[Document]) -> Optional[str]:
+    """
+    Generuje oś czasu na podstawie podanych dokumentów.
+
+    :param data: Lista dokumentów do wygenerowania osi czasu
+    :type data: List[Document]
+    :return: Wygenerowana oś czasu lub None, jeśli dane są puste
+    :rtype: str | None
+    """
+    if not data:
+        return None
+
+    df = convert_data_to_dataframe(data)
     type_heights = {doc_type: i for i, doc_type in enumerate(df['type'].unique())}
     df['height'] = df['type'].map(type_heights)
 
@@ -625,10 +639,10 @@ def generate_timeline(data: List[Document]) -> Optional[str]:
         xaxis={'title': 'Rok', 'showgrid': True},
         hovermode='closest'
     )
-    return fig, df
+    return fig
 
 
-def get_interface_top_part():
+def display_interface_top_part():
     """
     Wyświetla górną część interfejsu użytkownika (tytuł i opis) w aplikacji Streamlit.
     """
@@ -637,7 +651,7 @@ def get_interface_top_part():
     st.space("small")
 
 
-def get_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph):
+def display_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph):
     """
     Wyświetla główną część interfejsu użytkownika w aplikacji Streamlit, umożliwiając wybór filtrów i generowanie opowieści lub osi czasu.
 
@@ -655,7 +669,8 @@ def get_interface_main_part(all_subject_names: List[str], all_centuries: List[st
     selected_subject_names = st.multiselect("Wybierz tematy:", all_subject_names, placeholder="Wybierz jeden lub więcej tematów")
     st.space("xxsmall")
 
-    selected_centuries = st.pills("Wybierz wiek(i):", all_centuries, selection_mode="multi")
+    all_roman_centuries = [roman.toRoman(c) for c in all_centuries]
+    selected_centuries = [ roman.fromRoman(c) for c in st.pills("Wybierz wiek(i):", all_roman_centuries, selection_mode="multi") ]
     st.space("xxsmall")
 
     selected_date_range = st.slider(
@@ -684,6 +699,7 @@ def get_interface_main_part(all_subject_names: List[str], all_centuries: List[st
                 selected_related,
                 kg
             )
+            df = convert_data_to_dataframe(data)
 
         if output_type == "Historyczna opowieść":
             with st.spinner("Generuję opowieść... ⏳"):
@@ -709,7 +725,7 @@ def get_interface_main_part(all_subject_names: List[str], all_centuries: List[st
 
         elif output_type == "Oś czasu":
             with st.spinner("Generuję oś czasu... ⏳"):
-                timeline, df = generate_timeline(data)
+                timeline = generate_timeline(data)
 
             if timeline:
                 st.divider()
@@ -724,21 +740,23 @@ def get_interface_main_part(all_subject_names: List[str], all_centuries: List[st
                 with col3:
                     st.metric("Typy dokumentów", len(df['type'].unique()))
 
-                with st.expander("📋 Zobacz wszystkie dokumenty w tabeli"):
-                    for idx, row in df.iterrows():
-                        col1, col2, col3 = st.columns([3, 1, 1])
-                        with col1:
-                            st.markdown(f"**{row['title']}**")
-                            st.caption(f"{row['subjects']}")
-                        with col2:
-                            st.text(row['date_display'])
-                        with col3:
-                            if row['url']:
-                                st.link_button("Otwórz", row['url'], width="stretch")
-                        st.divider()
-
             else:
                 st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
 
         else:
             st.error("Nie wybrano typu opowieści.")
+
+        if data:
+            st.space("small")
+            with st.expander("📋 Zobacz dokumenty żródłowe w tabeli"):
+                for idx, row in df.iterrows():
+                    col1, col2, col3 = st.columns([3, 1, 1])
+                    with col1:
+                        st.markdown(f"**{row['title']}**")
+                        st.caption(f"{row['subjects']}")
+                    with col2:
+                        st.text(row['date_display'])
+                    with col3:
+                        if row['url']:
+                            st.link_button("Otwórz", row['url'], width="stretch")
+                    st.divider()
