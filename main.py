@@ -1,7 +1,7 @@
 import utils
 import streamlit as st
 
-ris_file = ".\data\data_ris\dlibra.ris"
+ris_file = ".data/data_ris/dlibra.ris" 
 rdfs_directory_path = f"./data/rdfs"
 
 st.set_page_config(
