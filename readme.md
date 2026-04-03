@@ -12,6 +12,12 @@
 
 Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Biblioteka Cyfrowa) w graf wiedzy, tworzy powiązania semantyczne i wykorzystuje LLM do generowania narracji tematycznych lub chronologicznych. Interfejs umożliwia eksplorację kolekcji w formie osi czasu lub ciągłych opowieści, wspierając kontekstowe odkrywanie treści w badaniach historycznych i edukacyjnych.
 
+Dane obecnie są używane z następującego źródła: [Jagiellońska Biblioteka Cyfrowa - wybrane dokumenty](https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&p=0&qf1=collections%3A188&qf2=Subject%3AKrak%C3%B3w%20%28Polska%20%3B%20region%29&qf3=Subject%3AII%20wojna%20%C5%9Bwiatowa%20%281939-1945%29&qf4=Subject%3Adruki%20ulotne%20z%20lat%201939-1945&qf5=Subject%3Adruki%20ulotne%2021%20w.&qf6=Subject%3Ateatr%20polski%2019%20w.&qf7=Subject%3Ateatr%2019%C2%A0w.&qf8=Subject%3ATeatr%20Polski%20%28Krak%C3%B3w%29&qf9=Subject%3ADrukarnia%20%E2%80%9ECzasu%E2%80%9D%20%28Krak%C3%B3w%29&qf10=Subject%3ATowarzystwo%20Artyst%C3%B3w%20Dramatycznych&qf11=Subject%3AMa%C5%82opolska%20%28Polska%20%3B%20wojew%C3%B3dztwo%29&qf12=Subject%3ATeatr%20%C5%81%C3%B3dzki%20%28Polska%29&qf13=Subject%3Aliteratura&qf14=Subject%3Aafisz%20muzyczny&ipp=50)
+
+## Dostęp do aplikacji
+
+Aplikacja jest dostępna pod adresem: [https://jbc-interactive-storytelling.streamlit.app/](https://jbc-interactive-storytelling.streamlit.app/).
+
 ## Użyte technologie
 
 - Python
@@ -42,6 +48,10 @@ Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Bi
    - Pobrany plik umieść w folderze `/data` jako `dlibra.ris`.
    - Usuń folder `/data/rdfs`.
    - Uruchom aplikację komendą `streamlit run main.py`. Dla dużej liczby dokumentów pobranie i przetworzenie ich może długo zająć.
+
+6. W przyszłośći (jeśli wymagane biblioteki są już zainstalowane, a klucz API jest ustawiony) wystarczy wykonać:
+   - `source venv/scripts/activate`
+   - `streamlit run main.py`
 
 ## Struktura projektu
 
