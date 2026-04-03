@@ -1,8 +1,8 @@
 import utils
 import streamlit as st
 
-ris_file = ".\data\data_ris\dlibra.ris"
-rdfs_directory_path = f"./data/rdfs"
+ris_directory_path = "data/data_ris"
+rdfs_directory_path = "data/rdfs"
 
 st.set_page_config(
     page_title="Interaktywne Opowieści JBC",
@@ -13,7 +13,7 @@ st.set_page_config(
 utils.display_interface_top_part()
 
 with st.spinner("Ładowanie danych do działania aplikacji... ⏳"):
-    kg = utils.get_knowledge_graph_from_ris(ris_file, rdfs_directory_path, True, True)
+    kg = utils.get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, True, True)
     all_subject_names = kg.get_all_subject_names()
     available_centuries = kg.get_all_centuries()
     dates__range = kg.get_dates_range()

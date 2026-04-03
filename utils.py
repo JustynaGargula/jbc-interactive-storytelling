@@ -19,25 +19,26 @@ SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchActi
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
 RDF_URL = "https://jbc.bj.uj.edu.pl/dlibra/rdf.xml?type=e&id="
 
-def get_ids(file: str) -> List[str]:
+def get_ids(files: List[str]) -> List[str]:
     """
-    Wyciąga id dokumentów z podanego pliku w standardzie RIS.
+    Wyciąga id dokumentów z podanych plików w standardzie RIS.
 
     Id jest wyciągane z wierszy z adresem url - tag "UR" np. `UR  - http://jbc.bj.uj.edu.pl/dlibra/publication/edition/510136`.
 
-    :param file: ścieżka do pliku zawierającego dane w standardzie RIS
-    :type file: str
+    :param files: lista ścieżek do plików zawierających dane w standardzie RIS
+    :type files: List[str]
 
     :return ids: lista id obiektów w JBC
     """
 
     ids = []
-    with open(file, "r", encoding="utf-8") as f:
-        for line in f:
-            if line.startswith("UR"):
-                match = re.search("/edition/(\d+)", line)
-                if match:
-                    ids.append(match.group(1))
+    for file in files:
+        with open(file, "r", encoding="utf-8") as f:
+            for line in f:
+                if line.startswith("UR"):
+                    match = re.search("/edition/(\d+)", line)
+                    if match:
+                        ids.append(match.group(1))
     print(f"Znaleziono {len(ids)} ID.")
     return ids
 
@@ -307,12 +308,12 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
     print(f"Zapisano graf do {output_file}")
 
 @st.cache_data(show_spinner=False)
-def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
+def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_path: str, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
     """
     Tworzy graf wiedzy na podstawie pliku RIS i folderu z rdfami.
 
-    :param ris_file: Plik w formacie RIS zawierający dane o dokumentach
-    :type ris_file: str
+    :param ris_files_directory_path: Ścieżka do folderu z plikami RIS
+    :type ris_files_directory_path: str
     :param rdfs_directory_path: Ścieżka do folderu z plikami RDF
     :type rdfs_directory_path: str
     :param already_downloaded_rdfs: Czy pliki RDF zostały już pobrane
@@ -323,7 +324,10 @@ def get_knowledge_graph_from_ris(ris_file: str,  rdfs_directory_path: str, alrea
     :rtype: KnowledgeGraph
     """
 
-    ids = get_ids(ris_file)
+    files = []
+    for file in glob.glob(f"{ris_files_directory_path}" + "/*.ris"):
+        files.append(file)
+    ids = get_ids(files)
     rdfs_path = Path(rdfs_directory_path)
 
     if not already_downloaded_rdfs or not (rdfs_path.exists() and rdfs_path.is_dir() and any(rdfs_path.iterdir())):
