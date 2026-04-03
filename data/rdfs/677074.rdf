@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677074">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1882</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677074/NDIGDZS033790.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:604814</dc:relation>
+    <dc:title xml:lang="pl">Cyrk T. Sidolego w ogrodzie Kleina nadzwyczajne galowe przedstawienie : Przedstawienie koni najlepiej tresowanych tak w ujeżdżalni jako też na wolności</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224652 V 83</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1882</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

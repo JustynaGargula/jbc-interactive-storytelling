@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866889">
+    <dc:date xml:lang="pl">1890</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1890</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:899907</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Sza 907</dc:source>
+    <dc:description xml:lang="pl">Klepsydra odręcznie napisana</dc:description>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866889/NDIGDZS084388.pdf</dc:identifier>
+    <dc:title xml:lang="pl">S. P. Karol Schafnagl [...] oddał Bogu ducha d. 11 Sierpnia 1890 r.</dc:title>
+    <dc:subject xml:lang="pl">Schafnagel, Karol (1847-1890)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

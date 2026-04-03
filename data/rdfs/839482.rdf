@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839482">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 171</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:862125</dc:relation>
+    <dc:subject xml:lang="pl">Bartoszewicz, Adam Dominik (1838-1886)</dc:subject>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839482/NDIGDZS063779.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Adam Dominik Bartoszewicz żołnierz wojsk polskich z 1863 [...], przeniósł się do wieczności dnia 11-go Lutego b. r. w 48 roku życia [...] : Lwów dnia 11. Lutego 1886</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Cmentarz Łyczakowski (Lwów)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

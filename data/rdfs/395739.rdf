@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/395739">
+    <dc:title xml:lang="pl">Drei Monate Invasion! : Deutsche Offiziere und Soldaten!</dc:title>
+    <dc:date xml:lang="pl">ca 1944</dc:date>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:400775</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:400775</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639338 III 1</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/395739/PDF/NDIGDZS021431.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/395739/PDF/NDIGDZS021431.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:issued xml:lang="pl">ca 1944</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

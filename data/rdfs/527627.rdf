@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527627">
+    <dc:publisher xml:lang="pl">Andreas Mädler</dc:publisher>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Celem uczczenia nieśmiertelnej pamięci naszego wieszcza Adama Mickiewicz, odbędzie się w sobotę dnia 29 listopada 1891, w lokalu własnym Czytelni polskiej w Białej, uroczyste przedstawienie amatorskie: Bracia Lerche, komedya w 3 Aktach Asnyka, rozpocznie słowo wstępne</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/527627/NDIGDZS020963.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Asnyk, Adam (1838-1897)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527627/NDIGDZS020963.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 2/3</dc:source>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:399842</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:399842</dc:relation>
+    <dc:date xml:lang="pl">1891</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1891</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

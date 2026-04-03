@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617099">
+    <dc:publisher xml:lang="pl">J. Litwiński</dc:publisher>
+    <dc:title xml:lang="pl">Na dochód Czytelni terminatorów Wieczorek deklamacyjno-wokalny przez młodzież rzemieślniczą wykonany odbędzie się : w niedzielę dnia 1. maja 1898 w sali teatralnej w Wieliczce</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617099/NDIGDZS033601.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/42</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:issued xml:lang="pl">1898</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602325</dc:relation>
+    <dc:date xml:lang="pl">1898</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

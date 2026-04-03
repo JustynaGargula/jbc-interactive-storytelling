@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822440">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224651 V Le-Li 18</dc:source>
+    <dc:date xml:lang="pl">1930</dc:date>
+    <dc:title xml:lang="pl">Za tak liczne dowody współczującego smutku nad przedwczesną śmiercią nieodżałowanej pamięci Ks. Biskupa Dra Arkadiusza Lisieckiego [...] Katowice, dnia 23 maja 1930</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Lisiecki, Arkadiusz Marian (1880-1930)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822440/NDIGDZS054306.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:850454</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1930</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

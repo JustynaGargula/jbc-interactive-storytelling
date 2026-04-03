@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/676584">
+    <dc:subject xml:lang="pl">Teatr Polski (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">[1860]</dc:date>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 26/19</dc:source>
+    <dc:issued xml:lang="pl">[1860]</dc:issued>
+    <dc:title xml:lang="pl">C. K. Teatr Polski z Krakowa pod dyrekcya Juliusza Pfeiffer, dziś w piątek dnia 19 października 1860 roku na benefis Karola Królikowskiego : Arcydzieło nieznane dramat, Przysługa komedya, Uściskajmy się komedya</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608500</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/676584/NDIGDZS031691.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

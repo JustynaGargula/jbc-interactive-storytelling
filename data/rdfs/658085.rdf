@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/658085">
+    <dc:subject xml:lang="pl">dzienniki niemieckie 19 w.</dc:subject>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:695971</dc:relation>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1865.08.17</dc:date>
+    <dc:contributor xml:lang="pl">Jochmus, Antoni Maurycy. Red.</dc:contributor>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 409771 IV</dc:source>
+    <dc:title xml:lang="pl">Posener Zeitung. 1865, [№] 191 (17 August) + dod.</dc:title>
+    <dc:issued xml:lang="pl">1865.08.17</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/658085/0039_NDIGCZAS040439_106749160.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:publisher xml:lang="pl">W. Decker &amp; Comp.</dc:publisher>
+    <dc:subject xml:lang="pl">czasopisma regionalne</dc:subject>
+    <dc:subject xml:lang="pl">W. Decker i Spółka (Poznań)</dc:subject>
+    <dc:description xml:lang="pl">Zawiera: Beilage zur Posener Zeitung [№] 191</dc:description>
+  </rdf:Description>
+</rdf:RDF>
+

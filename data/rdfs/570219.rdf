@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570219">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224630 V e/3</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600186</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Maryanna Titz akuszerka osiadłszy tu w Tarnowie na przedmieściu Strusinie pod L. 208 w domu P. Michała Łabędzia, poleca się łaskawym względom P. T. Szanownej Publiczności w wypadkach potrzeby, opieki i staranności téj sztuki wymagającéj</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570219/NDIGDZS032325.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1869</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

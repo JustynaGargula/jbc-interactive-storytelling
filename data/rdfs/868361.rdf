@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868361">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901279</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868361/NDIGDZS085294.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Potocki Alfred (1822-1889)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1889</dc:issued>
+    <dc:date xml:lang="pl">1889</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Alfred hrabia Potocki [...] zmarł w Paryżu dnia 18. maja 1889 [...] : Lwów dnia 28. maja 1889</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V P 104</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

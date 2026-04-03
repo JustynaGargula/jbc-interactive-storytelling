@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/676543">
+    <dc:subject xml:lang="pl">Częstochowa (Polska ; region)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra, vʺ městnomʺ teatrě vʺ pâtnicu 29 marta 1896 goda, 1-yj razʺ Madame Sans-Gêne, komediâ vʺ 3-hʺ dějstvìahʺ, soč. Viktorina Sadu i E. Moro</dc:title>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:399846</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:399846</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/676543/NDIGDZS020953.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/676543/NDIGDZS020953.pdf</dc:identifier>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:title xml:lang="pl">Artyści Teatru Łódzkiego w teatrze miejscowym, w piątek 10 kwietnia 1896 roku, 1-szy raz Madame Sans-Gêne, komedja w 4-ch aktach W. Sardou i E. Moreau</dc:title>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/60</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

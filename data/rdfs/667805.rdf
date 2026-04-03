@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/667805">
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1891.06.25</dc:issued>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:publisher xml:lang="pl">Hofbuchdruckerei von W. Decker &amp; Comp. (A. Röstel)</dc:publisher>
+    <dc:contributor xml:lang="pl">Fontane, Carl (1837-1919). Red.</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:705561</dc:relation>
+    <dc:contributor xml:lang="pl">Steinbach, J. (fl. 1890-1892). Red.</dc:contributor>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 409771 IV</dc:source>
+    <dc:date xml:lang="pl">1891.06.25</dc:date>
+    <dc:title xml:lang="pl">Posener Zeitung. Jg.98, Nr. 432 (25 Juni 1891) - Morgen=Ausgabe.</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">czasopisma regionalne</dc:subject>
+    <dc:contributor xml:lang="pl">Hachfeld, Friedrich. Red.</dc:contributor>
+    <dc:subject xml:lang="pl">dzienniki niemieckie 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/667805/0431_NDIGCZAS040439_106782218.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">W. Decker i Spółka (Poznań)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

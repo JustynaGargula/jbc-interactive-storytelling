@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617106">
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">No 3 Lětnìj Teatr v Sadikě Varšavskoj Gostinnicy v četverg 30 maâ 1874 g. na benefis suprugov Mol΄skih predstavlena bydet komedû-opera Hutor Primeroz, komedìâ Talizman Nevidimosti, komedìâ Podlog</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Teatr Letni w ogródku Hotelu Warszawskiego</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">Teatr Letni w ogródku Hotelu Warszawskiego we czwartek, dnia 11 czerwca 1874 r. na benefis Artura i Izabelli Molskich Artyści Dramatyczni przedstawią komedjo-operę Folwark Primerose, komedja Talizman Niewidzialności, komedja Podejście</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 38/9</dc:source>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605455</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617106/NDIGDZS033665.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Fredro, Aleksander (1793-1876)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:publisher xml:lang="pl">Tipografiâ Buhgolʹc</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

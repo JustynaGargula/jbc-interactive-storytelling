@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/858423">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">ul. Floriańska (Kraków)</dc:subject>
+    <dc:issued xml:lang="pl">1862</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Maryanna z Podgórskich Kraszewska Obywatelka Miasta Krakowa, przeżywszy lat 42 [...] dnia 11 Września 1862 r. przeniosła się do wieczności [...]</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1862</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Kra 950</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:888382</dc:relation>
+    <dc:subject xml:lang="pl">Kraszewska, Marianna (1820?-1862)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/858423/NDIGDZS079092.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

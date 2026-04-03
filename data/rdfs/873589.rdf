@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/873589">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Szy 1137</dc:source>
+    <dc:subject xml:lang="pl">msza święta</dc:subject>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:date xml:lang="pl">1897</dc:date>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/873589/NDIGDZS088124.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1897</dc:issued>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908297</dc:relation>
+    <dc:subject xml:lang="pl">Szymańska, Lucyna (1875-1897)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:subject xml:lang="pl">Kościół św. Kazimierza Królewicza (Kraków)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Lucyna Jadwiga Szymańska : córka em. Nauczyciela ludowego, [...] zasnęła w Panu dnia 20 Czerwca 1897 r.</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

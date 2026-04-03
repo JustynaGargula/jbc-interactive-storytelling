@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822933">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1913</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:title xml:lang="pl">Błażej Jarosz b. oficyant c. k. kolei państwowej, uczestnik powstania z 1863 roku, przeżywszy lat 70 [...] zmarł dnia 21. 1913. roku [...]</dc:title>
+    <dc:subject xml:lang="pl">Jarosz, Błażej (1843-1913)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 26</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822933/NDIGDZS055405.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1913</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:848060</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

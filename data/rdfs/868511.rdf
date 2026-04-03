@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868511">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Antoni Goebel Obywatel miasta Podgórza przeżywszy lat 59 [...] w dniu 21 Kwietnia 1869 r. rozstał się z tym światem [...]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1869</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868511/NDIGDZS083296.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Podgórze (Kraków ; część miasta)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:896968</dc:relation>
+    <dc:subject xml:lang="pl">Goebel, Antoni (1816?-1869)</dc:subject>
+    <dc:subject xml:lang="pl">Stary Cmentarz Podgórski (Kraków)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 267</dc:source>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

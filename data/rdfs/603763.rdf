@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/603763">
+    <dc:title xml:lang="pl">Dziś w niedzielę po raz ostatni w ramach programu „Dni Krakowa” na Wawelu o godz. 20.30 Mikołaj Kopernik wielkie widowisko, wizja sceniczna Ludwika Hieronima Morsztina</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">[1930-1936]</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 3/18</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/603763/NDIGDZS031138.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Żuliński, Antoni</dc:subject>
+    <dc:relation xml:lang="pl">https://audiovis.nac.gov.pl/search/bce12eb58b7c438c284cce758f457f0c:1/ Zobacz w NAC, Fragment przedstawienia Ludwika Hieronima Morstina „Mikołaj Kopernik” (1936-1937)</dc:relation>
+    <dc:date xml:lang="pl">[1930-1936]</dc:date>
+    <dc:subject xml:lang="pl">Morstin, Ludwik Hieronim (1886-1966)</dc:subject>
+    <dc:subject xml:lang="pl">Kopernik, Mikołaj (1473-1543)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Frycz, Karol Józef (1877-1963)</dc:subject>
+    <dc:subject xml:lang="pl">Kielanowski Leopold (1907-1988)</dc:subject>
+    <dc:subject xml:lang="pl">Teatr im. Juliusza Słowackiego w Krakowie</dc:subject>
+    <dc:subject xml:lang="pl">Polski Teatr Akademicki UJ</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:601717</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

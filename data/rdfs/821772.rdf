@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/821772">
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Maria Tarnawska Tannhäuser : b. artystka scen polskich i zagranicznych, przeżywszy lat 53, [...] zasnęła w Panu dnia 6 lipca 1937 r.</dc:title>
+    <dc:subject xml:lang="pl">Tarnawska Tannhäuser, Maria (ok. 1884-1937)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1937</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224651 V Ta 3</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:issued xml:lang="pl">1937</dc:issued>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/821772/NDIGDZS054074.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:850232</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

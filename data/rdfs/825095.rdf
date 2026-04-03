@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/825095">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1893</dc:issued>
+    <dc:subject xml:lang="pl">Teatr im. Juliusza Słowackiego w Krakowie</dc:subject>
+    <dc:subject xml:lang="pl">kultura</dc:subject>
+    <dc:subject xml:lang="pl">gospodarka</dc:subject>
+    <dc:subject xml:lang="pl">sztuka</dc:subject>
+    <dc:subject xml:lang="pl">ekonomia</dc:subject>
+    <dc:creator xml:lang="pl">Estreicher, Karol (1827-1908)</dc:creator>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/825095/NDIGDZS058572.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 3889 II 69</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Ceny miejsc w nowym Teatrze</dc:title>
+    <dc:subject xml:lang="pl">finanse</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:856304</dc:relation>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">1893</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

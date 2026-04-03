@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868366">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868366/NDIGDZS085387.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901885</dc:relation>
+    <dc:date xml:lang="pl">1866</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V P 110</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1866</dc:issued>
+    <dc:title xml:lang="pl">Julia z Rucińskich Praschill [...] dnia 20. kwietnia 1866 [...] przeniosła się do wieczności [...] : Rzeszów, dnia 20. kwietnia 1866</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Praschill, Julia (1826?-1866)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

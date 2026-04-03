@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569843">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599598</dc:relation>
+    <dc:subject xml:lang="pl">Piller Antoni - Dziedzice</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 129</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Josef Krömer empfiehlt sich und Lack-anstreich und Lakierarbeit</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/569843/NDIGDZS024505.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Józef Krömer poleca się z sztrychowaniem i lakierowaniem</dc:title>
+    <dc:publisher xml:lang="pl">Kornel Piller</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

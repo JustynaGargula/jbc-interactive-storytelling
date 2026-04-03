@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/632061">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/5</dc:source>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">http://pbc.gda.pl/publication/16419 Dzieła Józefa Korzeniowskiego. T. 10</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/632061/NDIGDZS033027.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Nr 33 Teatr amatorski w Wieliczce, w niedzielę dnia 21 kwietnia 1872, na cele dobroczynne : Żydzi, komedja w 4 aktach przez Józefa Korzeniowskiego</dc:title>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602277</dc:relation>
+    <dc:issued xml:lang="pl">1872</dc:issued>
+    <dc:date xml:lang="pl">1872</dc:date>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/35523 Żydzi. Komedyja w czterech aktach przez Józefa Korzeniowskiego oryginalnie napisana</dc:relation>
+    <dc:publisher xml:lang="pl">Karol Budweiser</dc:publisher>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

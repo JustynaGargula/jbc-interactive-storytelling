@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/378562">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/378562/NDIGDZS019773.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:title xml:lang="pl">No 51 Artyści Teatru Łódzkiego w teatrze miejscowym we wtorek dnia 24-go marca 1896 roku, pierwszy występ Ireny Trapszo : Koniec Sodomy</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/49</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398708</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398708</dc:relation>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:title xml:lang="pl">No 25 Artisty Lodzinskago Teatra vʺ mĕstnomʺ teatrě vo vtornikʺ 12-go marta 1896 goda, piervaâ gastrolʺ Ireny Trapšo : Koniecʺ Sodoma</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/378562/NDIGDZS019773.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

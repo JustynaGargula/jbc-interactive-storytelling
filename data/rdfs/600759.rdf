@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600759">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">L' Ussaro Italiano Cioeʹ Le Avventure Amorose E Militari Del Conte V.... Di K.... Accadute nel presente Secolo, e scritte da lui medesimo in lingua Italiana. Tomo Primo</dc:title>
+    <dc:issued xml:lang="pl">1764</dc:issued>
+    <dc:creator xml:lang="pl">Chiari, Pietro (17..-1788)</dc:creator>
+    <dc:language xml:lang="pl">ita</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 594431 II/1</dc:source>
+    <dc:publisher xml:lang="pl">Vincenzo Flauto</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600759/NDIGSTDR035677.pdf</dc:identifier>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:date xml:lang="pl">1764</dc:date>
+    <dc:publisher xml:lang="pl">Antonio Giacomo Vinaccia</dc:publisher>
+    <dc:coverage xml:lang="pl">18 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567872</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

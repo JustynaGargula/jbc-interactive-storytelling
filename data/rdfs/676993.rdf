@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/676993">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602452</dc:relation>
+    <dc:title xml:lang="pl">Cyrk T. Sidolego na placu pod Zamkiem wspaniałe przedstawienie : Na zakończenie po raz trzeci na powszechne żądanie z największym zapałem przyjęte przedstawienie Robert Djabeł</dc:title>
+    <dc:date xml:lang="pl">1878</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224652 V 56</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/676993/NDIGDZS033763.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1878</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

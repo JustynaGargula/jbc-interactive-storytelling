@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/630677">
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:title xml:lang="pl">Katyn</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:type xml:lang="pl">plakat</dc:type>
+    <dc:description xml:lang="pl">Plakat niemieckich władz okupacyjnych</dc:description>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/630677/NDIGDZS021897.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:666375</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, R 4962 IV</dc:source>
+    <dc:subject xml:lang="pl">plakaty polityczne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

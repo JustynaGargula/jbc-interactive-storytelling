@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868543">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 307</dc:source>
+    <dc:subject xml:lang="pl">Gołemberska, Helena (1880?-1894)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1894</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:897807</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868543/NDIGDZS083874.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1894</dc:issued>
+    <dc:subject xml:lang="pl">śmierć dziecka</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:title xml:lang="pl">Helcia Gołemberska córka Apolonii z Kurkiewiczów i ś. p. Zygmunta, przeżywszy lat 14, [...] przeniosła się do wieczności dnia 18 Maja 1894 r. [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/824612">
+    <dc:subject xml:lang="pl">Cachlówna, Helena (1869?-1901)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ca-Ci 1</dc:source>
+    <dc:issued xml:lang="pl">1901</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/824612/NDIGDZS054792.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:853013</dc:relation>
+    <dc:date xml:lang="pl">1901</dc:date>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Helena Cachlówna nauczycielka, przeżywszy lat 22 [...], zasnęła w Panu dnia 10 lutego 1901 r.</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

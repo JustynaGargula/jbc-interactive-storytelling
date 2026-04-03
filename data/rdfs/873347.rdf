@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/873347">
+    <dc:title xml:lang="pl">Melania Szewczykowa : żona Naczelnika stacyi Kolei północnej Cesarza Ferdynanda w Krzeszowicach, [...] przeniósł się do wieczności dnia 9 Października 1889 r.</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/873347/NDIGDZS085852.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1889</dc:date>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Szewczyk, Melania (1855?-1889)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906211</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Sze 1009</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1889</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

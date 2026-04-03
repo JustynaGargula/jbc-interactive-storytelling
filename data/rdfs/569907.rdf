@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569907">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 151</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599701</dc:relation>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Neues Kaffehaus in der Wallgasse berkannt machen Silwester Turski</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/569907/NDIGDZS024527.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Nową kawiarnię przy ulicy wałowej urządził Sylwester Turski</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

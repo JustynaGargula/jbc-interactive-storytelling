@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867641">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1880</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Kościół Mariacki (Kraków)</dc:subject>
+    <dc:title xml:lang="pl">Konstancya hr. Stadnicka [...] przeniosła się do wieczności w dniu 5 Listopada 1880 roku</dc:title>
+    <dc:date xml:lang="pl">1880</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Stadnicka, Konstancja (1809-1880)</dc:subject>
+    <dc:subject xml:lang="pl">arystokracja</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:889110</dc:relation>
+    <dc:description xml:lang="pl">Grób na Cmentarzu Rakowickim: kwatera: PAS LC, rząd: zach, miejsce: grobowiec Stadnickich</dc:description>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867641/NDIGDZS079441.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V St 779</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

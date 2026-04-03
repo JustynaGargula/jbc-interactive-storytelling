@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/624461">
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/624461/NDIGDZS019679.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/624461/NDIGDZS019679.pdf</dc:identifier>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 4/2</dc:source>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:title xml:lang="pl">Truppa Artystów Dramatycznych pod dyrekcyą Jana Okońskiego we czwartek 25 października/6 listopada 1873 roku, komedia w 3 aktach B. Gwozdeckiego Wujaszek całego świata, wodewil ze śpiewkami A. Ładnowskiego Icek Zapieczętowany</dc:title>
+    <dc:subject xml:lang="pl">Ładnowski, Aleksander (1815-1891)</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 2 Teatrʺ vʺ Holmě vʺ četvergʺ 25 oktâbrâ/6 noâbrâ 1873 g. predstavlena budetʺ komedìâ vʺ 3h dějstvìâhʺ B. Gozdeckago Vsemìrnyj dâdâ, šutka sʺ penìemʺ A. Ladnovskago Zapečatovanyj Icekʺ</dc:title>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398743</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398743</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822983">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:title xml:lang="pl">Z Hubertów Róża Kadenowa wdowa po ś. p. Gustawie, przeżywszy lat 66 [...] zmarła dnia 21 Stycznia 1904 r. [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ka-Ke 9</dc:source>
+    <dc:subject xml:lang="pl">Kaden, Róża (1838?-1904)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:850221</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1904</dc:issued>
+    <dc:date xml:lang="pl">1904</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822983/NDIGDZS056052.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

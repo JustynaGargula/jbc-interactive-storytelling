@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/27">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 221579 III</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">dokumenty życia społecznego 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:36</dc:relation>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:title xml:lang="pl">[Okólnik dla duchowieństwa by na kazaniach nie podburzano jednej klasy przeciw drugiej (włoszczan przeciw obywatelom)]</dc:title>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:format xml:lang="pl">image/vnd.djvu</dc:format>
+    <dc:creator xml:lang="pl">Krasiński, Adam Stanisław (1810-1891)</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

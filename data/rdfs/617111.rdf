@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617111">
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 38/11</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 7 V subbotu, 15 ìûnâ 1874 g. Bolʹšoe Magičeskoe Predstavlenìe F. Ostermana v Sadikě Varšavskoj Gostinnicy</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617111/NDIGDZS033667.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605461</dc:relation>
+    <dc:subject xml:lang="pl">Teatr Letni w ogródku Hotelu Warszawskiego</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:title xml:lang="pl">Teatr Letni w ogródku Hotelu Warszawskiego w sobotę dnia 27 czerwca 1874 r. ostatnie wielkie Przedstawienie Magii, Fizyki i Optyki wykonane przez F. Ostermana z Pragi</dc:title>
+    <dc:publisher xml:lang="pl">Tipografiâ Buhgolʹc</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

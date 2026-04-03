@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/679008">
+    <dc:date xml:lang="pl">1812</dc:date>
+    <dc:subject xml:lang="pl">Konfederacja Generalna Królestwa Polskiego</dc:subject>
+    <dc:contributor xml:lang="pl">Koźmian, Kajetan (1771-1856)</dc:contributor>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:617960</dc:relation>
+    <dc:issued xml:lang="pl">1812</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:contributor xml:lang="pl">Zamoyski, Stanisław Kostka (1775-1856)</dc:contributor>
+    <dc:subject xml:lang="pl">Księstwo Warszawskie (1807-1815)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 9409 II czasop.</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/679008/NDIGCZAS028361.pdf</dc:identifier>
+    <dc:creator xml:lang="pl">Konfederacja Generalna Królestwa Polskiego</dc:creator>
+    <dc:title xml:lang="pl">Konfederacya Jeneralna Królestwa Polskiego. Do Woyska : Roday! [Inc.: Niedawno wzywaliśmy Was do nadzwyczaynych ofiar - ale te acz wielkie, mierzonemi były do pomyślności oręża zwycięzkich Woysk Wskrzesiciela Naszego [...] : Działo się w Warszawie na Sessyi Rady Generalnéy Konfederacyi Generalnéy Królestwa Polskiego dnia 20. Grudnia 1812</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

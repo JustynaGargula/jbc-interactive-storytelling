@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514098">
+    <dc:issued xml:lang="pl">[1840]</dc:issued>
+    <dc:subject xml:lang="pl">koncert skrzypkowy</dc:subject>
+    <dc:date xml:lang="pl">[1840]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514098/NDIGMUZ025874.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:title xml:lang="pl">Heute Samstag das ist am 26 September 1840 wird Herr Felix Lipinski ein Concert auf der Violine im Knotzischen Saale zu gehen die Ehre haben</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Dziś w sobotę, to jest dnia 26go września 1840 r. p. Felix Lipiński będzie miał zaszczyt dać w Sali Knotza koncert na skrzypcach [...] : początek o godzinie 7méj wieczór punktualnie</dc:title>
+    <dc:subject xml:lang="pl">Lipiński, Feliks</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:532480</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 5</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

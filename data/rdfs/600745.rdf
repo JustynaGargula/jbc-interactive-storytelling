@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600745">
+    <dc:date xml:lang="pl">[1800-1820]</dc:date>
+    <dc:subject xml:lang="pl">rysunki architektoniczne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:610446</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600745/NDIGGRAF037635.pdf</dc:identifier>
+    <dc:title xml:lang="pl">[Projekt ptaszarni w formie chińskiego pawilonu]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Graf. I.R. 918</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">[1800-1820]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Sierakowski, Sebastian (1743-1824)</dc:creator>
+    <dc:type xml:lang="pl">akwarela</dc:type>
+    <dc:subject xml:lang="pl">grafika polska</dc:subject>
+    <dc:coverage xml:lang="pl">[18-19 w.]</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

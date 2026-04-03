@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485992">
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:date xml:lang="pl">ca 1945</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485992/NDIGDZS026105.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:512111</dc:relation>
+    <dc:subject xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką)</dc:subject>
+    <dc:title xml:lang="pl">Deutscher Leihverkehr</dc:title>
+    <dc:issued xml:lang="pl">ca 1945</dc:issued>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:description xml:lang="pl">Blankiet rewersu Staatsbibliothek Krakau</dc:description>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:subject xml:lang="pl">okupacja niemiecka w Polsce (1939-1945)</dc:subject>
+    <dc:contributor xml:lang="pl">Biblioteka Jagiellońska</dc:contributor>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, B 23131 II 24</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

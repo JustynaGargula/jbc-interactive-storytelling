@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/871908">
+    <dc:subject xml:lang="pl">Powąska, Henryk (1902-1933)</dc:subject>
+    <dc:title xml:lang="pl">Dr med. Henryk Powązka b. lekarz internista szpitala Powszechnego w Białej [...] zasnął w Panu dnia 28 lutego 1933 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/871908/NDIGDZS086923.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">interniści</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1933</dc:issued>
+    <dc:date xml:lang="pl">1933</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224651 V Pok-Poz 16</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907710</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

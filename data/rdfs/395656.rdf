@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/395656">
+    <dc:subject xml:lang="pl">Polska Wschodnia</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:date xml:lang="pl">[1944]</dc:date>
+    <dc:title xml:lang="pl">Do ludności województw południowo-wschodnich Rzeczypospolitej Polskiej</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/395656/PDF/NDIGDZS021728.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/395656/PDF/NDIGDZS021728.pdf</dc:identifier>
+    <dc:creator xml:lang="pl">Kierownictwo Walki Podziemnej. Okręg Lwowski</dc:creator>
+    <dc:subject xml:lang="pl">okupacja niemiecka (Kresy Wschodnie ; 1941-1944)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401724</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401724</dc:relation>
+    <dc:subject xml:lang="pl">Armia Radziecka</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">[1944]</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399884 III</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

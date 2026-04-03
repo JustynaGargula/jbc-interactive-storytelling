@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/871406">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/871406/NDIGDZS086908.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224651 V Pok-Poz 2</dc:source>
+    <dc:date xml:lang="pl">1935</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Jerzy Pol [...] wnuk ś. p. Wincentego Pola, majora W. P. przeżywszy lat 48 [...] zmarł w Lublinie dnia 23-go listopada 1935 roku [...]</dc:title>
+    <dc:subject xml:lang="pl">Pol, Jerzy (1887?-1935)</dc:subject>
+    <dc:issued xml:lang="pl">1935</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907370</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

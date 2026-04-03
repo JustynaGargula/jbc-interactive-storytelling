@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601374">
+    <dc:issued xml:lang="pl">1874.02.28</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:634197</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:contributor xml:lang="pl">Wałach, A. Red.</dc:contributor>
+    <dc:subject xml:lang="pl">czasopisma polskie 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Werdauskie Wiadomości Misyjne. 1874, nr 2 (28 lutego)</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601374/0001_NDIGCZAS032272_92528134.pdf</dc:identifier>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:publisher xml:lang="pl">L. Otto</dc:publisher>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 1452 II czasop.</dc:source>
+    <dc:subject xml:lang="pl">protestantyzm</dc:subject>
+    <dc:date xml:lang="pl">1874.02.28</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

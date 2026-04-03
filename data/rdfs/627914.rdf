@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/627914">
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">Scribe, Eugène (1791-1861)</dc:subject>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Legouvé, Ernest (1807-1903)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/40</dc:source>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/627914/NDIGDZS019765.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/627914/NDIGDZS019765.pdf</dc:identifier>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398675</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398675</dc:relation>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 42 Artyści Teatru Łódzkiego w teatrze miejscowym, w sobotę dnia 7-go marca 1896 roku benefis Maryi Bissen-Janowskiej, 1-szy raz : Walka kobiet (La bataille de dames)</dc:title>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra vʺ městnomʺ teatrě, vʺ subbotu 24-go fevralâ 1896 goda benefisʺ Marìi Bissenʺ-Ânovskoj, 1-yj razʺ : Borʹba Ženšin (La bataille de dames)</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

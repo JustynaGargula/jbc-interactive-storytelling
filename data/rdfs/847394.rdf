@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847394">
+    <dc:date xml:lang="pl">1900</dc:date>
+    <dc:subject xml:lang="pl">Kościół św. Kazimierza Królewicza (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">nauczyciele</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847394/NDIGDZS074262.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Lubaczewski, Eugeniusz (1878?-1900)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">msza święta</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Lu 379</dc:source>
+    <dc:subject xml:lang="pl">Kaplica Matki Bożej Bolesnej (Kraków ; Kościół św. Franciszka z Asyżu)</dc:subject>
+    <dc:issued xml:lang="pl">1900</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:880351</dc:relation>
+    <dc:title xml:lang="pl">Eugeniusz Lubaczewski : nauczyciel ludowy, [...] zasnął w Panu dnia 9 września 1900 roku</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/630718">
+    <dc:title xml:lang="pl">Bandy bolszewickie zagrażają Tobie i Twemu mieniu! Dlatego o osobach podejrzanych winieneś zawiadomić policję</dc:title>
+    <dc:issued xml:lang="pl">[1944]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:563503</dc:relation>
+    <dc:type xml:lang="pl">plakat</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.3/17</dc:source>
+    <dc:description xml:lang="pl">Plakat powstał w czasie wojny polsko-bolszewickiej w 1920 r., wykorzystany w latach okupacji przez propagandę niemiecką</dc:description>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/630718/NDIGDZS030047.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">wojna polsko-bolszewicka (1919-1920)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">plakaty polityczne</dc:subject>
+    <dc:date xml:lang="pl">[1944]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

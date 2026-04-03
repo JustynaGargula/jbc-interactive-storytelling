@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839487">
+    <dc:title xml:lang="pl">Wielbi Dusza Moja Pana : [Incipit:] Marya-Rozalia-Marcelina-Alfonsyna-Zuzanna-Izabella Xiężniczka Czartoryska urodzona na Woli Justowskiej 19 Września 1871 r. zasnęła w Bogu 14 Lutego 1891 r.</dc:title>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:862075</dc:relation>
+    <dc:subject xml:lang="pl">Czartoryska, Rozalia Maria (1871-1891)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">rozważania i rozmyślania religijne</dc:subject>
+    <dc:issued xml:lang="pl">1891</dc:issued>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:date xml:lang="pl">1891</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839487/NDIGDZS063784.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 175</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

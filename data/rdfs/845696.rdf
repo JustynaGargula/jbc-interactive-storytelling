@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/845696">
+    <dc:title xml:lang="pl">Felicyan Misiński żołnierz z 31. roku [...] przeniósł się w dniu 8 marca do wieczności [...] : Tarnów, 8. marca 1881</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Mie-Mitt 615</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877705</dc:relation>
+    <dc:issued xml:lang="pl">1881</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/845696/NDIGDZS072966.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Misiński, Felicjan (1810?-1881)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:date xml:lang="pl">1881</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

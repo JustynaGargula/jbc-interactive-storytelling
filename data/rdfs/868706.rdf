@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868706">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 381</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901286</dc:relation>
+    <dc:title xml:lang="pl">Józef Górski woźny Towarzystwa Zaliczkowego w Krakowie, urodzony w r. 1857 [...] dnia 18 Listopada 1895 r. zasnął w Panu. [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868706/NDIGDZS085363.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Górski, Józef (1857-1895)</dc:subject>
+    <dc:date xml:lang="pl">1895</dc:date>
+    <dc:issued xml:lang="pl">1895</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Towarzystwo Zaliczkowe (Kraków)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/825185">
+    <dc:creator xml:lang="pl">Gumiński, Wojciech</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:858451</dc:relation>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">Knapczyński, Walenty</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/825185/NDIGDZS058576.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">wiersze</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1829</dc:issued>
+    <dc:title xml:lang="pl">Do Walentego Knapczynskiego</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 15029 III 85</dc:source>
+    <dc:date xml:lang="pl">1829</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

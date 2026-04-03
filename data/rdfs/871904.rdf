@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/871904">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224651 V Pok-Poz 12</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907717</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/871904/NDIGDZS086919.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1934</dc:issued>
+    <dc:date xml:lang="pl">1934</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Porębska, Zofia (1889?-1934)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">nauczyciele</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Zofja Porębska nauczycielka prywatna [...] zasnęła w Panu dnia 30 listopada 1934 r. [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

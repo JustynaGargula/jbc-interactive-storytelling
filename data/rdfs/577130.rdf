@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/577130">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Kundmachung : Der Buchhalter und Korrespondent der hierortigen Dampfmühle giebt sich die Ehre auf wiederholte Aufragen hiermit anzuzeigen</dc:title>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:language xml:lang="pl">yid</dc:language>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224630 V e/20</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/577130/NDIGDZS032342.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600353</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

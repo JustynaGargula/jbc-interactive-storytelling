@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536631">
+    <dc:date xml:lang="pl">ca 1890</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:issued xml:lang="pl">ca 1890</dc:issued>
+    <dc:subject xml:lang="pl">ulotka reklamowa</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536631/NDIGDZS019081.pdf</dc:identifier>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 6/3</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:563816</dc:relation>
+    <dc:title xml:lang="pl">Cennik herbat chińskich i karawanowych handlu hurtownego win i herbat Juliusza Grossego</dc:title>
+    <dc:title xml:lang="pl">Preis-courant feiner chinesischer und russischer caravanen-thees von Julius Grosse wein- und thee-handlung en gros</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

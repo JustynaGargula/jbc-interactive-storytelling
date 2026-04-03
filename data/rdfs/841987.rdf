@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841987">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Antonina z Malinowskich Miziowa po ś. p. Amandzie Mizia Sekretarzu c. k. Dyr. finans. krajowej pozostała wdowa [...], w dniu 6. czerwca 1860 r. z tym pożegnała się światem [...]</dc:title>
+    <dc:subject xml:lang="pl">Mizia, Antonina (1815?-1860)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:875781</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Mec 632</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841987/NDIGDZS070924.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

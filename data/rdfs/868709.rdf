@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868709">
+    <dc:date xml:lang="pl">1896</dc:date>
+    <dc:subject xml:lang="pl">Kościół św. Floriana (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">msza święta</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868709/NDIGDZS085430.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 386</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">ul. Krótka (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901373</dc:relation>
+    <dc:issued xml:lang="pl">1896</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Natalia z Doerflerów Górska Wdowa po Urzędniku-Koncepiście c. k. Kolei Państwowej, przeżywszy lat 28 [...] zasnęła w Panu dnia 29 Czerwca 1896 r. [...]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Górska, Natalia (1798?-1896)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868541">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1865</dc:issued>
+    <dc:title xml:lang="pl">Adam Gołemberski b. Adwokat, Radca b. Rady miejskiej krakowskiej, członek Towarzystwa Dobroczynności i Banku Pobożnego itd. itd. przeżywszy lat 64 [...] rozstał się z tym światem w dniu 10 Marca r. b. […]</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dobroczynności (Kraków)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:897824</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 305</dc:source>
+    <dc:date xml:lang="pl">1865</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868541/NDIGDZS083856.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">adwokaci</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Bank Pobożny (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Gołemberski, Adam (1801-1865)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527729">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, K-1941/7</dc:source>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Bekanntmachung des Beauftragen des Distriktchefs für die Stadt Krakau betr. Pockenschutzimpfung reichsdeutscher Kinder. 100</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:creator xml:lang="pl">Eckert, Reinhold (1902-1943)</dc:creator>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527729/NDIGDZS027759.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:issued xml:lang="pl">1941</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554454</dc:relation>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:date xml:lang="pl">1941</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

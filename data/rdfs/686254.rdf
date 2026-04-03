@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/686254">
+    <dc:type xml:lang="pl">plakat</dc:type>
+    <dc:title xml:lang="pl">Warsaw 1939 1944</dc:title>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">plakaty polityczne</dc:subject>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:681105</dc:relation>
+    <dc:creator xml:lang="pl">Lipinsky, Lino Sigismondo (1908-1988)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 203</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/846273">
+    <dc:date xml:lang="pl">1887</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/846273/NDIGDZS072831.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Li 258</dc:source>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877827</dc:relation>
+    <dc:issued xml:lang="pl">1887</dc:issued>
+    <dc:subject xml:lang="pl">Liechtenstein, Franz von und zu (1802-1887)</dc:subject>
+    <dc:title xml:lang="pl">Alfred Prinz von und zu Liechtenstein, k. k. Rittmeister a. D., gibt im eigenen und in jenem seiner Mutter, [...] Nachricht von dem tiefbetrübenden Hinscheiden seines Vaters, des durchlauchtigen Herrn Franz Fürsten von und zu Liechtenstein, k. k. General der Cavallerie i. R., [...] welcher Donnerstag den 31. März 1887, um 4 Uhr Nachmittags, nach Empfang der heiligen Sterbe-Sacramente im 86. Lebensjahre selig im Herrn entschlafen ist</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

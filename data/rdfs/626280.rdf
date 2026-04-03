@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/626280">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Kotarbiński, Józef (1849-1928)</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra vʺ městnomʺ teatrě vʺ subbotu 9-go marta 1896 goda, prošalnaâ gastrolʹ Ìosifa Kotarbinskago : Faustʺ, tragedìâ vʺ 5-ti dějstvìahʺ, soč. Gette</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398709</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398709</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/47</dc:source>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:subject xml:lang="pl">Goethe, Johann Wolfgang von (1749-1832)</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:title xml:lang="pl">No 49 Artyści Teatru Łódzkiego w teatrze miejscowym, w sobotę dnia 21-go marca 1896 roku pożegnalny występ Józefa Kotarbińskiego : Faust, tragedja w 5-ciu aktach, przez F. Goethe</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/626280/NDIGDZS019749.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/626280/NDIGDZS019749.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

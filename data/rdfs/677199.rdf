@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677199">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:date xml:lang="pl">1883</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608909</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Ślizgawka w Łazienkach urządzona przez Warszawski Rzeczny-Jacht-Klub, w piątek dnia 18 lutego (2 marca) 1883 roku, ostatnia Illuminacja i Wielki Fajerwerk</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749994 V 3</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Katok v Lazenkah ustroennyj Varšavskim Rěčnym Âht-Klubom, v pâtnicu 18 fevralâ (2 marta) 1883 goda, Prošalʹnaâ Illûminacìâ s bolʹšim Fejerverkom</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677199/NDIGDZS035037.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1883</dc:issued>
+    <dc:publisher xml:lang="pl">Drukarnia i Litografia „Jan Cotty”</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527638">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554318</dc:relation>
+    <dc:date xml:lang="pl">1939</dc:date>
+    <dc:title xml:lang="pl">Do mieszkańców Lwowa!</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527638/NDIGDZS025165.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 232</dc:source>
+    <dc:issued xml:lang="pl">1939</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822982">
+    <dc:title xml:lang="pl">Leon Kaczyński [...] przeżywszy lat 58 [...] zmarł dnia 13 lipca 1912 roku [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ka-Ke 8</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822982/NDIGDZS055937.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1912</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1912</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Kaczyński, Leon (1854?-1912)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:850180</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

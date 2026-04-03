@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/626131">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398684</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398684</dc:relation>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:title xml:lang="pl">No 30 Artyści Teatru Łódzkiego, drugi występ Gabryeli Zapolskiej, w teatrze miejscowym w niedzielę dnia 16 lutego 1896 roku : Kaśka Karjatyda, melodramat w 6-ciu obrazach, ze śpiewami i tańcami, przez Gabryelę Zapolską, w akcie 2-gim Tańce : Kołomyjka i Oberek</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/29</dc:source>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/626131/NDIGDZS019745.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/626131/NDIGDZS019745.pdf</dc:identifier>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra, vtoraâ gastrolʹ Gabrìèli Zapolʹskoj vʺ městnom teatrě vʺ voskresenìe 4-go fevralâ 1896 goda : Kasʹka Karìatida, melodrama vʺ 6-ti kartinahʺ, sʺ pĕnìemʺ i tancami, origin. soč. Gabrìèli Zapolʹskoj, vo 2-mʺ dějstvìi Tancy : Kolomyjka i Oberekʺ</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

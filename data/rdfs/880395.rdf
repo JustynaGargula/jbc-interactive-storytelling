@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/880395">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/880395/NDIGDZS090156.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Wielkie Księstwo Meklemburgii-Schwerin (1815-1918)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Hof-Trauer, welche für weiland Ihre konigliche Hoheit Anna Maria Wilhelmine, Grossherzogin von Mecklenburg-Schwerin, auf allerhöchste Anordnung, von Dinstag, den 18. April 1865, angefangen, durch zehn Tage, ohne Abwechslung, bis einschlüssig 27. April getragen wird</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910970</dc:relation>
+    <dc:date xml:lang="pl">1865</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1865</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Rara A 73</dc:source>
+    <dc:subject xml:lang="pl">żałoba narodowa</dc:subject>
+    <dc:subject xml:lang="pl">Anna Maria Wilhelmina (wielka księżna Meklemburgii-Schwerin ; 1843-1865)</dc:subject>
+    <dc:subject xml:lang="pl">książęta i księżne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617024">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">https://polona.pl/item/12816 Niewolnice z Pipidówki : komedja w 4 aktach</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/34</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/29857 Niewolnice z Pipidówki. Komedya w 4 aktach przez Michała Bałuckiego</dc:relation>
+    <dc:title xml:lang="pl">Nr 140 Na cele dobroczynne, teatr amatorski w Wieliczce, w niedzielę dnia 13. marca 1898 w Sali teatralnej miejscowej : Niewolnice z Pipidówki, komedya w czterech aktach Michała Bałuckiego</dc:title>
+    <dc:issued xml:lang="pl">1898</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602459</dc:relation>
+    <dc:publisher xml:lang="pl">J. Litwiński</dc:publisher>
+    <dc:date xml:lang="pl">1898</dc:date>
+    <dc:subject xml:lang="pl">Bałucki, Michał (1837-1901)</dc:subject>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617024/NDIGDZS033092.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648369">
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">czasopisma polskie 20 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686719</dc:relation>
+    <dc:subject xml:lang="pl">czasopisma społeczno-kulturalne polskie</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">czasopisma regionalne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 7054 III czasop.</dc:source>
+    <dc:publisher xml:lang="pl">Wł. Łukasik</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648369/0003_NDIGCZAS039345_103540455.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:issued xml:lang="pl">1936.02.15</dc:issued>
+    <dc:title xml:lang="pl">Zwierciadło z nad Wisłoki : niezależny organ publicystyczny Dębicy. [R.2], nr 3 (15 lutego 1936)</dc:title>
+    <dc:date xml:lang="pl">1936.02.15</dc:date>
+    <dc:contributor xml:lang="pl">Łukasik, Wł. Red.</dc:contributor>
+  </rdf:Description>
+</rdf:RDF>
+

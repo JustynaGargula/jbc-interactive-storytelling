@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/491653">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Antrag auf Erteilung eines Bedarfscheines für Spinnstoff- und Lederwaren</dc:title>
+    <dc:subject xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką)</dc:subject>
+    <dc:date xml:lang="pl">ca 1945</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:517772</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:issued xml:lang="pl">ca 1945</dc:issued>
+    <dc:title xml:lang="pl">Wniosek na udzielenie karty zapotrzebowania towarów tekstylnych i skóry</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, B 23131 II 45</dc:source>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:contributor xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką). Stadthauptmann (Kraków)</dc:contributor>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/491653/NDIGDZS026204.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

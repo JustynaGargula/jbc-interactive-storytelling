@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/383626">
+    <dc:creator xml:lang="pl">Grupa „Szańca”</dc:creator>
+    <dc:title xml:lang="pl">Bracia - rocznica!</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401328</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401328</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:issued xml:lang="pl">[1943]</dc:issued>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:subject xml:lang="pl">polskie organizacje podziemne</dc:subject>
+    <dc:date xml:lang="pl">[1943]</dc:date>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/383626/PDF/NDIGDZS021382.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/383626/PDF/NDIGDZS021382.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399875 III</dc:source>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

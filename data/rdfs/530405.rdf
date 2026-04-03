@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/530405">
+    <dc:subject xml:lang="pl">Lewicki, Feliks (1844-1887)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/530405/NDIGDZS018910.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:557424</dc:relation>
+    <dc:title xml:lang="pl">Na Jubileusz 50-letniej działalności F.H. Duchińskiego d.10 października 1885 w Sali Rady Miejskiej odbędzie się odczyt : Dwie cywilizacye p. Feliksa Lewickiego</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 13</dc:source>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

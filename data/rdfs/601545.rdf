@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601545">
+    <dc:description xml:lang="pl">Miclesco, Natalie. Adr. ded.</dc:description>
+    <dc:title xml:lang="pl">Fleurs de Korczyn : quadrilles pour le piano : op. 63</dc:title>
+    <dc:subject xml:lang="pl">nuty 19 w.</dc:subject>
+    <dc:publisher xml:lang="pl">Księgarnia H. W. Kallenbacha [etc.]</dc:publisher>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. 13915 III</dc:source>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601545/NDIGMUZ035418.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">kadryle (fortepian) 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">ca 1855</dc:issued>
+    <dc:creator xml:lang="pl">Ruckgaber, Jan (1799-1876)</dc:creator>
+    <dc:date xml:lang="pl">ca 1855</dc:date>
+    <dc:type xml:lang="pl">druk muzyczny</dc:type>
+    <dc:subject xml:lang="pl">muzyka na fortepian 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:555293</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

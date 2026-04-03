@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510167">
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">Biblioteka Jagiellońska</dc:subject>
+    <dc:relation xml:lang="pl">https://jbc.bj.uj.edu.pl/publication/535794 Program zur feierlichen Eröffnung der Staatsbibliothek in Krakau am Freitag, den 4. April 1941</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Staatsbibliothek Krakau</dc:subject>
+    <dc:date xml:lang="pl">1941</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Einladung zur feierlichen Eröffnung der Staatsbibliothek in Krakau durch den Herrn Generalgouverneur Reichsminister Dr. Frank am Freitag, den 4. April 1941</dc:title>
+    <dc:subject xml:lang="pl">Frank, Hans (1900-1946)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 28</dc:source>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">zaproszenia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535788</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510167/NDIGDZS025678.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1941</dc:issued>
+    <dc:subject xml:lang="pl">okupacja niemiecka w Polsce (1939-1945)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

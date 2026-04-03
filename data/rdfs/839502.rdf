@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839502">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">rozważania i rozmyślania religijne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:862321</dc:relation>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:subject xml:lang="pl">Kraus, Johann Bapt (1837-1879)</dc:subject>
+    <dc:date xml:lang="pl">1879</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Zum frommen Andenken an den hochwürdigen Herrn Johann Bapt. Kraus, Pfarrer, Kammerer und Distriktsschulinspector : Geb. den 27. August 1837 in Dillingen [...], Pfarrer von Illertissen seit dem 28. Mai 1874, gest. daselbst den 25. Februar 1879</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:subject xml:lang="pl">modlitwa wstawiennicza</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 177</dc:source>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839502/NDIGDZS064105.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1879</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617097">
+    <dc:publisher xml:lang="pl">J. Litwiński</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/41</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1898</dc:issued>
+    <dc:title xml:lang="pl">Nr 142 Na fundusz budowy pomnika A. Mickiewicza w Parku tutejszym, teatr amatorski w Wieliczce, w niedzielę dnia 22 maja 1898 w sali teatralnej miejscowej : Wieczorek muzykalno-wokalno-deklamacyjno-dramatyczny Adama Mickiewicza</dc:title>
+    <dc:subject xml:lang="pl">Mickiewicz, Adam (1798-1855)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602326</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1898</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617097/NDIGDZS033590.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

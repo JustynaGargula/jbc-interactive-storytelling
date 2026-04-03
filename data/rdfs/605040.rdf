@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/605040">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/605040/NDIGDZS027068.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:title xml:lang="pl">Anordnung betr. die Fortdauer von Arbeitsverhältnissen und die Wiedereinstellung von Arbeitern und Angestellten</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:555508</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, K-1939/2</dc:source>
+    <dc:issued xml:lang="pl">1939</dc:issued>
+    <dc:title xml:lang="pl">Rozporządzenie w sprawie dalszego trwania stosunków (umów) pracy oraz ponownego przyjmowania do zajęć robotników i pracowników umysłowych</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">1939</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600795">
+    <dc:date xml:lang="pl">ca 1860</dc:date>
+    <dc:issued xml:lang="pl">ca 1860</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:description xml:lang="pl">Dokument wielotomowy: Deux polkas pour le piano</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567266</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. 8164 III 1</dc:source>
+    <dc:publisher xml:lang="pl">Juliusz Wildt</dc:publisher>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600795/NDIGMUZ036370.pdf</dc:identifier>
+    <dc:type xml:lang="pl">druk muzyczny</dc:type>
+    <dc:title xml:lang="pl">La bluette : polka mazurka : op. 13</dc:title>
+    <dc:creator xml:lang="pl">Peters, Karol</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

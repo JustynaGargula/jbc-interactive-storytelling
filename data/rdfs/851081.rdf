@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/851081">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:883894</dc:relation>
+    <dc:subject xml:lang="pl">Władysław II Jagiełło (król Polski ; ok. 1351-1434)</dc:subject>
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/851081/NDIGDZS076302.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">ulotka</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:title xml:lang="pl">W pięćsetną rocznicę Chrztu Władysława Jagiełły w katedrze na Wawelu Wielebnego Księcia Dobrodzieja uprasza X. Podkustoszy o łaskawe przybycie do katedry na Mszę Śtą na własną intencyę o godzinie 6ej</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Ja 9</dc:source>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">rocznice</dc:subject>
+    <dc:subject xml:lang="pl">chrzest</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

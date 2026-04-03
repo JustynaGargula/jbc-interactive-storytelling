@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/852904">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Obwieszczenie tyczące się obiegu Monet i Papierów Bankowych (Banknoten) na territorium Krakowskiem : Kraków 21 stycznia 1847 r. = Kundmachung in Betreff des Münz und Banknoten Amlaufes im Krakauer Gebiethe : Krakau am 21. Jänner 1847 / Maurycy Hr. Deym, C. K. Komissarz Nadworny = Moriz Graf Deym</dc:title>
+    <dc:subject xml:lang="pl">ekonomia</dc:subject>
+    <dc:subject xml:lang="pl">gospodarka</dc:subject>
+    <dc:issued xml:lang="pl">1847</dc:issued>
+    <dc:subject xml:lang="pl">finanse</dc:subject>
+    <dc:creator xml:lang="pl">Deym, Moritz (1803-1852)</dc:creator>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877951</dc:relation>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224778 IV C I 1</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:date xml:lang="pl">1847</dc:date>
+    <dc:subject xml:lang="pl">obwieszczenie</dc:subject>
+    <dc:subject xml:lang="pl">Wielkie Księstwo Krakowskie (1846-1918)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/852904/NDIGDZS070872.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

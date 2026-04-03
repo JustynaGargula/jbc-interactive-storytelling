@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868317">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Kościół św. Barbary (Kraków)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901048</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868317/NDIGDZS085379.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1887</dc:issued>
+    <dc:subject xml:lang="pl">ul. Franciszkańska (Kraków)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Górska, Helena (1834-1887)</dc:subject>
+    <dc:date xml:lang="pl">1887</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Helena z Mężeńskich Górska urodzona dnia 20 Maja 1834 roku [...] zgasła w Panu dnia 21 Maja 1887 r. […]</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 379</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

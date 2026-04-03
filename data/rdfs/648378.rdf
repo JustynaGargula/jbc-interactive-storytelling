@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648378">
+    <dc:title xml:lang="pl">Kronika ważniejszych wypadków w Grecji, głównie politycznych, pisana od dnia 3 lutego 1915 r. do 25 czerwca 1925 r. przez Zygmunta Mineykę. T. 28: „Dalszy ciąg rządów Wenizelisa [Elefterios Wenizelos], od dnia 24go września 1920 r. aż do dnia 17go listopada [1920]. T. XIV”</dc:title>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/648378/NDIGORP023530.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648378/NDIGORP023530.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1920</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Mineyko, Zygmunt (1840-1925)</dc:creator>
+    <dc:date xml:lang="pl">1920</dc:date>
+    <dc:language xml:lang="pl">gre</dc:language>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:411181</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:411181</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 7094 I t. 28</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

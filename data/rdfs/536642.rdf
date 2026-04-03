@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536642">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 6/5</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536642/NDIGDZS019084.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Cennik handlu towarów żelaznych Ludwik Halski</dc:title>
+    <dc:subject xml:lang="pl">ulotka reklamowa</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:563828</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">1890</dc:issued>
+    <dc:date xml:lang="pl">1890</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600742">
+    <dc:title xml:lang="pl">Oratio De præsumptione &amp; desperatione, morum &amp; studiorum impedimentis. A M. Laurentio Swiczkowic Smiałecki [...] Anno Domini M DC. XXIV, Die 1. Aprilis [...] Habita....</dc:title>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:coverage xml:lang="pl">17 w.</dc:coverage>
+    <dc:creator xml:lang="pl">Świczkowic, Wawrzyniec (15..-16..)</dc:creator>
+    <dc:description xml:lang="pl">Zawiera: Herb własny Zasławskich</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567515</dc:relation>
+    <dc:issued xml:lang="pl">1626</dc:issued>
+    <dc:description xml:lang="pl">Zasławski, Władysław Dominik (1618 -1656). Adr. ded.</dc:description>
+    <dc:date xml:lang="pl">1626</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600742/NDIGSTDR035493.pdf</dc:identifier>
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 221924 I</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

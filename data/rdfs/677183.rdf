@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677183">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Henryk Siemiradzki swój obraz Pochodnie Nerona ofiarował miastu do Sukiennic na pożytek kraju</dc:title>
+    <dc:date xml:lang="pl">1879</dc:date>
+    <dc:issued xml:lang="pl">1879</dc:issued>
+    <dc:subject xml:lang="pl">Siemiradzki, Henryk (1843-1902)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602385</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 6a</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677183/NDIGDZS029262.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

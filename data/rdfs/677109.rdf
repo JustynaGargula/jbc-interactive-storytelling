@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677109">
+    <dc:title xml:lang="pl">An die evangelische Geistlichkeit in Pohlen</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 9409 II czasop.</dc:source>
+    <dc:creator xml:lang="pl">Diehl, Karol (1765-1831)</dc:creator>
+    <dc:subject xml:lang="pl">kościoły protestanckie</dc:subject>
+    <dc:title xml:lang="pl">Do duchowieństwa ewangelickiego w Polszcze</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:617968</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1812</dc:date>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677109/NDIGCZAS028361.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Księstwo Warszawskie (1807-1815)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:issued xml:lang="pl">1812</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

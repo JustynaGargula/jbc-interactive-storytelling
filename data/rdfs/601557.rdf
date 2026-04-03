@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601557">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:536211</dc:relation>
+    <dc:contributor xml:lang="pl">Spaczek, A. Red.</dc:contributor>
+    <dc:description xml:lang="pl">Południk zerowy: Ferro</dc:description>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Kaiserlich-Königliches Militär-Geographisches Institut</dc:subject>
+    <dc:date xml:lang="pl">1903</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601557/1-NDIGKART033904_0001.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1903</dc:issued>
+    <dc:subject xml:lang="pl">kartografia</dc:subject>
+    <dc:publisher xml:lang="pl">K. u k. militär-geographisches Institut</dc:publisher>
+    <dc:type xml:lang="pl">mapa</dc:type>
+    <dc:description xml:lang="pl">Seria: Spezialkarte der österreichisch-ungarischen Monarchie 1:75.000</dc:description>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Kartogr. M 37/1 480</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">mapy 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Austro-Węgry</dc:subject>
+    <dc:contributor xml:lang="pl">Smeu, Paul. Red.</dc:contributor>
+    <dc:title xml:lang="pl">Bekes - Csaba : Zone 19 Col. XXIV</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

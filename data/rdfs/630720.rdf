@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/630720">
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/630720/NDIGDZS030049.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:555517</dc:relation>
+    <dc:issued xml:lang="pl">[1944]</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.3/23</dc:source>
+    <dc:type xml:lang="pl">plakat</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:title xml:lang="pl">Dostaw na czas i jak najwięcej!</dc:title>
+    <dc:subject xml:lang="pl">plakaty polityczne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1944]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

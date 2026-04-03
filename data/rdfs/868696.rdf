@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868696">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 365</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:900495</dc:relation>
+    <dc:issued xml:lang="pl">1884</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1884</dc:date>
+    <dc:title xml:lang="pl">Paweł Górka c. k. notaryusz w Rawie w 60 roku życia [...] w dniu 17 Listopada 1884 o godzinie 6 rano zakończył doczesne życie [...]</dc:title>
+    <dc:subject xml:lang="pl">Górka, Paweł (1824?-1884)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868696/NDIGDZS084656.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">notariusze</dc:subject>
+    <dc:subject xml:lang="pl">Rawa Ruska (Ukraina, obw. lwowski, rej. żółkiewski)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

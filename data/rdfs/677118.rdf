@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677118">
+    <dc:publisher xml:lang="pl">J. Dankiewicz</dc:publisher>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 29/10</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605676</dc:relation>
+    <dc:title xml:lang="pl">Donesenê teatralʹne, pôpisana direkcìâ ruskago narodnago teatru, maê čestʹ zavědomiti Vysoko Považanu Publiku, šo prigotovlâê i niêzadovgo peredstavit, po raz peršìj Pavlo Polubotok nakaznyj getman Ukrainy</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Doniesienie teatralne, podpisana Dyrekcya ruskiego narodowego teatru ma zaszczyt zawiadomić Szanowną P. T. Publicznosc, że przygotowuje i wkrótce przedstawi Pawło Połubotok nakaźny hetman Ukrainy</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">[1860-1890]</dc:date>
+    <dc:issued xml:lang="pl">[1860-1890]</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677118/NDIGDZS031799.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

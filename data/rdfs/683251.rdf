@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/683251">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608927</dc:relation>
+    <dc:subject xml:lang="pl">Zakłady Drukarsko-Litograficzne „Jan Kanty Trzebiński” (Radom)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 699980 V 2</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1906</dc:issued>
+    <dc:publisher xml:lang="pl">Jan Kanty Trzebiński</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:date xml:lang="pl">1906</dc:date>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/683251/NDIGDZS035078.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Uniwersytet Ludowy Ziemi Radomskiej, w niedzielę dnia 2 grudnia r. b. w sali Resursy miejscowej p. Józef Lange wypowie dwa odczyty „Prawa kobiety, jako żony i matki”, „Państwo nowoczesne”</dc:title>
+    <dc:title xml:lang="pl">Narodnyj Universitet Radomskoj Gubernìi, v voskresenʹe 19 noâbrâ s.g. v zalpopolyd. v zalě městnago Obšestvennago Sobranìâ budut pročteny dvě lekcìi gospodinom Ûzefom Lânge „Prava ženŝiny, kak ženy i mteri”, „Novovremenoe gosydarstvo”</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/873598">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:title xml:lang="pl">Stefan Szymczykiewicz : słuchacz II. roku politechniki lwowskiej, [...] zasnął w Panu dnia 21 maja 1900 roku</dc:title>
+    <dc:subject xml:lang="pl">Szymczykiewicz, Stefan (1880?-1900)</dc:subject>
+    <dc:issued xml:lang="pl">1900</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/873598/NDIGDZS088142.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">studenci</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908312</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Szy 1147</dc:source>
+    <dc:date xml:lang="pl">1900</dc:date>
+    <dc:subject xml:lang="pl">Cesarsko-Królewska Szkoła Politechniczna (Lwów)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

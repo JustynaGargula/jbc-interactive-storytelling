@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/884901">
+    <dc:date xml:lang="pl">1870</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/884901/NDIGDZS092165.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Liebeskind, August Heinrich (1800-1870)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Lipsk (Niemcy)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:916585</dc:relation>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1870</dc:issued>
+    <dc:title xml:lang="pl">Nachdem es Gott dem Allmächtigen gefallen hat, meinen geliebten Vater August Heinrich Liebeskind im 71. Lebensjahr am 14. October in das jenseitige Leben abzurufen, geht die Leitung des von uns seit 1/ Mai 1865 gemeinschaflich geführten Geschäftes A. G. Liebeskind auf mich allein über [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V L 43</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

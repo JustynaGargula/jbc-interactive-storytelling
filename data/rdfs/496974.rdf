@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/496974">
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/496974/NDIGDZS022686.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/496974/NDIGDZS022686.pdf</dc:identifier>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:410132</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:410132</dc:relation>
+    <dc:creator xml:lang="pl">Grupa Zjednoczonych byłych Organizacji Polskich Socjalistów</dc:creator>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639987 III 9</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:creator xml:lang="pl">Socjalistyczna Organizacja Bojowa. Komenda</dc:creator>
+    <dc:creator xml:lang="pl">Grupa „Płomienie”</dc:creator>
+    <dc:title xml:lang="pl">Deklaracja Grupy Zjednoczonych b. org. Polskich Socjalistów</dc:title>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

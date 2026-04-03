@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/842004">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Mec 513</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/842004/NDIGDZS071331.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">Mieroszewski, Jan Stanisław (1827-1900)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:date xml:lang="pl">1877</dc:date>
+    <dc:subject xml:lang="pl">Oesterlé-Mieroszewska, Emilia (1828-1877)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:875794</dc:relation>
+    <dc:title xml:lang="pl">Graf Stanislaus Mieroszowski in eigenen Namen [...] erfüllt die traurige Pflicht zu benachrichtigen [...] am 11. December 1877 zu Krakau die innigstgeliebte Gräfin Emilie Mieroszowski-Oesterlé [...] sanft im Herrn enschlaften ist [...]</dc:title>
+    <dc:issued xml:lang="pl">1877</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

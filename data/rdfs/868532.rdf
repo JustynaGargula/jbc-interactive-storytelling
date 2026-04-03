@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868532">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">ul. Długa (Kraków)</dc:subject>
+    <dc:title xml:lang="pl">Tomasz Golachowski Majster krawiecki i Obywatel m. Krakowa, przeżywszy lat 66 [...] zmarł dnia 19 Listopada 1881 roku [...]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Golachowski, Tomasz (1815?-1881)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1881</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:897811</dc:relation>
+    <dc:issued xml:lang="pl">1881</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 291</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868532/NDIGDZS083503.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">krawcy</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

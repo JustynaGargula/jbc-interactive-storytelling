@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648337">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:683171</dc:relation>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:title xml:lang="pl">„Wasil, Kyryło i Fedko. Ekloga Moskiewska”</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 10865 I</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Niemcewicz, Julian Ursyn (1758-1841)</dc:creator>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648337/NDIGORP040464.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

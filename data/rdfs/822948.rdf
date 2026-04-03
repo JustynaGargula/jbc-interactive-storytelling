@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822948">
+    <dc:issued xml:lang="pl">1917</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822948/NDIGDZS055501.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Teofil Jaworski majster krawiecki [...] przeżywszy lat 57 [...] zasnął w Panu dnia 8 maja 1917 roku [...]</dc:title>
+    <dc:date xml:lang="pl">1917</dc:date>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:848277</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 40</dc:source>
+    <dc:subject xml:lang="pl">Jaworski, Teofil</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

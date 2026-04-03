@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466085">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466085/NDIGDZS023804.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491766</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">Józef Pisz</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Teatr Krakowski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Abonament 5-ty. Przedostatnie przedstawienie Teatr Krakowski w Krynicy. We środę dnia 12 września 1866 : Niema męża w domu, komedja w dwóch aktach P. P. Scribe, Carmoin i Grange, tłómaczona z franc. p. W. Thulliego</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1866</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 14/45</dc:source>
+    <dc:issued xml:lang="pl">1866</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

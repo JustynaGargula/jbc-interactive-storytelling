@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/577135">
+    <dc:title xml:lang="pl">Circus Olimpico Equestro Italiano Sidoli 4te grosse Vorstellung</dc:title>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600342</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/577135/NDIGDZS032433.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Circus Olimpico Equestro Italiano Sidoli 4te wielkie przedstawienie</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">Circus Olimpico</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224630 V b/9</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536649">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536649/NDIGDZS019087.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:563835</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 6/8</dc:source>
+    <dc:date xml:lang="pl">ca 1890</dc:date>
+    <dc:issued xml:lang="pl">ca 1890</dc:issued>
+    <dc:subject xml:lang="pl">ulotka reklamowa</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Kuchnie z żelaza kutego z bratrurami i kociołkami</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

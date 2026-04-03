@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601533">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Gustaw Sennewald</dc:publisher>
+    <dc:contributor xml:lang="pl">Horbowski, Mieczysław (1849-1937). Oprac.</dc:contributor>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:issued xml:lang="pl">ca 1878</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554610</dc:relation>
+    <dc:type xml:lang="pl">druk muzyczny</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. 35247 IV</dc:source>
+    <dc:description xml:lang="pl">Wyciąg fortepianowy</dc:description>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:description xml:lang="pl">Seria: Perły i Kwiaty</dc:description>
+    <dc:contributor xml:lang="pl">Radziszewski, Maksymilian (1828- ). Tł.</dc:contributor>
+    <dc:creator xml:lang="pl">Rossini, Gioacchino (1792-1868)</dc:creator>
+    <dc:title xml:lang="pl">Stwórco mój : modlitwa</dc:title>
+    <dc:date xml:lang="pl">ca 1878</dc:date>
+    <dc:title xml:lang="pl">(Giusto ciel)</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601533/NDIGMUZ035019.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ita</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/420872">
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:410128</dc:relation>
+    <dc:subject xml:lang="pl">Grupa „Szańca”</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:410128</dc:relation>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Czy znasz ekspozytury Kominternu działające obecnie w Polsce?</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">ca 1944</dc:date>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">ca 1944</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639987 III 7</dc:source>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/420872/PDF/NDIGDZS022625.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/420872/PDF/NDIGDZS022625.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/602044">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:634607</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Dziś we czwartek to jest dnia 12. marca 1825 roku : na dochod [!] Mińskiego Maryańskiego Szpitala Dobroczynności będzie dany na fortepianie koncert</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 4,1</dc:source>
+    <dc:subject xml:lang="pl">Miński Mariański Szpital Dobroczynności</dc:subject>
+    <dc:subject xml:lang="pl">koncert fortepianowy</dc:subject>
+    <dc:issued xml:lang="pl">[1825]</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/602044/NDIGMUZ032366.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1825]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

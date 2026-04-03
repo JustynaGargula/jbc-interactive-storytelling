@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867006">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Sza 920</dc:source>
+    <dc:issued xml:lang="pl">1879</dc:issued>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867006/NDIGDZS084507.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1879</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Nowy Cmentarz Żydowski (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Szancer, Leon (1802-1879)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:902005</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Leon Szancer : b. sztabslekarz b. wojsk polskich, [...] w nocy z dnia 12go na 13ty Grudnia 1879 roku [...] przeniósł się do wieczności</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">lekarze wojskowi</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

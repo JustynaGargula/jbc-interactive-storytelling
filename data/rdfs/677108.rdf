@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677108">
+    <dc:issued xml:lang="pl">ca 1895</dc:issued>
+    <dc:publisher xml:lang="pl">Andreas Mädler</dc:publisher>
+    <dc:subject xml:lang="pl">Mickiewicz, Adam (1798-1855)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:399845</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:399845</dc:relation>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/677108/NDIGDZS020957.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677108/NDIGDZS020957.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 2/6</dc:source>
+    <dc:title xml:lang="pl">Czytelnia polska w Białej urządza w sobotę dnia 1-go grudnia b. r. wieczorek na cześć Adama Mickiewicza : rozpocznie Adama Mickiewicza Dziady cz. II, zakończy Adama Mickiewicza Konfederaci barscy akt. II</dc:title>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">ca 1895</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

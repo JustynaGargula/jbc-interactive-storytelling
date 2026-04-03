@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/683233">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Na Krasinskoj Plošadi Bolʹšaâ Panorama i Dikâ Zvěri, vystavka kartin iz russko-tureckoj vojny</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 334584 V 1</dc:source>
+    <dc:publisher xml:lang="pl">Drukarnia i Litografia „Jan Cotty”</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/683233/NDIGDZS034981.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608661</dc:relation>
+    <dc:date xml:lang="pl">1882</dc:date>
+    <dc:title xml:lang="pl">Na Placu Krasińskim Wielka Panorama Dzikie Zwierzęta, obrazy z wojny russko-tureckiej</dc:title>
+    <dc:issued xml:lang="pl">1882</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

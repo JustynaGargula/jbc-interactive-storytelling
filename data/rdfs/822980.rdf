@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822980">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822980/NDIGDZS055891.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ka-Ke 6</dc:source>
+    <dc:subject xml:lang="pl">Kaczorowski, Jan (1853?-1905)</dc:subject>
+    <dc:date xml:lang="pl">1905</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:850135</dc:relation>
+    <dc:title xml:lang="pl">O. Jan Kaczorowski Definitor i Kaznodzieja Zakonu Braci Mniejszych (OO. Bernardynów) [...] zmarł dnia 2-go marca 1905 r. [...] w 52 roku życia [...]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1905</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

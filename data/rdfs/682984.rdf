@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/682984">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1884</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Na dochód Władysława Münza, Teatr Polski pod dyrekcyą Antoniego Kattnera, w sobotę 29 marca 1884 : Chrześcijanin i Żydówka, najnowszy komedjo-dramat w 4 aktach E. Lubowskiego</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/682984/NDIGDZS034591.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Lubowski, Edward (1837-1923)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 40/2</dc:source>
+    <dc:date xml:lang="pl">1884</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608457</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

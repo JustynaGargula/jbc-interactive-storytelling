@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600797">
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:title xml:lang="pl">Biuletyn Urzędu Regulacji Energetyki. 2018, nr 3</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oc 000035</dc:source>
+    <dc:relation xml:lang="pl">http://www.ure.gov.pl/portal/pl/504/Biuletyn_Urzedu_Regulacji_Energetyki.html Urząd Regulacji Eneregtyki</dc:relation>
+    <dc:subject xml:lang="pl">Urząd Regulacji Energetyki</dc:subject>
+    <dc:type xml:lang="pl">e-czasopismo</dc:type>
+    <dc:date xml:lang="pl">2018.09.28</dc:date>
+    <dc:subject xml:lang="pl">przemysły energetyczne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:633616</dc:relation>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">2018.09.28</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

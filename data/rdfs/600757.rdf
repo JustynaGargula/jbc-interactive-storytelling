@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600757">
+    <dc:title xml:lang="pl">Paramydion Ex gloriosissimo Redemptoris nostri Domini Iesv Christi Resvrgentis de Morte, &amp; Inferno Triumpho Conceptvm Ac pro Xenio Paschali deuoto afectu [...] Gabrieli Ochocki [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600757/NDIGSTDR035669.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1642]</dc:date>
+    <dc:description xml:lang="pl">Zawiera: herb Ostoja Gabrila Ochockiego</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567507</dc:relation>
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:creator xml:lang="pl">Żyznowski, Stanisław (16..-16..)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 2089 I</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:issued xml:lang="pl">[1642]</dc:issued>
+    <dc:description xml:lang="pl">Ochocki, Gabriel (ca 1601-1673). Adr. ded.</dc:description>
+    <dc:publisher xml:lang="pl">Walerian Piątkowski</dc:publisher>
+    <dc:coverage xml:lang="pl">[17 w.]</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

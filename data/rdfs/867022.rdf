@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867022">
+    <dc:title xml:lang="pl">Mikołaj Szauer : Obywatel Miasta Krakowa, [...] rozstał się z tym światem dnia 26go Lutego 1862 r.</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Sza 935</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:date xml:lang="pl">1862</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:902017</dc:relation>
+    <dc:subject xml:lang="pl">Zwierzyniec (Kraków ; część miasta)</dc:subject>
+    <dc:issued xml:lang="pl">1862</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867022/NDIGDZS084707.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Szauer, Mikołaj (1788?-1862)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

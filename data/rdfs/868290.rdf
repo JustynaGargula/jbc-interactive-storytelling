@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868290">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:899130</dc:relation>
+    <dc:subject xml:lang="pl">Wieliczka (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">Golian, Zygmunt (1824-1885)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Osoby pragnące uczestniczyć w pogrzebie ś. p. X. Zygmunta Goliana mającym się odbyć we Wtorek dnia 24 Lutego o godz. 10 zrana w Wieliczce [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868290/NDIGDZS084186.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Kościół Mariacki (Kraków)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 315a</dc:source>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

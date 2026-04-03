@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/432171">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399874 III 25</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:creator xml:lang="pl">Krämer, Josef (1904-1980)</dc:creator>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Do Nie-niemieckiej Ludności miasta Krakau! : zarządzenie w sprawie nowego spisu mieszkań i lokali użytkowych oraz skontrolowania ich wykorzystania na obszarze miasta Krakau z dnia 1.6.1944</dc:title>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:456839</dc:relation>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/432171/NDIGDZS021372.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

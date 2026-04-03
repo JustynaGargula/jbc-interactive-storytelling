@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514026">
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537235</dc:relation>
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:title xml:lang="pl">An die polnische Bevölkerung!</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.2/1</dc:source>
+    <dc:publisher xml:lang="pl">ZKW Druck Krakau</dc:publisher>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514026/NDIGDZS027932.pdf</dc:identifier>
+    <dc:creator xml:lang="pl">Frank, Hans (1900-1946)</dc:creator>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Do Polaków!</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

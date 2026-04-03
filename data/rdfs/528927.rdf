@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/528927">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/528927/NDIGDZS018903.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">ca 1940</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 5</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Cykl odczytów dyskusyjnych dla rodziców pod ogólna nazwą : Pierwiastek artystyczny w wychowaniu młodzieży</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:555907</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:date xml:lang="pl">ca 1940</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

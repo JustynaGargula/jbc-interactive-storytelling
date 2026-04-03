@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569842">
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 128</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/569842/NDIGDZS024504.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Czwarta wystawa ulubionych obrazów stereoskopowych</dc:title>
+    <dc:publisher xml:lang="pl">M. F. Poremba</dc:publisher>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:title xml:lang="pl">Vierte Ausstellung der beliebten Stereoscop-Bilder</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599592</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

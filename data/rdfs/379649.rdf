@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/379649">
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/379649/NDIGDZS019774.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/379649/NDIGDZS019774.pdf</dc:identifier>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398706</dc:relation>
+    <dc:title xml:lang="pl">No 26 Artisty Lodzinskago Teatra, eŝe tolʹko šestʹ predstavlenìj vʺ mĕstnomʺ teatrě, vʺ sredu 13-go marta 1896 goda 1-yj razʺ : Volkʺ i ovcy</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398706</dc:relation>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:title xml:lang="pl">No 52 Artyści Teatru Łódzkiego, jeszcze tylko sześć przedstawień w teatrze miejscowym, w środę dnia 25-go marca 1896 roku 1-szy raz: Wilk i owce</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/50</dc:source>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

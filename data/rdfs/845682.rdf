@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/845682">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Mie-Mitt 535</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1881</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Feliks Mikiewicz, nauczyciel gimnazyalny i wyższej szkoły realnej w Stanisławowie [...], zmarł w Krakowie dnia 29 lipca 1881 r. [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/845682/NDIGDZS072839.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1881</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877920</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Mikiewicz, Feliks (1853?-1881)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

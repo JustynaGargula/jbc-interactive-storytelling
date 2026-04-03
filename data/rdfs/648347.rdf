@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648347">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1810-1815</dc:issued>
+    <dc:contributor xml:lang="pl">Wodzicki, Józef</dc:contributor>
+    <dc:contributor xml:lang="pl">Rabiński, Antoni</dc:contributor>
+    <dc:title xml:lang="pl">Fragment archiwum Sądu Pokoju w Krzeszowicach, z lat 1810-1815</dc:title>
+    <dc:creator xml:lang="pl">Sąd Pokoju. Powiat Krzeszowicki (Księstwo Warszawskie)</dc:creator>
+    <dc:contributor xml:lang="pl">Nikorowicz, Józef</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:611122</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648347/NDIGORP027702.pdf</dc:identifier>
+    <dc:contributor xml:lang="pl">Litwiński, Walenty</dc:contributor>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:description xml:lang="pl">Czachurski, Antoni. Adr. korespondencji</dc:description>
+    <dc:description xml:lang="pl">Szembek, Wincenty. Adr. korespondencji</dc:description>
+    <dc:contributor xml:lang="pl">Łubieński, Feliks</dc:contributor>
+    <dc:date xml:lang="pl">1810-1815</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Gołuchowski, Józef</dc:subject>
+    <dc:contributor xml:lang="pl">Czachurski, Antoni</dc:contributor>
+    <dc:subject xml:lang="pl">Gołuchowski, Hipolit</dc:subject>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 7918 IV</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:contributor xml:lang="pl">Sobolewski, Ignacy</dc:contributor>
+  </rdf:Description>
+</rdf:RDF>
+

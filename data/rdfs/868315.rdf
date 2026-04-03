@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868315">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 373</dc:source>
+    <dc:subject xml:lang="pl">msza święta</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901196</dc:relation>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:title xml:lang="pl">Aniela Górska Siostra c. k. Sędziego powiatowego w Podgórzu, przeżywszy lat 34 [...] zasnęła w Panu dnia 27 Lutego 1892 roku [..]</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">ul. Józefińska (Kraków)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868315/NDIGDZS085226.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Górska, Aniela (1858?-1892)</dc:subject>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

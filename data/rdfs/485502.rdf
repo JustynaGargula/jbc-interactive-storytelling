@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485502">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485502/NDIGDZS026088.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:issued xml:lang="pl">[1943]</dc:issued>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">druk ulotny okupacyjny</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:511626</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, B 23131 II 8</dc:source>
+    <dc:subject xml:lang="pl">okupacja niemiecka w Polsce (1939-1945)</dc:subject>
+    <dc:description xml:lang="pl">Zwolnienie z daniny za rok 1942</dc:description>
+    <dc:contributor xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką). Stadthauptmann (Kraków)</dc:contributor>
+    <dc:subject xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką)</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Bescheid betreffend Befreiung von der Einwohnerabgabe</dc:title>
+    <dc:date xml:lang="pl">[1943]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

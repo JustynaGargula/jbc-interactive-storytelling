@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/501772">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 2</dc:source>
+    <dc:description xml:lang="pl">Propagandowa ulotka niemiecka</dc:description>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:date xml:lang="pl">1941</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1941</dc:issued>
+    <dc:title xml:lang="pl">Co robią nasi rodacy w Niemczech?</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/501772/NDIGDZS025641.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:527442</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/873600">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/873600/NDIGDZS088845.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Nepomucyna z Dyktarskich Szymkajłło : wdowa po urzędniku [...] w d. 15 kwietnia 1872 r. po długich cierpieniach, przeniosła się do wieczności</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908313</dc:relation>
+    <dc:date xml:lang="pl">1872</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1872</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Szy 1150</dc:source>
+    <dc:subject xml:lang="pl">Szymkajłło, Nepomucyna (1816?-1872)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

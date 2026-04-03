@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648349">
+    <dc:title xml:lang="pl">Opera varia (i. a. Hermanni de Winterswijk)</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 798 III</dc:source>
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:issued xml:lang="pl">[1370]</dc:issued>
+    <dc:contributor xml:lang="pl">Hermannus de Winterswijk (fl. ca 1370)</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:601303</dc:relation>
+    <dc:coverage xml:lang="pl">[14 w.]</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648349/NDIGORP038744.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1370]</dc:date>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

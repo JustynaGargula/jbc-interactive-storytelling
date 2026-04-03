@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866882">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:issued xml:lang="pl">1896</dc:issued>
+    <dc:subject xml:lang="pl">Dom Pomocy Społecznej im. Ludwika i Anny Helclów (Kraków)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Sza 899</dc:source>
+    <dc:date xml:lang="pl">1896</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Konrad Szabelski : Inżynier c. k. kolei Państwowych, [...] zasnął w Panu dnia 19 Czerwca 1896 r.</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866882/NDIGDZS084296.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">inżynierowie</dc:subject>
+    <dc:subject xml:lang="pl">Szabelski, Konrad (1856?-1896)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:899587</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

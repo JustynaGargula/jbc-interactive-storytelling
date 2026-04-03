@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648198">
+    <dc:subject xml:lang="pl">czasopisma literackie 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1877.02.07</dc:date>
+    <dc:subject xml:lang="pl">czasopisma polskie 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1877.02.07</dc:issued>
+    <dc:relation xml:lang="pl">https://jbc.bj.uj.edu.pl/publication/1028685 Kurjer Lubelski (1866, 1868, 1870, 1876)</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686517</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Gazeta Lubelska : pismo rolniczo-przemysłowo-handlowe i literackie. R.2, № 15 (7 lutego 1877)</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 2063 IV czasop.</dc:source>
+    <dc:publisher xml:lang="pl">Leon Zaleski</dc:publisher>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648198/0007_NDIGCZAS039336_102321760.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">czasopisma rolnicze polskie 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">czasopisma społeczno-polityczne</dc:subject>
+    <dc:contributor xml:lang="pl">Zaleski, Leon (1841-1888). Red.</dc:contributor>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600747">
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1891-1903</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600747/NDIGORP025301.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19-20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:595072</dc:relation>
+    <dc:issued xml:lang="pl">1891-1903</dc:issued>
+    <dc:title xml:lang="pl">„Dzienniczek” Leona Mańkowskiego sanskrytologa, profesora Uniwersytetu Jagiellońskiego, z lat 1891-1909. T. 1, 1891-1903</dc:title>
+    <dc:creator xml:lang="pl">Mańkowski, Leon (1853-1909)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 7610 II, T. 1</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

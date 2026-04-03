@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648358">
+    <dc:creator xml:lang="pl">Mineyko, Zygmunt (1840-1925)</dc:creator>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">gre</dc:language>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/648358/NDIGORP023502.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648358/NDIGORP023502.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1918-1919</dc:date>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:411341</dc:relation>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:411341</dc:relation>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 7094 I t. 22</dc:source>
+    <dc:issued xml:lang="pl">1918-1919</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Kronika ważniejszych wypadków w Grecji, głównie politycznych, pisana od dnia 3 lutego 1915 r. do 25 czerwca 1925 r. przez Zygmunta Mineykę. T. 22 „Dalszy ciąg rządów Wenizelisa, od dnia 12go listopada 1918 r. aż do 12go lutego 1919 r. T. VIII”</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

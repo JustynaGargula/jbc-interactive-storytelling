@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/682682">
+    <dc:title xml:lang="pl">Na dochód Straży Ogniowej Ochotniczej w Złoczowie, Teatr Polski pod dyrekcyą Antoniego Kattnera, we czwartek 27 marca 1884 : Przed Ślubem, komedja w 5 aktach K. Zalewskiego</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/682682/NDIGDZS034590.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1884</dc:date>
+    <dc:issued xml:lang="pl">1884</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 40/1</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Zalewski, Kazimierz (1849-1919)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608444</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

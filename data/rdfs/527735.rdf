@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527735">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, K-1941/11</dc:source>
+    <dc:creator xml:lang="pl">Eckert, Reinhold (1902-1943)</dc:creator>
+    <dc:issued xml:lang="pl">1941</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554459</dc:relation>
+    <dc:title xml:lang="pl">Obwieszczenie Delegata Szefa Okręgu dla miasta Krakowa dotyczy: środków gospodarki energetycznej. 107</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:title xml:lang="pl">Bekanntmachung des Beauftragen des Distriktchefs für die Stadt Krakau betr. energiewirtschaftliche Massnahmen. 107</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527735/NDIGDZS027763.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1941</dc:date>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

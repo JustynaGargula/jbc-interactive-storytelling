@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/853207">
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/853207/NDIGDZS077108.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Korzkiew (woj. małopolskie, pow. krakowski, gm. Zielonki)</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, XXI Bia-Bło 111</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">2016</dc:issued>
+    <dc:date xml:lang="pl">2016</dc:date>
+    <dc:title xml:lang="pl">16 września 2016 roku zmarł w wieku 88 lat Konstanty Bielecki emerytowany pracownik Biblioteki Jagiellońskiej [...]</dc:title>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Bielecki, Konstanty (1928-2016)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:886785</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617107">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:publisher xml:lang="pl">Tipografiâ Buhgolʹc</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605460</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617107/NDIGDZS033666.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 38/10</dc:source>
+    <dc:subject xml:lang="pl">Teatr Letni w ogródku Hotelu Warszawskiego</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 5 Lětnìj Teatr v Sadikě Varšavskoj Gostinnicy v četverg, 6 ìûnâ 1874 g. komedìâ Dějstvitel΄noe Lekarstwo, komedìâ Tâželʹoe Ispytanìe, komedìo-opera Dâdâ i Plemânnik</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Teatr Letni w ogródku Hotelu Warszawskiego we czwartek, dnia 18 czerwca 1874 r. Artyści Dramatyczni przedstawią komedją Skuteczne Lekarstwo, komedja Ciężka Próba, zakończy komedjo-opera Wuj i Siostrzeniec</dc:title>
+    <dc:subject xml:lang="pl">Berton, Pierre (1842-1912)</dc:subject>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

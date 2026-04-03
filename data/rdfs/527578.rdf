@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527578">
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:title xml:lang="pl">Artykuł „Aftontidningen” z dnia 11 lutego 1944 pod tytułem: 10.000 żydów likwidowano dziennie przy pomocy prądu elektrycznego w ogromnym krematorjum</dc:title>
+    <dc:creator xml:lang="pl">Karniol, Maurycy (1899-1958)</dc:creator>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527578/NDIGDZS024885.pdf</dc:identifier>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554267</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 130</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:contributor xml:lang="pl">Polska Partia Socjalistyczna. Komitet Zagraniczny</dc:contributor>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

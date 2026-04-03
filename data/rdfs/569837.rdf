@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569837">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599574</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Dobre świeże suche drożdże dostać można każdego czasu u Juliusza Gablenz przy placu Ferdynanda</dc:title>
+    <dc:issued xml:lang="pl">ca 1861</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 125</dc:source>
+    <dc:date xml:lang="pl">ca 1861</dc:date>
+    <dc:publisher xml:lang="pl">K. Piller</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/569837/NDIGDZS024500.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/881106">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/881106/NDIGDZS092255.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1896</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:916249</dc:relation>
+    <dc:date xml:lang="pl">1896</dc:date>
+    <dc:subject xml:lang="pl">organiści</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Se 306 A</dc:source>
+    <dc:title xml:lang="pl">Karol Senft Kantor i organista przy kościele Św. Marcina [...] przeżywszy lat 80, [...], zasnął w Panu dnia 21-go września 1896 roku o godzinie 8-ej rano</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Senft, Karol (1816?-1896)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">kantorzy</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

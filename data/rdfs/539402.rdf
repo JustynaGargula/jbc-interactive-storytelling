@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539402">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:title xml:lang="pl">Celem wsparcia Weteranów z r. 1863, którzy poświęcając Ojczyźnie swoje życie i miene, obecnie na starość pozbawieni są kawałka chleba i niezdolni do jakiejkolwiek pracy urządza Tow. Wzajemnej Pomocy Weteranów z r. 1863, jako w 41-szą rocznicę powstania styczniowego : w Czwartek d. 21 stycznia 1904 r. w sali krak. Resursy Urzędniczej uroczysty wieczór</dc:title>
+    <dc:date xml:lang="pl">1904</dc:date>
+    <dc:issued xml:lang="pl">1904</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:566771</dc:relation>
+    <dc:subject xml:lang="pl">powstanie styczniowe (1863-1864)</dc:subject>
+    <dc:subject xml:lang="pl">Resursa Urzędnicza</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/539402/NDIGDZS018951.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 2/14</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514004">
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537239</dc:relation>
+    <dc:title xml:lang="pl">Obwieszczenie</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514004/NDIGDZS027775.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, Ra/1</dc:source>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:title xml:lang="pl">Bekanntmachung</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

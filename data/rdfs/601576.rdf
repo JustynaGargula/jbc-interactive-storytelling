@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601576">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:536186</dc:relation>
+    <dc:title xml:lang="pl">Wola Michowa u. Radvany - Jzbugya : Zone 9 Col. XXVI</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601576/1-NDIGKART028757_0001.pdf</dc:identifier>
+    <dc:contributor xml:lang="pl">Hübner (kartografia). Oprac.</dc:contributor>
+    <dc:subject xml:lang="pl">mapy 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">kartografia</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Kartogr. M 37/1 173</dc:source>
+    <dc:contributor xml:lang="pl">Bogdanyi, F. von. Oprac.</dc:contributor>
+    <dc:description xml:lang="pl">Południk zerowy: Ferro</dc:description>
+    <dc:description xml:lang="pl">Seria: Spezialkarte der österreichisch-ungarischen Monarchie 1:75.000</dc:description>
+    <dc:date xml:lang="pl">1899</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">Austro-Węgry</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1899</dc:issued>
+    <dc:subject xml:lang="pl">Kaiserlich-Königliches Militär-Geographisches Institut</dc:subject>
+    <dc:type xml:lang="pl">mapa</dc:type>
+    <dc:publisher xml:lang="pl">K. u k. militär-geographisches Institut</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/630719">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.3/18</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:description xml:lang="pl">Tylko dolna połowa plakatu</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:563522</dc:relation>
+    <dc:subject xml:lang="pl">plakaty polityczne</dc:subject>
+    <dc:date xml:lang="pl">[1944]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/630719/NDIGDZS030048.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Bolszewizm grozi! Stawaj do pracy!</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">plakat</dc:type>
+    <dc:issued xml:lang="pl">[1944]</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

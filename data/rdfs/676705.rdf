@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/676705">
+    <dc:issued xml:lang="pl">1841</dc:issued>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Cyrk Olimpijski na dochód Jpani Elizy Tourniaire Towarzystwo Sztucznych Jezdzców pod Dyrekcyą JP. Elizy Tourniaire i Eugenii Schumann będzie miało zaszczyt przedstawić po raz ostatni Wielkie Nadzwyczajne Widowisko</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 3/7</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/676705/NDIGDZS031114.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1841</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608338</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

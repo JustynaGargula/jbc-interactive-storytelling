@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/852350">
+    <dc:date xml:lang="pl">1884</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:883798</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Koz 873</dc:source>
+    <dc:subject xml:lang="pl">Kozłowska, Ludwika (1793-1884)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/852350/NDIGDZS076188.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Ludwika z Dubiskich Kozłowska Wdowa po obywatelu powiatu Dubieńskiego na Wołyniu, urodzona dnia 6 Stycznia 1793 roku, zasnęła w Panu [..] dnia 6 Lipca 1884 roku [...]</dc:title>
+    <dc:issued xml:lang="pl">1884</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

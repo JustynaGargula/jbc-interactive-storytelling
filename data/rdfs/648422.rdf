@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648422">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">[Heinrich Richter]</dc:publisher>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648422/0044_NDIGCZAS039349_102669725.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">czasopisma społeczno-kulturalne</dc:subject>
+    <dc:contributor xml:lang="pl">Buchhandlung von Heinrich Richter</dc:contributor>
+    <dc:issued xml:lang="pl">1835.11.21</dc:issued>
+    <dc:date xml:lang="pl">1835.11.21</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686823</dc:relation>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Der Breslauer Beobachter. Ein unterhaltendes Blatt für alle Stände, als Ergänzung zum Breslauer Erzähler. [Jg.1], № 45 (21 November 1835)</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ BPC 1669 III</dc:source>
+    <dc:subject xml:lang="pl">czasopisma niemieckie 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

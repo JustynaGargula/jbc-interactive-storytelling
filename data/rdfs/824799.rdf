@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/824799">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">dyrektorzy bibliotek</dc:subject>
+    <dc:title xml:lang="pl">Ś. P. Dr Edward Kuntze b. Dyrektor Biblioteki Jagiellońskiej ur. w 1880 r. we Lwowie, zmarł opatrzony św. Sakramentami dnia 3 czerwca 1950 r. w Krakowie</dc:title>
+    <dc:subject xml:lang="pl">Kościół św. Anny (Kraków)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ks-Kyr 39</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1950</dc:date>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:847995</dc:relation>
+    <dc:issued xml:lang="pl">1950</dc:issued>
+    <dc:subject xml:lang="pl">Kuntze, Edward (1880-1950)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/824799/NDIGDZS055065.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

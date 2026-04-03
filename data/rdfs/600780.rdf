@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600780">
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Notesy Władysława Orkana T. 17. Notes z zapiskami dotyczącymi długów i różnych wierzytelności z lat 1907-1914</dc:title>
+    <dc:date xml:lang="pl">[1907-1914]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 8603 I t. 17</dc:source>
+    <dc:creator xml:lang="pl">Orkan, Władysław (1875-1930)</dc:creator>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">[1907-1914]</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600780/NDIGORP035762.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:594582</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

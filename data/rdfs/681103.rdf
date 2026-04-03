@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/681103">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, A 407996 III</dc:source>
+    <dc:title xml:lang="pl">Dziennik Urzędowy Województwa Poznańskiego. 1985, nr 12 (27 grudnia)</dc:title>
+    <dc:contributor xml:lang="pl">Województwo Poznańskie (Polska). Urząd Wojewódzki</dc:contributor>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1985.12.27</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:718680</dc:relation>
+    <dc:subject xml:lang="pl">prawo</dc:subject>
+    <dc:subject xml:lang="pl">województwo poznańskie (1975-1998)</dc:subject>
+    <dc:subject xml:lang="pl">dzienniki urzędowe</dc:subject>
+    <dc:subject xml:lang="pl">czasopisma polskie 20 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">rozporządzenia (prawo administracyjne)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/681103/0013_NDIGCZAS039917_110611420.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1985.12.27</dc:issued>
+    <dc:subject xml:lang="pl">wydawnictwa urzędowe lokalne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

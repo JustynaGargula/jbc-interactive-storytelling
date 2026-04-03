@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/476772">
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:420264</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:420264</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 83</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/476772/NDIGDZS023945.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/476772/NDIGDZS023945.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1945</dc:date>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:title xml:lang="pl">An Appeal to Members of the Parliaments of all the Nations from the Former Deputies and Senators of the Polish Parliaments</dc:title>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:issued xml:lang="pl">1945</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648366">
+    <dc:contributor xml:lang="pl">Łukasik, Wł. Red.</dc:contributor>
+    <dc:publisher xml:lang="pl">Wł. Łukasik</dc:publisher>
+    <dc:subject xml:lang="pl">czasopisma społeczno-kulturalne polskie</dc:subject>
+    <dc:issued xml:lang="pl">1935.12.15</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648366/0005_NDIGCZAS039345_103540449.pdf</dc:identifier>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:subject xml:lang="pl">czasopisma regionalne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686716</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 7054 III czasop.</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">czasopisma polskie 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Zwierciadło z nad Wisłoki. [R.1], nr 10 (15 grudnia [19]35)</dc:title>
+    <dc:date xml:lang="pl">1935.12.15</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

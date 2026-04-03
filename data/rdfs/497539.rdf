@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/497539">
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:420394</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:420394</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Dorogie zemlâki! : kto upravlâet vami? Kto rasporâžetsâ vašej sud'boj?</dc:title>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 209</dc:source>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:date xml:lang="pl">ca 1944</dc:date>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/497539/NDIGDZS025111.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/497539/NDIGDZS025111.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">ca 1944</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

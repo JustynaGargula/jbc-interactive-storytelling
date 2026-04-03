@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/863937">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Kra 973</dc:source>
+    <dc:subject xml:lang="pl">ul. Grodzka (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">Krauzówna, Albina (1856?-1886)</dc:subject>
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:889294</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Albina Krauzówna córka byłego kasyera na Bukowninie, przeżywszy lat 30 [...] zasnęła w Panu dnia 4 Lutego 1886 roku [...]</dc:title>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/863937/NDIGDZS079703.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

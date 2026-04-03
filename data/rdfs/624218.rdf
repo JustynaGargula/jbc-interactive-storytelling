@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/624218">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/624218/NDIGDZS019678.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/624218/NDIGDZS019678.pdf</dc:identifier>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:title xml:lang="pl">No 1 Teatrʺ pod'' upravlenìemʺ I. Okonskago vʺ voskresenìe 21 oktâbrâ/2 noâbrâ 1873 goda, komedìâ vʺ 1 dějstvìi Osipa Korženëvskago Doktorʺ medicyny, komedìo-opera vʺ 1oj dějstvìi V. Anĉica : Lobzovâne</dc:title>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1863-1921)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 1 Teatr w Klubie pod dyrekcyą J. Okońskiego w niedzielę dnia 21/2 listopada 1873 roku, komedia w 1m akcie przez Józefa Korzeniowskiego Doktor medycyny, komedya-opera w 1 akcie W. Anczyca Łobzowianie</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Anczyc, Władysław Ludwik (1823-1883)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398744</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398744</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 4/1</dc:source>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

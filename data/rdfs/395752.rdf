@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/395752">
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">Dziekan Warszawskiego Okręgu</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/395752/PDF/NDIGDZS021712.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Apel do żołnierzy</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/395752/PDF/NDIGDZS021712.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399884 III 1</dc:source>
+    <dc:creator xml:lang="pl">Kowalczyk, Stefan (1897-1957)</dc:creator>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402285</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402285</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

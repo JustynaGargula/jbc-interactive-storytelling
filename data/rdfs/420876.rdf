@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/420876">
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:creator xml:lang="pl">Grupa Zjednoczonych byłych Organizacji Polskich Socjalistów</dc:creator>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639987 III 8</dc:source>
+    <dc:subject xml:lang="pl">Grupa „Płomienie”</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/420876/PDF/NDIGDZS022627.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/420876/PDF/NDIGDZS022627.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Deklaracja Grupy Zjednoczeniowej b. org. „Polskich Socjalistów”</dc:title>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:410130</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:410130</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:subject xml:lang="pl">Socjalistyczna Organizacja Bojowa. Komenda</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

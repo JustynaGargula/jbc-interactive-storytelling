@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866886">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Sza 903</dc:source>
+    <dc:subject xml:lang="pl">Szadko, Julia (1839?-1889)</dc:subject>
+    <dc:issued xml:lang="pl">1889</dc:issued>
+    <dc:date xml:lang="pl">1889</dc:date>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:899737</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866886/NDIGDZS084339.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Kościół św. Mikołaja (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Julia z Dymitrów Szadkowa : Wdowa [...] zasnęła w Panu dnia 18 Lipca 1889 r.</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/825664">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">poczta</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ha-Hi 50</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">urzędnicy</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Rudolf Herliczka emer. urzędnik pocztowy, [...] zasnął w Panu dnia 17 listopada 1902 r. w Kalwaryi Zebrzydowskiej</dc:title>
+    <dc:date xml:lang="pl">1902</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/825664/NDIGDZS054856.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1902</dc:issued>
+    <dc:subject xml:lang="pl">Herliczka, Rudolf (1826-1902)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:850472</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

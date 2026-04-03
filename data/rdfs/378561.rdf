@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/378561">
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra vʺ mĕstnomʺ teatrě, vʺ subbotu 3-go fevralâ 1896 goda, tretìj i poslĕdnìj razʺ : Panʺ Tvardovskìj</dc:title>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398685</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398685</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 28 Artyści Teatru Łódzkiego w teatrze miejscowym, w sobotę 15-go lutego 1896 roku, trzeci i ostatni raz : Pan Twardowski</dc:title>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/28</dc:source>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/378561/NDIGDZS019767.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/378561/NDIGDZS019767.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

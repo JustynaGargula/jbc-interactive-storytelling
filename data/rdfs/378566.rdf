@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/378566">
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/378566/NDIGDZS019713.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/378566/NDIGDZS019713.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:subject xml:lang="pl">Kania, Emanuel (1827-1887)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 6 Vo vtornik 6 noâbrâ 1873 g. Praŝalʹnoe predstavlenìe : Kartiny fantasmagoryâ v 60i pereměnah, načnet komedìo-opera v 1oj dějstvìi s muzikoj Emanuila Kani : Domašnyj budilʹnik</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 4/6</dc:source>
+    <dc:title xml:lang="pl">We wtorek dn. 18 listopada 1873 r. na pożegnanie Nadzwyczajne przedstawienie : Fantasmagoryi w 60u przemianach, rozpocznie komedio-opera w 1m akcie z muzyką Eman. Kani : Werbel domowy</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398739</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398739</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

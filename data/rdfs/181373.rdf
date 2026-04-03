@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/181373">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 579 V czas.</dc:source>
+    <dc:contributor xml:lang="pl">Konopiński, Michał. Red.</dc:contributor>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">czasopisma polskie</dc:subject>
+    <dc:publisher xml:lang="pl">Drukarnia Związkowa (Kraków)</dc:publisher>
+    <dc:date xml:lang="pl">1898.05.18</dc:date>
+    <dc:publisher xml:lang="pl">Lesław Boroński</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:192242</dc:relation>
+    <dc:issued xml:lang="pl">1898.05.18</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:title xml:lang="pl">Nowa Reforma. 1898, nr 113</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/181373/PDF/NDIGCZAS000047_1898_113.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

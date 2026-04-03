@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/626616">
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/626616/NDIGDZS019752.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/626616/NDIGDZS019752.pdf</dc:identifier>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/53</dc:source>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra, eše tolʹko tri predstavlenìâ v městnom teatrě, v voskresenìè 17-go marta 1896 goda vtoraâ gastrolʹ Ireny Trapšo : Muzykant i Krupnye tuzy</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:title xml:lang="pl">No 56 Artyści Teatru Łódzkiego, jeszcze tylko trzy przedstawienia w teatrze miejscowym, w niedzielę dnia 29-go marca 1896 roku drugi występ Ireny Trapszo : Grajek i Grube ryby</dc:title>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:subject xml:lang="pl">Bałucki, Michał (1837-1901)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398703</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398703</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

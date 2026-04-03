@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839141">
+    <dc:language xml:lang="pl">ita</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:date xml:lang="pl">1883</dc:date>
+    <dc:title xml:lang="pl">Cesare, Maria ed Adelaide Correnti compiono al doloroso ufficio di partecipare a V. S. Ill.ma l'irreparabile ed improovvisa perdita, avvenuta oggi in guesta citta, del loro amatissimo fratello, cognato e zio Comm. Annibale Correnti [...] : Roma, il 7 gennaio 1883</dc:title>
+    <dc:issued xml:lang="pl">1883</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:861090</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Correnti, Annibale (?-1883)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 17</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839141/NDIGDZS062573.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

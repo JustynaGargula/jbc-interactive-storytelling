@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867719">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1895</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867719/NDIGDZS081827.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:892687</dc:relation>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1895</dc:issued>
+    <dc:title xml:lang="pl">Ryszard Straszewski [...] zasnął w Panu dnia 8go Stycznia 1895 roku</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V St 849</dc:source>
+    <dc:subject xml:lang="pl">Straszewski, Ryszard (1816-1895)</dc:subject>
+    <dc:subject xml:lang="pl">ul. Podzamcze (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/824048">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:date xml:lang="pl">1903</dc:date>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:853620</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ga-Gi 13</dc:source>
+    <dc:subject xml:lang="pl">Gadomski, Kazimierz Józef (1885-1903)</dc:subject>
+    <dc:subject xml:lang="pl">Lwów (Ukraina ; region)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1903</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Kazimierz Józef Gadomski emer. sekretarz Starostwa krakowskiego ur. dnia 4 marca 1885 r. we Lwowie [...] zasnął w Panu dnia 21 kwietnia 1903 roku</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/824048/NDIGDZS054734.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510136">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Ciołkosz, Adam (1901-1978)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510136/NDIGDZS023940.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 78</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">1948</dc:issued>
+    <dc:creator xml:lang="pl">Cambridge Anglo-Polish Society</dc:creator>
+    <dc:title xml:lang="pl">Dr. Adam Ciolkosz [...] will speak on „Central &amp; South-Eastern European Federation, is it possible, is it advisable?”</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535690</dc:relation>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:date xml:lang="pl">1948</dc:date>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

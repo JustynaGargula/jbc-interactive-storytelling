@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677114">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677114/NDIGCZAS028361.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 9409 II czasop.</dc:source>
+    <dc:date xml:lang="pl">1812</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:617967</dc:relation>
+    <dc:title xml:lang="pl">Dnia 20. miesiąca sierpnia r.b. Rada Generalna Konfederacyi Jeneralney Królestwa Polskiego odbędzie posiedzenie publiczne w Izbie zwanej Poselska</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1812</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

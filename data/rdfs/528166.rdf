@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/528166">
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:creator xml:lang="pl">Stewner, Ernst (1907-1996)</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554962</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 30b</dc:source>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:issued xml:lang="pl">ca 1940</dc:issued>
+    <dc:publisher xml:lang="pl">Foto-Stewner</dc:publisher>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:description xml:lang="pl">Seria: Der Reichsgau Wartheland. Das schöne Posen</dc:description>
+    <dc:date xml:lang="pl">ca 1940</dc:date>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:title xml:lang="pl">Das Schillergymnasium</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

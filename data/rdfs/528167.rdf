@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/528167">
+    <dc:issued xml:lang="pl">ca 1942</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:title xml:lang="pl">Deutscher im Gau Wartheland merke dir:</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">ca 1942</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554963</dc:relation>
+    <dc:contributor xml:lang="pl">Nationalsozialistische Deutsche Arbeiterpartei. Gau Wartheland</dc:contributor>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 30c</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/528167/NDIGDZS029702.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:publisher xml:lang="pl">NSDAP Gauleitung Wartheland</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

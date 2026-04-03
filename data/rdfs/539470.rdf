@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539470">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:566997</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/539470/NDIGDZS018996.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1880</dc:issued>
+    <dc:date xml:lang="pl">1880</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 4/2</dc:source>
+    <dc:title xml:lang="pl">Mam zaszczyt donieść Szanownej P.T. Publiczności, iż z dniem 20go b. m. zaprowadziłem przy handlu mojem Towarów Korzennych, Win i Herbaty Kuchnię Polską gdzie każdodziennie dostać można zdrowych, smacznych śniadań, obiadów i kolacyj</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

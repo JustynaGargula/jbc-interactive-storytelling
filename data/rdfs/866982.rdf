@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866982">
+    <dc:title xml:lang="pl">Piotruś Wójcicki uczeń klasy 4tej szkoły św. Barbary, przeżywszy zaledwie 11 wiosen, [...], zasnął w Panu dnia 8 lutego b. r.</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866982/NDIGDZS083929.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1830-1900</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wo 637a</dc:source>
+    <dc:subject xml:lang="pl">Wójcicki, Piotr (uczeń)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">śmierć dziecka</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1830-1900</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:898202</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">uczniowie</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

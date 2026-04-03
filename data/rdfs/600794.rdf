@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600794">
+    <dc:type xml:lang="pl">e-czasopismo</dc:type>
+    <dc:date xml:lang="pl">2018, Q4</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:633613</dc:relation>
+    <dc:subject xml:lang="pl">budownictwo</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">[Roberts Publishing Media Group]</dc:publisher>
+    <dc:subject xml:lang="pl">inwestycje</dc:subject>
+    <dc:subject xml:lang="pl">handel nieruchomościami</dc:subject>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:contributor xml:lang="pl">McLean, Robert (muzyk). Red.</dc:contributor>
+    <dc:title xml:lang="pl">CIJ : commercial development and investment journal. Vol. 24, 2018, iss. 4</dc:title>
+    <dc:issued xml:lang="pl">2018, Q4</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oc 000212</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

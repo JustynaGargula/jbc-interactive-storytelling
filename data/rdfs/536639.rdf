@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536639">
+    <dc:title xml:lang="pl">Cennik wszelkich nasion, wysadków roślinnych, storczyków, palm, kwiatów doniczkowych, krzewów, drzew ozdobnych i owocowych, róż i t. p. jakie są do nabycia w Zakładzie ogrodniczo-handlowym Jakóba Tenglera</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 6/11</dc:source>
+    <dc:issued xml:lang="pl">1890</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:563825</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536639/NDIGDZS019083.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">rolnictwo</dc:subject>
+    <dc:subject xml:lang="pl">ogrodnictwo</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1890</dc:date>
+    <dc:subject xml:lang="pl">ulotka reklamowa</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

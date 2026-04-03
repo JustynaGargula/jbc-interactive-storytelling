@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/825097">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 109550 II</dc:source>
+    <dc:title xml:lang="pl">Józef Poller</dc:title>
+    <dc:creator xml:lang="pl">Estreicher, Karol (1827-1908)</dc:creator>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/825097/NDIGDZS058575.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1902</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:856302</dc:relation>
+    <dc:issued xml:lang="pl">1902</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

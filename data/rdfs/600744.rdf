@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600744">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">[17 w.]</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 39177 I</dc:source>
+    <dc:description xml:lang="pl">Zawiera: Herb Berła Akademii Krakowskiej</dc:description>
+    <dc:publisher xml:lang="pl">Drukarnia Franciszka Cezarego</dc:publisher>
+    <dc:creator xml:lang="pl">Herka, Paweł ( -1648)</dc:creator>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:subject xml:lang="pl">Vitellius, Jakub (1587-1648)</dc:subject>
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:title xml:lang="pl">Qvæstio Theologica De Sacramentis in Genere, Ex Lib. 4. M. Sentent</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600744/NDIGSTDR035524.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1648]</dc:date>
+    <dc:issued xml:lang="pl">[1648]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567503</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

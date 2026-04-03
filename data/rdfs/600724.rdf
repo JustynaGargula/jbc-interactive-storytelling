@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600724">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Produkt od WW. Ichmościow PP. Scholastyki Skarbnikowey Orszań: Matki Ignacego Syna Gosławskich, Przeciw: Wielmożnym JPPm Panom Jozeffowi Bogusławowi Rymszy Chor: Petyhor: i Franciszce Zubkowskiey</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 14633 III 1/15</dc:source>
+    <dc:date xml:lang="pl">[1780]</dc:date>
+    <dc:coverage xml:lang="pl">[18 w.]</dc:coverage>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600724/NDIGSTDR033228.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:576188</dc:relation>
+    <dc:issued xml:lang="pl">[1780]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

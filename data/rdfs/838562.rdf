@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838562">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:date xml:lang="pl">1946</dc:date>
+    <dc:issued xml:lang="pl">1946</dc:issued>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Knap-Konopka, Bolesław Jerzy</dc:subject>
+    <dc:title xml:lang="pl">Bolesław Jerzy Knap-Konopka żołnierz W. P. [...] zginął śmiercią bohaterską na polu minowym 5 sierpnia 1945 r. w Guben nad Nisą. Nabożeństwo żałobne jako w pierwszą rocznicę śmierci odprawione zostanie w poniedziałek 5 sierpnia 1946 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:870275</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">żołnierze</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838562/NDIGDZS068693.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 88</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

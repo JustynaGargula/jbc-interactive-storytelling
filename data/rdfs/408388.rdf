@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/408388">
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 6/9</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402136</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402136</dc:relation>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:publisher xml:lang="pl">St. Święcki</dc:publisher>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/408388/PDF/NDIGDZS022062.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/408388/PDF/NDIGDZS022062.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra v mestnom teatrě v [...] 1896 goda : Niobe</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Artyści Teatru Łódzkiego w teatrze miejscowym w (środę 12 maja) 1896 roku, pierwszy raz : Niobe</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

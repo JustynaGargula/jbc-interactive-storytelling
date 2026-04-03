@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/565756">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/565756/NDIGDZS024392.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Franciska Krassny gibt sich die Ehre, dem geehrten P.T. Publikum bekannt zu machen, dass sie ihr bis nunzu in der halitscher Gasse bestandenes Marchande de Modes Geschätf „zur Griechin” in demselben hause, neue Gasse sub Nr. 281 im 2. Stocke weiter fortführt</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:595372</dc:relation>
+    <dc:publisher xml:lang="pl">M. F. Poremba</dc:publisher>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Franciszka Krassny ma zaszczyt oznajmić szanownej Publiczności, iż swoją pracownię strojów damskich „pod Greczynką” dotychczas przy halickiej ulicy w tymże samym domu przy nowej ulicy pod l. 281 na 2. piątrze przeniosła</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 59</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1859</dc:date>
+    <dc:issued xml:lang="pl">1859</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

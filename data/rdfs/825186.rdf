@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/825186">
+    <dc:issued xml:lang="pl">1883</dc:issued>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">nadbitki i odbitki</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/825186/NDIGDZS058577.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1883</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224781 IV t. XVII nr 6</dc:source>
+    <dc:subject xml:lang="pl">Adler, Arni</dc:subject>
+    <dc:creator xml:lang="pl">Estreicher, Karol (1827-1908)</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:858452</dc:relation>
+    <dc:title xml:lang="pl">Arnim Adler. Izraelita. (Langerzendorf pod Wiedniem)</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Kraszewski, Józef Ignacy (1812-1887)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

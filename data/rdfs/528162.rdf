@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/528162">
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 30a</dc:source>
+    <dc:title xml:lang="pl">Die Gründung der Reichsuniversität Posen : am Geburtstag des Führers 1941 : festliche Eröffnung am 27, April 1941</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554686</dc:relation>
+    <dc:issued xml:lang="pl">1941</dc:issued>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/528162/NDIGDZS025680.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1941</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

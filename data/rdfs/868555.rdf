@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868555">
+    <dc:subject xml:lang="pl">ul. Sławkowska (Kraków)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:898178</dc:relation>
+    <dc:subject xml:lang="pl">złotnicy</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Gołkowski, Jan Nepomucen (1820-1886)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868555/NDIGDZS083930.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 326</dc:source>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:title xml:lang="pl">Jan Nepomucen Gołkowski jubiler, Obywatel miasta Krakowa, Członek Stowarzyszenia Rękodzielników, Taksator Banku pobożnego, urodzony w r. 1820 [...] zmarł w dniu 15 marca 1886 roku [...]</dc:title>
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Bank Pobożny (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822971">
+    <dc:date xml:lang="pl">1912</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Z Zychowskich Marya Jurkowa obywatelka Nowej Wsi przeżywszy lat 35 [...] zmarła dnia 7 listopada 1912 roku [...]</dc:title>
+    <dc:issued xml:lang="pl">1912</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 63</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Jurkow, Maria (1877?-1912)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:849548</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822971/NDIGDZS055601.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

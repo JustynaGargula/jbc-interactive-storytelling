@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539483">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Niniejszem zawiadamia się Sz.P.T.Publiczność, iż w bieżącym miesiącu odbędzie się w salonie mód w Krakowie przy ulicy Szewskiej Nr. 7 zupełna wysprzedaż nowych, modnych kapeluszy letnich, jesiennych czepeczków i negliżyków dla osób starszych, ubrań i negliżyków dla osób młodych, po cenach nadzwyczaj niskich</dc:title>
+    <dc:subject xml:lang="pl">moda</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567032</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">ca 1899</dc:date>
+    <dc:issued xml:lang="pl">ca 1899</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/539483/NDIGDZS019002.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 4/8</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

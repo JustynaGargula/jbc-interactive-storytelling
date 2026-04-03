@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/395640">
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/395640/PDF/NDIGDZS021475.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/395640/PDF/NDIGDZS021475.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399880 III</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">ca 1944</dc:issued>
+    <dc:title xml:lang="pl">Čto bylo by lučše po okončanii vojny? Vybiraj!</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401424</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401424</dc:relation>
+    <dc:date xml:lang="pl">ca 1944</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/184688">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">czasopisma polskie</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:195741</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1898.07.31</dc:date>
+    <dc:issued xml:lang="pl">1898.07.31</dc:issued>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Słowo Polskie. 1898, nr 180</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/184688/PDF/NDIGCZAS000049_1898_180w.pdf</dc:identifier>
+    <dc:publisher xml:lang="pl">Stanisław Szczepanowski</dc:publisher>
+    <dc:contributor xml:lang="pl">Romanowicz, Tadeusz. Red.</dc:contributor>
+    <dc:contributor xml:lang="pl">Rossowski, Stanisław (1861-1940). Red.</dc:contributor>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 4570 IV, V czas.</dc:source>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

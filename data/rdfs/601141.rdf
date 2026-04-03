@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601141">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1874.10.16</dc:issued>
+    <dc:subject xml:lang="pl">Kalisz (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:633961</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:publisher xml:lang="pl">W. Hindemith</dc:publisher>
+    <dc:title xml:lang="pl">Kaliszanin : gazeta miasta Kalisza i jego okolic. R.5, № 81 (16 października 1874)</dc:title>
+    <dc:contributor xml:lang="pl">Miłkowski, J. Red.</dc:contributor>
+    <dc:subject xml:lang="pl">czasopisma regionalne</dc:subject>
+    <dc:date xml:lang="pl">1874.10.16</dc:date>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601141/0081_NDIGCZAS032180_92024999.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 1603 IV czasop.</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

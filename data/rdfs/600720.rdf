@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600720">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600720/NDIGSTDR032579.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:570857</dc:relation>
+    <dc:issued xml:lang="pl">1789</dc:issued>
+    <dc:publisher xml:lang="pl">Drukarnia Jezuitów</dc:publisher>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 565855 I</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">18 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:title xml:lang="pl">Exercycyum duchowne Dla Siostr z Nowicyatu z Francuskiego Języka na Polski Przetłumaczone Przez jednę z Siostr Zakonu Nawiedzenia Nayswiętszey Maryi Panny. Za pozwoleniem Zwierzchności Duchowney do Druku Podane</dc:title>
+    <dc:date xml:lang="pl">1789</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

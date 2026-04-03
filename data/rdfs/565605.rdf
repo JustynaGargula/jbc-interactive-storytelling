@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/565605">
+    <dc:date xml:lang="pl">ca 1860</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:595153</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 2</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">Związkowa Drukarnia</dc:publisher>
+    <dc:title xml:lang="pl">Biblioteki filozoficznej której zadaniem, aby dokładność i gruntowność myślenia zrobić udziałem wszystkich miłośników literatury wyszedł tom pierwszy: Renata Kartezyusza Droga do prawdy z portretem i życiorysem</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">ca 1860</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/565605/NDIGDZS024272.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

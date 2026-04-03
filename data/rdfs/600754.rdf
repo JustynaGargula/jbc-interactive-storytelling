@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600754">
+    <dc:coverage xml:lang="pl">17 w.</dc:coverage>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:title xml:lang="pl">Hymny Na Vroczyste Swięta Panny Nad Matkami, Matki Nad Pannami Naświętszey Bogarodzice Mariey</dc:title>
+    <dc:date xml:lang="pl">1640</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 991 I</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Zimorowic, Józef Bartłomiej (1597-1677)</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:570841</dc:relation>
+    <dc:issued xml:lang="pl">1640</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600754/NDIGSTDR035592.pdf</dc:identifier>
+    <dc:publisher xml:lang="pl">Drukarnia Franciszka Cezarego</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/395642">
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401440</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401440</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/395642/PDF/NDIGDZS021501.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/395642/PDF/NDIGDZS021501.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Aufruf an Front und Heimat</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639339 III 1</dc:source>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:creator xml:lang="pl">Nationalsozialistische Reichskriegerbund</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

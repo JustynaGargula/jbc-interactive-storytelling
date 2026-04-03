@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/860158">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Jan Wójcik Uczeń IV. Roku Instytutu Technicznego ; licząc lat 26 [...], zmarł dnia 13 lipca 1867 roku</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/860158/NDIGDZS082018.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1867</dc:issued>
+    <dc:subject xml:lang="pl">Wójcik, Jan (1841?-1867)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:893848</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wo-Woj 557</dc:source>
+    <dc:subject xml:lang="pl">uczniowie</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:date xml:lang="pl">1867</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

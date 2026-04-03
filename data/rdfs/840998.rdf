@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840998">
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">rezerwiści</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873649</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840998/NDIGDZS068123.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Bukareszt (Rumunia)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ha-Hyt 38</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Edmund Bronisław Hardt b. dyrektor Kamieniołomów Miast Małopolskich, b. radny m. Krakowa, legionista 2 p. Ułanów, pporucznik rez. W. P., odznaczony Krzyżem Niepodległości, 2-krotnie Krzyżem Walecznych, Medalem za wojnę, Złotym Krzyżem Zasługi zmarł po ciężkich cierpieniach [...] dnia 6 marca 1940 r. w Bukareszcie [...]</dc:title>
+    <dc:subject xml:lang="pl">Hardt, Edmund Bronisław (?-1940)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">kawaleria</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868015">
+    <dc:title xml:lang="pl">Ś. p. Lucjan Paprocki [...] przeniósł się do wieczności przeżywszy lat 42, w dniu 8 listopada r. b. [...]</dc:title>
+    <dc:subject xml:lang="pl">Cmentarz Powązkowski (Warszawa)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:issued xml:lang="pl">[1885]</dc:issued>
+    <dc:date xml:lang="pl">[1885]</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V P 8</dc:source>
+    <dc:subject xml:lang="pl">Paprocki, Lucjan (1843?-1885)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:899787</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868015/NDIGDZS084379.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

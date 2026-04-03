@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600756">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Cam. B. XII. 16 (1)</dc:source>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:publisher xml:lang="pl">Ordo Fratrum Carmelitarum Discalceatorum Beatae Mariae Virginis de Monte Carmelo</dc:publisher>
+    <dc:date xml:lang="pl">[1681]</dc:date>
+    <dc:contributor xml:lang="pl">Leżeński, Kazimierz (16..-17..). Promotor</dc:contributor>
+    <dc:title xml:lang="pl">Profvnda Inscrutabilium ab Æterno Dei Omnipotentis, Circa Electos &amp; Reprobos Decretorum Arcana, Oppositis Adversæ Sententiæ, Combinationibvs Elvcidata : Avgvstissimæ [...] D. Theresiæ, Necnon [...] Ordinis Carmelitarvm Discalceatorvm In Regno Poloniæ Provinciæ Patribvs, A Theologico Generali Cracouiensi Ordinis Praedicatoru[m] Prouinciæ Poloniæ Studio Dedicata. Anno quo Mens DoCet, &amp; stat LeX, regnat reX, paX fIt ab hoste</dc:title>
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:issued xml:lang="pl">[1681]</dc:issued>
+    <dc:description xml:lang="pl">Teresa od Jezusa (św. ; 1515-1582). Adr. ded.</dc:description>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Drukarnia Akademii Krakowskiej</dc:publisher>
+    <dc:coverage xml:lang="pl">[17 w.]</dc:coverage>
+    <dc:creator xml:lang="pl">Bardziński, Jan Alan (1657-1708)</dc:creator>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600756/NDIGSTDR035648.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:570837</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

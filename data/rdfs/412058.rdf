@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/412058">
+    <dc:title xml:lang="pl">Dlaczegoż prowadzisz swój naród w przepaść?</dc:title>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399879 III</dc:source>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:description xml:lang="pl">Wydanie propagandowe</dc:description>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401807</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401807</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/412058/PDF/NDIGDZS021895.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/412058/PDF/NDIGDZS021895.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

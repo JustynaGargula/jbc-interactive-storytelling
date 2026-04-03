@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/843798">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/843798/NDIGDZS071737.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Michałowski, Tadeusz (1844?-1885)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877678</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Mia-Mic 478</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:title xml:lang="pl">Tadeusz hr. Michałowski [...], zasnął w Panu po krótkiej chorobie dnia dnia 2 listopada 1885 r. w Bolestraszycach [...] : Bolestraszyce, d. 6 listopada 1885 r.</dc:title>
+    <dc:subject xml:lang="pl">wspomnienie pośmiertne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

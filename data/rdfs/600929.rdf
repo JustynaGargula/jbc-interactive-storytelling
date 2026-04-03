@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600929">
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:date xml:lang="pl">2018</dc:date>
+    <dc:title xml:lang="pl">Powaby totalitaryzmu : zarys historii intelektualnej komunizmu i faszyzmu</dc:title>
+    <dc:subject xml:lang="pl">faszyzm</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:633749</dc:relation>
+    <dc:issued xml:lang="pl">2018</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001803</dc:source>
+    <dc:creator xml:lang="pl">Kuryła, Mateusz.</dc:creator>
+    <dc:format xml:lang="pl">epub</dc:format>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:publisher xml:lang="pl">PROMOHISTORIA (Histmag.rog)</dc:publisher>
+    <dc:subject xml:lang="pl">historia</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">komunizm</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

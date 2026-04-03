@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/408382">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/408382/PDF/NDIGDZS021996.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/408382/PDF/NDIGDZS021996.pdf</dc:identifier>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402144</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402144</dc:relation>
+    <dc:title xml:lang="pl">Artyści Teatru Łódzkiego w teatrze miejscowym w czwartek 23 kwietnia 1896 roku, pierwszy raz : Ciepła wdówka</dc:title>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra vʺ mestnomʺ teatrě vʺ četvergʺ 11 aprělâ 1896 goda, piervyj razʺ : Teplaâ vdovuška</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 6/2</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:publisher xml:lang="pl">St. Święcki</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

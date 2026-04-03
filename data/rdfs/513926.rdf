@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/513926">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Obwieszczenie o cenach artykułów żywnościowych</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Bekanntmachung über Lebensmittelpreise</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/513926/NDIGDZS027641.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537224</dc:relation>
+    <dc:creator xml:lang="pl">Körner, Max Otto Hellmut (1904-1966)</dc:creator>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, K-1940/2</dc:source>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

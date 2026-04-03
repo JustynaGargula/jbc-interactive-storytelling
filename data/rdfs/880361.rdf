@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/880361">
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/880361/NDIGDZS091494.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V So 692</dc:source>
+    <dc:date xml:lang="pl">1893</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1893</dc:issued>
+    <dc:title xml:lang="pl">Die Unterofficiere der Batterie-Division Nro 1 theilen allen Freunden und Bekannten die traurige Nachricht mit von dem plötzlichen Ableben ihres geliebten Freundes und Collegen Sigismund Sochor [...] welcher Sonntag den 18. Juni 1893 [...] abgegangen ist [...] : Krakau, am 18. Juni 1893</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Sochor, Sigismund (1866?-1893)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:913529</dc:relation>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

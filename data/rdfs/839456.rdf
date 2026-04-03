@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839456">
+    <dc:date xml:lang="pl">1878</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:862295</dc:relation>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:title xml:lang="pl">13go Maja 1878 r. w Zurychu (w Szwajcaryi) zasnął w Bogu [...] ś. p. Andrzej Towiański [...] : Zürich-Reisbach</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839456/NDIGDZS063606.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Towiański, Andrzej (1799-1878)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 134</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1878</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

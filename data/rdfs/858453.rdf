@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/858453">
+    <dc:subject xml:lang="pl">Kraus, Zygmunt (1817?-1883)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Zygmunt Kraus Obywatel miasta Krakowa, licząc lat 66, zmarł w dniu 9 Maja 1883 roku [...]</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Kra 965</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/858453/NDIGDZS079369.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Nowy Cmentarz Żydowski (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1883</dc:date>
+    <dc:issued xml:lang="pl">1883</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:889101</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

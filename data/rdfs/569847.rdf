@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569847">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599604</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 131</dc:source>
+    <dc:issued xml:lang="pl">ca 1861</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/569847/NDIGDZS024507.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Mleka świeżo od krowy dostać można</dc:title>
+    <dc:title xml:lang="pl">Frische Kuhmilch ist zu haben</dc:title>
+    <dc:publisher xml:lang="pl">E. Winiarz</dc:publisher>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">ca 1861</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

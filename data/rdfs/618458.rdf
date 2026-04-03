@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/618458">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1893</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">T. Lintscher</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/618458/NDIGDZS034960.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 41/3</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Na dochód Towarzystwa „Szkoły ludowej”, w dniu 7. maja 1893 odbędzie się w sali „Hotelu narodowego” w Żywcu : Wieczór uroczysty w rocznicę konstytucyi 3. maja 1791 r.</dc:title>
+    <dc:date xml:lang="pl">1893</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Konstytucja 3 Maja</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600581</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

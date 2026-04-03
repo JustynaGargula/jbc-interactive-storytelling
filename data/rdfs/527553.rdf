@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527553">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554215</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:title xml:lang="pl">To All Frenchmen..</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:creator xml:lang="pl">Gaulle, Charles André de (1890-1970)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 95</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527553/NDIGDZS024846.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:title xml:lang="pl">A Tous les Français</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

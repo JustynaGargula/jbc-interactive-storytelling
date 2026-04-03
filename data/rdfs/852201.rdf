@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/852201">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:882678</dc:relation>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/852201/NDIGDZS075694.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Kościół Przemienienia Pańskiego (Kraków)</dc:subject>
+    <dc:title xml:lang="pl">Agnieszka Koziarska przeżywszy lat 89 [...] zasnęła w Panu dnia 9 Października 1892 r. […]</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Koziarska, Agnieszka (1803-1892)</dc:subject>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Koz 851</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

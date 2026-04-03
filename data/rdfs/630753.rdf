@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/630753">
+    <dc:language xml:lang="pl">ukr</dc:language>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:title xml:lang="pl">Adolʹf Gitler : Âkŝo nova navala vnutrìšnʹoï Azìï na Evropu</dc:title>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:subject xml:lang="pl">cytaty</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.3/49</dc:source>
+    <dc:subject xml:lang="pl">Hitler, Adolf (1889-1945)</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/630753/NDIGDZS030118.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:563671</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867761">
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Andrzej Wroński Obywatel miasta Krakowa, przeżywszy lat 74, [...], przeniósł się do wieczności o godz. 7 rano dnia 5 Sierpnia 1882 r.</dc:title>
+    <dc:date xml:lang="pl">1882</dc:date>
+    <dc:issued xml:lang="pl">1882</dc:issued>
+    <dc:subject xml:lang="pl">Wroński, Andrzej (1808?-1882)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:903048</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867761/NDIGDZS084563.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wr 707</dc:source>
+    <dc:subject xml:lang="pl">mieszczaństwo</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

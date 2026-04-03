@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601372">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 1452 II czasop.</dc:source>
+    <dc:contributor xml:lang="pl">Wałach, A. Red.</dc:contributor>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:issued xml:lang="pl">1871.05.31</dc:issued>
+    <dc:publisher xml:lang="pl">L. Otto</dc:publisher>
+    <dc:date xml:lang="pl">1871.05.31</dc:date>
+    <dc:subject xml:lang="pl">protestantyzm</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601372/0001_NDIGCZAS032272_92528127.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Werdauskie Wiadomości Misyjne. 1871, nr 5 (31 maja)</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:634195</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">czasopisma polskie 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

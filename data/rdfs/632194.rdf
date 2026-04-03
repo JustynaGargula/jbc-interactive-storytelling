@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/632194">
+    <dc:issued xml:lang="pl">1894</dc:issued>
+    <dc:title xml:lang="pl">Nr 124 Teatr amatorski w Wieliczce, czysty dochód na korzyść Ochronki miejskiej, w niedzielę dnia 11. marca 1894 : Powietrze Wielkomiejskie (Die Grossstadtluft), krotochwila w 4 aktach Oscara Blumenthala i Gustawa Kadelburga, tłumaczył M. Sachorowski</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602539</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/27</dc:source>
+    <dc:subject xml:lang="pl">Kadelburg, Gustav (1851-1925)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Blumenthal, Oscar (1852-1917)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/632194/NDIGDZS033083.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:publisher xml:lang="pl">J. Litwiński</dc:publisher>
+    <dc:date xml:lang="pl">1894</dc:date>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

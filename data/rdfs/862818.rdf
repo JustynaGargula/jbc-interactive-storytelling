@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/862818">
+    <dc:description xml:lang="pl">https://jbc.bj.uj.edu.pl/dlibra/publication/898571 Drużyna</dc:description>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:contributor xml:lang="pl">Chętnik, Adam. Red.</dc:contributor>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 100963 III</dc:source>
+    <dc:contributor xml:lang="pl">Brzezińska, Rozalia. Red.</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:898592</dc:relation>
+    <dc:issued xml:lang="pl">1912.03.12</dc:issued>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:title xml:lang="pl">Drużyna : jednodniówka młodzieży Młodzieży Ludowej</dc:title>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/862818/NDIGCZAS083217_1912_019_nr_ok_12marca.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1912.03.12</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

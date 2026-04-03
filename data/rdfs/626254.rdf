@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/626254">
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398679</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398679</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/38</dc:source>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 40 Artyści Teatru Łódzkiego, ostatni występ Romana Żelazowskiego w teatrze miejscowym, we wtorek dnia 3-go marca 1896 roku 1-szy raz : Na jedną kartę, sztuka w 5-ciu aktach przez Henryka Sienkiewicza</dc:title>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/626254/NDIGDZS019746.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/626254/NDIGDZS019746.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Żelazowski, Roman (1853-1930)</dc:subject>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra, poslĕdnââ gastrolʹ Romana Želâzovskago vʺ městnomʺ teatrě, vo vtornik 20-go fevralâ 1896 goda 1-yj razʺ : Na odnu kartu, pʹesa vʺ 5-ti dějstvìahʺ, soč. Genriha Sĕnkeviča</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Sienkiewicz, Henryk (1846-1916)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

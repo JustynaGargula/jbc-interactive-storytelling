@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677834">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677834/NDIGDZS035038.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608907</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">Drukarnia i Litografia „Jan Cotty”</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Katok v Lazenkah ustroennyj Varšavskim Rěčnym Âht-Klubom, segonâ v ponedelʹnik 21 fevralâ Bolʹšaâ Illûminacìâ</dc:title>
+    <dc:date xml:lang="pl">1883</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1883</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749994 V 4</dc:source>
+    <dc:title xml:lang="pl">Ślizgawka w Łazienkach urządzona przez Warszawski Rzeczny-Jacht-Klub, dziś w poniedziałek dnia 21 lutego (5 marca) 1883 roku Wielka Illuminacja</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

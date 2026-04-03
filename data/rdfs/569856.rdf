@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569856">
+    <dc:publisher xml:lang="pl">E. Winiarz</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Das Neueste für die Frühling- und Sommer Saison in Damen Mänteln bei J.L. Singer</dc:title>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599618</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/569856/NDIGDZS024514.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 138</dc:source>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Najnowsze wiosenne i letnie płaszcze damskie u J.L. Singera</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

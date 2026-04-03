@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648116">
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:686432</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686432</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 7767 IV czasop.</dc:source>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:subject xml:lang="pl">czasopisma polskie 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:date xml:lang="pl">1926.01.31</dc:date>
+    <dc:title xml:lang="pl">Kurjer Stanisławowski : polski organ kresowy. R.39 (1926), nr 287</dc:title>
+    <dc:issued xml:lang="pl">1926.01.31</dc:issued>
+    <dc:publisher xml:lang="pl">Spólka Wydawnicza „Kurjer Stanisławowski”</dc:publisher>
+    <dc:contributor xml:lang="pl">Kwaśniewski, Wł. Red.</dc:contributor>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Iwano-Frankiwsk (Ukraina)</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/648116/NDIGCZAS019157_1926_287.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648116/NDIGCZAS019157_1926_287.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

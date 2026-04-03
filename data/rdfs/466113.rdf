@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466113">
+    <dc:issued xml:lang="pl">[1852]</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/38567 Stary mąż. Komedyja w 4ch aktach przez Józefa Korzeniowskiego napisana w 1842</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491786</dc:relation>
+    <dc:relation xml:lang="pl">http://pbc.gda.pl/publication/16382 Dzieła Józefa Korzeniowskiego. T. 9</dc:relation>
+    <dc:date xml:lang="pl">[1852]</dc:date>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Dziś we czwartek dnia 18 marca 1852 roku w wigilją imienin czcigodnego Józefa Korzeniowskiego daną będzie przez rodzinę, przyjaciół i wielbicieli jego Komedja w czterech aktach, pod tytułem : Stary mąż, napisana przez samego Solenizanta</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466113/NDIGDZS023990.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 15</dc:source>
+    <dc:publisher xml:lang="pl">Drukarnia Józefa Unger</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

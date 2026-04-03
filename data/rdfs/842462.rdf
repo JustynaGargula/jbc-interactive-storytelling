@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/842462">
+    <dc:issued xml:lang="pl">1898</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1898</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Me 385</dc:source>
+    <dc:subject xml:lang="pl">Medwecka, Aniela (?-1898)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/842462/NDIGDZS070660.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873772</dc:relation>
+    <dc:subject xml:lang="pl">Podgórze (Kraków ; część miasta)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:description xml:lang="pl">Miejsce wydania ustalone na podstawie analizy dokumentu</dc:description>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:title xml:lang="pl">Aniela z Bojarskich Medvetzka, wdowa po c. k. Kameralnym Zarządcy Dóbr Skarbowych [...], zasnęła w Panu dnia 8. czerwca 1898 [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822935">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:848106</dc:relation>
+    <dc:subject xml:lang="pl">Jarosz, Józef (1862-1901)</dc:subject>
+    <dc:date xml:lang="pl">1901</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1901</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822935/NDIGDZS055410.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 27</dc:source>
+    <dc:title xml:lang="pl">Ks. Józef Jarosz katecheta szkoły wydziałowej w Limanowy, urodzony w Zakliczynie, przeżywszy lat 39 [...] zasnął w Panu dnia 22 listopada 1901 r. w Krakowie [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

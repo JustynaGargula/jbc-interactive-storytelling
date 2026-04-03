@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510164">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:description xml:lang="pl">Druk wydany w ramach Akcji „N”</dc:description>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510164/NDIGDZS025674.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535780</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 24</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1942</dc:issued>
+    <dc:title xml:lang="pl">Ein Verrückter an der Macht!</dc:title>
+    <dc:subject xml:lang="pl">Narodowosocjalistyczna Niemiecka Partia Robotników</dc:subject>
+    <dc:subject xml:lang="pl">Akcja „N”</dc:subject>
+    <dc:creator xml:lang="pl">Nationalsozialistische Deutsche Arbeiterpartei. Erneuerungsbewegung</dc:creator>
+    <dc:date xml:lang="pl">1942</dc:date>
+    <dc:subject xml:lang="pl">NSDAP</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

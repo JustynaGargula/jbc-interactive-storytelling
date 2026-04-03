@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/864163">
+    <dc:subject xml:lang="pl">Olko, Jędrzej (1792?-1866)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Jędrzej Olko pleban w Świlczy [...] przeniósł się dnia 2. sierpnia b. r. w 74 roku życia do wieczności [...] : Świlcza, dnia 2 sierpnia 1866</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V O 133</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Świlcza (woj. podkarpackie, pow. rzeszowski, gm. Świlcza)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/864163/NDIGDZS082400.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1866</dc:date>
+    <dc:issued xml:lang="pl">1866</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:896554</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

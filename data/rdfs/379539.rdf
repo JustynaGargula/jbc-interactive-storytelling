@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/379539">
+    <dc:issued xml:lang="pl">[1943]</dc:issued>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Bolszewizm przeciw Polsce i Europie!!! Od Berlina do Berlinga</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401331</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401331</dc:relation>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/379539/PDF/NDIGDZS021381.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1943]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399875 III</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/379539/PDF/NDIGDZS021381.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">polskie organizacje podziemne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

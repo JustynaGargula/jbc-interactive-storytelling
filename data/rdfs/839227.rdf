@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839227">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Monsieur Eugène ROLA de ROZYCKI, Monsieur Philippe ROLA de ROZYCKI, [...] Ont l'honneur de vous faire part de la perte douloureuse qu'ils viennent d'éprouver en la personne de Madame ROLA de RÓŻYCKA, Née Irma-Claudine AROUD, [...] décédée dans sa vingt-huitème année, [...], en son domicile à Senlis (Oise), le Vendredi 13 Février 1885</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839227/NDIGDZS067965.pdf</dc:identifier>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 112</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:870144</dc:relation>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:subject xml:lang="pl">Rola de Różycka, Irma-Claudine (1857?-1885)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

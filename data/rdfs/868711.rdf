@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868711">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901603</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Szpital Zakonu Bonifratrów św. Jana Grandego (Kraków)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Goryczka, Jan Kapistran (1811?-1887)</dc:subject>
+    <dc:issued xml:lang="pl">1887</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1887</dc:date>
+    <dc:title xml:lang="pl">Jan Kapistran Goryczka majster szewski, przeżywszy lat 76 [...] rozstał się z tym światem dnia 11-go Października 1887 roku</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 391</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868711/NDIGDZS085454.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

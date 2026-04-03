@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/880356">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:911019</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/880356/NDIGDZS090175.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Hof-Trauer, welche für weiland Ihre königliche Hoheit Auguste, Prinzessin von Bayern, geborne kaiserliche Prinzessin und Erzherzogin von Desterreich, vermöge allerhöchster Anordnung, von Mittwoch den 27. April 1864 angefangen, durch vier Wochen, und zwar unter Einem mit der für weiland Ihre kaiserliche Hoheit die durchlauchtigste Erzherzogin Hildegard bestehenden Hoftrauer, mit folgender Abwechslung getragen wird</dc:title>
+    <dc:subject xml:lang="pl">Augusta Ferdynanda Toskańska (arcyksiężna Austrii ; 1825-1864)</dc:subject>
+    <dc:subject xml:lang="pl">żałoba</dc:subject>
+    <dc:date xml:lang="pl">1864</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1864</dc:issued>
+    <dc:subject xml:lang="pl">książęta i księżne</dc:subject>
+    <dc:subject xml:lang="pl">Hildegarda Bawarska (arcyksiężna Austrii ; 1825-1864)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Rara A 126</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

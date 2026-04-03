@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822937">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Jaroszewski, Władysław (1837?-1903)</dc:subject>
+    <dc:subject xml:lang="pl">Kalwaria Zebrzydowska (Polska ; region)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 29</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822937/NDIGDZS055423.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:848114</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1903</dc:date>
+    <dc:title xml:lang="pl">Władysław Janina Jaroszewski c.k. Radca Sądu krajowego, właściciel dóbr ziemskich, przeżywszy lat 66 [...] zasnął w Panu dnia 14. Czerwca 1903 r. w Kalwaryi Zebrzydowskiej [...]</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1903</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510194">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535835</dc:relation>
+    <dc:subject xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką)</dc:subject>
+    <dc:title xml:lang="pl">Anordnung</dc:title>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:creator xml:lang="pl">Koppe, Wilhelm (1896-1975)</dc:creator>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">ewakuacja ludności</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:subject xml:lang="pl">okupacja niemiecka w Polsce (1939-1945)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510194/NDIGDZS026165.pdf</dc:identifier>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 39</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

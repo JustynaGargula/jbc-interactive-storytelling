@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/625617">
+    <dc:title xml:lang="pl">No 60 Artyści Teatru Łódzkiego, popołudniowe przedstawienie w teatrze miejscowym, w poniedziałek dnia 6-go kwietnia 1896 roku : Pan Twardowski, czarodziejsko-komiczna komedjo-opera w 6-ciu obrazach, napisana przez J. N. Kamińskiego</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398700</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398700</dc:relation>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra, popoludennoe predstavlenìe vʺ městnomʺ teatrě, vʺ ponedělʹnikʺ 25-go marta 1896 goda : Panʺ Tvardovskìj, volšebno-komičeskaâ komedìo-opera vʺ 6-ti kartinahʺ soč. I. N. Kaminskago</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/625617/NDIGDZS019741.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/625617/NDIGDZS019741.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/58</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

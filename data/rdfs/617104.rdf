@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617104">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Międzynarodowy teatr wystawy w c. k. praterze, Teatr Polski dziś w sobotę 10. września 1892 Halka</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617104/NDIGDZS033617.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Internationales Ausftellungs Theater im k. k. Prater heute Samstag den 10. September 1892 Polnisches Theater Halka</dc:title>
+    <dc:subject xml:lang="pl">Wolski, Włodzimierz (1824-1882)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 34/1</dc:source>
+    <dc:subject xml:lang="pl">Moniuszko, Stanisław (1819-1872) </dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602985</dc:relation>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:publisher xml:lang="pl">Johan N. Vernay</dc:publisher>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

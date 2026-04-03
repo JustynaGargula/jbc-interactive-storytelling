@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/682683">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 40/21</dc:source>
+    <dc:issued xml:lang="pl">1890</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Na dochód ubogich uczniów tutejszych szkół ludowych, Teatr Polski w złoczowie pod dyrekcyą K. Mattauscha, w sali Teatru Amatorskiego, w sobotę dnia 29 listopada 1890 : Gwałtowny Kapitan komedya w 1 akcie Miłkowskiego, Szmajgełes monolog humorystyczny ze śpiewami i tańcami, Gwałtu kucharza! komedya w 1 akcie Kościelskiego, Wybory do Rady Miejskiej komedya w 1 akcie ze śpiewami L. W.</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1890</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:601444</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/682683/NDIGDZS034899.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

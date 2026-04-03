@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/496803">
+    <dc:issued xml:lang="pl">1945</dc:issued>
+    <dc:subject xml:lang="pl">Prezydium Krajowej Rady Narodowej</dc:subject>
+    <dc:description xml:lang="pl">Maszynopis powielany</dc:description>
+    <dc:creator xml:lang="pl">Krajowa Rada Narodowa</dc:creator>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/496803/NDIGDZS024956.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/496803/NDIGDZS024956.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 160</dc:source>
+    <dc:date xml:lang="pl">1945</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:title xml:lang="pl">Ustawa z dnia [ ] 1945 r. o uregulowaniu uposażeń członków Prezydium Krajowej Rady Narodowej : uzasadnienie do projektu ustawy o uregulowaniu uposażeń członków Prezydium Krajowej Rady Narodowej</dc:title>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:421010</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:421010</dc:relation>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

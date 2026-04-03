@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/678006">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 2/3</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/678006/NDIGDZS031075.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Komitet balu na dochód Straży Ogniowej Ochotniczej Krakowskiej ma zaszczyt zaprosić Karola Estreichera z żoną na bal w Sali hotelu Saskiego w dniu 8 lutego 1871 r. odbyć się mający</dc:title>
+    <dc:date xml:lang="pl">1871</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608806</dc:relation>
+    <dc:issued xml:lang="pl">1871</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Estreicher, Karol (1827-1908)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514003">
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514003/NDIGDZS027774.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Aufruf an die Landevölkerung Bauern und Landwirte des Kreises Miechow!</dc:title>
+    <dc:issued xml:lang="pl">1939</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537237</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, M/1</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1939</dc:date>
+    <dc:title xml:lang="pl">Odezwa do ludności wiejskiej Chłopi i gospodarze powiatu miechowskiego!</dc:title>
+    <dc:creator xml:lang="pl">Boos, Eduard</dc:creator>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

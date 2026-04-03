@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648397">
+    <dc:date xml:lang="pl">1835.09.22</dc:date>
+    <dc:issued xml:lang="pl">1835.09.22</dc:issued>
+    <dc:contributor xml:lang="pl">Buchhandlung von Heinrich Richter</dc:contributor>
+    <dc:title xml:lang="pl">Der Breslauer Beobachter. Ein unterhaltendes Blatt für alle Stände, als Ergänzung zum Breslauer Erzähler. [Jg.1], № 19 (22 September 1835)</dc:title>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">czasopisma niemieckie 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648397/0019_NDIGCZAS039349_102669662.pdf</dc:identifier>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ BPC 1669 III</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:publisher xml:lang="pl">[Heinrich Richter]</dc:publisher>
+    <dc:subject xml:lang="pl">czasopisma społeczno-kulturalne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686798</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

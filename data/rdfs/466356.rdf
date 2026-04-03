@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466356">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 16/7</dc:source>
+    <dc:subject xml:lang="pl">Bałucki, Michał (1837-1901)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Fredro, Jan Aleksander (1829-1891)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1881]</dc:issued>
+    <dc:title xml:lang="pl">Dnia 11go grudnia 1881 odbędzie się w sali kasynowej w Lisku przedstawienie amatorskie : program: Kalosze, komedya w jednym akcie przez Jana Aleksandra hr. Fredrę, Teatr amatorski, krotochwila w 2 aktach przez Michała Bałuckiego</dc:title>
+    <dc:date xml:lang="pl">[1881]</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492022</dc:relation>
+    <dc:subject xml:lang="pl">litografia</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466356/NDIGDZS026259.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

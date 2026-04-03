@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600717">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600717/NDIGSTDR031854.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:date xml:lang="pl">[1786]</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Drukarnia Piotra Dufoura</dc:publisher>
+    <dc:coverage xml:lang="pl">[18 w.]</dc:coverage>
+    <dc:issued xml:lang="pl">[1786]</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 8957 III (25)</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567592</dc:relation>
+    <dc:title xml:lang="pl">Mowa Do Jasnie Oswieconego Xiązęcia Jegomosci Prymasa, W Delegacyi od Trybunału Koronnego Piotrkowskiego, przez Jmci Xiędza Kwasniewskiego Scholastyka Hełmskiego ... Dnia Czwartego Octobris 1786. Roku Miana</dc:title>
+    <dc:creator xml:lang="pl">Kwaśniewski, Roch Hieronim (ca 1710-ante 1789)</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

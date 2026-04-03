@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/550793">
+    <dc:date xml:lang="pl">1893</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 5</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1893</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:579397</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Cennik Zakładu Obserwacyjnego dla Nierogacizny w Krakowie zatwierdzony przez c. k. Namiestnictwo do L. 42764 z dnia 25. maja 1893 roku</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/550793/NDIGDZS019093.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

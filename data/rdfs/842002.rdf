@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/842002">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Mec 497</dc:source>
+    <dc:title xml:lang="pl">Franciszek Michoński, obywatel m. Krakowa, były organista przy Kościele Św. Marka [...] przeniósł się do wieczności d. 2 grud. 1887 [...].</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1887</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:875784</dc:relation>
+    <dc:date xml:lang="pl">1887</dc:date>
+    <dc:subject xml:lang="pl">Michoński, Franciszek (1804?-1887)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/842002/NDIGDZS071302.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

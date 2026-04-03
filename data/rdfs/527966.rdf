@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527966">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 6/5</dc:source>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527966/NDIGDZS022000.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:publisher xml:lang="pl">St. Święcki</dc:publisher>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Artyści Teatru Łódzkiego w teatrze miejscowym we wtorek dnia 28 kwietnia 1896 roku : Miłość ubogiego młodzieńca (Le romance d'un jeune homme pauvre)</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra vʺ mĕstnomʺ teatrě vo vtornikʺ 16 aprělâ 1896 goda : Lûbovʹ bĕdnago ûnoši (Le romance d'un jeune homme pauvre)</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554717</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

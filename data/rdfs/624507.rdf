@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/624507">
+    <dc:title xml:lang="pl">No 3 Teatrʺ vʺ zdanìi požarnyhʺ instrumentovʺ pod upravlenìemʺ Ivana Okonskago predstavleny budutʺ vo vtornikʺ 30 oktâbrâ/11 noâbrâ 1873 g. komedìâ v 1m dějstvìi O. Korženëvskago : Mizantrop i Provoločnik, komediâ v 1m dějstvìi A. Listovskago : Bělaâ Kamelìâ, komedìo-opera v 1m dějstvìi I. Kaminskago : Odnodvorcy</dc:title>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 4/3</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 3 Teatr w zabudowaniu narzędzi ogniowych w Chełmie pod Dyrekcyą Jana Okońskiego przedstawioną będzie we wtorek d. 30 października/11 listopada 1873 r. komedia w 1 akcie Józefa Korzeniowskiego : Mizantrop i Druciarz , komedya w 1m akcie J. Kamińskiego : Biała Kamelia, komedjo-opera w 1m akcie J. N. Kamińskiego Szlachta czynszowa</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398742</dc:relation>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/624507/NDIGDZS019680.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398742</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/624507/NDIGDZS019680.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

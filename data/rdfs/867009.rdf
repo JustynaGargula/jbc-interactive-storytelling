@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867009">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867009/NDIGDZS084510.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:902435</dc:relation>
+    <dc:date xml:lang="pl">1887</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1887</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Sza 923</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Szancer, Maria (1809-1887)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:title xml:lang="pl">Marya z Markusfeldów Szancerowa : wdowa po doktorze medycyny [...] zasnęła w Panu dnia 23-go września 1887 r.</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

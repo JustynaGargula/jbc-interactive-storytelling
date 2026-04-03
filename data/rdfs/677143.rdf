@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677143">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:646470</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677143/NDIGMUZ032831.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Drittes diesjahriges koncert des Vereins zur Beförderung der Tonkunst in Galizien : unter gefälliger Mitwirtung des Fräuleins Clotilde Bogdanowicz ... im städtischen Rathaussaa Sonntag den 27. September 1857</dc:title>
+    <dc:publisher xml:lang="pl">E. Winiarz</dc:publisher>
+    <dc:date xml:lang="pl">[1857]</dc:date>
+    <dc:title xml:lang="pl">Trzeci tegoroczny koncert towarzystwa do wykształcenia muzyki w Galicyi : w miejskiej sali ratuszowej w niedzielę dnia 27. września 1857</dc:title>
+    <dc:issued xml:lang="pl">[1857]</dc:issued>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 4,16</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

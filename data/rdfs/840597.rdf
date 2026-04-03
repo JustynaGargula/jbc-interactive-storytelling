@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840597">
+    <dc:subject xml:lang="pl">Warszawa (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">Kazachstan</dc:subject>
+    <dc:subject xml:lang="pl">sybiracy</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840597/NDIGDZS068408.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874304</dc:relation>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:issued xml:lang="pl">1946</dc:issued>
+    <dc:subject xml:lang="pl">Ural (Rosja ; góry)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III J-Jar 69</dc:source>
+    <dc:date xml:lang="pl">1946</dc:date>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:title xml:lang="pl">Dnia 30 sierpnia 1946 r. o godzinie 8 rano [...] odprawiona zostanie Msza święta żałobna za spokój duszy ś. p. z Mniszków Janiny z Zakliczyna Jordanowej [...] zmarłej w r. 1943 w Kazachstanie jej córki z Jordanów Róży Marii Bohdanowiczowej zmarłej w r. 1940 w Warszawie oraz jej syna Józefa z Zakliczyna Jordana zmarłego w r. 1941 na Uralu</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">zesłańcy</dc:subject>
+    <dc:subject xml:lang="pl">ofiary prześladowań</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Jordanowa, Janina (1842-1907)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/880232">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:date xml:lang="pl">1877</dc:date>
+    <dc:subject xml:lang="pl">Gumieńska, Józefa (1839?-1877)</dc:subject>
+    <dc:issued xml:lang="pl">1877</dc:issued>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">R.I.P. La Communauté des Ursulines [...] Mére Marie Thérese de Jésus (née Joséphine de Gumieńska.) religieuse de choeur morte ce 4 Février dans la 38 année de Son âge [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/880232/NDIGDZS092135.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gu-Gw 617a</dc:source>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:917109</dc:relation>
+    <dc:subject xml:lang="pl">Urszulanki Unii Rzymskiej</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

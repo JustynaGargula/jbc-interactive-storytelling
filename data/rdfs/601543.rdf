@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601543">
+    <dc:date xml:lang="pl">1904</dc:date>
+    <dc:issued xml:lang="pl">1904</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Kartogr. M 37/1 170</dc:source>
+    <dc:contributor xml:lang="pl">Hübner (kartografia). Oprac.</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:536188</dc:relation>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:description xml:lang="pl">Seria: Spezialkarte der österreichisch-ungarischen Monarchie 1:75.000</dc:description>
+    <dc:publisher xml:lang="pl">K. u k. militär-geographisches Institut</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601543/K%C3%A9sm%C3%A1rk%20und%20Leutschau%20%20%20Zone%209%20Col.%20XXIII.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Kaiserlich-Königliches Militär-Geographisches Institut</dc:subject>
+    <dc:contributor xml:lang="pl">Bogdanyi, F. von. Oprac.</dc:contributor>
+    <dc:type xml:lang="pl">mapa</dc:type>
+    <dc:subject xml:lang="pl">mapy 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Késmárk und Leutschau : Zone 9 Col. XXIII</dc:title>
+    <dc:description xml:lang="pl">Południk zerowy: Ferro</dc:description>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">kartografia</dc:subject>
+    <dc:subject xml:lang="pl">Austro-Węgry</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

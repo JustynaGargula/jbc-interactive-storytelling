@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/603761">
+    <dc:subject xml:lang="pl">Chaumont, Céline (1848-1926)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/603761/NDIGDZS031136.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1884</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:title xml:lang="pl">Céline Chaumont avec la troupe parisienne</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:601724</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Towarzystwo Paryskie</dc:subject>
+    <dc:subject xml:lang="pl">Teatr Krakowski 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 3/16</dc:source>
+    <dc:date xml:lang="pl">1884</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

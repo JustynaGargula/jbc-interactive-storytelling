@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600748">
+    <dc:title xml:lang="pl">[Projekt pawilonów ogrodowych z tarasem]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:610597</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">18 w.</dc:coverage>
+    <dc:date xml:lang="pl">1771</dc:date>
+    <dc:description xml:lang="pl">Skala liniowa 9,5 cm = 20 łokci</dc:description>
+    <dc:issued xml:lang="pl">1771</dc:issued>
+    <dc:creator xml:lang="pl">Sierakowski, Sebastian (1743-1824)</dc:creator>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600748/NDIGGRAF037636.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">grafika polska</dc:subject>
+    <dc:subject xml:lang="pl">rysunek tuszem</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Graf. I.R. 919</dc:source>
+    <dc:subject xml:lang="pl">akwarela</dc:subject>
+    <dc:subject xml:lang="pl">rysunki architektoniczne</dc:subject>
+    <dc:type xml:lang="pl">rysunek</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

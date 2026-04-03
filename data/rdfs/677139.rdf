@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677139">
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">Kątski, Apolinary (1826-1879)</dc:subject>
+    <dc:subject xml:lang="pl">Kątski, Antoni (1817-1889)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1850</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 7,17</dc:source>
+    <dc:issued xml:lang="pl">1850</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:646025</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677139/NDIGMUZ036922.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Donnerstag den 21. November 1850 grosses Concert der Gebrüder Anton v. Kontski ... und Appolinari v. Kontski</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

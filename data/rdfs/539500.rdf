@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539500">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567110</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/539500/NDIGDZS019014.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Komu odbiera spokój ducha męczeństwo kresów wschodnich, kto pragnie uwolnić naszych Braci i Siostry z pod barbarzyńskiego ucisku hajdamaków, niech śpieszy na wiec w sprawie Galicyi Wschodniej</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Królestwo Galicji i Lodomerii (Austria)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">ca 1919</dc:issued>
+    <dc:date xml:lang="pl">ca 1919</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 4/19</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/828109">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:creator xml:lang="pl">Kallenbach, Józef (1861-1929)</dc:creator>
+    <dc:subject xml:lang="pl">Žukovskij, Vasilij Andreevič (1783-1852) Lûdmila</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">nadbitki i odbitki</dc:subject>
+    <dc:subject xml:lang="pl">literaturoznawstwo</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/828109/NDIGDZS061788.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">analiza i interpretacja</dc:subject>
+    <dc:subject xml:lang="pl">Zan, Tomasz (1796-1855)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 11959 II 192</dc:source>
+    <dc:title xml:lang="pl">Kilka słów o balladzie p. t. „Neryna”</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:860717</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1888</dc:date>
+    <dc:issued xml:lang="pl">1888</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

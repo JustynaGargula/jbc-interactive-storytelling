@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/825494">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/825494/NDIGDZS053983.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1904</dc:date>
+    <dc:subject xml:lang="pl">46 Dywizja Piechoty Obrony Krajowej (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">12 Pułk Piechoty Obrony Krajowej Čáslav</dc:subject>
+    <dc:subject xml:lang="pl">Haber, Wenzel (ok. 1868-1904)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:850593</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ha-Hi 2</dc:source>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:issued xml:lang="pl">1904</dc:issued>
+    <dc:title xml:lang="pl">Wenzel Haber : k. k. Hauptmann I. Klasse ü. c. im Landwehr-Infanterie-Regimente Caslau [!] Nr. 12, [...] welcher Sonntag den 12. Juni 1904 um 6 Uhr früh nach schwerem Leiden, im 37. Lebensjahre sanft zur ewigen Ruhe entschlafen ist</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">ger</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

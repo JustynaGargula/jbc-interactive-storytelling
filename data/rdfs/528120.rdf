@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/528120">
+    <dc:contributor xml:lang="pl">Rusinowski, Anastazy (1829-1893). Druk.</dc:contributor>
+    <dc:date xml:lang="pl">1857</dc:date>
+    <dc:subject xml:lang="pl">Gubarzewski, Antoni (1810-1862)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554902</dc:relation>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne Polskie</dc:subject>
+    <dc:publisher xml:lang="pl">A. Rusinowski</dc:publisher>
+    <dc:title xml:lang="pl">Doniesienie teatralne : Towarzystwo Dramatyczne Polskie przybywszy do tutejszego miasta rozpocznie dawanie widowisk w dniu 11 b.m. 1857</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 22/22</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/528120/NDIGDZS029578.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1857</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

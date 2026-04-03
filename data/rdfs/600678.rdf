@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600678">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600678/NDIGGRAF031821.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1838</dc:date>
+    <dc:issued xml:lang="pl">1838</dc:issued>
+    <dc:title xml:lang="pl">Z Krakowa</dc:title>
+    <dc:subject xml:lang="pl">grafika polska</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:description xml:lang="pl">Chłop z okolic Krakowa</dc:description>
+    <dc:subject xml:lang="pl">akwaforta</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Graf. I. 8915</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535899</dc:relation>
+    <dc:creator xml:lang="pl">Kielisiński, Kajetan Wincenty (1808-1849)</dc:creator>
+    <dc:type xml:lang="pl">grafika</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

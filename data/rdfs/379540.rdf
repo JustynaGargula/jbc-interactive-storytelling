@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/379540">
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">powstanie warszawskie (1944)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401256</dc:relation>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401256</dc:relation>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/379540/PDF/NDIGDZS021389.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Do ludności miasta stoł. Warszawy</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/379540/PDF/NDIGDZS021389.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:creator xml:lang="pl">Konwent Organizacji Niepodległościowych</dc:creator>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">polskie organizacje podziemne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399875 III</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

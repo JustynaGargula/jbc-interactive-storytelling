@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570218">
+    <dc:title xml:lang="pl">Niniejszem oznajmiamy, że na mocy umowy zawartej z Bankiem galicyjskim otworzyliśmy w Tarnowie z dniem 1. lipca 1869 Dom komisowy tegoż Banku pod firmą : „Dom komisowy Banku galicyjskiego dla handlu i przemysłu w Tarnowie”</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570218/NDIGDZS032324.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Kaczkowski, Karol</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600185</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224630 V e/2</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+    <dc:date xml:lang="pl">1869</dc:date>
+    <dc:subject xml:lang="pl">Jakubowski, A.</dc:subject>
+    <dc:subject xml:lang="pl">Bank Galicyjski dla Handlu i Przemysłu</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

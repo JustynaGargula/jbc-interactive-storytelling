@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868364">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901883</dc:relation>
+    <dc:title xml:lang="pl">Agnieszka z Ziętkiewiczów Poźniakowa [...] zmarła dnia 16. kwietnia b. r. [...] : we Lwowie dnia 16. kwietnia 1885</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Poźniakowa, Agnieszka (?-1885)</dc:subject>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V P 108</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868364/NDIGDZS085385.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Cmentarz Łyczakowski (Lwów)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

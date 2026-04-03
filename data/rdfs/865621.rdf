@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/865621">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 9</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Kościół Trójcy Przenajświętszej (Bielsko-Biała)</dc:subject>
+    <dc:description xml:lang="pl">Na druku błędna data śmierci</dc:description>
+    <dc:issued xml:lang="pl">2013</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:891461</dc:relation>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:date xml:lang="pl">2013</dc:date>
+    <dc:title xml:lang="pl">17 marca 2012 [!] zmarła w wieku 72 lat dr Jadwiga Bzinkowska emerytowany starszy kustosz dyplomowany, kierownik Oddziału Zbiorów Kartograficznych Biblioteki Jagiellońskiej [...]</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Bzinkowska, Jadwiga (1940-2013)</dc:subject>
+    <dc:subject xml:lang="pl">Bielsko-Biała (Polska ; region)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/865621/NDIGDZS080421.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

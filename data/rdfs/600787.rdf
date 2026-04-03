@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600787">
+    <dc:creator xml:lang="pl">Paderewski, Ignacy Jan (1860-1941)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. 26333 III</dc:source>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:title xml:lang="pl">Mélodie : Op. 8 no. 3</dc:title>
+    <dc:type xml:lang="pl">druk muzyczny</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:572621</dc:relation>
+    <dc:description xml:lang="pl">Na fortepian</dc:description>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">ca 1890</dc:date>
+    <dc:publisher xml:lang="pl">National Music Co.</dc:publisher>
+    <dc:issued xml:lang="pl">ca 1890</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600787/NDIGMUZ037627.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

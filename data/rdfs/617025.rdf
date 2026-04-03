@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617025">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617025/NDIGDZS033093.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Anczyc, Władysław Ludwik (1823-1883)</dc:subject>
+    <dc:publisher xml:lang="pl">J. Litwiński</dc:publisher>
+    <dc:date xml:lang="pl">1899</dc:date>
+    <dc:title xml:lang="pl">Nr 145 Na cele dobroczynne, teatr amatorski w Wieliczce, w niedzielę dnia 5. listopada 1899 w Sali teatralnej miejscowej : Z Miłości komedya, Chłopi arystokraci szkic dramatyczny</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/35</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Mozer, G.</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1899</dc:issued>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602461</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

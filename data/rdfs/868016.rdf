@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868016">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V P 9</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:899789</dc:relation>
+    <dc:issued xml:lang="pl">1882</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868016/NDIGDZS084381.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Paratiukiewicz, Władysław (1851?-1882)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1882</dc:date>
+    <dc:title xml:lang="pl">Władysław Paratiukiewicz [...] przeniósł się do wieczności dnia 22. sierpnia [...] : Rzeszów dnia 22. sierpnia 1882</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

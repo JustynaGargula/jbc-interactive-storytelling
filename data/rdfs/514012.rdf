@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514012">
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, L/4,5</dc:source>
+    <dc:language xml:lang="pl">ukr</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537221</dc:relation>
+    <dc:title xml:lang="pl">Ogološennâ!</dc:title>
+    <dc:contributor xml:lang="pl">Thier, Theobald (1897-1949)</dc:contributor>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:subject xml:lang="pl">Ukraina</dc:subject>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:title xml:lang="pl">Bekanntmachung! = Ogološennâ! = Obwieszczenie!</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Obwieszczenie!</dc:title>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514012/NDIGDZS027913.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

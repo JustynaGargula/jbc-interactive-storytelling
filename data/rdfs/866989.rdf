@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866989">
+    <dc:subject xml:lang="pl">mieszczaństwo</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866989/NDIGDZS083951.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Stanisław Wójtowicz obywatel miasta Krakowa przeżywszy lat 67 [...] zasnął w Panu dnia 28go Czerwca 1877 roku</dc:title>
+    <dc:date xml:lang="pl">1877</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:898919</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wo 610</dc:source>
+    <dc:issued xml:lang="pl">1877</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Kleparz (Dzielnica I Stare Miasto, Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Wójtowicz, Stanisław (?-1877)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

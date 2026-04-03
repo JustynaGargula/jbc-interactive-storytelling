@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/632072">
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/16</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/632072/NDIGDZS033071.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">http://pbc.gda.pl/publication/16419 Dzieła Józefa Korzeniowskiego. T. 10</dc:relation>
+    <dc:title xml:lang="pl">Nr 12 Teatr amatorski w Wieliczce, w niedzielę dnia 20 czerwca 1869 r., danem będzie przedstawienie z którego połowę czystego dochodu przeznaczono na wsparcie miejscowéj materyalnie podupadłéj rodziny : rozpocznie Pierwéj Mama, nastąpi Qui Pro Quo, zakończy Przekąska</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:publisher xml:lang="pl">Drukarnia „Czasu” (Kraków)</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">http://www.wbc.poznan.pl/publication/490004 Pierwej mama. Komedya w 1 akcie</dc:relation>
+    <dc:date xml:lang="pl">1869</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+    <dc:relation xml:lang="pl">https://sbc.org.pl/publication/30806 Pierwej mama. Komedia w 1 akcie</dc:relation>
+    <dc:subject xml:lang="pl">Bobrowski, Wincenty</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602550</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

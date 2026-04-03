@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/632065">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Nr 5 Stały teatr amatorski w Żywcu, w niedzielę dnia 29 kwietnia 1888, w sali ratuszowej : Wróble, komedya w 3 aktach przez Labiche i Delacour</dc:title>
+    <dc:date xml:lang="pl">1888</dc:date>
+    <dc:issued xml:lang="pl">1888</dc:issued>
+    <dc:subject xml:lang="pl">Labiche, Eugène (1815-1888)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 41/8</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Delacour, Alfred (1815-1883)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605506</dc:relation>
+    <dc:publisher xml:lang="pl">T. Lintscher</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/632065/NDIGDZS033037.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

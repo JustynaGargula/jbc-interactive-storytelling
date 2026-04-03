@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648346">
+    <dc:subject xml:lang="pl">Sękowa Wola</dc:subject>
+    <dc:issued xml:lang="pl">1508</dc:issued>
+    <dc:title xml:lang="pl">Dokument sądu ziemskiego sanockiego dotyczący zamiany dóbr między właścicielami miasta Nowotańca, wsi Sękowa Wola, Berezka, Bereźnica i Wołkowyja oraz wsi Strachocina</dc:title>
+    <dc:subject xml:lang="pl">Wołkowyja</dc:subject>
+    <dc:subject xml:lang="pl">Bereźnica</dc:subject>
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. Dypl. 310</dc:source>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:subject xml:lang="pl">Strachocina</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:619825</dc:relation>
+    <dc:date xml:lang="pl">1508</dc:date>
+    <dc:coverage xml:lang="pl">16 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Nowotaniec</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648346/NDIGORP035083.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Berezka</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648110">
+    <dc:subject xml:lang="pl">1918-1939 (II Rzeczpospolita)</dc:subject>
+    <dc:title xml:lang="pl">Depesza Wieczorna : bezpartyjne wydawnictwo inform. z powodu wypadków w Warszawie</dc:title>
+    <dc:date xml:lang="pl">1926</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686425</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">L. Dankiewicz</dc:publisher>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 7767 IV czasop.</dc:source>
+    <dc:subject xml:lang="pl">Iwano-Frankiwsk (Ukraina)</dc:subject>
+    <dc:subject xml:lang="pl">1926 (zamach stanu)</dc:subject>
+    <dc:contributor xml:lang="pl">Orwicz, Zbigniew. Red.</dc:contributor>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648110/NDIGCZAS019157_1926_DOD2.pdf</dc:identifier>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">1926</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

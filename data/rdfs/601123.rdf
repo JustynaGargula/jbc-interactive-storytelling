@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601123">
+    <dc:type xml:lang="pl">e-czasopismo</dc:type>
+    <dc:title xml:lang="pl">Głos Polski : organ prasowy Związku Polaków w Argentynie = La Voz de Polonia : organo de prensa de la Union de los Polacos en la Republika Argentina. R. 96, 2018, nr 11</dc:title>
+    <dc:date xml:lang="pl">2018.11</dc:date>
+    <dc:contributor xml:lang="pl">Unión de los Polacos en la República Argentina</dc:contributor>
+    <dc:contributor xml:lang="pl">Sobolewska, Barbara (1945- ). Red.</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:633943</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oc 000172</dc:source>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:issued xml:lang="pl">2018.11</dc:issued>
+    <dc:subject xml:lang="pl">Polacy za granicą</dc:subject>
+    <dc:relation xml:lang="pl">http://www.upranet.com.ar/_pol/?page_id=4645 Strona domowa Związku Polaków w Argentynie</dc:relation>
+    <dc:subject xml:lang="pl">czasopisma polskie za granicą</dc:subject>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:publisher xml:lang="pl">Unión de los Polacos en la Rep. Argentina</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/277422">
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:issued xml:lang="pl">2008</dc:issued>
+    <dc:date xml:lang="pl">2008</dc:date>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2008/186</dc:source>
+    <dc:subject xml:lang="pl">codzienność</dc:subject>
+    <dc:subject xml:lang="pl">the Nazi occupation</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">Cracow</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:182098</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:182098</dc:relation>
+    <dc:creator xml:lang="pl">Czocher, Anna</dc:creator>
+    <dc:subject xml:lang="pl">everyday life</dc:subject>
+    <dc:title xml:lang="pl">Codzienność w okupowanym Krakowie 1939-1945</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">okupacja hitlerowska</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

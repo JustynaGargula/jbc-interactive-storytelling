@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/279352">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="en">Polska</dc:subject>
+    <dc:subject xml:lang="pl">Polska</dc:subject>
+    <dc:type xml:lang="en">leaflet</dc:type>
+    <dc:source xml:lang="en">Biblioteka Jagiellońska, 894928 IV 1916/1 Rara</dc:source>
+    <dc:creator xml:lang="en">Komitet Darów Wielkanocnych dla Żołnierzy-Polaków oraz Legionistów Polskich.</dc:creator>
+    <dc:coverage xml:lang="en">20th century</dc:coverage>
+    <dc:creator xml:lang="pl">Komitet Darów Wielkanocnych dla Żołnierzy-Polaków oraz Legionistów Polskich.</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 894928 IV 1916/1 Rara</dc:source>
+    <dc:title xml:lang="en">Do mieszkańców stoł. król. m. Krakowa i Ziemi Krakowskiej. [Inc.: Kilkanaście miesięcy już najdzielniejsi synowie naszej ziemi zmagają się w krwawym boju ...] : Kraków, dnia 11. lutego 1916 r.</dc:title>
+    <dc:title xml:lang="pl">Do mieszkańców stoł. król. m. Krakowa i Ziemi Krakowskiej. [Inc.: Kilkanaście miesięcy już najdzielniejsi synowie naszej ziemi zmagają się w krwawym boju ...] : Kraków, dnia 11. lutego 1916 r.</dc:title>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:rights xml:lang="en">Public domain</dc:rights>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:subject xml:lang="en">appeals</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:292013</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:292013</dc:relation>
+    <dc:issued xml:lang="en">1916</dc:issued>
+    <dc:publisher xml:lang="en">Drukarnia Związkowa w Krakowie</dc:publisher>
+    <dc:subject xml:lang="en">Kraków (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">1916</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">Drukarnia Związkowa w Krakowie</dc:publisher>
+    <dc:language xml:lang="en">pol</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="en">1916</dc:date>
+    <dc:date xml:lang="pl">1916</dc:date>
+    <dc:subject xml:lang="pl">Legiony Polskie</dc:subject>
+    <dc:subject xml:lang="en">broadsides</dc:subject>
+    <dc:subject xml:lang="en">Polish Legions</dc:subject>
+    <dc:subject xml:lang="pl">odezwy</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

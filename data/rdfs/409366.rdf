@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/409366">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/409366/PDF/NDIGDZS021508.pdf</dc:identifier>
+    <dc:date xml:lang="pl">ca 1944</dc:date>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">ca 1944</dc:issued>
+    <dc:title xml:lang="pl">Der Führer hat wie immer Recht. Wir legen die Waffen 15' zu spät nieder. Ein Pechvogel</dc:title>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401471</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401471</dc:relation>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399874 III 1</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/409366/PDF/NDIGDZS021508.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

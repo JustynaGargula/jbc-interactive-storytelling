@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/403730">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/403730/PDF/NDIGMUZ021765.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/403730/PDF/NDIGMUZ021765.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Teatr Polski (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:date xml:lang="pl">1856</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, Muz. DŻS 1,92</dc:source>
+    <dc:issued xml:lang="pl">1856</dc:issued>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">C. K. Teatr Polski w Krakowie pod dyrekcyą Juliusza Pfeiffa i F. Bluma : we wtorek dnia 2go grudnia 1856 r. pani Marya Petri z domu Groppler artystka śpiewu : uczennica p. Bordogni ... będzie miała zaszczyt dać koncert wokalny</dc:title>
+    <dc:title xml:lang="pl">Dienstag den 2. Dezember 1856 vocal - Concert der Fr. M. Petri</dc:title>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402156</dc:relation>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402156</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+  </rdf:Description>
+</rdf:RDF>
+

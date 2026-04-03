@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822965">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:849519</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Johns, Robert (1833?-1912)</dc:subject>
+    <dc:title xml:lang="pl">Robert Johns emer. urzędnik c. k. kolei państw., oraz uczestnik powstania z r. 1863 przeżywszy lat 79 [...] zmarł dnia 24 sierpnia 1912 roku [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 57</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822965/NDIGDZS055587.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1912</dc:issued>
+    <dc:date xml:lang="pl">1912</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

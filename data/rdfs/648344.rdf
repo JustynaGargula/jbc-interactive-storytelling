@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648344">
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:issued xml:lang="pl">1774</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648344/NDIGORP030229.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1774</dc:date>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:coverage xml:lang="pl">18 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. Dypl. 528</dc:source>
+    <dc:title xml:lang="pl">Dokument papieża Klemensa XIV zezwalający Franciszkowi Dzierzgowskiemu z Łucka na przyjęcie niższych i wyższych święceń kapłańskich</dc:title>
+    <dc:subject xml:lang="pl">Dzierzgowski, Franciszek</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599825</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/632070">
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/632070/NDIGDZS033060.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602324</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">Drukarnia „Czasu” (Kraków)</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1869</dc:date>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Nr 7 Teatr amatorski w Wieliczce, w niedzielę dnia 14 marca 1869 r. , na cele dobroczynne : Damy i Huzary, komedya w 3 aktach napisana przez Aleksandra hr. Fredrę</dc:title>
+    <dc:subject xml:lang="pl">Fredro, Aleksander (1793-1876)</dc:subject>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/13</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

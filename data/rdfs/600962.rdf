@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600962">
+    <dc:issued xml:lang="pl">1873.01.10</dc:issued>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 1603 IV czasop.</dc:source>
+    <dc:date xml:lang="pl">1873.01.10</dc:date>
+    <dc:title xml:lang="pl">Kaliszanin : gazeta miasta Kalisza i jego okolic. R.4, № 3 (10 stycznia 1873)</dc:title>
+    <dc:publisher xml:lang="pl">W. Hindemith</dc:publisher>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:subject xml:lang="pl">Kalisz (Polska ; region)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600962/0003_NDIGCZAS032180_92022941.pdf</dc:identifier>
+    <dc:contributor xml:lang="pl">Tański, Jan (1842-1876). Red.</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:633782</dc:relation>
+    <dc:subject xml:lang="pl">czasopisma regionalne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

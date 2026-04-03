@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839440">
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Ilińska, Michalina (1797-1859)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:862288</dc:relation>
+    <dc:issued xml:lang="pl">1859</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839440/NDIGDZS063559.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 51</dc:source>
+    <dc:title xml:lang="pl">Le Comte Henri Ilinski, Conseiller d'Etat, Chambellan de S. M. l'Empereur de Russie, la Comtesse Hedvige Stecka, [...] Ont l'honneur de vous faire part de la perte douloureuse qu'ils viennent de faire en la personne de Madame la Comtesse Micheline Ilinska (née Comtesse Bierzynska) [...] décédée à Paris le 1er Janvier 1859, à l'âge de 56 ans, munie des Sacrements de l'Eglise</dc:title>
+    <dc:description xml:lang="pl">Grób na Cmentarzu Père-Lachaise: kwatera 22 r.1 ch. Du Bassin, gr. 6 ch. de la Citerne</dc:description>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1859</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

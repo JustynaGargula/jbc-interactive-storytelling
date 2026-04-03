@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/617095">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/617095/NDIGDZS033312.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1918</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Młodzieży Obywatele! : Po ciężkich tragicznych przejściach</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224631 V</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600340</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:date xml:lang="pl">1918</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

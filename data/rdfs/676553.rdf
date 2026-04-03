@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/676553">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:607845</dc:relation>
+    <dc:issued xml:lang="pl">1870</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 2/10</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/676553/NDIGDZS031082.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Bal w nowo otwartym i jak najlepiej urządzonym lokalu restauracyjnym pod kopcem Wandy naprzeciwko ogrodu Strzeleckiego, dawniej „Pod wilkiem”</dc:title>
+    <dc:date xml:lang="pl">1870</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

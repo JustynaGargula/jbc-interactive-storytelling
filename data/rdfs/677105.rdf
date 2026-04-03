@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677105">
+    <dc:publisher xml:lang="pl">Andreas Mädler</dc:publisher>
+    <dc:title xml:lang="pl">Czytelnia polska w Białej urządza w lokalu własnym (hotel p. Gizickiego), w niedzielę dnia 28 lutego 1892, przedstawienie amatorskie : odegranem będzie Dożywocie, komedya w trzech aktach wierszem Alex. hr. Fredry, po przedstawiemiu zabawa z tańcami</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/677105/NDIGDZS020961.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677105/NDIGDZS020961.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:399843</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:399843</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Fredro, Aleksander (1793-1876)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 2/4</dc:source>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

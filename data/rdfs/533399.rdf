@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/533399">
+    <dc:date xml:lang="pl">1933</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/533399/NDIGDZS018923.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Muczkowski, Stefan</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 29</dc:source>
+    <dc:title xml:lang="pl">Cykl odczytów z zakresu działalności „Polskiej Poczty, Telegrafu i Telefonu” odczyt nr 6 : Naukowa organizacja a metody pracy w służbie poczt.-telegr.</dc:title>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1933</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:560502</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

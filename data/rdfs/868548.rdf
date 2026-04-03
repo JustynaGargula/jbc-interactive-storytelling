@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868548">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1896</dc:date>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:title xml:lang="pl">Adam Goliński urzędnik Towarzystwa wzajemnych ubezpieczeń w Krakowie przeżywszy lat 40 [...] zasnął w Panu dnia 23 Sierpnia 1896 r. [...]</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Towarzystwo Wzajemnych Ubezpieczeń (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Kościół Przemienienia Pańskiego (Kraków)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 316</dc:source>
+    <dc:subject xml:lang="pl">Goliński, Adam (1856?-1896)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868548/NDIGDZS083907.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1896</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:898020</dc:relation>
+    <dc:subject xml:lang="pl">urzędnicy</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

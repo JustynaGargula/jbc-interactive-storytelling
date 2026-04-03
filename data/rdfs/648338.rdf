@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648338">
+    <dc:subject xml:lang="pl">Boleslav</dc:subject>
+    <dc:date xml:lang="pl">1506</dc:date>
+    <dc:coverage xml:lang="pl">16 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. Dypl. 396</dc:source>
+    <dc:title xml:lang="pl">Dokument Jana II z Šelmberka i Kost, komornika Królestwa Czech, oraz jego syna Jana, dziedzica Karniowa, potwierdzający Jerzemu Sup z Felsztyna i jego synowi prawo dożywotniego posiadania wsi Równe</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648338/NDIGORP035870.pdf</dc:identifier>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:subject xml:lang="pl">Jiří ze Šelmberka (1475-1526)</dc:subject>
+    <dc:issued xml:lang="pl">1506</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:616736</dc:relation>
+    <dc:language xml:lang="pl">cze</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

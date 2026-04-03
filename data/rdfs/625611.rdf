@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/625611">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Bałucki, Michał (1837-1901)</dc:subject>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398674</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398674</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">No 15 W teatrze miejscowym w sobotę dnia 25 stycznia 1896 roku Artystyczny Bal Maskowy, początek o godzinie 10 wieczorem, o godzinie 11 wieczorem : Grube ryby, komedja w 3-ch aktach, przez M. Bałuckiego</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/15</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/625611/NDIGDZS019733.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/625611/NDIGDZS019733.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Vʺ mĕstnomʺ teatrě vʺ subbotu 13-go ânvr'â 1896 goda Artističeskij Balʺ Maskaradʺ načalo vʺ 10 časovʺ večera, vʺ 11 časovʺ večera : Krupnye tuzy, komedìâ vʺ 3-h' dějstvìahʺ, sočinenìâ M. Baluckago</dc:title>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

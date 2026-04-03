@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839136">
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:date xml:lang="pl">1890</dc:date>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Broel-Plater, Idalia (?-1890)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224647 IV 10</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:861093</dc:relation>
+    <dc:title xml:lang="pl">La famille de comtes de Broel-Plater a la douleur de vous faire part de la perte cruelle qu'elle vient d'éprouver en la person Madame la Comtese Idalie de Broel-Plater née Sobańska leur mère et grand'mère, décédée à Belmont, gouvernemet de Kowno, le 27 décembre 1890 (8 janvier 1891), à l'âge de 83 ans [...]</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1890</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839136/NDIGDZS062568.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

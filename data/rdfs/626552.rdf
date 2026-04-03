@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/626552">
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/626552/NDIGDZS019750.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/626552/NDIGDZS019750.pdf</dc:identifier>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398731</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398731</dc:relation>
+    <dc:title xml:lang="pl">No 48 Artyści Teatru Łódzkiego w teatrze miejscowym, w czwartek dnia 19-go marca 1896 roku tylko dwa występy Józefa Kotarbińskiego, 1 -szy raz : Hamlet, tragedija w 5-ciu aktach, przez W. Szekspira</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Shakespeare, William (1564-1616)</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/45</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra, vʺ městnomʺ teatrě vʺ četvergʺ 7-go marta 1896 goda, tolʹko dvĕ gastroli Ìosifa Kotarbinskago, 1-yj razʺ : Gamletʺ, tragedìâ w 5-ti dějstvìahʺ, soč. V. Šekspira</dc:title>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

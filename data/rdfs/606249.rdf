@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/606249">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:638673</dc:relation>
+    <dc:publisher xml:lang="pl">Nakładem Redakcji</dc:publisher>
+    <dc:subject xml:lang="pl">Galicyjskie Towarzystwo Gospodarskie</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/606249/0005_NDIGCZAS030594_87845178.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Towarzystwo ku Podniesieniu Chowu Koni</dc:subject>
+    <dc:subject xml:lang="pl">rolnictwo</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 100602 III</dc:source>
+    <dc:issued xml:lang="pl">1888.01.28</dc:issued>
+    <dc:subject xml:lang="pl">czasopisma rolnicze polskie</dc:subject>
+    <dc:title xml:lang="pl">Rolnik : tygodnik dla gospodarzy wiejskich : organ urzędowy c. k. Towarzystwa gospodarskiego galicyjskiego. R.21, T.41, Nr. 4 (28 stycznia 1888)</dc:title>
+    <dc:subject xml:lang="pl">sytuacja gospodarcza</dc:subject>
+    <dc:contributor xml:lang="pl">Tyniecki, W. Red.</dc:contributor>
+    <dc:date xml:lang="pl">1888.01.28</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:subject xml:lang="pl">Związek Dublańczyków Agronomów (Lwów)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">gospodarstwa rolne</dc:subject>
+    <dc:subject xml:lang="pl">Lwów (Ukraina ; region)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

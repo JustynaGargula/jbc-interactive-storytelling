@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/257996">
+    <dc:subject xml:lang="pl">demonology</dc:subject>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:creator xml:lang="pl">Krzyszkowska-Pawlik, Rosanna</dc:creator>
+    <dc:subject xml:lang="pl">Spain</dc:subject>
+    <dc:subject xml:lang="pl">España</dc:subject>
+    <dc:subject xml:lang="pl">iconografía</dc:subject>
+    <dc:subject xml:lang="pl">Salvaje</dc:subject>
+    <dc:subject xml:lang="pl">literature</dc:subject>
+    <dc:subject xml:lang="pl">Hiszpania</dc:subject>
+    <dc:subject xml:lang="pl">folclore</dc:subject>
+    <dc:subject xml:lang="pl">demonologia</dc:subject>
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:subject xml:lang="pl">Dziki</dc:subject>
+    <dc:subject xml:lang="pl">folklor</dc:subject>
+    <dc:date xml:lang="pl">2005</dc:date>
+    <dc:subject xml:lang="pl">literatura</dc:subject>
+    <dc:subject xml:lang="pl">iconography</dc:subject>
+    <dc:title xml:lang="pl">El aspecto demonológico de los Seres Salvajes en la literatura e iconografía hispánicas de la Edad Media al Barroco, con referencias al folclore polaco</dc:title>
+    <dc:language xml:lang="pl">esp</dc:language>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2005/032</dc:source>
+    <dc:subject xml:lang="pl">folklore</dc:subject>
+    <dc:issued xml:lang="pl">2005</dc:issued>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:subject xml:lang="pl">ikonografia</dc:subject>
+    <dc:subject xml:lang="pl">demonología</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:180187</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:180187</dc:relation>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

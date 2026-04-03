@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/842426">
+    <dc:issued xml:lang="pl">1852</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Me 389</dc:source>
+    <dc:date xml:lang="pl">1852</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:872344</dc:relation>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Am 18ten Februar 1852 Nachmittags 5 Uhr starb Franz Meisinger starb, Eigentümer des Hotels de Londres am Stradom dessen Gattin, Franciska Meisinger geborene Weidschacher, ladet auf das Leichenbegängniss ein, welches am 20ten Februar 1852 [...]</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Meisinger, Franz (1814?-1852)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/842426/NDIGDZS070163.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

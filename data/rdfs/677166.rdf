@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677166">
+    <dc:issued xml:lang="pl">1838</dc:issued>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:date xml:lang="pl">1838</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 42</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608718</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Dziś w środę to jest dnia 21 grudnia 1838 r., artyści Drammatyczni pod dyrekcyą A. Sztyler, dadzą przedstawienie komedyo-operę pod nazwiskiem Charasza i Durna i Głupa i Umna, którą poprzedzi komedya pod nazwiskiem Woltyżer = Dekabrâ 21-20 dnâ 1838 Artistami Dramatičeskimi predstavlena budet vodevilʹ-opera pod nazvanìem Haraša i Durna i Glupa i Umna, poslě ktorej predstavlena budet komedìa pod nazvanìem Volʹtižor</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677166/NDIGDZS034912.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

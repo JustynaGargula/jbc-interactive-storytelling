@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/409407">
+    <dc:title xml:lang="pl">Do Polaków Ziem Południowo-Wschodnich Rzeczypospolitej Polskiej</dc:title>
+    <dc:creator xml:lang="pl">Filipkowski, Władysław (1892-1950)</dc:creator>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402270</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402270</dc:relation>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:contributor xml:lang="pl">Rada Polska Ziem Południowo-Wschodnich Rzeczypospolitej Polskiej</dc:contributor>
+    <dc:subject xml:lang="pl">Delegat Okręgowy Rządu Polskiego na Ziemie Południowo-Wschodnie</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Czyżewski, Julian (1890-1968)</dc:creator>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399884 III</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:subject xml:lang="pl">Komendant Południowo-Wschodnich Sił Zbrojnych w Kraju</dc:subject>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/409407/PDF/NDIGDZS021737.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/409407/PDF/NDIGDZS021737.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

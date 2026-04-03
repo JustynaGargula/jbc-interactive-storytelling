@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601153">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1874.11.27</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601153/0093_NDIGCZAS032180_92025036.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">czasopisma regionalne</dc:subject>
+    <dc:issued xml:lang="pl">1874.11.27</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">W. Hindemith</dc:publisher>
+    <dc:subject xml:lang="pl">Kalisz (Polska ; region)</dc:subject>
+    <dc:title xml:lang="pl">Kaliszanin : gazeta miasta Kalisza i jego okolic. R.5, № 93 (27 listopada 1874)</dc:title>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:633973</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 1603 IV czasop.</dc:source>
+    <dc:contributor xml:lang="pl">Miłkowski, J. Red.</dc:contributor>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

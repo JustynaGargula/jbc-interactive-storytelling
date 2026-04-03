@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822964">
+    <dc:date xml:lang="pl">1912</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822964/NDIGDZS055586.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Ilnicki, Mikołaj (1830-1912)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:849517</dc:relation>
+    <dc:title xml:lang="pl">Mikołaj Ilnicki emer. c. i k. zarządca magazynów wojskowych [...] urodzony dnia 2 czerwca 1830 r. [...] zmarł dnia 1 grudnia 1912 roku [...]</dc:title>
+    <dc:issued xml:lang="pl">1912</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 56</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

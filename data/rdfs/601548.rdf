@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/601548">
+    <dc:title xml:lang="pl">Polonez na fortepian</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:555169</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Rychling, Wincenty Wacław (1841-1896)</dc:creator>
+    <dc:issued xml:lang="pl">ca 1889</dc:issued>
+    <dc:publisher xml:lang="pl">S. A. Krzyżanowski</dc:publisher>
+    <dc:type xml:lang="pl">druk muzyczny</dc:type>
+    <dc:date xml:lang="pl">ca 1889</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/601548/NDIGMUZ035305.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. 3921 III</dc:source>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

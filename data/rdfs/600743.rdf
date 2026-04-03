@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600743">
+    <dc:coverage xml:lang="pl">[17 w.]</dc:coverage>
+    <dc:description xml:lang="pl">Zawiera: Herb Roch Oborskich</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567640</dc:relation>
+    <dc:date xml:lang="pl">[1686]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600743/NDIGSTDR035521.pdf</dc:identifier>
+    <dc:language xml:lang="pl">lat</dc:language>
+    <dc:title xml:lang="pl">Seraphicvm Vitæ Amphitheatru[m], Sancti Francisci Confessoris : [...] Stylo Poetico In Lucem Publicam Productum Ac [...] Francisco Oborski, Ecclesiae Collegiatae Sanctorum Omnium Decano [...] A M. Petro Sienkiewic [...] Dedicatvm, Anno Domini, 1686. Die 4. Octobr</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 3681 III</dc:source>
+    <dc:publisher xml:lang="pl">Drukarnia Akademii Krakowskiej</dc:publisher>
+    <dc:issued xml:lang="pl">[1686]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:description xml:lang="pl">Oborski, Franciszek. Adr. ded.</dc:description>
+    <dc:creator xml:lang="pl">Sienkiewicz, Piotr (16..- )</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

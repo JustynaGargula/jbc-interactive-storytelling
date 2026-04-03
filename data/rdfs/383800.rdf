@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/383800">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Czytelnia polska w Białej urządza w lokalu własnym (hotel p. Gizickiego), w sobotę dnia 9 kwietnia 1892 przedstawienie amatorskie : rozpocznie Optymista monolog, nastąpi Jeden z nas musi się ożenić</dc:title>
+    <dc:publisher xml:lang="pl">Andreas Mädler</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:399844</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:399844</dc:relation>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/383800/PDF/NDIGDZS020959.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/383800/PDF/NDIGDZS020959.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 2/5</dc:source>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

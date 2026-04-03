@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600749">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">rysunek tuszem</dc:subject>
+    <dc:title xml:lang="pl">[Projekt ptaszarni na planie ośmioboku]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600749/NDIGGRAF037638.pdf</dc:identifier>
+    <dc:description xml:lang="pl">Skala liniowa 15,2 cm = 20 łokci(?)</dc:description>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Graf. I.R. 920</dc:source>
+    <dc:subject xml:lang="pl">grafika polska</dc:subject>
+    <dc:issued xml:lang="pl">[1800-1820]</dc:issued>
+    <dc:subject xml:lang="pl">akwarela</dc:subject>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:type xml:lang="pl">rysunek</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Sierakowski, Sebastian (1743-1824)</dc:creator>
+    <dc:date xml:lang="pl">[1800-1820]</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:610449</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

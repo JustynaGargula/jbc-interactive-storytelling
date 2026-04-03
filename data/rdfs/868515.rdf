@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868515">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Go 273</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868515/NDIGDZS083323.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1861</dc:issued>
+    <dc:date xml:lang="pl">1861</dc:date>
+    <dc:subject xml:lang="pl">Goeblowa, Joanna (1816?-1861)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:896974</dc:relation>
+    <dc:title xml:lang="pl">Joanna z Greinerów Goeblowa Obywatelka licząc lat 45 [...] w dniu 21 Lipca 1861. zakończyła doczesne życie [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

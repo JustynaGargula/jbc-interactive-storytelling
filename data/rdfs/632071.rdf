@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/632071">
+    <dc:subject xml:lang="pl">Wieniarski, Antoni (1823-1869)</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:publisher xml:lang="pl">Drukarnia „Czasu” (Kraków)</dc:publisher>
+    <dc:title xml:lang="pl">Nr 10 Teatr amatorski w Wieliczce, w niedzielę dnia 9 maja 1869 r., na cele dobroczynne : Trzy Wizyty, nastąpi Jeden z nas musi się ożenić!, zakończy Ulicznik Warszawski</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/15</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1869</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602555</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/632071/NDIGDZS033062.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Gołuchowski, Ludwik</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

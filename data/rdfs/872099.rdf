@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/872099">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1890</dc:issued>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">Pražáková, Františka (1872-1952)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908102</dc:relation>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Alois svobodný pán Pražák [...] dává timto zprávu o sňatku svého [...] syna Otokara svobodného pána Pražáka [...] s baronkou Františkou Malou z Vevanovic [...] : sňatek bude dne 29. záři 1890 v Brně [...] : ve Vidni, v měsíci záři 1890</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V P 115</dc:source>
+    <dc:language xml:lang="pl">cze</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/872099/NDIGDZS086411.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Pražák, Otakar (1858-1915)</dc:subject>
+    <dc:subject xml:lang="pl">ślub i wesele</dc:subject>
+    <dc:date xml:lang="pl">1890</dc:date>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

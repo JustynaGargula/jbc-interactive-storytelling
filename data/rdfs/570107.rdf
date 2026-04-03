@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570107">
+    <dc:title xml:lang="pl">Die Schwefelbäder in Lubień</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 133</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:publisher xml:lang="pl">F. M. Poremba</dc:publisher>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600000</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Kąpiele siarczane w Lubieniu</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570107/NDIGDZS024509.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

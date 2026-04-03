@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/863962">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">architekci</dc:subject>
+    <dc:title xml:lang="pl">Karol Roman Kremer, Dr. filozofii, Ces. Król. inspektor budownictwa, kawaler orderu prusk: orła czerwonego, członek towarzystw uczonych, licząc lat 48, w dniu 28 Stycznia 1860 r. [...]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">ulica Wolska (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">Kremer, Karol Roman (1812-1860)</dc:subject>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Kre 993</dc:source>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/863962/NDIGDZS082428.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:896490</dc:relation>
+    <dc:subject xml:lang="pl">Kościół św. Piotra i Pawła (Kraków)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

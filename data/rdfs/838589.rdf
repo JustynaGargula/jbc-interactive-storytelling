@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838589">
+    <dc:issued xml:lang="pl">1879</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Sukiennice (Kraków, Polska)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 222408 III 88</dc:source>
+    <dc:subject xml:lang="pl">polityka, politologia, administracja publiczna</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838589/NDIGDZS069175.pdf</dc:identifier>
+    <dc:creator xml:lang="pl">Trauczyński, Józef (ok. 1843-1884)</dc:creator>
+    <dc:date xml:lang="pl">1879</dc:date>
+    <dc:subject xml:lang="pl">Rekonstrukcja (konserwacja zabytków)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:872294</dc:relation>
+    <dc:subject xml:lang="pl">Rada Miasta Krakowa</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:title xml:lang="pl">Interpelacya z d. 5 grudnia 1878 r. w sprawie Sukiennic na posiedzeniu Rady miejskiej [Incipit:] Odbudowa Sukiennic odbywa się w sposób, który musi słuszną wzniecić obawę w mieszkańcach miasta Krakowa [...] / Józef Trauczyński, Radca miejski</dc:title>
+    <dc:subject xml:lang="pl">architektura i budownictwo</dc:subject>
+    <dc:subject xml:lang="pl">broszury</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

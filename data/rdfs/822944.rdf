@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822944">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822944/NDIGDZS055470.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Jaśkowski, Stanisław (1883-1917)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:848139</dc:relation>
+    <dc:issued xml:lang="pl">1917</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 36</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1917</dc:date>
+    <dc:title xml:lang="pl">Stanisław Jaśkowski monter przeżywszy lat 34 [...] zasnął w Panu dnia 20-go kwietnia 1917 r. [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

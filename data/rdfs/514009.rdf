@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514009">
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:contributor xml:lang="pl">Thier, Theobald (1897-1949)</dc:contributor>
+    <dc:subject xml:lang="pl">Ukraina</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514009/NDIGDZS027909.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:language xml:lang="pl">ukr</dc:language>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Ogološennâ!</dc:title>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:title xml:lang="pl">Obwieszczenie!</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537218</dc:relation>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Bekanntmachung!</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, L/8</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

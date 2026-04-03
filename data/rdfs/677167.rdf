@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677167">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 3/21</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608299</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:title xml:lang="pl">IV gościnne przedstawienie Prof. A. Kozłowskiego plastycznego ogromnego ruchomego Diorama z kryształowego pałacu w Londynie : Podróż na wschód Jego c.k. Wysok. Austryackiego Następcy tronu Rudolfa do Ziemi Świętej</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677167/NDIGDZS031141.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

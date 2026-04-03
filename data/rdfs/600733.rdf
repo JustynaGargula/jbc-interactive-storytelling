@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600733">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600733/NDIGSTDR033283.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1780]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 14633 III 1/29</dc:source>
+    <dc:coverage xml:lang="pl">[18 w.]</dc:coverage>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Replika Ze strony W. JP. Jana Korsaka Starosty Chmielańskiego Przeciwko W. JP. Leonardowi Korsakowi Rotmistrzowi Wileńskiemu. Zastosowanie Myśli Sądu</dc:title>
+    <dc:issued xml:lang="pl">[1780]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:576202</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

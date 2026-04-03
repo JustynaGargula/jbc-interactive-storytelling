@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/682411">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/682411/NDIGDZS039812.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Teatr Polski (Kraków)</dc:subject>
+    <dc:date xml:lang="pl">1870</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224678 III 1869-1870 nr 142</dc:source>
+    <dc:title xml:lang="pl">Na cześć przyjęcia gości ze Szląska, Lwowa i Poznania w niedzielę dnia 5 czerwca 1870 r. : Nie ma męża w domu, komedya w 2 aktach z francuzkiego, nastąpi Łobzowianie, obrazek narodowy w 1 akcie ze śpiewami przez Wł. Anczyca napisany, z muzyką Piotra Studzińskiego</dc:title>
+    <dc:subject xml:lang="pl">Studziński, Piotr (1826-1869)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">W. Kirchmaer</dc:publisher>
+    <dc:issued xml:lang="pl">1870</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:601659</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

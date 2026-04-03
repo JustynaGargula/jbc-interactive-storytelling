@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/632066">
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/43981 Stara elegantka. Komedya w 1 akcie</dc:relation>
+    <dc:relation xml:lang="pl">http://pbc.gda.pl/publication/16419 Dzieła Józefa Korzeniowskiego. T. 10</dc:relation>
+    <dc:publisher xml:lang="pl">Drukarnia „Czasu” (Kraków)</dc:publisher>
+    <dc:issued xml:lang="pl">1870</dc:issued>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/632066/NDIGDZS033038.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:602294</dc:relation>
+    <dc:title xml:lang="pl">Nr 19 Teatr amatorski w Wieliczce, na dobroczynny cel, w sobotę dnia 9 kwietnia 1870 r. : Stara Elegantka komedya w 1 akcie, nastąpi Deklamacya, zakończy Gwiazdziarka operetka w 1 akcie</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 36/9</dc:source>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/25732 Stara Elegantka. Komedja w jednym Akcie przez J. K.</dc:relation>
+    <dc:date xml:lang="pl">1870</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

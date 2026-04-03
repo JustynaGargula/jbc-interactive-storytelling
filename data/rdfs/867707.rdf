@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867707">
+    <dc:issued xml:lang="pl">1899</dc:issued>
+    <dc:subject xml:lang="pl">Plac Wojska Polskiego (Bielsko-Biała)</dc:subject>
+    <dc:date xml:lang="pl">1899</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:892691</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:description xml:lang="pl">Grób na Cmentarzu Rakowickim: kwatera: VI, rząd: płn, miejsce: 4 a po lewej grobowiec Wacławowiczów</dc:description>
+    <dc:subject xml:lang="pl">Stiasny, Edward (1832-1899)</dc:subject>
+    <dc:subject xml:lang="pl">notariusze</dc:subject>
+    <dc:title xml:lang="pl">Dr Edward Stiasny : c. k. notaryusz w Białej, [...] zasnął w Panu dnia 29-go Października 1899 roku, [...]</dc:title>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V St 837</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867707/NDIGDZS081028.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Bielsko-Biała (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

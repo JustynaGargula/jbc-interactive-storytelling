@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648345">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608517</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Rkp. 640 III</dc:source>
+    <dc:contributor xml:lang="pl">Peckham, John (1220?-1292)</dc:contributor>
+    <dc:coverage xml:lang="pl">15 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/648345/NDIGORP030846.pdf</dc:identifier>
+    <dc:contributor xml:lang="pl">Johannes Algeri (fl. 1330- )</dc:contributor>
+    <dc:contributor xml:lang="pl">Joannes de Garlandia (ca 1195-1272)</dc:contributor>
+    <dc:type xml:lang="pl">rękopis</dc:type>
+    <dc:issued xml:lang="pl">1418-1419</dc:issued>
+    <dc:date xml:lang="pl">1418-1419</dc:date>
+    <dc:title xml:lang="pl">Opera varia (i. a. Ioannis Peckham, Ioannis Eligeri de Gunderslauen, Ioannis de Garlandia)</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">lat</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/742312">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749994 V 1</dc:source>
+    <dc:publisher xml:lang="pl">Drukarnia i Litografia „Jan Cotty”</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/742312/NDIGDZS035034.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Katok v Sakksonskom Sadu i v Lazenkah otkryvaûtsâ s muzykoû v voskresenʹe 28 dekabrâ (9 ânavrâ) 1880/1 goda</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1881</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1881</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608917</dc:relation>
+    <dc:title xml:lang="pl">Ślizgawki w Ogrodzie Saskim i w Łazienkach otwarte zostają z muzuką w niedzielę dnia 28 grudnia (9 stycznia) 1880/1 roku</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

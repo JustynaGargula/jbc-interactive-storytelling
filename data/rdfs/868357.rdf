@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868357">
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:subject xml:lang="pl">Prokop, Adolf (1847?-1872)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868357/NDIGDZS085289.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901267</dc:relation>
+    <dc:issued xml:lang="pl">1872</dc:issued>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:date xml:lang="pl">1872</dc:date>
+    <dc:title xml:lang="pl">Die Unterzeichneten geben tief betrübt hiemit Kenntniss von dem Dahinscheiden [...] Herrn Adolf Prokop Advocatursconzipient in Belitz, welcher im 25. Lebensjahre am 5. Juni 1872 [...] entschlafen ist [...] : Karl Prokop, Marie Prokop [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V P 123</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

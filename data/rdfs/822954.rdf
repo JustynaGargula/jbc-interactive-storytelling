@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/822954">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/822954/NDIGDZS055526.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:848966</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ja-Ju 46</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:date xml:lang="pl">1904</dc:date>
+    <dc:subject xml:lang="pl">Jędrzejczyk, Stanisław (1885-1904)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Stanisław Jędrzejczyk Towarzysz sztuki drukarskiej urodzony w roku 1885, zmarł dnia 19 listopada 1904 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1904</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

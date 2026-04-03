@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/648351">
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:title xml:lang="pl">Wiadomości : Bieżanów, Kozłówek, Kurdwanów ... [etc.]. R. 24 [i.e.25], 2019, nr 7/8</dc:title>
+    <dc:relation xml:lang="pl">http://wiadomoscipodgorze.pl/archiwum/ Strona domowa czasopisma</dc:relation>
+    <dc:type xml:lang="pl">e-czasopismo</dc:type>
+    <dc:date xml:lang="pl">2019.07-2019.08</dc:date>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:686669</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:686669</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">prasa regionalna</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oc 000085</dc:source>
+    <dc:issued xml:lang="pl">2019.07-2019.08</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

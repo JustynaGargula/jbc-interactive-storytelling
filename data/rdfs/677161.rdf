@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677161">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">ca 1900</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677161/NDIGDZS029347.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 45</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">ca 1900</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:601067</dc:relation>
+    <dc:title xml:lang="pl">Dziś w niedzielę dnia 18 sierpnia o godz. wpół do 8 wieczór Teatr Melliniego Wielkie Wspaniałe Przedstawienie : Magia, fizyka, optyka, magnetyzm, hydraulika, zupełnie nowa serya wspaniałych mglistych obrazów</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/852192">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">konduktorzy</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:882626</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/852192/NDIGDZS075537.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Antoni Kozak konduktor c. k. kolei pólnocnej, przeżywszy lat 40 [...] zasnął w Panu dnia 22 Czerwca 1894 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">Kozak, Antoni (1854-1894)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Koz 842</dc:source>
+    <dc:issued xml:lang="pl">1894</dc:issued>
+    <dc:date xml:lang="pl">1894</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

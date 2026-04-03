@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677165">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Dziś w środę, dnia 11 (23) kwietnia 1873 roku : koncert na fortepianie pana Mikołaja Rubensteina</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Rubenstein, Mikołaj</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677165/NDIGMUZ036669.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Segodnâ v sredu 11 (23) aprělâ 1873 g. : koncert na fortepiano... G. Nikolaâ Rubinšteina</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 5,7</dc:source>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">koncert fortepianowy</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:645640</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/676634">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608373</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224657 V 3/3</dc:source>
+    <dc:title xml:lang="pl">Cirque Olimpique : W poniedziałek dnia 15 grudnia 1834 r. w reytszuli P. Knotza przy ulicy Staro-Wiślney przedstawionem będzie pod dyrekcyą P. Marteau Wielkie Widowisko sztucznego jeżdżenia konno, połączonego z gimnastyką i woltyżowaniem</dc:title>
+    <dc:issued xml:lang="pl">1834</dc:issued>
+    <dc:date xml:lang="pl">1834</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/676634/NDIGDZS031110.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

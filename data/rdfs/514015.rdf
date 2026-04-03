@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514015">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Bekanntmachung des Stadthauptmanns in Lemberg über die Errichtung von neuen Bezirksämtern der Stadtverwaltung</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:creator xml:lang="pl">Höller, Egon (1907-1991)</dc:creator>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:title xml:lang="pl">Ogłoszenie Starosty Miejskiego w Lemberg dotyczące utworzenia nowych Urzędów Dzielnicowych Zarządu Miasta</dc:title>
+    <dc:language xml:lang="pl">ukr</dc:language>
+    <dc:subject xml:lang="pl">Polska</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537222</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514015/NDIGDZS027918.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Opovìšennâ Mìsʹkogo Starosti u Lʹvovì pro stvorennâ novih Dìlʹicevih Urâdìh Upravi Mìsta</dc:title>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, L/1</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

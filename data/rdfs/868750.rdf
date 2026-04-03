@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868750">
+    <dc:subject xml:lang="pl">Franciszek Józef I (cesarz Austrii ; 1830-1916)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868750/NDIGDZS081783.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:892545</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Wiersz Profesora Józefa Winkowskiego wygłoszony podczas uroczystości jubileuszowéj urządzonéj przez C. k. Gimnazyum w Rzeszowie 1 Grudnia 1888 r. z powodu 40-letniéj rocznicy wstąpienia na tron Najjaśniejszego Cesarza Franciszka Józefa I</dc:title>
+    <dc:date xml:lang="pl">1888</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Winkowski, Józef (1851-1937)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 3889 II 522</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">wiersze okolicznościowe</dc:subject>
+    <dc:issued xml:lang="pl">1888</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

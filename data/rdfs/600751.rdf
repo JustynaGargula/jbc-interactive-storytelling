@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600751">
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:title xml:lang="pl">[Projekt pomnika wdzięczności za utworzenie Wolnego Miasta Krakowa]</dc:title>
+    <dc:creator xml:lang="pl">Sierakowski, Sebastian (1743-1824)</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:610453</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600751/NDIGGRAF037653.pdf</dc:identifier>
+    <dc:type xml:lang="pl">rysunek</dc:type>
+    <dc:date xml:lang="pl">[1817]</dc:date>
+    <dc:subject xml:lang="pl">grafika polska</dc:subject>
+    <dc:subject xml:lang="pl">rysunek tuszem</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Graf. I.R. 1040</dc:source>
+    <dc:subject xml:lang="pl">akwarela</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:description xml:lang="pl">Skala liniowa 28,3 cm = 20 łokci</dc:description>
+    <dc:subject xml:lang="pl">rysunek ołówkiem</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:contributor xml:lang="pl">Stachowicz, Michał (1768-1825). Aut. wzoru</dc:contributor>
+    <dc:issued xml:lang="pl">[1817]</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

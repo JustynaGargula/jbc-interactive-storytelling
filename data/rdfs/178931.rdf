@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/178931">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:189752</dc:relation>
+    <dc:subject xml:lang="pl">czasopisma polskie</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 1595 III czasop.</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">dzienniki polskie</dc:subject>
+    <dc:title xml:lang="pl">Echo Literackie : dodatek tygodniowy „Dziennika Polskiego”. 1898, nr 11</dc:title>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:date xml:lang="pl">1898.03.14</dc:date>
+    <dc:subject xml:lang="pl">czasopisma 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:issued xml:lang="pl">1898.03.14</dc:issued>
+    <dc:subject xml:lang="pl">czasopisma 20 w.</dc:subject>
+    <dc:contributor xml:lang="pl">Kuncewicz, Izydor. Red.</dc:contributor>
+    <dc:coverage xml:lang="pl">19-20 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/178931/PDF/NDIGCZAS005263_1898_011.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

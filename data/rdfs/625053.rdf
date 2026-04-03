@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/625053">
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">Jasiński, Jan Tomasz Seweryn (1806-1879)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 4/5</dc:source>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/625053/NDIGDZS019711.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/625053/NDIGDZS019711.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">No 5 Ostatni raz w niedzielę dnia 17 listopada 1873 r. komedya w 1m akcie Jana Jasińskiego : Podejście, komedya w 1m akcie z niemieckiego Augusta Kotzebutz : 50,000 talarów, komedyo-opera w 1m akcie J. N. Kamińskiego : Młynarz i Kominiarz</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Poslědnee predstavlenìe vʺ voskresenìe 4 noâbrâ 1873 g. komedìâ vʺ 1j dějstvìi I. Âsinskago : Podstupʺ, komedìâ vʺ 1j dějstvìi s německ. Kocebutzʺ : 50,000 talârovʺ, komedìo-opera vʺ 1j dějstvìi I. N. Kaminskago : Mel'nikʺ i Trubočistvʺ</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398740</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398740</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

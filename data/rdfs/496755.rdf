@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/496755">
+    <dc:creator xml:lang="pl">Sikorski, Władysław (1881-1943)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 157</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:issued xml:lang="pl">1942</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:title xml:lang="pl">Address delivered by general Wladysław Sikorski, Prime Minister of Poland, at the luncheon of the Overseas Press Club, on Wednesday, December 16, 1942, in New York City</dc:title>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:421012</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:421012</dc:relation>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/496755/NDIGDZS024951.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/496755/NDIGDZS024951.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1942</dc:date>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+  </rdf:Description>
+</rdf:RDF>
+

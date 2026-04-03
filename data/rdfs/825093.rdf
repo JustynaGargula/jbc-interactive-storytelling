@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/825093">
+    <dc:date xml:lang="pl">1838</dc:date>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 222497 III a</dc:source>
+    <dc:creator xml:lang="pl">Bierkowski, Ludwik Józef (1801-1860)</dc:creator>
+    <dc:issued xml:lang="pl">1838</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/825093/NDIGDZS058570.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Szkoła Gimnastyczna Krakowska</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">gimnastyka</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:856305</dc:relation>
+    <dc:title xml:lang="pl">Uwiadomienie. Dyrektor tutejszej szkoły Gymnastycznej : Ma honor zawiadomić niniejszem osoby [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

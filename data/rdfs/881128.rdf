@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/881128">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/881128/NDIGDZS092412.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:916552</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">mieszczaństwo</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Sękowska, Salomea (1788?-1868)</dc:subject>
+    <dc:issued xml:lang="pl">1868</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Se 293</dc:source>
+    <dc:date xml:lang="pl">1868</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Salomea z Wilczyńskich Sękowska Obywatelka m. Krakowa przeżywszy lat 80, [...], w dniu 8 stycznia 1868 r. [...] przeniosła się do wieczności</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

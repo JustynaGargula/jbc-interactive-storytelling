@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/824586">
+    <dc:title xml:lang="pl">Ludwig Hauer : k. u. k. Major des k. u. k. Infanterieregiments Prinz von Preusen Nr. 20, [...] im 49. Lebensjahre 13. Juli 1912 plötzlich sonst [!] im Herrn entschlafen ist.</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:issued xml:lang="pl">1912</dc:issued>
+    <dc:subject xml:lang="pl">Hauer, Ludwig (1864?-1912)</dc:subject>
+    <dc:date xml:lang="pl">1912</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:852933</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">msza święta</dc:subject>
+    <dc:subject xml:lang="pl">żołnierze</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/824586/NDIGDZS054465.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Ha-Hi 30</dc:source>
+    <dc:subject xml:lang="pl">Galicyjski Pułk Piechoty Księcia Pruskiego Henryka Nr 20 (Austro-Węgry)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

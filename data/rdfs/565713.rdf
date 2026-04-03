@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/565713">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/565713/NDIGDZS024314.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1859</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 32</dc:source>
+    <dc:title xml:lang="pl">Cheater Nachricht : Eingetretener Hindernisse wegen kann die für heute angekündigte</dc:title>
+    <dc:date xml:lang="pl">1859</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:595326</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

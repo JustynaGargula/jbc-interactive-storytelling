@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600731">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600731/NDIGSTDR033238.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">[1780]</dc:issued>
+    <dc:date xml:lang="pl">[1780]</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:576196</dc:relation>
+    <dc:title xml:lang="pl">Accessorium WW. JPP. Matusewiczow Woyskowiczow Brzeskich w assystencyi Opiekunow rozprawujących się Przeciwko J.W. Bychowcowi Marszałkowi Wołkowyskiemu y WW. Suchodolskim Jako nienależytym Pretensorom &amp;c. A WW. J.PP. Chrzanowskim, Niepokoyczyckim, Nietyxom, Buchowieckim Pisarzewiczom Ziemskim Brzeskim jako też J.WW. J.PP. Matusewiczowey Kasztelan. Brzesk. y Potomstwu oney niemniey Szczytom Szambelanom J.K.Mci jako Ewiktorom O nieuchronney potrzebie łączenia podanych ku łączeniu Aktoratow</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ St. Dr. 14633 III 1/24</dc:source>
+    <dc:type xml:lang="pl">starodruk</dc:type>
+    <dc:coverage xml:lang="pl">[18 w.]</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

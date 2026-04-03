@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/864161">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/864161/NDIGDZS082395.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Andrzej Obara towarzysz sztuki drukarskiej [...] przeniósł się dnia 24. b. m. do wieczności [...] : Rzeszów, 24. grudnia 1862</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224648 V O 117</dc:source>
+    <dc:date xml:lang="pl">1862</dc:date>
+    <dc:issued xml:lang="pl">1862</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Obara, Andrzej (1837?-1862)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:896558</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/568625">
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/568625/NDIGDZS024483.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Liste aller bis 15. Mai 1860, Schlusstermin 10 Uhr Abends, bei dem Gefertigten angesagten Pferde zu den Preis-Rennen auf der Lemberger Bahn im Juni 1860</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 114</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:598341</dc:relation>
+    <dc:publisher xml:lang="pl">M. F. Poremba</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

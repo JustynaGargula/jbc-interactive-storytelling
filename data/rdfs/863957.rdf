@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/863957">
+    <dc:subject xml:lang="pl">arystokracja</dc:subject>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:subject xml:lang="pl">Krauss, Konstancja (?-1874)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:891033</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/863957/NDIGDZS080255.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Maria-Enzersdorf (Austria)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">W Marya-Enzersdorf umarła 28 Wrzesnia w 1874. baronowa Konstancja Krauss, z domu Skarbek [...]</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:description xml:lang="pl">Klepsydra autografowana</dc:description>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Kra 970a</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840102">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pig-Pon 65</dc:source>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Bolesław Pochmarski emer. profesor gimn., kapitan rezerwy W. P., b. poseł na Sejm Rzpltej, b. kierownik literacki Teatru im. Jul. Słowackiego i działacz społeczny [...] zmarł w obozie jeńców w Sandbostel dnia 28 kwietnia 1945 r. na cztery dni przed wkroczeniem Aliantów Nabożeństwo Żałobne odprawione zostanie w poniedziałek dnia 29 kwietnia b. r. [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840102/NDIGDZS069104.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">obozy jenieckie</dc:subject>
+    <dc:subject xml:lang="pl">krytyka literacka</dc:subject>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Niemcy</dc:subject>
+    <dc:subject xml:lang="pl">krytyka teatralna</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Pochmarski, Bolesław (1883-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873701</dc:relation>
+    <dc:subject xml:lang="pl">parlamentarzyści</dc:subject>
+    <dc:issued xml:lang="pl">1945</dc:issued>
+    <dc:subject xml:lang="pl">nauczyciele gimnazjów</dc:subject>
+    <dc:date xml:lang="pl">1945</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

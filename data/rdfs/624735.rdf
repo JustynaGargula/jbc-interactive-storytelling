@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/624735">
+    <dc:title xml:lang="pl">Teatrʺ pod'' upravlenìemʺ Ivana Okonskago budetʺ imiětʺ čestʹ datʹ v četʹverg' 1/13 noâbrâ 1873 g. komedìû vʺ 2hʺ dějstvìâhʺ Os. Korženëvskago : Mastirʺ i podmastirʺ, šutka sʺ penìemʺ vʺ 2hʺ dějstvìâhʺ : Starye grěhy</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:title xml:lang="pl">No 4 Teatr w zabudowaniu narzędzi ogniowych pod Dyrekcyą Jana Okońskiego w czwartek dn. 1/13 listopada 1873 r. komedya w 2ch aktach Józefa Korzeniowskiego Majster i czeladnik, krotochwila ze śpiewami w 2ch odsłonach Dawne grzechy</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/624735/NDIGDZS019683.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/624735/NDIGDZS019683.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398741</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398741</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 4/4</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847418">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:881450</dc:relation>
+    <dc:subject xml:lang="pl">Żydzi</dc:subject>
+    <dc:date xml:lang="pl">1877</dc:date>
+    <dc:subject xml:lang="pl">Luftig, Leopold (1852?-1877)</dc:subject>
+    <dc:title xml:lang="pl">Leopold Luftig : Dr. Medycyny, Chirurgii i Akuszeryi, [...] dnia 5 Lipca 1877 r. rozstał się z tym światem</dc:title>
+    <dc:subject xml:lang="pl">lekarze</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1877</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">śmierć bliskiej osoby</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Lu 413</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847418/NDIGDZS074414.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+
