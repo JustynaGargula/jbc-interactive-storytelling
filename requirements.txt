@@ -5,3 +5,5 @@ streamlit
 plotly
 google-api_core
 roman
+gspread
+google-auth
