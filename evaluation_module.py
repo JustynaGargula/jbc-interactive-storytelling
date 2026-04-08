@@ -15,40 +15,49 @@ scale_descriptions = '''
 * 5 - bardzo dobrze'''
 
 def display_all_questions():
+    st.header("Moduł oceny")
     st.markdown(f"Poniższe pytania dotyczą różnych apektów splikacji. Odpowiedz na każde wybierając numer od 1 do 5, gdzie {scale_descriptions}.")
 
     # Ogólne wrażenia z aplikacji
+    st.subheader("Ogólne wrażenia z aplikacji")
     st.pills(label="Komfort wyboru motywu aplikacji (jasny/ciemny)", options=options_scale, selection_mode="single", key=keys[0])
     st.pills(label="Czytelność motywu jasnego", options=options_scale, selection_mode="single", key=keys[1])
     st.pills(label="Kolorystyka motywu jasnego", options=options_scale, selection_mode="single", key=keys[2])
 
     # Wyszukiwanie i filtrowanie treści
+    st.subheader("Wyszukiwanie i filtrowanie treści")
     st.pills(label="Łatwość wyboru filtrów do opowieści", options=options_scale, selection_mode="single", key=keys[3])
     st.pills(label="Czytelność listy tematów", options=options_scale, selection_mode="single", key=keys[4])
     st.pills(label="Łatwość dodawania wielu tematów jednocześnie", options=options_scale, selection_mode="single", key=keys[5])
     st.pills(label="Jak oceniasz intuicyjność obecnego systemu wyszukiwania?", options=options_scale, selection_mode="single", key=keys[6])
 
     # Wybór narracji
+    st.subheader("Wybór narracji")
     st.pills(label="Intuicyjność wyboru typu narracji (historyczna / interaktywna / oś czasu)", options=options_scale, selection_mode="single", key=keys[7])
 
     # Dodatkowe opcje filtrowania
+    st.subheader("Dodatkowe opcje filtrowania")
     st.pills(label="Czy opcja „Uwzględnij dokumenty powiązane z tematami i/lub datami” jest dla Ciebie zrozumiała? ", options=options_scale, selection_mode="single", key=keys[8])
 
     # Oś czasu
+    st.subheader("Oś czasu")
     st.pills(label="Oceń na ile funkcje osi czasu są dla Ciebie zrozumiałe?", options=options_scale, selection_mode="single", key=keys[9])
     st.pills(label="Czy oś czasu jest czytelna wizualnie?", options=options_scale, selection_mode="single", key=keys[10])
     st.pills(label="Na ile łatwo było Ci odnaleźć interesujące dokumenty na osi czasu?", options=options_scale, selection_mode="single", key=keys[11])
     st.pills(label="Czy łatwo jest zlokalizować konkretne dokumenty i przejść do ich źródła w JBC (skany PDF)?", options=options_scale, selection_mode="single", key=keys[12])
 
     # Narracja historyczna
+    st.subheader("Narracja historyczna")
     st.pills(label="Jak oceniasz wygenerowane opowieści historyczne?", options=options_scale, selection_mode="single", key=keys[13])
     st.pills(label="Jak oceniasz jakość i wiarygodność podsumowań historycznych?", options=options_scale, selection_mode="single", key=keys[14])
 
     # Narracja interaktywna
+    st.subheader("Narracja interaktywna")
     st.pills(label="Czy sposób wyboru ścieżki narracji interaktywnej jest intuicyjny?", options=options_scale, selection_mode="single", key=keys[15])
     st.pills(label="Wskaż na ile jasne jest dla Ciebie, że wybór opcji w narracji interaktywnej wpływa na zakończenie historii?", options=options_scale, selection_mode="single", key=keys[16])
 
     # Ostateczna ocena
+    st.subheader("Ostateczna ocena")
     st.pills(label="Jak ogólnie oceniasz aplikację?", options=options_scale, selection_mode="single", key=keys[17])
 
     st.text_area(label="Czy chcesz podzielić się dodatkowymi uwagami lub sugestiami dotyczącymi aplikacji? Tutaj możesz je wpisać:", key="q_opt", placeholder="Twoje uwagi...")
