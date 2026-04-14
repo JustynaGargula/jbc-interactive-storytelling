@@ -4,7 +4,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
 
-keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18"]
+keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "m1", "m2"]
 
 options_scale = ["1", "2", "3", "4", "5"]
 scale_descriptions = '''
@@ -14,19 +14,33 @@ scale_descriptions = '''
 * 4 - dobrze,
 * 5 - bardzo dobrze'''
 
+job_options = [
+    "badaczem / badaczką z UJ",
+    "badaczem / badaczką spoza UJ",
+    "pracownikiem / pracowniczką instytucji GLAM (biblioteka, muzeum, archiwum) z UJ",
+    "pracownikiem / pracowniczką instytucji GLAM (biblioteka, muzeum, archiwum) spoza UJ",
+    "studentem / studentką nauk humanistycznych z UJ",
+    "studentem / studentką nauk humanistycznych spoza UJ",
+    "studentem / studentką nauk społecznych z UJ",
+    "studentem / studentką nauk społecznych spoza UJ",
+    "studentem / studentką nauk ścisłych z UJ",
+    "studentem / studentką nauk ścisłych spoza UJ",
+    "inne"
+]
+
 def display_all_questions():
     st.header("Moduł oceny")
-    st.markdown(f"Poniższe pytania dotyczą różnych apektów splikacji. Odpowiedz na każde wybierając numer od 1 do 5, gdzie {scale_descriptions}.")
+    st.markdown(f"Poniższe pytania dotyczą różnych aspektów aplikacji. Odpowiedz proszę na każde pytanie wybierając liczbę od 1 do 5, gdzie {scale_descriptions}.")
 
-    # Ogólne wrażenia z aplikacji
-    st.subheader("Ogólne wrażenia z aplikacji")
+    # Wybór motywu aplikacji
+    st.subheader("Wybór motywu aplikacji")
     st.pills(label="Komfort wyboru motywu aplikacji (jasny/ciemny)", options=options_scale, selection_mode="single", key=keys[0])
     st.pills(label="Czytelność motywu jasnego", options=options_scale, selection_mode="single", key=keys[1])
     st.pills(label="Kolorystyka motywu jasnego", options=options_scale, selection_mode="single", key=keys[2])
 
     # Wyszukiwanie i filtrowanie treści
     st.subheader("Wyszukiwanie i filtrowanie treści")
-    st.pills(label="Łatwość wyboru filtrów do opowieści", options=options_scale, selection_mode="single", key=keys[3])
+    st.pills(label="Łatwość wyboru filtrów do tematu opowieści", options=options_scale, selection_mode="single", key=keys[3])
     st.pills(label="Czytelność listy tematów", options=options_scale, selection_mode="single", key=keys[4])
     st.pills(label="Łatwość dodawania wielu tematów jednocześnie", options=options_scale, selection_mode="single", key=keys[5])
     st.pills(label="Jak oceniasz intuicyjność obecnego systemu wyszukiwania?", options=options_scale, selection_mode="single", key=keys[6])
@@ -42,9 +56,9 @@ def display_all_questions():
     # Oś czasu
     st.subheader("Oś czasu")
     st.pills(label="Oceń na ile funkcje osi czasu są dla Ciebie zrozumiałe?", options=options_scale, selection_mode="single", key=keys[9])
-    st.pills(label="Czy oś czasu jest czytelna wizualnie?", options=options_scale, selection_mode="single", key=keys[10])
-    st.pills(label="Na ile łatwo było Ci odnaleźć interesujące dokumenty na osi czasu?", options=options_scale, selection_mode="single", key=keys[11])
-    st.pills(label="Czy łatwo jest zlokalizować konkretne dokumenty i przejść do ich źródła w JBC (skany PDF)?", options=options_scale, selection_mode="single", key=keys[12])
+    st.pills(label="Czy oś czasu jest intuicyjna w odbiorze? (Czy jest czytelna graficznie?)", options=options_scale, selection_mode="single", key=keys[10])
+    st.pills(label="Jak oceniasz łatwość odnajdywania interesujących dokumentów na osi czasu?", options=options_scale, selection_mode="single", key=keys[11])
+    st.pills(label="Jak oceniasz łatwość lokalizowania konkretnych dokumentów i przechodzenia do ich źródła w JBC (skany PDF)?", options=options_scale, selection_mode="single", key=keys[12])
 
     # Narracja historyczna
     st.subheader("Narracja historyczna")
@@ -53,14 +67,21 @@ def display_all_questions():
 
     # Narracja interaktywna
     st.subheader("Narracja interaktywna")
-    st.pills(label="Czy sposób wyboru ścieżki narracji interaktywnej jest intuicyjny?", options=options_scale, selection_mode="single", key=keys[15])
-    st.pills(label="Wskaż na ile jasne jest dla Ciebie, że wybór opcji w narracji interaktywnej wpływa na zakończenie historii?", options=options_scale, selection_mode="single", key=keys[16])
+    st.pills(label="Jak oceniasz intuicyjność wyboru ścieżki narracji interaktywnej?", options=options_scale, selection_mode="single", key=keys[15])
+    st.pills(label="Jak oceniasz zrozumiałość wpływu wyborów na zakończenie historii w narracji interaktywnej?", options=options_scale, selection_mode="single", key=keys[16])
 
-    # Ostateczna ocena
-    st.subheader("Ostateczna ocena")
+    # Ogólne wrażenia z aplikacji 
+    st.subheader("Ogólne wrażenia z aplikacji")
     st.pills(label="Jak ogólnie oceniasz aplikację?", options=options_scale, selection_mode="single", key=keys[17])
+    st.text_area(label="Czy chcesz podzielić się dodatkowymi uwagami lub sugestiami dotyczącymi aplikacji? Jeśli tak, wpisz je poniżej:", key="q_opt", placeholder="Twoje uwagi...")
 
-    st.text_area(label="Czy chcesz podzielić się dodatkowymi uwagami lub sugestiami dotyczącymi aplikacji? Tutaj możesz je wpisać:", key="q_opt", placeholder="Twoje uwagi...")
+    # Metryczka
+    st.subheader("Metryczka")
+    st.radio(label="Które z poniższych określeń najlepiej opisuje Twoją obecną sytuację zawodową lub edukacyjną? Jestem:", options=job_options, key=keys[18], index=None)
+    st.text_input(label="Wpisz proszę kierunek, na którym studiujesz / dyscyplinę badań / doprecyzuj odpowiedź (w zależności od wybranej wcześniej opcji)", key=keys[19], value=None)
+    st.caption("Naciśnij Enter, aby zatwierdzić odpowiedź")
+    
+    st.space("xsmall")
 
     questions_answered_percentage_float = check_number_of_answered_questions() / len(keys)
     st.progress(questions_answered_percentage_float, f"{check_number_of_answered_questions()} / {len(keys)} pytań ocenionych")
@@ -83,7 +104,8 @@ def save_evaluation():
         return
 
     optional_answer = st.session_state.get("q_opt") or "Brak dodatkowych uwag"
-    answers.append(optional_answer)
+    answers = answers[0:-2] + list(optional_answer) + answers[-2:]
+    # answers.append(optional_answer)
 
     creds = Credentials.from_service_account_info(
         st.secrets["gcp_service_account"],
