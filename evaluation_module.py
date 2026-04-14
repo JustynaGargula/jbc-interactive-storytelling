@@ -104,7 +104,7 @@ def save_evaluation():
         return
 
     optional_answer = st.session_state.get("q_opt") or "Brak dodatkowych uwag"
-    answers = answers[0:-2] + list(optional_answer) + answers[-2:]
+    answers = answers[0:-2] + [optional_answer] + answers[-2:]
     # answers.append(optional_answer)
 
     creds = Credentials.from_service_account_info(
