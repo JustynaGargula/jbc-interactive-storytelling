@@ -2,7 +2,7 @@ import streamlit as st
 import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
-import uuid
+from utils import get_or_create_session_id
 
 keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "m1", "m2"]
 
@@ -141,13 +141,3 @@ def save_evaluation() -> None:
 
     st.success("Dziękujemy za wyrażenie swoich opinii!")
 
-
-def get_or_create_session_id() -> str:
-    """
-    Retrieves the existing session ID from the Streamlit session state.
-    If it does not exist, generates a new UUID4 and stores it.
-    """
-    if "session_id" not in st.session_state:
-        st.session_state.session_id = str(uuid.uuid4())
-
-    return st.session_state.session_id
