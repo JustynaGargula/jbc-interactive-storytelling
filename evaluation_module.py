@@ -1,8 +1,8 @@
 import streamlit as st
-import streamlit as st
 import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
+import uuid
 
 keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "m1", "m2"]
 
@@ -96,17 +96,30 @@ def check_number_of_answered_questions():
             counter += 1
     return counter
 
-def save_evaluation():
+
+def save_evaluation() -> None:
+    """
+    Collects user answers, appends timestamp and session ID,
+    and saves the complete record as a new row in Google Sheets.
+    """
+    # Fetch answers based on predefined keys
     answers = [st.session_state.get(k) for k in keys]
 
     if any(a is None for a in answers):
         st.warning("Proszę odpowiedzieć na wszystkie pytania.")
         return
 
+    # Handle the optional comment
     optional_answer = st.session_state.get("q_opt") or "Brak dodatkowych uwag"
-    answers = answers[0:-2] + [optional_answer] + answers[-2:]
-    # answers.append(optional_answer)
 
+    # Insert optional answer before the last two demographic questions
+    answers = answers[0:-2] + [optional_answer] + answers[-2:]
+
+    # Get session ID and current timestamp
+    session_id = get_or_create_session_id()
+    current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Authorize and connect to Google Sheets
     creds = Credentials.from_service_account_info(
         st.secrets["gcp_service_account"],
         scopes=[
@@ -117,8 +130,24 @@ def save_evaluation():
     client = gspread.authorize(creds)
     sheet = client.open_by_url(st.secrets["connections"]["gsheets"]["spreadsheet"]).sheet1
 
-    # Wiersz danych: timestamp + odpowiedzi
-    row = [datetime.now().strftime("%Y-%m-%d %H:%M:%S")] + answers
+    # Construct the data row.
+    # Index 0: Timestamp (Column A)
+    # Index 1: Session ID (Column B)
+    # Index 2+: Survey answers (Columns C onwards)
+    row = [current_timestamp, session_id] + answers
+
+    # Append to the Google Sheet
     sheet.append_row(row)
 
-    st.success("Dziękujemy za wyrażenie swoich opini!")
+    st.success("Dziękujemy za wyrażenie swoich opinii!")
+
+
+def get_or_create_session_id() -> str:
+    """
+    Retrieves the existing session ID from the Streamlit session state.
+    If it does not exist, generates a new UUID4 and stores it.
+    """
+    if "session_id" not in st.session_state:
+        st.session_state.session_id = str(uuid.uuid4())
+
+    return st.session_state.session_id
