@@ -56,7 +56,7 @@ def display_all_questions():
     # Oś czasu
     st.subheader("Oś czasu")
     st.pills(label="Oceń na ile funkcje osi czasu są dla Ciebie zrozumiałe?", options=options_scale, selection_mode="single", key=keys[9])
-    st.pills(label="Czy oś czasu jest intuicyjna w odbiorze? (Czy jest czytelna graficznie?)", options=options_scale, selection_mode="single", key=keys[10])
+    st.pills(label="Jak oceniasz czytelność graficzną osi czasu?", options=options_scale, selection_mode="single", key=keys[10])
     st.pills(label="Jak oceniasz łatwość odnajdywania interesujących dokumentów na osi czasu?", options=options_scale, selection_mode="single", key=keys[11])
     st.pills(label="Jak oceniasz łatwość lokalizowania konkretnych dokumentów i przechodzenia do ich źródła w JBC (skany PDF)?", options=options_scale, selection_mode="single", key=keys[12])
 
