@@ -2,18 +2,18 @@ import re     # regular expressions
 import requests
 from rdflib import Graph
 import glob
-from typing import List, Optional, Dict
+from typing import List, Optional
 from collections import defaultdict
 import json
-from models import Document, Subject, Relation, KnowledgeGraph
+from models import Document, KnowledgeGraph
 import streamlit as st
 from google import genai
 from google.api_core import exceptions
 import plotly.express as px
-import plotly.graph_objects as go
 import pandas as pd
 from pathlib import Path
 import roman
+import uuid
 
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
@@ -764,3 +764,13 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                         if row['url']:
                             st.link_button("Otwórz", row['url'], width="stretch")
                     st.divider()
+
+def get_or_create_session_id() -> str:
+    """
+    Retrieves the existing session ID from the Streamlit session state.
+    If it does not exist, generates a new UUID4 and stores it.
+    """
+    if "session_id" not in st.session_state:
+        st.session_state.session_id = str(uuid.uuid4())
+
+    return st.session_state.session_id
