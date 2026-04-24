@@ -1,0 +1,64 @@
+{
+    "main_file": {
+        "loading_spinner_text": "Ładowanie danych do działania aplikacji... ⏳",
+        "bottom_color_mode_caption": "💡 **Zmiana motywu na ciemny lub jasny:** Kliknij 3 kropki - ⋮ - w prawym górnym rogu → Settings → Theme",
+        "change_language": "Zmień język 🌐"
+      },
+    "utils_display_interface_top_part": {
+        "main_header": "Interaktywne Opowieści z danych JBC",
+        "main_description": "Aplikacja do eksploracji danych z Jagiellońskiej Biblioteki Cyfrowej za pomocą modeli językowych Google GenAI."
+    },
+    "utils_handle_llm": {
+        "error_429": "⚠️ **Przekroczono limit zapytań do API.**\n\nSpróbuj ponownie za kilka minut.",
+        "info_429": "💡 Darmowa wersja Gemini API ma ograniczenia: 5 zapytań/minutę i 20 zapytań/dzień.",
+        "error_503": "⚠️ **Serwer API jest chwilowo przeciążony.**\n\nSpróbuj ponownie za chwilę.",
+        "info_503": "💡 Możesz spróbować ponownie klikając przycisk 'Generuj opowieść'.",
+        "error_400": "⚠️ **Błąd w danych wejściowych.**",
+        "error_403": "⚠️ **Problem z autoryzacją API.**\n\nSprawdź czy klucz API jest poprawny.",
+        "other_error": "⚠️ **Wystąpił nieoczekiwany błąd:**\n\n",
+        "other_error_details": "Szczegóły błędu (dla deweloperów)"
+    },
+    "utils_generate_interactive_story_from_data": {
+        "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
+        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie."
+    },
+    "utils_generate_historical_story_from_data": {
+        "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
+        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie."
+    },
+    "utils_generate_timeline": {
+        "title_pt1": "Oś czasu",
+        "title_pt2": "dokumentów",
+        "type": "Typ",
+        "year": "Rok",
+        "date_display": "Wyświetlana data",
+        "subjects": "Tematy"
+    },
+    "utils_display_interface_main_part": {
+        "filters_header": "Wybierz filtry do tematu opowieści lub osi czasu:",
+        "subjects_filter_label": "Wybierz tematy:",
+        "subjects_filter_placeholder": "Wybierz jeden lub więcej tematów",
+        "centuries_filter_label": "Wybierz wiek(i):",
+        "date_range_filter_label": "Wybierz zakres lat (opcjonalnie):",
+        "output_type_label": "Wybierz typ opowieści:",
+        "output_type_options": ["Historyczna opowieść", "Interaktywna opowieść", "Oś czasu"],
+        "timeline": "Oś czasu",
+        "related_documents_label": "Uwzględnij dokumenty powiązane z tematami i/lub datami",
+        "generate_button_label": "Generuj",
+        "getting_data_spinner_text": "Znajduję pasujące dokumenty... ⏳",
+        "historical_story": "Historyczna opowieść",
+        "interactive_story": "Interaktywna opowieść",
+        "generating_story_spinner_text": "Generuję opowieść... ⏳",
+        "generated_story_header": "📖 Wygenerowana opowieść",
+        "no_documents_warning": "Nie znaleziono dokumentów pasujących do wybranych filtrów.",
+        "generating_timeline_spinner_text": "Generuję oś czasu... ⏳",
+        "timeline_header": "🕰️ Wygenerowana oś czasu",
+        "documents_number": "Liczba dokumentów",
+        "date_range_label": "Zakres lat",
+        "documents_types_label": "Typy dokumentów",
+        "no_story_type_warning": "Nie wybrano typu opowieści.",
+        "expander_text": "📋 Zobacz dokumenty żródłowe w tabeli",
+        "open_document_button": "Otwórz"
+    }
+
+}

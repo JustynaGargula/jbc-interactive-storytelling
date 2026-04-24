@@ -495,6 +495,7 @@ def handle_llm(prompt: str, model: str = "gemini-3-flash-preview") -> Optional[s
     :return: Odpowiedź modelu językowego lub None w przypadku błędu
     :rtype: str | None
     """
+    page_text_part = st.session_state["page_text"].get("utils_handle_llm")
     try:
         # The client gets the API key from the environment variable `GEMINI_API_KEY`.
         client = genai.Client()
@@ -507,31 +508,31 @@ def handle_llm(prompt: str, model: str = "gemini-3-flash-preview") -> Optional[s
 
     except exceptions.ResourceExhausted as e:
         # 429 - przekroczono limit requestów
-        st.error("⚠️ **Przekroczono limit zapytań do API.**\n\nSpróbuj ponownie za kilka minut.")
-        st.info("💡 Darmowa wersja Gemini API ma ograniczenia: 5 zapytań/minutę i 20 zapytań/dzień.")
+        st.error(page_text_part.get("error_429"))
+        st.info(page_text_part.get("info_429"))
         return None
 
     except exceptions.ServiceUnavailable as e:
         # 503 - serwer przeciążony
-        st.error("⚠️ **Serwer API jest chwilowo przeciążony.**\n\nSpróbuj ponownie za chwilę.")
-        st.info("💡 Możesz spróbować ponownie klikając przycisk 'Generuj opowieść'.")
+        st.error(page_text_part.get("error_503"))
+        st.info(page_text_part.get("info_503"))
         return None
 
     except exceptions.InvalidArgument as e:
         # 400 - błędne dane wejściowe
-        st.error("⚠️ **Błąd w danych wejściowych.**")
+        st.error(page_text_part.get("error_400"))
         st.code(str(e))
         return None
 
     except exceptions.PermissionDenied as e:
         # 403 - problem z kluczem API
-        st.error("⚠️ **Problem z autoryzacją API.**\n\nSprawdź czy klucz API jest poprawny.")
+        st.error(page_text_part.get("error_403"))
         return None
 
     except Exception as e:
         # Inne nieoczekiwane błędy
-        st.error(f"⚠️ **Wystąpił nieoczekiwany błąd:**\n\n{type(e).__name__}")
-        with st.expander("Szczegóły błędu (dla deweloperów)"):
+        st.error(f"{page_text_part.get('other_error')}{type(e).__name__}")
+        with st.expander(page_text_part.get("other_error_details")):
             st.code(str(e))
         return None
 
@@ -547,10 +548,10 @@ def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
     """
     if not data:
         return None
-    prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: wygenereuj interaktywną opowieść na ich podstawie."
+    page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
+    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
 
     response_text = handle_llm(prompt, model="gemini-3-flash-preview")
-    # response_text = f"Dostałem takie dane: {data}"
     return response_text
 
 
@@ -565,9 +566,9 @@ def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
     """
     if not data:
         return None
-    prompt = f"Kontekst: Skorzystaj przede wszystkim z tych danych: {data}. Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie."
+    page_text_part = st.session_state["page_text"].get("utils_generate_historical_story_from_data")
+    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
     response_text = handle_llm(prompt, model="gemini-3-flash-preview")
-    # response_text = f"Dostałem takie dane: {data}"
     return response_text
 
 def convert_data_to_dataframe(data: List[Document]) -> pd.DataFrame:
@@ -610,6 +611,7 @@ def generate_timeline(data: List[Document]) -> Optional[str]:
     if not data:
         return None
 
+    page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
     df = convert_data_to_dataframe(data)
     type_heights = {doc_type: i for i, doc_type in enumerate(df['type'].unique())}
     df['height'] = df['type'].map(type_heights)
@@ -628,8 +630,8 @@ def generate_timeline(data: List[Document]) -> Optional[str]:
             'type': True,
             'height': False,
         },
-        title=f'Oś czasu {len(df)} dokumentów',
-        labels={'year': 'Rok'},
+        title=f'{page_text_part.get("title_pt1")} {len(df)} {page_text_part.get("title_pt2")}',
+        labels={ 'type': page_text_part.get("type"), 'year': page_text_part.get("year"), 'date_display': page_text_part.get("date_display"), 'subjects': page_text_part.get("subjects") },
         size_max=15
     )
 
@@ -640,7 +642,7 @@ def generate_timeline(data: List[Document]) -> Optional[str]:
         height=400,
         showlegend=True,
         yaxis={'visible': False, 'showticklabels': False},  # ukryj oś Y
-        xaxis={'title': 'Rok', 'showgrid': True},
+        xaxis={'title': page_text_part.get("year"), 'showgrid': True},
         hovermode='closest'
     )
     return fig
@@ -650,8 +652,9 @@ def display_interface_top_part():
     """
     Wyświetla górną część interfejsu użytkownika (tytuł i opis) w aplikacji Streamlit.
     """
-    st.title("Interaktywne Opowieści z danych JBC")
-    st.write("Aplikacja do eksploracji danych z Jagiellońskiej Biblioteki Cyfrowej za pomocą modeli językowych Google GenAI.")
+    page_text_part = st.session_state["page_text"].get("utils_display_interface_top_part")
+    st.title(page_text_part.get("main_header"))
+    st.write(page_text_part.get("main_description"))
     st.space("small")
 
 
@@ -668,17 +671,18 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     :param kg: Graf wiedzy
     :type kg: KnowledgeGraph
     """
-    st.header("Wybierz filtry do tematu opowieści lub osi czasu:")
+    page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
+    st.header(page_text_part.get("filters_header"))
 
-    selected_subject_names = st.multiselect("Wybierz tematy:", all_subject_names, placeholder="Wybierz jeden lub więcej tematów")
+    selected_subject_names = st.multiselect(page_text_part.get("subjects_filter_label"), all_subject_names, placeholder=page_text_part.get("subjects_filter_placeholder"))
     st.space("xxsmall")
 
     all_roman_centuries = [roman.toRoman(c) for c in all_centuries]
-    selected_centuries = [ roman.fromRoman(c) for c in st.pills("Wybierz wiek(i):", all_roman_centuries, selection_mode="multi") ]
+    selected_centuries = [ roman.fromRoman(c) for c in st.pills(page_text_part.get("centuries_filter_label"), all_roman_centuries, selection_mode="multi") ]
     st.space("xxsmall")
 
     selected_date_range = st.slider(
-        "Wybierz zakres lat (opcjonalnie):",
+        page_text_part.get("date_range_label"),
         min_value=dates__range[0],
         max_value=dates__range[1],
         value=dates__range
@@ -686,16 +690,16 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     st.space("xxsmall")
 
     output_type = st.segmented_control(
-        "Wybierz typ opowieści:",
-        ["Historyczna opowieść", "Interaktywna opowieść", "Oś czasu"],
-        selection_mode="single", default="Oś czasu")
+        page_text_part.get("output_type_label"),
+        page_text_part.get("output_type_options"),
+        selection_mode="single", default=page_text_part.get("timeline"))
     st.space("xxsmall")
 
-    selected_related = st.checkbox("Uwzględnij dokumenty powiązane z tematami i/lub datami")
+    selected_related = st.checkbox(page_text_part.get("related_documents_label"))
     st.space("xxsmall")
 
-    if st.button("Generuj"):
-        with st.spinner("Znajduję odpowiednie dokumenty... ⏳"):
+    if st.button(page_text_part.get("generate_button_label")):
+        with st.spinner(page_text_part.get("getting_data_spinner_text")):
             data = get_data_based_on_selected_filters(
                 selected_subject_names,
                 selected_centuries,
@@ -705,54 +709,54 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
             )
             df = convert_data_to_dataframe(data)
 
-        if output_type == "Historyczna opowieść":
-            with st.spinner("Generuję opowieść... ⏳"):
+        if output_type == page_text_part.get("historical_story"):
+            with st.spinner(page_text_part.get("generating_story_spinner_text")):
                 story = generate_historical_story_from_data(data)
 
             if story:
                 st.divider()
-                st.subheader("📖 Wygenerowana opowieść")
+                st.subheader(page_text_part.get("generated_story_header"))
                 st.markdown(story)
             else:
-                st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
+                st.warning(page_text_part.get("no_documents_warning"))
 
-        elif output_type == "Interaktywna opowieść":
-            with st.spinner("Generuję opowieść... ⏳"):
+        elif output_type == page_text_part.get("interactive_story"):
+            with st.spinner(page_text_part.get("generating_story_spinner_text")):
                 story = generate_interactive_story_from_data(data)
 
             if story:
                 st.divider()
-                st.subheader("📖 Wygenerowana opowieść")
+                st.subheader(page_text_part.get("generated_story_header"))
                 st.markdown(story)
             else:
-                st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
+                st.warning(page_text_part.get("no_documents_warning"))
 
-        elif output_type == "Oś czasu":
-            with st.spinner("Generuję oś czasu... ⏳"):
+        elif output_type == page_text_part.get("timeline"):
+            with st.spinner(page_text_part.get("generating_timeline_spinner_text")):
                 timeline = generate_timeline(data)
 
             if timeline:
                 st.divider()
-                st.subheader("🕰️ Wygenerowana oś czasu")
+                st.subheader(page_text_part.get("timeline_header"))
                 st.plotly_chart(timeline, width="stretch")
 
                 col1, col2, col3 = st.columns(3)
                 with col1:
-                    st.metric("Liczba dokumentów", len(df))
+                    st.metric(page_text_part.get("documents_number"), len(df))
                 with col2:
-                    st.metric("Zakres lat", f"{int(df['year'].min())} - {int(df['year'].max())}")
+                    st.metric(page_text_part.get("date_range_label"), f"{int(df['year'].min())} - {int(df['year'].max())}")
                 with col3:
-                    st.metric("Typy dokumentów", len(df['type'].unique()))
+                    st.metric(page_text_part.get("documents_types_label"), len(df['type'].unique()))
 
             else:
-                st.warning("Nie znaleziono dokumentów pasujących do wybranych filtrów.")
+                st.warning(page_text_part.get("no_documents_warning"))
 
         else:
-            st.error("Nie wybrano typu opowieści.")
+            st.error(page_text_part.get("no_story_type_warning"))
 
         if data:
             st.space("small")
-            with st.expander("📋 Zobacz dokumenty żródłowe w tabeli"):
+            with st.expander(page_text_part.get("expander_text")):
                 for idx, row in df.iterrows():
                     col1, col2, col3 = st.columns([3, 1, 1])
                     with col1:
@@ -762,7 +766,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                         st.text(row['date_display'])
                     with col3:
                         if row['url']:
-                            st.link_button("Otwórz", row['url'], width="stretch")
+                            st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
                     st.divider()
 
 def get_or_create_session_id() -> str:
@@ -774,3 +778,10 @@ def get_or_create_session_id() -> str:
         st.session_state.session_id = str(uuid.uuid4())
 
     return st.session_state.session_id
+
+
+def load_page_text_in_chosen_language(language: str) -> dict:
+    translation_file_path = f"locales/{language}.json"
+    with open(translation_file_path, "r", encoding="utf-8") as f:
+        json_text = json.load(f)
+        st.session_state["page_text"] = json_text
