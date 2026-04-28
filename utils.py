@@ -36,7 +36,7 @@ def get_ids(files: List[str]) -> List[str]:
         with open(file, "r", encoding="utf-8") as f:
             for line in f:
                 if line.startswith("UR"):
-                    match = re.search("/edition/(\d+)", line)
+                    match = re.search("/edition/(\\d+)", line)
                     if match:
                         ids.append(match.group(1))
     print(f"Znaleziono {len(ids)} ID.")
@@ -114,12 +114,14 @@ def save_data_to_one_file(graph: Graph, format="turtle", file_extension=".ttl"):
     graph.serialize(f"./data/merged_graph{file_extension}", format=format)
 
 
-def build_kg_from_rdf(rdf_graph: Graph) -> KnowledgeGraph:
+def build_kg_from_rdf(rdf_graph: Graph, allowed_centuries: List[int]) -> KnowledgeGraph:
     """
     Buduje graf wiedzy z grafu RDF.
 
     :param rdf_graph: graf stworzony przez bibliotekę RDFLib zawierający dane RDF
     :type rdf_graph: Graph
+    :param allowed_centuries: lista dozwolonych stuleci, z których zostaną wczytane dokumenty (np. [19, 20])
+    :type allowed_centuries: List[int]
 
     :return kg: zbudowany graf wiedzy
     :rtype: KnowledgeGraph
@@ -186,7 +188,8 @@ def build_kg_from_rdf(rdf_graph: Graph) -> KnowledgeGraph:
                 publisher=data['publisher'] or  "",
                 type=data['type'] or  "",
             )
-            kg.add_document(doc)
+            if doc.century in allowed_centuries:
+                kg.add_document(doc)
 
     # budowanie relacji
     kg.build_relations()
@@ -308,7 +311,7 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
     print(f"Zapisano graf do {output_file}")
 
 @st.cache_data(show_spinner=False)
-def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_path: str, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
+def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_path: str, allowed_centuries: List[int], already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
     """
     Tworzy graf wiedzy na podstawie pliku RIS i folderu z rdfami.
 
@@ -337,7 +340,7 @@ def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_
     g = create_graph(rdfs_directory_path)
     # utils.save_data_to_one_file(g, "turtle", ".ttl")
 
-    kg = build_kg_from_rdf(g)
+    kg = build_kg_from_rdf(g, allowed_centuries)
     print(f"Wczytano {len(kg.documents)} dokumentów do grafu wiedzy.")
 
     if not already_saved_jsonld:
@@ -484,7 +487,7 @@ def get_data_based_on_selected_filters(selected_subject_names: list, selected_ce
     return data
 
 
-def handle_llm(prompt: str, model: str = "gemini-3-flash-preview") -> Optional[str]:
+def handle_llm(prompt: str, model: str) -> Optional[str]:
     """
     Obsługuje komunikację z modelem językowym Gemini i zarządza błędami.
 
@@ -537,12 +540,14 @@ def handle_llm(prompt: str, model: str = "gemini-3-flash-preview") -> Optional[s
         return None
 
 
-def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
+def generate_interactive_story_from_data(data: List[Document], model: str) -> Optional[str]:
     """
     Generuje interaktywną opowieść na podstawie podanych dokumentów.
 
     :param data: Lista dokumentów do wygenerowania interaktywnej opowieści
     :type data: List[Document]
+    :param model: Model językowy do użycia
+    :type model: str
     :return: Wygenerowana interaktywna opowieść lub None, jeśli dane są puste
     :rtype: str | None
     """
@@ -551,16 +556,18 @@ def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
     page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
 
-    response_text = handle_llm(prompt, model="gemini-3-flash-preview")
+    response_text = handle_llm(prompt, model=model)
     return response_text
 
 
-def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
+def generate_historical_story_from_data(data: List[Document], model: str) -> Optional[str]:
     """
     Generuje historyczną opowieść na podstawie podanych dokumentów.
 
     :param data: Lista dokumentów do wygenerowania historycznej opowieści
     :type data: List[Document]
+    :param model: Model językowy do użycia
+    :type model: str
     :return: Wygenerowana historyczna opowieść lub None, jeśli dane są puste
     :rtype: str | None
     """
@@ -568,7 +575,7 @@ def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
         return None
     page_text_part = st.session_state["page_text"].get("utils_generate_historical_story_from_data")
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
-    response_text = handle_llm(prompt, model="gemini-3-flash-preview")
+    response_text = handle_llm(prompt, model=model)
     return response_text
 
 def convert_data_to_dataframe(data: List[Document]) -> pd.DataFrame:
@@ -658,7 +665,7 @@ def display_interface_top_part():
     st.space("small")
 
 
-def display_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph):
+def display_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph, model: str = "gemini-3-flash-preview"):
     """
     Wyświetla główną część interfejsu użytkownika w aplikacji Streamlit, umożliwiając wybór filtrów i generowanie opowieści lub osi czasu.
 
@@ -711,7 +718,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
         if output_type == page_text_part.get("historical_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_historical_story_from_data(data)
+                story = generate_historical_story_from_data(data, model)
 
             if story:
                 st.divider()
@@ -722,7 +729,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
         elif output_type == page_text_part.get("interactive_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_interactive_story_from_data(data)
+                story = generate_interactive_story_from_data(data, model)
 
             if story:
                 st.divider()

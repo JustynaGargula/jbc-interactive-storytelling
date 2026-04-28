@@ -5,6 +5,8 @@ import streamlit as st
 ris_directory_path = "data/data_ris"
 rdfs_directory_path = "data/rdfs"
 available_languages = {"polski": "pl", "english": "en"}
+model = "gemini-2.5-flash"
+allowed_centuries = [19, 20]
 
 st.set_page_config(
     page_title="Interaktywne Opowieści JBC",
@@ -29,12 +31,12 @@ with col1:
     utils.display_interface_top_part()
 
 with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
-    kg = utils.get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, True, True)
+    kg = utils.get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, True, True)
     all_subject_names = kg.get_all_subject_names()
     available_centuries = kg.get_all_centuries()
     dates__range = kg.get_dates_range()
 
-utils.display_interface_main_part(all_subject_names, available_centuries, dates__range, kg)
+utils.display_interface_main_part(all_subject_names, available_centuries, dates__range, kg, model)
 
 # with st.sidebar:
 #     evaluation_module.display_all_questions()
