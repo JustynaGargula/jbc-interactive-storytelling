@@ -719,7 +719,21 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
     st.header(page_text_part.get("filters_header"))
 
-    selected_subject_names = st.multiselect(page_text_part.get("subjects_filter_label"), all_subject_names, placeholder=page_text_part.get("subjects_filter_placeholder"))
+    if st.session_state.get("language") == "pl":
+        selected_subject_names = st.multiselect(page_text_part.get("subjects_filter_label"), all_subject_names, placeholder=page_text_part.get("subjects_filter_placeholder"))
+    elif st.session_state.get("language") == "en":
+        all_english_subject_names = []
+        with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                all_english_subject_names.append(line.strip())
+        
+        english_selected_subject_names = st.multiselect(page_text_part.get("subjects_filter_label"), all_english_subject_names, placeholder=page_text_part.get("subjects_filter_placeholder"))
+        st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
+
+        selected_subject_names = []
+        for subj in english_selected_subject_names:
+            index = all_english_subject_names.index(subj)
+            selected_subject_names.append(all_subject_names[index])
     st.space("xxsmall")
 
     all_roman_centuries = [roman.toRoman(c) for c in all_centuries]

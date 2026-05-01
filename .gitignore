@@ -2,5 +2,6 @@
 plan.md
 /data/graf_jbc.html
 /data/jbc_knowledge_graph_pl.jsonld
+/data/kg_part.jsonld
 /venv/
 __pycache__
