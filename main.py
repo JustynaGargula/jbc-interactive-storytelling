@@ -1,3 +1,5 @@
+import os
+
 import utils
 import streamlit as st
 # import evaluation_module
@@ -31,7 +33,11 @@ with col1:
     utils.display_interface_top_part()
 
 with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
-    kg = utils.get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, True, True)
+    jsonld_output_file_pl = "data/jbc_knowledge_graph_pl.jsonld"
+    if os.path.exists(jsonld_output_file_pl):
+        kg = utils.import_knowledge_graph_from_jsonld_file(jsonld_output_file_pl)
+    else:
+        kg = utils.get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, jsonld_output_file_pl, already_downloaded_rdfs=True, already_saved_jsonld=False)
     all_subject_names = kg.get_all_subject_names()
     available_centuries = kg.get_all_centuries()
     dates__range = kg.get_dates_range()

@@ -5,7 +5,7 @@ import glob
 from typing import List, Optional
 from collections import defaultdict
 import json
-from models import Document, KnowledgeGraph
+from models import Document, KnowledgeGraph, Subject, Relation
 import streamlit as st
 from google import genai
 from google.api_core import exceptions
@@ -217,9 +217,9 @@ def export_kg_to_jsonld(kg: KnowledgeGraph):
         "creator": "dc:creator",
         "publisher": "dc:publisher",
         "type": "dc:type",
-        "hasRelation": "http://jbc.bj.uj.edu.pl/vocab/hasRelation",
+        "sourceId": "http://jbc.bj.uj.edu.pl/vocab/sourceId",
+        "targetId": "http://jbc.bj.uj.edu.pl/vocab/targetId",
         "relationType": "http://jbc.bj.uj.edu.pl/vocab/relationType",
-        "relatedTo": "http://jbc.bj.uj.edu.pl/vocab/relatedTo",
         "weight": "http://jbc.bj.uj.edu.pl/vocab/weight",
         "year": "http://jbc.bj.uj.edu.pl/vocab/year",
         "century": "http://jbc.bj.uj.edu.pl/vocab/century",
@@ -238,39 +238,12 @@ def export_kg_to_jsonld(kg: KnowledgeGraph):
             "title": doc.title,
             "description": doc.description,
             "date": doc.date_raw,
-            "dateDisplay": doc.get_date_display(),
-            "year": doc.year,
-            "century": doc.century,
             "subject": doc.subjects,
             "creator": doc.creator,
             "publisher": doc.publisher,
             "type": doc.type,
-            "hasRelation": []
         }
 
-        if doc.year_end:
-            doc_obj["yearEnd"] = doc.year_end
-        if doc.is_approximate:
-            doc_obj["isApproximate"] = True
-        if doc.is_range:
-            doc_obj["isRange"] = True
-
-
-        for rel in kg.relations:
-            if rel.source_id == doc.identifier:
-                doc_obj["hasRelation"].append({
-                    "@type": "Relation",
-                    "relationType": rel.relation_type,
-                    "relatedTo": rel.target_id,
-                    "weight": rel.weight,
-                })
-            elif rel.target_id == doc.identifier:
-                doc_obj["hasRelation"].append({
-                    "@type": "Relation",
-                    "relationType": rel.relation_type,
-                    "relatedTo": rel.source_id,
-                    "weight": rel.weight,
-                })
         documents.append(doc_obj)
 
 
@@ -284,14 +257,27 @@ def export_kg_to_jsonld(kg: KnowledgeGraph):
         }
         subjects.append(subj_obj)
 
+    # Store relations as separate objects with explicit source and target IDs
+    relations = []
+    for i, rel in enumerate(kg.relations):
+        rel_obj = {
+            "@id": f"http://jbc.bj.uj.edu.pl/relation/{i}",
+            "@type": "Relation",
+            "sourceId": rel.source_id,
+            "targetId": rel.target_id,
+            "relationType": rel.relation_type,
+            "weight": rel.weight,
+        }
+        relations.append(rel_obj)
+
     graph = {
         "@context": context["@context"],
-        "@graph": documents + subjects
+        "@graph": documents + subjects + relations
     }
     print(f"Wyeksportowano:")
     print(f"  - Dokumentów: {len(documents)}")
     print(f"  - Subjects: {len(subjects)}")
-    print(f"  - Relacji: {len(kg.relations)}")
+    print(f"  - Relacji: {len(relations)}")
 
     return graph
 
@@ -311,7 +297,55 @@ def save_jsonld_to_file(jsonld_graph: dict, output_file: str):
     print(f"Zapisano graf do {output_file}")
 
 @st.cache_data(show_spinner=False)
-def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_path: str, allowed_centuries: List[int], already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
+def import_knowledge_graph_from_jsonld_file(jsonld_file: str) -> KnowledgeGraph:
+    """
+    Importuje graf wiedzy z pliku JSON-LD.
+
+    :param jsonld_file: ścieżka do pliku JSON-LD zawierającego graf wiedzy
+    :type jsonld_file: str
+    :return kg: zaimportowany graf wiedzy
+    :rtype: KnowledgeGraph
+    """
+    with open(jsonld_file, "r", encoding="utf-8") as f:
+        jsonld_graph = json.load(f)
+
+    kg = KnowledgeGraph()
+
+    for item in jsonld_graph.get("@graph", []):
+        if "Document" in item.get("@type", []):
+            # print(f"Importuję dokument: {item.get('title')} (ID: {item.get('@id')})")
+            doc = Document(
+                identifier=item.get("@id"),
+                title=item.get("title"),
+                description=item.get("description", ""),
+                subjects=item.get("subject", []),
+                date_raw=item.get("date", ""),
+                creator=item.get("creator", ""),
+                publisher=item.get("publisher", ""),
+                type=item.get("type", ""),
+            )
+            kg.add_document(doc) # to doda inne pola związane z datą
+
+        elif "Subject" in item.get("@type", []):
+            subject_id = item.get("@id").split("/")[-1]
+            kg.subjects[subject_id] = Subject(
+                name=item.get("name"),
+                documents=item.get("documents", [])
+            )
+        
+        elif "Relation" in item.get("@type", []):
+            kg.relations.append(Relation(
+                source_id=item.get("sourceId"),
+                target_id=item.get("targetId"),
+                relation_type=item.get("relationType"),
+                weight=item.get("weight", 1.0)
+            ))
+
+    print(f"Zaimportowano graf wiedzy z {jsonld_file}, wczytano {len(kg.documents)} dokumentów, {len(kg.subjects)} tematów i {len(kg.relations)} relacji.")
+    return kg
+
+@st.cache_data(show_spinner=False)
+def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_path: str, allowed_centuries: List[int], jsonld_output_file: str, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
     """
     Tworzy graf wiedzy na podstawie pliku RIS i folderu z rdfami.
 
@@ -319,6 +353,8 @@ def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_
     :type ris_files_directory_path: str
     :param rdfs_directory_path: Ścieżka do folderu z plikami RDF
     :type rdfs_directory_path: str
+    :param jsonld_output_file: Ścieżka do pliku wyjściowego JSON-LD
+    :type jsonld_output_file: str
     :param already_downloaded_rdfs: Czy pliki RDF zostały już pobrane
     :type already_downloaded_rdfs: bool
     :param already_saved_jsonld: Czy graf JSON-LD został już zapisany
@@ -345,7 +381,7 @@ def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_
 
     if not already_saved_jsonld:
         jsonld_graph = export_kg_to_jsonld(kg)
-        save_jsonld_to_file(jsonld_graph, "data/jbc_knowledge_graph.jsonld")
+        save_jsonld_to_file(jsonld_graph, jsonld_output_file)
 
     return kg
 
@@ -665,7 +701,7 @@ def display_interface_top_part():
     st.space("small")
 
 
-def display_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph, model: str = "gemini-3-flash-preview"):
+def display_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph, model: str):
     """
     Wyświetla główną część interfejsu użytkownika w aplikacji Streamlit, umożliwiając wybór filtrów i generowanie opowieści lub osi czasu.
 
@@ -677,6 +713,8 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     :type dates__range: tuple
     :param kg: Graf wiedzy
     :type kg: KnowledgeGraph
+    :param model: Model językowy
+    :type model: str
     """
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
     st.header(page_text_part.get("filters_header"))
