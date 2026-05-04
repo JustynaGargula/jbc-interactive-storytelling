@@ -590,10 +590,63 @@ def generate_interactive_story_from_data(data: List[Document], model: str) -> Op
     if not data:
         return None
     page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
+    # TODO poprawić konstrukcję prompra do interaktywnej opowieści, żeby zgadzało się z przykładem
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
 
-    response_text = handle_llm(prompt, model=model)
+    # TODO po testach odkomentować i usunąć wczytywanie przykładowej opowieści z pliku, a zostawić tylko wywołanie funkcji handle_llm
+    # response_text = handle_llm(prompt, model=model)
+
+    with open("example_story.json", "r", encoding="utf-8") as f:
+        response_text = json.load(f)
+
     return response_text
+
+def display_interactive_story(story: str):
+    """
+    Wyświetla interaktywną opowieść.
+    :param story: Tekst interaktywnej opowieści do wyświetlenia
+    :type story: str
+    """
+    st.header(story.get("title"))
+    st.write(story.get("description"))
+    if st.session_state.get("story_depth") is None:
+        st.session_state["story_depth"] = 0
+        st.session_state["current_choices"] = story.get("choices")
+        st.session_state["previous_choices"] = []
+    
+    # TODO zmienić mechanizm wyświetlania kolejnych opcji wyboru, żeby zapisywać tylko ścieżkę wyborów (żeby było skalowalne na inną liczbę opcji i głębokość)
+        if  st.session_state["current_choices"] is None:
+            st.session_state["current_choices"] = story.get("choices")
+        display_choices(st.session_state["current_choices"])
+    else:
+        with st.container(border=True):
+            st.subheader("Koniec opowieści")
+            st.write(st.session_state["ending"])
+
+def display_choices(choices: List[dict]):
+    """
+    Wyświetla opcje wyboru dla interaktywnej opowieści.
+
+    :param choices: Lista słowników reprezentujących opcje wyboru
+    :type choices: List[dict]
+    """
+    for i, choice in enumerate(choices):
+        with st.container(border=True):
+            st.subheader(choice.get("option_title"))
+            st.write(choice.get("option_description"))
+            if st.button("Wybieram to", key=f"choice_{st.session_state['story_depth']}_{i}"):
+                next_choices = choice.get("choices")
+                if next_choices:
+                    st.session_state["previous_choices"] = choices
+                    st.session_state["current_choices"] = next_choices
+                else:
+                    st.session_state["previous_choices"] = choices
+                    st.session_state["current_choices"] = []
+                    st.session_state["ending"] = choice.get("ending")
+
+                current_depth = st.session_state.get("story_depth")
+                st.session_state["story_depth"] = current_depth + 1
+                st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
 
 
 def generate_historical_story_from_data(data: List[Document], model: str) -> Optional[str]:
@@ -757,7 +810,10 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     selected_related = st.checkbox(page_text_part.get("related_documents_label"))
     st.space("xxsmall")
 
-    if st.button(page_text_part.get("generate_button_label")):
+    generate_button = st.button(page_text_part.get("generate_button_label"))
+    story_placeholder = st.empty()
+
+    if generate_button:
         with st.spinner(page_text_part.get("getting_data_spinner_text")):
             data = get_data_based_on_selected_filters(
                 selected_subject_names,
@@ -767,6 +823,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                 kg
             )
             df = convert_data_to_dataframe(data)
+        reset_interactive_story()
 
         if output_type == page_text_part.get("historical_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
@@ -784,9 +841,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                 story = generate_interactive_story_from_data(data, model)
 
             if story:
-                st.divider()
-                st.subheader(page_text_part.get("generated_story_header"))
-                st.markdown(story)
+                st.session_state["interactive_story"] = story
             else:
                 st.warning(page_text_part.get("no_documents_warning"))
 
@@ -827,6 +882,23 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                         if row['url']:
                             st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
                     st.divider()
+
+    if st.session_state.get("interactive_story"):
+        with story_placeholder.container():
+            st.divider()
+            st.subheader(page_text_part.get("generated_story_header"))
+            display_interactive_story(st.session_state.get("interactive_story"))
+            print(f"Zapisane w sesji: {st.session_state.get("current_choices")[0].get("option_title")}, {st.session_state.get("story_depth")}")
+
+
+def reset_interactive_story():
+    """
+    Resetuje stan interaktywnej opowieści, umożliwiając rozpoczęcie od nowa.
+    """
+    st.session_state["current_choices"] = None
+    st.session_state["previous_choices"] = None
+    st.session_state["story_depth"] = None
+    st.session_state["interactive_story"] = None
 
 def get_or_create_session_id() -> str:
     """
