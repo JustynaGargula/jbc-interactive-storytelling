@@ -609,19 +609,30 @@ def display_interactive_story(story: str):
     """
     st.header(story.get("title"))
     st.write(story.get("description"))
-    if st.session_state.get("story_depth") is None:
+    if st.session_state.get("story_depth") is None or st.session_state["current_choices"] is None:
         st.session_state["story_depth"] = 0
         st.session_state["current_choices"] = story.get("choices")
         st.session_state["previous_choices"] = []
+        st.session_state["ending"] = None
     
     # TODO zmienić mechanizm wyświetlania kolejnych opcji wyboru, żeby zapisywać tylko ścieżkę wyborów (żeby było skalowalne na inną liczbę opcji i głębokość)
-        if  st.session_state["current_choices"] is None:
-            st.session_state["current_choices"] = story.get("choices")
+    if  st.session_state["current_choices"] and st.session_state["story_depth"] <= 2:
         display_choices(st.session_state["current_choices"])
     else:
         with st.container(border=True):
-            st.subheader("Koniec opowieści")
+            st.subheader("Koniec opowieści", text_alignment="center")
             st.write(st.session_state["ending"])
+
+    with st.container(horizontal=True, horizontal_alignment="center"):
+        if st.button("Cofnij wybór"):
+            if st.session_state["story_depth"] > 0:
+                st.session_state["story_depth"] -= 1
+                st.session_state["current_choices"] = st.session_state["previous_choices"]
+                st.session_state["previous_choices"] = []
+            st.rerun()
+        if st.button("Resetuj opowieść"):
+            reset_interactive_story_to_first_choice()
+            st.rerun()
 
 def display_choices(choices: List[dict]):
     """
@@ -823,7 +834,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                 kg
             )
             df = convert_data_to_dataframe(data)
-        reset_interactive_story()
+        reset_interactive_story_completely()
 
         if output_type == page_text_part.get("historical_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
@@ -888,10 +899,10 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
             st.divider()
             st.subheader(page_text_part.get("generated_story_header"))
             display_interactive_story(st.session_state.get("interactive_story"))
-            print(f"Zapisane w sesji: {st.session_state.get("current_choices")[0].get("option_title")}, {st.session_state.get("story_depth")}")
+            # print(f"Zapisane w sesji: {st.session_state.get("current_choices")[0].get("option_title")}, {st.session_state.get("story_depth")}")
 
 
-def reset_interactive_story():
+def reset_interactive_story_completely():
     """
     Resetuje stan interaktywnej opowieści, umożliwiając rozpoczęcie od nowa.
     """
@@ -899,6 +910,17 @@ def reset_interactive_story():
     st.session_state["previous_choices"] = None
     st.session_state["story_depth"] = None
     st.session_state["interactive_story"] = None
+    st.session_state["ending"] = None
+
+def reset_interactive_story_to_first_choice():
+    """
+    Resetuje stan interaktywnej opowieści do pierwszego wyboru.
+    """
+    st.session_state["current_choices"] = st.session_state["interactive_story"].get("choices")
+    st.session_state["previous_choices"] = None
+    st.session_state["story_depth"] = 0
+    st.session_state["ending"] = None
+
 
 def get_or_create_session_id() -> str:
     """
