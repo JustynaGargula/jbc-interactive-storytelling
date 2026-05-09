@@ -58,7 +58,14 @@
         "documents_types_label": "Documents types",
         "no_story_type_warning": "No story type selected.",
         "expander_text": "📋 View source documents in the table",
-        "open_document_button": "Open"
+        "open_document_button": "Open",
+        "progress_label": "You are at stage"
+    },
+    "utils_display_interactive_story": {
+        "story_ending": "The end of the story",
+        "rewind_button": "Rewind choice",
+        "reset_button": "Reset story",
+        "choice_button": "I choose this"
     }
 
 }

@@ -58,7 +58,14 @@
         "documents_types_label": "Typy dokumentów",
         "no_story_type_warning": "Nie wybrano typu opowieści.",
         "expander_text": "📋 Zobacz dokumenty żródłowe w tabeli",
-        "open_document_button": "Otwórz"
+        "open_document_button": "Otwórz",
+        "progress_label": "Jesteś na etapie"
+    },
+    "utils_display_interactive_story": {
+        "story_ending": "Koniec opowieści",
+        "rewind_button": "Cofnij wybór",
+        "reset_button": "Resetuj opowieść",
+        "choice_button": "Wybieram to"
     }
 
 }

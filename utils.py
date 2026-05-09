@@ -607,56 +607,78 @@ def display_interactive_story(story: str):
     :param story: Tekst interaktywnej opowieści do wyświetlenia
     :type story: str
     """
+    page_text = st.session_state["page_text"].get("utils_display_interactive_story")
     st.header(story.get("title"))
     st.write(story.get("description"))
-    if st.session_state.get("story_depth") is None or st.session_state["current_choices"] is None:
-        st.session_state["story_depth"] = 0
-        st.session_state["current_choices"] = story.get("choices")
-        st.session_state["previous_choices"] = []
-        st.session_state["ending"] = None
+
+    if st.session_state.get("choices_path") is None:
+        st.session_state["choices_path"] = []
+        if story.get("choices"):
+            choices = story.get("choices")
+            story_depth = 1
+            while choices[0].get("choices"):
+                story_depth += 1
+                choices = choices[0].get("choices")
+        else:
+            story_depth = 0
+        st.session_state["story_depth"] = story_depth
+        st.rerun() # odświeża strone, żeby załadować dane do paska wyboru
     
-    # TODO zmienić mechanizm wyświetlania kolejnych opcji wyboru, żeby zapisywać tylko ścieżkę wyborów (żeby było skalowalne na inną liczbę opcji i głębokość)
-    if  st.session_state["current_choices"] and st.session_state["story_depth"] <= 2:
-        display_choices(st.session_state["current_choices"])
+    if st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) < st.session_state["story_depth"]:
+        display_choices(get_choices_or_ending(story, "current"), page_text.get("choice_button"))
     else:
         with st.container(border=True):
-            st.subheader("Koniec opowieści", text_alignment="center")
-            st.write(st.session_state["ending"])
+            st.subheader(page_text.get("story_ending"), text_alignment="center")
+            st.write(get_choices_or_ending(story, "ending"))
 
     with st.container(horizontal=True, horizontal_alignment="center"):
-        if st.button("Cofnij wybór"):
-            if st.session_state["story_depth"] > 0:
-                st.session_state["story_depth"] -= 1
-                st.session_state["current_choices"] = st.session_state["previous_choices"]
-                st.session_state["previous_choices"] = []
-            st.rerun()
-        if st.button("Resetuj opowieść"):
+        if st.button(page_text.get("rewind_button")):
+            if len(st.session_state["choices_path"]) > 0:
+                st.session_state["choices_path"] = st.session_state["choices_path"][:-1]
+                st.rerun()
+        if st.button(page_text.get("reset_button")):
             reset_interactive_story_to_first_choice()
             st.rerun()
 
-def display_choices(choices: List[dict]):
+def get_choices_or_ending(story: str, type: str) -> Optional[List[dict]]:
+    """
+    Zwraca aktualne opcje wyboru na podstawie głębokości opowieści i zapisanej ścieżki wyborów.
+    :param story: Tekst interaktywnej opowieści
+    :type story: str
+    :param type: Typ wyborów do zwrócenia ("current" lub "previous" lub "ending")
+    :type type: str
+    :return: Lista aktualnych opcji wyboru
+    :rtype: List[dict]
+    """
+    choices = story.get("choices")
+    if type == "previous":
+        for choice_index in st.session_state["choices_path"][:-1]:
+            choices = choices[choice_index].get("choices")
+    elif type == "current":
+        for choice_index in st.session_state["choices_path"]:
+            choices = choices[choice_index].get("choices")
+    elif type == "ending":
+        for choice_index in st.session_state["choices_path"][:-1]:
+            choices = choices[choice_index].get("choices")
+        ending = choices[st.session_state["choices_path"][-1]].get("ending")
+        return ending
+    return choices
+
+def display_choices(choices: List[dict], choice_text: str):
     """
     Wyświetla opcje wyboru dla interaktywnej opowieści.
 
     :param choices: Lista słowników reprezentujących opcje wyboru
     :type choices: List[dict]
+    :param choice_text: Tekst do wyświetlenia na przycisku wyboru
+    :type choice_text: str
     """
     for i, choice in enumerate(choices):
         with st.container(border=True):
             st.subheader(choice.get("option_title"))
             st.write(choice.get("option_description"))
-            if st.button("Wybieram to", key=f"choice_{st.session_state['story_depth']}_{i}"):
-                next_choices = choice.get("choices")
-                if next_choices:
-                    st.session_state["previous_choices"] = choices
-                    st.session_state["current_choices"] = next_choices
-                else:
-                    st.session_state["previous_choices"] = choices
-                    st.session_state["current_choices"] = []
-                    st.session_state["ending"] = choice.get("ending")
-
-                current_depth = st.session_state.get("story_depth")
-                st.session_state["story_depth"] = current_depth + 1
+            if st.button(choice_text, key=f"choice_{len(st.session_state['choices_path'])}_{i}"):
+                st.session_state["choices_path"].append(i)
                 st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
 
 
@@ -782,6 +804,8 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     """
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
     st.header(page_text_part.get("filters_header"))
+    global interactive_story
+    interactive_story = None
 
     if st.session_state.get("language") == "pl":
         selected_subject_names = st.multiselect(page_text_part.get("subjects_filter_label"), all_subject_names, placeholder=page_text_part.get("subjects_filter_placeholder"))
@@ -897,30 +921,34 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     if st.session_state.get("interactive_story"):
         with story_placeholder.container():
             st.divider()
-            st.subheader(page_text_part.get("generated_story_header"))
-            display_interactive_story(st.session_state.get("interactive_story"))
-            # print(f"Zapisane w sesji: {st.session_state.get("current_choices")[0].get("option_title")}, {st.session_state.get("story_depth")}")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.subheader(page_text_part.get("generated_story_header"))
+            with col2:
+                if st.session_state["story_depth"] and (st.session_state["choices_path"] is not None):
+                    if st.session_state["story_depth"] == 0:
+                        progress_value = 0
+                        progress_text = f"{page_text_part.get('progress_label')} 0/0"
+                    else:
+                        progress_value = len(st.session_state["choices_path"]) / st.session_state["story_depth"]
+                        progress_text = f"{page_text_part.get('progress_label')} {len(st.session_state['choices_path'])}/{st.session_state['story_depth']}"
+                    st.progress(progress_value, text=progress_text)
 
+            display_interactive_story(st.session_state.get("interactive_story"))
 
 def reset_interactive_story_completely():
     """
     Resetuje stan interaktywnej opowieści, umożliwiając rozpoczęcie od nowa.
     """
-    st.session_state["current_choices"] = None
-    st.session_state["previous_choices"] = None
     st.session_state["story_depth"] = None
+    st.session_state["choices_path"] = None
     st.session_state["interactive_story"] = None
-    st.session_state["ending"] = None
 
 def reset_interactive_story_to_first_choice():
     """
     Resetuje stan interaktywnej opowieści do pierwszego wyboru.
     """
-    st.session_state["current_choices"] = st.session_state["interactive_story"].get("choices")
-    st.session_state["previous_choices"] = None
-    st.session_state["story_depth"] = 0
-    st.session_state["ending"] = None
-
+    st.session_state["choices_path"] = []
 
 def get_or_create_session_id() -> str:
     """
