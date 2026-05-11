@@ -590,16 +590,16 @@ def generate_interactive_story_from_data(data: List[Document], model: str) -> Op
     if not data:
         return None
     page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
-    # TODO poprawić konstrukcję prompra do interaktywnej opowieści, żeby zgadzało się z przykładem
-    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
 
-    # TODO po testach odkomentować i usunąć wczytywanie przykładowej opowieści z pliku, a zostawić tylko wywołanie funkcji handle_llm
-    # response_text = handle_llm(prompt, model=model)
-
-    with open("example_story.json", "r", encoding="utf-8") as f:
-        response_text = json.load(f)
-
-    return response_text
+    story_template_path = Path("data/stories/story_template.json")
+    with open(story_template_path, "r", encoding="utf-8") as f:
+        story_template = json.load(f)
+    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')} {str(story_template)}"
+    response_text = handle_llm(prompt, model=model)
+    try:
+        return json.loads(response_text)
+    except Exception as e:
+        return response_text
 
 def display_interactive_story(story: str):
     """

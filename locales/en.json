@@ -20,7 +20,7 @@
     },
     "utils_generate_interactive_story_from_data": {
         "prompt_pt1": "Context: Use these data primarily:",
-        "prompt_pt2": "Task: Generate an interactive story based on them."
+        "prompt_pt2": "Task: Generate an interactive story based on them in english. The story should contain several chapters (ideally 3), each with two choice paths. Each choice leads to different options and eventually to a ending. The ending should be different for each choice path, although it's possible that different choices lead to similar outcomes. At the end, besides the story outcome, include a summary of the choices made and the historical background for that path. Return the story in JSON format without additional text (not even backticks or labels indicating it's JSON). It should have an analogous structure (with identical keys) to this:"
     },
     "utils_generate_historical_story_from_data": {
         "prompt_pt1": "Context: Use these data primarily:",
