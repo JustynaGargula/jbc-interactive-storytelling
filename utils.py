@@ -597,8 +597,10 @@ def generate_interactive_story_from_data(data: List[Document], model: str) -> Op
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')} {str(story_template)}"
     response_text = handle_llm(prompt, model=model)
     try:
+        response_text = re.sub(r"^```(?:json)?\s*|\s*```$", "", response_text.strip())
         return json.loads(response_text)
     except Exception as e:
+        print(f"Błąd podczas analizy odpowiedzi JSON: {e}")
         return response_text
 
 def display_interactive_story(story: str):
