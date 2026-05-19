@@ -522,6 +522,11 @@ def get_data_based_on_selected_filters(selected_subject_names: list, selected_ce
         )
     return data
 
+def display_error(error_code: int, page_text_part: dict, e: Exception):
+    st.error(page_text_part.get(f"error_{error_code}"))
+    st.write(page_text_part.get(f"info_{error_code}"))
+    with st.expander(page_text_part.get("other_error_details")):
+        st.code(str(e))
 
 def handle_llm(prompt: str, model: str) -> Optional[str]:
     """
@@ -542,31 +547,30 @@ def handle_llm(prompt: str, model: str) -> Optional[str]:
         response = client.models.generate_content(
             model=model, contents=prompt
         )
-
+        client.close()
         return response.text
-
-    except exceptions.ResourceExhausted as e:
-        # 429 - przekroczono limit requestów
-        st.error(page_text_part.get("error_429"))
-        st.info(page_text_part.get("info_429"))
-        return None
-
-    except exceptions.ServiceUnavailable as e:
-        # 503 - serwer przeciążony
-        st.error(page_text_part.get("error_503"))
-        st.info(page_text_part.get("info_503"))
-        return None
-
-    except exceptions.InvalidArgument as e:
-        # 400 - błędne dane wejściowe
-        st.error(page_text_part.get("error_400"))
-        st.code(str(e))
-        return None
-
-    except exceptions.PermissionDenied as e:
-        # 403 - problem z kluczem API
-        st.error(page_text_part.get("error_403"))
-        return None
+    
+    except genai.errors.APIError as e:
+        if e.code == 400:
+            # 400 - błędne dane wejściowe
+            display_error(400, page_text_part, e)
+            return None
+        elif e.code == 403:
+            # 403 - problem z kluczem API
+            display_error(403, page_text_part, e)
+            return None
+        elif e.code == 404:
+            # 404 - model nie znaleziony
+            display_error(404, page_text_part, e)
+            return None
+        elif e.code == 429:
+            # 429 - przekroczono limit requestów
+            display_error(429, page_text_part, e)
+            return None
+        elif e.code == 503:
+            # 503 - serwer przeciążony
+            display_error(503, page_text_part, e)
+            return None
 
     except Exception as e:
         # Inne nieoczekiwane błędy
@@ -859,6 +863,9 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                 selected_related,
                 kg
             )
+            if not data:
+                st.warning(page_text_part.get("no_documents_warning"))
+                return
             df = convert_data_to_dataframe(data)
         reset_interactive_story_completely()
 
@@ -870,8 +877,6 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                 st.divider()
                 st.subheader(page_text_part.get("generated_story_header"))
                 st.markdown(story)
-            else:
-                st.warning(page_text_part.get("no_documents_warning"))
 
         elif output_type == page_text_part.get("interactive_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
@@ -879,8 +884,6 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
             if story:
                 st.session_state["interactive_story"] = story
-            else:
-                st.warning(page_text_part.get("no_documents_warning"))
 
         elif output_type == page_text_part.get("timeline"):
             with st.spinner(page_text_part.get("generating_timeline_spinner_text")):

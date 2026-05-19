@@ -12,10 +12,14 @@
         "error_429": "⚠️ **Przekroczono limit zapytań do API.**\n\nSpróbuj ponownie za kilka minut.",
         "info_429": "💡 Darmowa wersja Gemini API ma ograniczenia: 5 zapytań/minutę i 20 zapytań/dzień.",
         "error_503": "⚠️ **Serwer API jest chwilowo przeciążony.**\n\nSpróbuj ponownie za chwilę.",
-        "info_503": "💡 Możesz spróbować ponownie klikając przycisk 'Generuj opowieść'.",
-        "error_400": "⚠️ **Błąd w danych wejściowych.**",
-        "error_403": "⚠️ **Problem z autoryzacją API.**\n\nSprawdź czy klucz API jest poprawny.",
-        "other_error": "⚠️ **Wystąpił nieoczekiwany błąd:**\n\n",
+        "info_503": "💡 Możesz spróbować ponownie klikając przycisk 'Generuj'.",
+        "error_400": "⚠️ **Błąd w danych wejściowych lub model jest niedostępny w tym regionie.**",
+        "info_400": "💡 Sprawdź czy dane wejściowe są poprawne.",
+        "error_403": "⚠️ **Problem z autoryzacją API.**",
+        "info_403": "💡 Sprawdź czy klucz API jest poprawny.",
+        "error_404": "⚠️ **Nie znaleziono zasobu.**",
+        "info_404": "💡 Sprawdź czy endpoint API jest poprawny.",
+        "other_error": "⚠️ **Wystąpił nieoczekiwany błąd:**",
         "other_error_details": "Szczegóły błędu (dla deweloperów)"
     },
     "utils_generate_interactive_story_from_data": {
@@ -24,7 +28,7 @@
     },
     "utils_generate_historical_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie."
+        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie. Możesz dodać w nawiasach linki do dokumentów w Jagiellońskiej Bibliotece Cyfrowej, z których korzystałeś w poprawnym formacie markdownowym '([link]({url}))'."
     },
     "utils_generate_timeline": {
         "title_pt1": "Oś czasu",

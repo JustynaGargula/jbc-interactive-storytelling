@@ -20,6 +20,7 @@ st.set_page_config(
 if st.session_state.get("language") is None:
     st.session_state["language"] = "pl"
 
+color_mode_caption_placeholder = st.empty()
 col1, col2= st.columns([8, 2])
 
 with col2:
@@ -28,6 +29,7 @@ with col2:
     utils.load_page_text_in_chosen_language(st.session_state["language"])
 
 page_text = st.session_state["page_text"]
+color_mode_caption_placeholder.caption(page_text.get("main_file").get("bottom_color_mode_caption"), text_alignment="right")
 
 with col1:
     utils.display_interface_top_part()
@@ -46,6 +48,3 @@ utils.display_interface_main_part(all_subject_names, available_centuries, dates_
 
 # with st.sidebar:
 #     evaluation_module.display_all_questions()
-
-st.space("large")
-st.caption(page_text.get("main_file").get("bottom_color_mode_caption"))
