@@ -7,3 +7,4 @@ google-api_core
 roman
 gspread
 google-auth
+pandas

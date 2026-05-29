@@ -4,3 +4,4 @@ plan.md
 /data/jbc_knowledge_graph.jsonld
 /venv/
 __pycache__
+.streamlit/secrets.toml
