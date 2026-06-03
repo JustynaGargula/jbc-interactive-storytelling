@@ -5,3 +5,4 @@ plan.md
 /data/kg_part.jsonld
 /venv/
 __pycache__
+.streamlit/secrets.toml

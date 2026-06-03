@@ -18,6 +18,34 @@ import uuid
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
     # parametr, które można dodać: "&ipp=50" to liczba wyników na stronie (50 tu, domyślnie jst 25), a "&p=0" oznacza numer strony (pierwsza ma nr 0)
 RDF_URL = "https://jbc.bj.uj.edu.pl/dlibra/rdf.xml?type=e&id="
+DEFAULT_LLM_PROVIDER = "gemini"
+DEFAULT_GEMINI_MODEL = "gemini-3-flash-preview"
+DEFAULT_OPENROUTER_MODEL = "openai/gpt-4o-mini"
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+
+def print_llm_usage(
+        provider: str,
+        model: str,
+        prompt_tokens: Optional[int] = None,
+        completion_tokens: Optional[int] = None,
+        total_tokens: Optional[int] = None,
+        cost: Optional[float] = None,
+) -> None:
+    """
+    Prints successful LLM usage to the Streamlit server console.
+    """
+    print(
+        "[LLM] "
+        f"provider={provider} | "
+        f"model={model} | "
+        f"prompt_tokens={prompt_tokens} | "
+        f"completion_tokens={completion_tokens} | "
+        f"total_tokens={total_tokens} | "
+        f"cost={cost}",
+        flush=True,
+    )
+
 
 def get_ids(files: List[str]) -> List[str]:
     """
@@ -528,24 +556,51 @@ def display_error(error_code: int, page_text_part: dict, e: Exception):
     with st.expander(page_text_part.get("other_error_details")):
         st.code(str(e))
 
-def handle_llm(prompt: str, model: str) -> Optional[str]:
+def get_llm_config() -> dict:
     """
-    Obsługuje komunikację z modelem językowym Gemini i zarządza błędami.
+    Odczytuje konfigurację LLM ze Streamlit secrets.
 
-    :param prompt: Tekst zapytania do modelu językowego
-    :type prompt: str
-    :param model: Model językowy do użycia (domyślnie "gemini-3-flash-preview")
-    :type model: str
-    :return: Odpowiedź modelu językowego lub None w przypadku błędu
-    :rtype: str | None
+    Domyślnie używa Gemini, więc brak sekcji [llm] zachowuje stare działanie aplikacji.
+    """
+    llm_config = st.secrets.get("llm", {})
+
+    return {
+        "provider": llm_config.get("provider", DEFAULT_LLM_PROVIDER).lower(),
+        "gemini_model": llm_config.get("gemini_model", DEFAULT_GEMINI_MODEL),
+        "gemini_api_key": llm_config.get("gemini_api_key"),
+        "openrouter_model": llm_config.get("openrouter_model", DEFAULT_OPENROUTER_MODEL),
+        "openrouter_api_key": llm_config.get("openrouter_api_key"),
+    }
+
+def call_gemini(prompt: str, model: str, api_key: Optional[str] = None) -> Optional[str]:
+    """
+    Obsługuje komunikację z Gemini.
     """
     page_text_part = st.session_state["page_text"].get("utils_handle_llm")
     try:
-        # The client gets the API key from the environment variable `GEMINI_API_KEY`.
-        client = genai.Client()
+        if api_key:
+            client = genai.Client(api_key=api_key)
+        else:
+            # The client gets the API key from the environment variable `GEMINI_API_KEY`.
+            client = genai.Client()
 
         response = client.models.generate_content(
-            model=model, contents=prompt
+            model=model,
+            contents=prompt,
+        )
+
+        usage_metadata = getattr(response, "usage_metadata", None)
+
+        prompt_tokens = getattr(usage_metadata, "prompt_token_count", None)
+        completion_tokens = getattr(usage_metadata, "candidates_token_count", None)
+        total_tokens = getattr(usage_metadata, "total_token_count", None)
+
+        print_llm_usage(
+            provider="gemini",
+            model=model,
+            prompt_tokens=prompt_tokens,
+            completion_tokens=completion_tokens,
+            total_tokens=total_tokens,
         )
         client.close()
         return response.text
@@ -580,7 +635,131 @@ def handle_llm(prompt: str, model: str) -> Optional[str]:
         return None
 
 
-def generate_interactive_story_from_data(data: List[Document], model: str) -> Optional[str]:
+def call_openrouter(prompt: str, model: str, api_key: Optional[str]) -> Optional[str]:
+    """
+    Obsługuje komunikację z OpenRouter.
+    """
+    if not api_key:
+        st.error(
+            "⚠️ **Brakuje klucza OpenRouter.**\n\n"
+            "Ustaw `openrouter_api_key` w sekcji `[llm]` pliku `.streamlit/secrets.toml`."
+        )
+        return None
+
+    try:
+        response = requests.post(
+            OPENROUTER_API_URL,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "HTTP-Referer": "http://localhost:8501",
+                "X-OpenRouter-Title": "JBC Interactive Storytelling",
+            },
+            json={
+                "model": model,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    }
+                ],
+            },
+            timeout=60,
+        )
+
+        if response.status_code in (401, 403):
+            st.error("⚠️ **Problem z autoryzacją OpenRouter.**\n\nSprawdź `openrouter_api_key`.")
+            return None
+
+        if response.status_code == 402:
+            st.error("⚠️ **Brak środków lub limitu kredytów na koncie OpenRouter.**")
+            return None
+
+        if response.status_code == 404:
+            st.error("⚠️ **Nie znaleziono modelu OpenRouter.**\n\nSprawdź `openrouter_model`.")
+            return None
+
+        if response.status_code == 429:
+            st.error("⚠️ **Przekroczono limit zapytań do OpenRouter.**\n\nSpróbuj ponownie później.")
+            return None
+
+        if response.status_code >= 500:
+            st.error("⚠️ **OpenRouter albo dostawca modelu jest chwilowo niedostępny.**")
+            with st.expander("Szczegóły błędu (dla deweloperów)"):
+                st.code(response.text)
+            return None
+
+        response.raise_for_status()
+        response_data = response.json()
+
+        usage = response_data.get("usage", {})
+
+        print_llm_usage(
+            provider="openrouter",
+            model=model,
+            prompt_tokens=usage.get("prompt_tokens"),
+            completion_tokens=usage.get("completion_tokens"),
+            total_tokens=usage.get("total_tokens"),
+            cost=usage.get("cost"),
+        )
+
+        return response_data["choices"][0]["message"]["content"]
+
+    except requests.Timeout:
+        st.error("⚠️ **Zapytanie do OpenRouter przekroczyło limit czasu.**")
+        return None
+
+    except requests.RequestException as e:
+        st.error("⚠️ **Błąd połączenia z OpenRouter.**")
+        with st.expander("Szczegóły błędu (dla deweloperów)"):
+            st.code(str(e))
+        return None
+
+    except (KeyError, IndexError, TypeError) as e:
+        st.error("⚠️ **Nieoczekiwany format odpowiedzi z OpenRouter.**")
+        with st.expander("Szczegóły odpowiedzi API"):
+            st.code(str(e))
+        return None
+
+    except Exception as e:
+        st.error(f"⚠️ **Wystąpił nieoczekiwany błąd OpenRouter:**\n\n{type(e).__name__}")
+        with st.expander("Szczegóły błędu (dla deweloperów)"):
+            st.code(str(e))
+        return None
+
+
+def handle_llm(prompt: str) -> Optional[str]:
+    """
+    Obsługuje komunikację z wybranym backendem LLM.
+
+    Domyślnie działa jak wcześniej, czyli używa Gemini.
+    OpenRouter jest używany tylko po ustawieniu provider = "openrouter" w sekcji [llm].
+    """
+    config = get_llm_config()
+    provider = config["provider"]
+
+    if provider == "gemini":
+        return call_gemini(
+            prompt=prompt,
+            model=config["gemini_model"],
+            api_key=config["gemini_api_key"],
+        )
+
+    if provider == "openrouter":
+        return call_openrouter(
+            prompt=prompt,
+            model=config["openrouter_model"],
+            api_key=config["openrouter_api_key"],
+        )
+
+    st.error(
+        "⚠️ **Nieznany provider LLM.**\n\n"
+        "Dozwolone wartości w `.streamlit/secrets.toml`: `gemini` albo `openrouter`."
+    )
+    return None
+
+
+def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
     """
     Generuje interaktywną opowieść na podstawie podanych dokumentów.
 
@@ -599,7 +778,7 @@ def generate_interactive_story_from_data(data: List[Document], model: str) -> Op
     with open(story_template_path, "r", encoding="utf-8") as f:
         story_template = json.load(f)
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')} {str(story_template)}"
-    response_text = handle_llm(prompt, model=model)
+    response_text = handle_llm(prompt)
     try:
         response_text = re.sub(r"^```(?:json)?\s*|\s*```$", "", response_text.strip())
         return json.loads(response_text)
@@ -703,7 +882,7 @@ def generate_historical_story_from_data(data: List[Document], model: str) -> Opt
         return None
     page_text_part = st.session_state["page_text"].get("utils_generate_historical_story_from_data")
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
-    response_text = handle_llm(prompt, model=model)
+    response_text = handle_llm(prompt)
     return response_text
 
 def convert_data_to_dataframe(data: List[Document]) -> pd.DataFrame:
