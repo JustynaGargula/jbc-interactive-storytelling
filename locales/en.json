@@ -1,0 +1,75 @@
+{
+    "main_file": {
+        "loading_spinner_text": "Loading data for application functionality... ⏳",
+        "bottom_color_mode_caption": "💡 **Changing the theme to dark or light:** Click the 3 dots - ⋮ - in the top right corner → Settings → Theme",
+        "change_language": "Change language 🌐"
+      },
+    "utils_display_interface_top_part": {
+        "main_header": "Interactive Stories from JBC Data",
+        "main_description": "Application for exploring data from the Jagiellonian Digital Library using Google GenAI language models."
+    },
+        "utils_handle_llm": {
+        "error_429": "⚠️ **API limit is exceeded.**\n\nTry again in a few minutes.",
+        "info_429": "💡 The free version of Gemini API has limitations: 5 requests/minute and 20 requests/day.",
+        "error_503": "⚠️ **API server is temporarily overloaded.**\n\nTry again later.",
+        "info_503": "💡 You can try again by clicking the 'Generate' button.",
+        "error_400": "⚠️ **Error in input data or the model is not available in this region.**",
+        "info_400": "💡 Check if the input data is correct.",
+        "error_403": "⚠️ **Authorization problem with API.**",
+        "info_403": "💡 Check if the API key is correct.",
+        "error_404": "⚠️ **Resource not found.**",
+        "info_404": "💡 Check if the API endpoint is correct.",
+        "other_error": "⚠️ **An unexpected error occurred:**",
+        "other_error_details": "Error details (for developers)"
+    },
+    "utils_generate_interactive_story_from_data": {
+        "prompt_pt1": "Context: Use these data primarily:",
+        "prompt_pt2": "Task: Generate an interactive story based on them in english. The story should contain several chapters (ideally 3), each with two choice paths. Each choice leads to different options and eventually to a ending. The ending should be different for each choice path, although it's possible that different choices lead to similar outcomes. At the end, besides the story outcome, include a summary of the choices made and the historical background for that path. Return the story in JSON format without additional text. It should have an analogous structure (with identical keys) to this:"
+    },
+    "utils_generate_historical_story_from_data": {
+        "prompt_pt1": "Context: Use these data primarily:",
+        "prompt_pt2": "Task: You are a historian examining historical documents. Create a historical story based on them, which tells what happened at that time. You can add in parentheses links to the documents in the Jagiellonian Digital Library that you used in the correct markdown format '[link]({url})'."
+    },
+    "utils_generate_timeline": {
+        "title_pt1": "Timeline",
+        "title_pt2": "documents",
+        "type": "Type",
+        "year": "Year",
+        "date_display": "Display Date",
+        "subjects": "Subjects"
+    },
+    "utils_display_interface_main_part": {
+        "filters_header": "Choose filters for the story topic or timeline:",
+        "subjects_filter_label": "Choose subjects:",
+        "subjects_filter_placeholder": "Choose one or more subjects",
+        "centuries_filter_label": "Choose century(s):",
+        "date_range_filter_label": "Choose year range (optional):",
+        "output_type_label": "Choose story type:",
+        "output_type_options": ["Historical Story", "Interactive Story", "Timeline"],
+        "timeline": "Timeline",
+        "related_documents_label": "Include documents related to topics and/or dates",
+        "generate_button_label": "Generate",
+        "getting_data_spinner_text": "Finding matching documents... ⏳",
+        "historical_story": "Historical Story",
+        "interactive_story": "Interactive Story",
+        "generating_story_spinner_text": "Generating story... ⏳",
+        "generated_story_header": "📖 Generated Story",
+        "no_documents_warning": "No documents found matching the selected filters.",
+        "generating_timeline_spinner_text": "Generating timeline... ⏳",
+        "timeline_header": "🕰️ Generated Timeline",
+        "documents_number": "Documents number",
+        "date_range_label": "Year range",
+        "documents_types_label": "Documents types",
+        "no_story_type_warning": "No story type selected.",
+        "expander_text": "📋 View source documents in the table",
+        "open_document_button": "Open",
+        "progress_label": "You are at stage"
+    },
+    "utils_display_interactive_story": {
+        "story_ending": "The end of the story",
+        "rewind_button": "Rewind choice",
+        "reset_button": "Reset story",
+        "choice_button": "I choose this"
+    }
+
+}

@@ -1,0 +1,82 @@
+{
+  "title": "",
+  "description": "",
+  "choices": [
+    {
+      "option_title": "",
+      "option_description": "",
+      "choices": [
+        {
+          "option_title": "",
+          "option_description": "",
+          "choices": [
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            },
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            }
+          ]
+        },
+        {
+          "option_title": "",
+          "option_description": "",
+          "choices": [
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            },
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "option_title": "",
+      "option_description": "",
+      "choices": [
+        {
+          "option_title": "",
+          "option_description": "",
+          "choices": [
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            },
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            }
+          ]
+        },
+        {
+          "option_title": "",
+          "option_description": "",
+          "choices": [
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            },
+            {
+              "option_title": "",
+              "option_description": "",
+              "ending": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

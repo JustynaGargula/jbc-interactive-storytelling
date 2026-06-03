@@ -1,0 +1,83 @@
+{
+    "title": "Przygoda w Starożytnym Rzymie",
+    "description": "Interaktywna opowieść osadzona w czasach starożytnego Rzymu, gdzie gracz wciela się w rolę młodego obywatela, który musi podjąć ważne decyzje, aby przetrwać i odnieść sukces.",
+    "choices": [
+        {
+        "option_title": "Zostań gladiatorem",
+        "option_description": "Decydujesz się zostać gladiatorem i trenujesz ciężko, aby zdobyć sławę i bogactwo. Jednak ryzyko jest ogromne, a każdy pojedynek może być twoim ostatnim.",
+        "choices": [
+            {
+            "option_title": "Wygraj turniej gladiatorów",
+            "option_description": "Udało ci się wygrać turniej gladiatorów, zdobywając sławę i bogactwo. Jednak twoja popularność przyciąga uwagę cesarza, który może mieć dla ciebie specjalne zadanie.",
+            "choices": [
+                {
+                "option_title": "Zostań osobistym gladiatorem cesarza",
+                "option_description": "Zostajesz osobistym gladiatorem cesarza, co daje ci wiele przywilejów, ale także naraża cię na niebezpieczeństwo, jeśli zawiedziesz jego oczekiwania.",
+                "ending": "Zostałeś wiernym gladiatorem cesarza, zdobywając jego zaufanie i ochronę. Twoje życie jest teraz bezpieczne, ale musisz nadal walczyć, aby utrzymać swoją pozycję."
+                },
+                {
+                "option_title": "Odejdź z areny i zacznij nowe życie",
+                "option_description": "Postanawiasz odejść z areny i zacząć nowe życie jako wolny obywatel. Musisz znaleźć sposób na utrzymanie się i uniknąć problemów z prawem.",
+                "ending": "Zostajesz wolnym obywatelem, ale musisz stawić czoła nowym wyzwaniom, aby przetrwać w Rzymie. Twoja przeszłość jako gladiator może cię prześladować, ale masz szansę na nowe życie."
+                }
+            ]
+            },
+            {
+            "option_title": "Zdradź swojego trenera",
+            "option_description": "Zdradzasz swojego trenera, aby zdobyć lepsze warunki treningowe i większe szanse na zwycięstwo. Jednak ta decyzja może mieć poważne konsekwencje.",
+            "choices": [
+                {
+                "option_title": "Zostań najlepszym gladiatorem w Rzymie",
+                "option_description": "Twoja zdrada przynosi ci sukces, a ty stajesz się najlepszym gladiatorem w Rzymie. Jednak twoja reputacja jest teraz nadszarpnięta, a inni gladiatorzy mogą chcieć się na tobie zemścić.",
+                "ending": "Zostałeś najlepszym gladiatorem, ale musisz być czujny, aby uniknąć zemsty innych. Twoja kariera jest pełna sukcesów, ale także niebezpieczeństw."
+                },
+                {
+                "option_title": "Zostań wykluczony z areny",
+                "option_description": "Twoja zdrada zostaje odkryta, a ty zostajesz wykluczony z areny. Musisz znaleźć inny sposób na przetrwanie i zdobycie szacunku w Rzymie.",
+                "ending": "Zostałeś wykluczony z areny, ale nie poddajesz się. Szukasz nowych możliwości i ostatecznie udaje ci się znaleźć swoje miejsce w społeczeństwie."
+                }
+                ]
+            }
+        ]
+        },
+        {
+        "option_title": "Zostań senatoriem",
+        "option_description": "Postanawiasz zostać senatorem i angażujesz się w politykę. Musisz nawiązać sojusze, unikać intryg i podejmować decyzje, które wpłyną na losy całego Rzymu.",
+        "choices": [
+            {
+            "option_title": "Zostań cesarzem",
+            "option_description": "Twoje umiejętności polityczne i sojusze prowadzą cię do tronu cesarskiego. Musisz teraz rządzić Rzymem i stawić czoła wyzwaniom, które niesie ze sobą władza.",
+            "choices": [
+                {
+                "option_title": "Rządź sprawiedliwie",
+                "option_description": "Postanawiasz rządzić sprawiedliwie, dbając o dobro swoich obywateli. Twoje decyzje przynoszą pokój i dobrobyt, a ty stajesz się jednym z najbardziej szanowanych cesarzy w historii Rzymu.",
+                "ending": "Zostałeś sprawiedliwym cesarzem, a twoje panowanie jest pamiętane jako złoty wiek Rzymu. Twoja mądrość i sprawiedliwość przynoszą ci wieczną chwałę."
+                },
+                {
+                "option_title": "Rządź despotycznie",
+                "option_description": "Postanawiasz rządzić despotycznie, wykorzystując swoją władzę do realizacji własnych celów. Twoje decyzje prowadzą do chaosu i niezadowolenia wśród obywateli, a twoje panowanie jest pełne konfliktów.",
+                "ending": "Zostałeś despotycznym cesarzem, a twoje panowanie jest pełne konfliktów i niepokojów. Twoja reputacja jest nadszarpnięta, a twoja władza jest zagrożona."
+                }
+            ]
+            },
+            {
+            "option_title": "Zostań ofiarą intryg",
+            "option_description": "Twoje przeciwnicy polityczni knują przeciwko tobie, a ty stajesz się ofiarą intryg. Musisz znaleźć sposób na obronę swojej pozycji i przetrwanie w brutalnym świecie polityki rzymskiej.",
+            "choices": [
+                {
+                "option_title": "Zwycięż w intrydze",
+                "option_description": "Udaje ci się zwyciężyć w intrydze, eliminując swoich przeciwników i umacniając swoją pozycję. Twoja kariera polityczna kwitnie, a ty stajesz się jednym z najpotężniejszych senatorów w Rzymie.",
+                "ending": "Zwyciężyłeś w intrydze, a twoja pozycja jest niezagrożona. Twoja kariera polityczna jest pełna sukcesów, a ty stajesz się jednym z najbardziej wpływowych ludzi w Rzymie."
+                },
+                {
+                "option_title": "Zostań wykluczony z senatu",
+                "option_description": "Twoja porażka w intrydze prowadzi do twojego wykluczenia z senatu. Musisz znaleźć inny sposób na przetrwanie i zdobycie szacunku w Rzymie.",
+                "ending": "Zostałeś wykluczony z senatu, ale nie poddajesz się. Szukasz nowych możliwości i ostatecznie udaje ci się znaleźć swoje miejsce w społeczeństwie."
+                }
+                ]
+        }
+        ]
+        }
+    ]
+
+}
