@@ -765,8 +765,6 @@ def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
 
     :param data: Lista dokumentów do wygenerowania interaktywnej opowieści
     :type data: List[Document]
-    :param model: Model językowy do użycia
-    :type model: str
     :return: Wygenerowana interaktywna opowieść lub None, jeśli dane są puste
     :rtype: str | None
     """
@@ -867,14 +865,12 @@ def display_choices(choices: List[dict], choice_text: str):
                 st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
 
 
-def generate_historical_story_from_data(data: List[Document], model: str) -> Optional[str]:
+def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
     """
     Generuje historyczną opowieść na podstawie podanych dokumentów.
 
     :param data: Lista dokumentów do wygenerowania historycznej opowieści
     :type data: List[Document]
-    :param model: Model językowy do użycia
-    :type model: str
     :return: Wygenerowana historyczna opowieść lub None, jeśli dane są puste
     :rtype: str | None
     """
@@ -1059,7 +1055,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
         elif output_type == page_text_part.get("interactive_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_interactive_story_from_data(data, model)
+                story = generate_interactive_story_from_data(data)
 
             if story:
                 st.session_state["interactive_story"] = story
