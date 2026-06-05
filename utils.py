@@ -1046,7 +1046,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
         if output_type == page_text_part.get("historical_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_historical_story_from_data(data, model)
+                story = generate_historical_story_from_data(data)
 
             if story:
                 st.divider()
