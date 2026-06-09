@@ -40,7 +40,10 @@
     },
     "utils_display_interface_main_part": {
         "filters_header": "Choose filters for the story topic or timeline:",
-        "subjects_filter_label": "Choose subjects:",
+        "subjects_filter_people_label": "People:",
+        "subjects_filter_places_label": "Places:",
+        "subjects_filter_events_label": "Events:",
+        "subjects_filter_other_label": "Other:",
         "subjects_filter_placeholder": "Choose one or more subjects",
         "centuries_filter_label": "Choose century(s):",
         "date_range_filter_label": "Choose year range (optional):",

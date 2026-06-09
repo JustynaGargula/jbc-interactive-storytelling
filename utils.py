@@ -989,14 +989,18 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     interactive_story = None
 
     if st.session_state.get("language") == "pl":
-        selected_subject_names = st.multiselect(page_text_part.get("subjects_filter_label"), all_subject_names, placeholder=page_text_part.get("subjects_filter_placeholder"))
+        with open("locales/grouped_topics_pl.json", "r", encoding="utf-8") as f:
+            categorized_subject_names = json.load(f)
+        selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
     elif st.session_state.get("language") == "en":
         all_english_subject_names = []
         with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
             for line in f:
                 all_english_subject_names.append(line.strip())
+        with open("locales/grouped_topics_en.json", "r", encoding="utf-8") as f:
+            categorized_subject_names = json.load(f)
         
-        english_selected_subject_names = st.multiselect(page_text_part.get("subjects_filter_label"), all_english_subject_names, placeholder=page_text_part.get("subjects_filter_placeholder"))
+        english_selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
         st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
 
         selected_subject_names = []
@@ -1146,3 +1150,41 @@ def load_page_text_in_chosen_language(language: str) -> dict:
     with open(translation_file_path, "r", encoding="utf-8") as f:
         json_text = json.load(f)
         st.session_state["page_text"] = json_text
+
+
+def display_and_collect_subject_filters(page_text_part: dict, categorized_subject_names: dict[str, list[str]]) -> List[str]:
+    col1, col2 = st.columns(2)
+    selected_subject_names = []
+    with col1:
+        # Places
+        places_names = categorized_subject_names.get("Places", [])
+        places_names.sort()
+        selected = st.multiselect(page_text_part.get("subjects_filter_places_label"), places_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        for subj in selected:
+            if subj not in selected_subject_names:
+                selected_subject_names.append(subj)
+        st.space("small")
+        # Events
+        events_names = categorized_subject_names.get("Events", [])
+        events_names.sort()
+        selected = st.multiselect(page_text_part.get("subjects_filter_events_label"), events_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        for subj in selected:
+            if subj not in selected_subject_names:
+                selected_subject_names.append(subj)
+    with col2:
+    # People
+        people_names = categorized_subject_names.get("People", [])
+        people_names.sort()
+        selected = st.multiselect(page_text_part.get("subjects_filter_people_label"), people_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        for subj in selected:
+            if subj not in selected_subject_names:
+                selected_subject_names.append(subj)
+        st.space("small")
+        # Other
+        other_names = categorized_subject_names.get("Other", [])
+        other_names.sort()
+        selected = st.multiselect(page_text_part.get("subjects_filter_other_label"), other_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        for subj in selected:
+            if subj not in selected_subject_names:
+                selected_subject_names.append(subj)
+    return selected_subject_names

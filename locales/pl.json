@@ -40,7 +40,10 @@
     },
     "utils_display_interface_main_part": {
         "filters_header": "Wybierz filtry do tematu opowieści lub osi czasu:",
-        "subjects_filter_label": "Wybierz tematy:",
+        "subjects_filter_people_label": "Osoby:",
+        "subjects_filter_places_label": "Miejsca:",
+        "subjects_filter_events_label": "Wydarzenia:",
+        "subjects_filter_other_label": "Inne:",
         "subjects_filter_placeholder": "Wybierz jeden lub więcej tematów",
         "centuries_filter_label": "Wybierz wiek(i):",
         "date_range_filter_label": "Wybierz zakres lat (opcjonalnie):",
