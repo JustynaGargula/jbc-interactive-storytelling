@@ -24,11 +24,13 @@
     },
     "utils_generate_interactive_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka rozdziałów (najlepiej 3), z których każdy ma dwie ścieżki wyboru. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki. Opowieść zwróć w formacie json bez dodatkowego tekstu. Ma mieć strukturę analogiczną (z identycznymi kluczami) do tej:"
+        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka rozdziałów (najlepiej 3), z których każdy ma dwie ścieżki wyboru. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki. Opowieść zwróć w formacie json bez dodatkowego tekstu. Ma mieć strukturę analogiczną (z identycznymi kluczami) do tej:",
+        "prompt_pt3": "Dodatkowy opis od użytkownika o tym, co chce przeczytać:"
     },
     "utils_generate_historical_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie. Możesz dodać w nawiasach linki do dokumentów w Jagiellońskiej Bibliotece Cyfrowej, z których korzystałeś w poprawnym formacie markdownowym '([link]({url}))'."
+        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie. Możesz dodać w nawiasach linki do dokumentów w Jagiellońskiej Bibliotece Cyfrowej, z których korzystałeś w poprawnym formacie markdownowym '([link]({url}))'.",
+        "prompt_pt3": "Dodatkowy opis od użytkownika o tym, co chce przeczytać:"
     },
     "utils_generate_timeline": {
         "title_pt1": "Oś czasu",
@@ -39,7 +41,10 @@
         "subjects": "Tematy"
     },
     "utils_display_interface_main_part": {
-        "filters_header": "Wybierz filtry do tematu opowieści lub osi czasu:",
+        "filters_choice_label": "Wybierz, czy chcesz użyć zwykłych filtrów czy zapytania tekstowego:",
+        "filters_choice_options": ["Zwykłe filtry", "Zapytanie tekstowe"],
+        "default_filters_choice": "Zwykłe filtry",
+        "filters_header": "Wybierz filtry do tematu opowieści lub osi czasu",
         "subjects_filter_people_label": "Osoby:",
         "subjects_filter_places_label": "Miejsca:",
         "subjects_filter_events_label": "Wydarzenia:",
@@ -66,7 +71,8 @@
         "no_story_type_warning": "Nie wybrano typu opowieści.",
         "expander_text": "📋 Zobacz dokumenty żródłowe w tabeli",
         "open_document_button": "Otwórz",
-        "progress_label": "Jesteś na etapie"
+        "progress_label": "Jesteś na etapie",
+        "query_filter_label": "Wpisz zapytanie tekstowe, które opisuje temat opowieści lub osi czasu, którą chcesz wygenerować. Możesz uwzględnić w nim konkretne tematy, daty, wydarzenia, osoby itp."
     },
     "utils_display_interactive_story": {
         "story_ending": "Koniec opowieści",

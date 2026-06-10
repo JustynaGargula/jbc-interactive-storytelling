@@ -759,12 +759,14 @@ def handle_llm(prompt: str) -> Optional[str]:
     return None
 
 
-def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
+def generate_interactive_story_from_data(data: List[Document], user_prompt: Optional[str] = None) -> Optional[str]:
     """
     Generuje interaktywną opowieść na podstawie podanych dokumentów.
 
     :param data: Lista dokumentów do wygenerowania interaktywnej opowieści
     :type data: List[Document]
+    :param user_prompt: Dodatkowy opis od użytkownika o tym, co chce przeczytać
+    :type user_prompt: Optional[str]
     :return: Wygenerowana interaktywna opowieść lub None, jeśli dane są puste
     :rtype: str | None
     """
@@ -776,10 +778,15 @@ def generate_interactive_story_from_data(data: List[Document]) -> Optional[str]:
     with open(story_template_path, "r", encoding="utf-8") as f:
         story_template = json.load(f)
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')} {str(story_template)}"
+    if user_prompt:
+        prompt += f" {page_text_part.get('prompt_pt3')} {user_prompt}"
     response_text = handle_llm(prompt)
     try:
-        response_text = re.sub(r"^```(?:json)?\s*|\s*```$", "", response_text.strip())
-        return json.loads(response_text)
+        if response_text is not None:
+            response_text = re.sub(r"^```(?:json)?\s*|\s*```$", "", response_text.strip())
+            return json.loads(response_text)
+        else:
+            return None
     except Exception as e:
         print(f"Błąd podczas analizy odpowiedzi JSON: {e}")
         return response_text
@@ -865,12 +872,14 @@ def display_choices(choices: List[dict], choice_text: str):
                 st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
 
 
-def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
+def generate_historical_story_from_data(data: List[Document], user_prompt) -> Optional[str]:
     """
     Generuje historyczną opowieść na podstawie podanych dokumentów.
 
     :param data: Lista dokumentów do wygenerowania historycznej opowieści
     :type data: List[Document]
+    :param user_prompt: Prompt wprowadzony przez użytkownika
+    :type user_prompt: str
     :return: Wygenerowana historyczna opowieść lub None, jeśli dane są puste
     :rtype: str | None
     """
@@ -878,6 +887,8 @@ def generate_historical_story_from_data(data: List[Document]) -> Optional[str]:
         return None
     page_text_part = st.session_state["page_text"].get("utils_generate_historical_story_from_data")
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
+    if user_prompt:
+        prompt += f" {page_text_part.get('prompt_pt3')} {user_prompt}"
     response_text = handle_llm(prompt)
     return response_text
 
@@ -984,43 +995,62 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
     :type model: str
     """
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
-    st.header(page_text_part.get("filters_header"))
     global interactive_story
+    global user_query
+    user_query = None
     interactive_story = None
 
-    if st.session_state.get("language") == "pl":
-        with open("locales/grouped_topics_pl.json", "r", encoding="utf-8") as f:
-            categorized_subject_names = json.load(f)
-        selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
-    elif st.session_state.get("language") == "en":
-        all_english_subject_names = []
-        with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
-            for line in f:
-                all_english_subject_names.append(line.strip())
-        with open("locales/grouped_topics_en.json", "r", encoding="utf-8") as f:
-            categorized_subject_names = json.load(f)
-        
-        english_selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
-        st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
+    st.header(page_text_part.get("filters_header"))
+    st.space("xsmall")
+    filters_choice = st.segmented_control(
+        page_text_part.get("filters_choice_label"),
+        options=page_text_part.get("filters_choice_options"),
+        selection_mode="single", default=page_text_part.get("default_filters_choice"),
+        width="stretch")
+    st.space("xsmall")
+    
+    with st.container(border=True):
+        # podstawowe filtry
+        if filters_choice == page_text_part.get("filters_choice_options")[0]:
+            if st.session_state.get("language") == "pl":
+                with open("locales/grouped_topics_pl.json", "r", encoding="utf-8") as f:
+                    categorized_subject_names = json.load(f)
+                selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
+            elif st.session_state.get("language") == "en":
+                all_english_subject_names = []
+                with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
+                    for line in f:
+                        all_english_subject_names.append(line.strip())
+                with open("locales/grouped_topics_en.json", "r", encoding="utf-8") as f:
+                    categorized_subject_names = json.load(f)
+                
+                english_selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
+                st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
 
-        selected_subject_names = []
-        for subj in english_selected_subject_names:
-            index = all_english_subject_names.index(subj)
-            selected_subject_names.append(all_subject_names[index])
-    st.space("xxsmall")
+                selected_subject_names = []
+                for subj in english_selected_subject_names:
+                    index = all_english_subject_names.index(subj)
+                    selected_subject_names.append(all_subject_names[index])
+            st.space("xxsmall")
 
-    all_roman_centuries = [roman.toRoman(c) for c in all_centuries]
-    selected_centuries = [ roman.fromRoman(c) for c in st.pills(page_text_part.get("centuries_filter_label"), all_roman_centuries, selection_mode="multi") ]
-    st.space("xxsmall")
+            all_roman_centuries = [roman.toRoman(c) for c in all_centuries]
+            selected_centuries = [ roman.fromRoman(c) for c in st.pills(page_text_part.get("centuries_filter_label"), all_roman_centuries, selection_mode="multi") ]
+            st.space("xxsmall")
 
-    selected_date_range = st.slider(
-        page_text_part.get("date_range_label"),
-        min_value=dates__range[0],
-        max_value=dates__range[1],
-        value=dates__range
-    )
-    st.space("xxsmall")
+            selected_date_range = st.slider(
+                page_text_part.get("date_range_label"),
+                min_value=dates__range[0],
+                max_value=dates__range[1],
+                value=dates__range
+            )
+            st.space("xxsmall")
 
+        # zapytanie tekstowe
+        elif filters_choice == page_text_part.get("filters_choice_options")[1]:
+            user_query = st.text_area(page_text_part.get("query_filter_label"), height=100)
+            st.space("xxsmall")
+
+    # wspólne opcje
     output_type = st.segmented_control(
         page_text_part.get("output_type_label"),
         page_text_part.get("output_type_options"),
@@ -1035,13 +1065,16 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
     if generate_button:
         with st.spinner(page_text_part.get("getting_data_spinner_text")):
-            data = get_data_based_on_selected_filters(
-                selected_subject_names,
-                selected_centuries,
-                selected_date_range,
-                selected_related,
-                kg
-            )
+            if filters_choice == page_text_part.get("filters_choice_options")[0]:
+                data = get_data_based_on_selected_filters(
+                    selected_subject_names,
+                    selected_centuries,
+                    selected_date_range,
+                    selected_related,
+                    kg
+                )
+            elif filters_choice == page_text_part.get("filters_choice_options")[1]:
+                data = get_data_based_on_text_query(user_query, kg, selected_related)
             if not data:
                 st.warning(page_text_part.get("no_documents_warning"))
                 return
@@ -1050,7 +1083,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
         if output_type == page_text_part.get("historical_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_historical_story_from_data(data)
+                story = generate_historical_story_from_data(data, user_query)
 
             if story:
                 st.divider()
@@ -1059,7 +1092,7 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
 
         elif output_type == page_text_part.get("interactive_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_interactive_story_from_data(data)
+                story = generate_interactive_story_from_data(data, user_query)
 
             if story:
                 st.session_state["interactive_story"] = story
@@ -1188,3 +1221,45 @@ def display_and_collect_subject_filters(page_text_part: dict, categorized_subjec
             if subj not in selected_subject_names:
                 selected_subject_names.append(subj)
     return selected_subject_names
+
+def get_data_based_on_text_query(query: str, kg: KnowledgeGraph, selected_related: bool) -> List[Document]:
+    """
+    Zwraca dokumenty pasujące do zapytania tekstowego.
+
+    :param query: Zapytanie tekstowe do wyszukania w dokumentach
+    :type query: str
+    :param kg: Graf wiedzy
+    :type kg: KnowledgeGraph
+    :param selected_related: Czy uwzględniać powiązane dokumenty
+    :type selected_related: bool
+    :return: Lista dokumentów pasujących do zapytania tekstowego
+    :rtype: List[Document]
+    """
+    if not query:
+        return None
+
+    prompt = f"Na podstawie poniższego opisu tekstowego oraz dostępnej listy tematów dobierz tematy i daty pasujące do opisu. Nie wykonuj zadania z opisu, bo to zrobi inny moduł. Ty tylko znajdź pasujące tematy, wieki i daty. Opis: {query}. Lista tematów: {kg.get_all_subject_names()}. Jako odpowiedź zwróć mi słownik (json) w formacie: {{'selected_subject_names': [lista pasujących tematów z nazwami jak w załaczonej liście], 'selected_centuries': [lista pasujących wieków w formie liczb całkowitych], 'selected_date_range': [dopasowany zakres dat, np. (1800, 1900)]}}. Jeśli nie znajdziesz żadnych pasujących tematów, wieków lub dat, zwróć puste listy i None dla zakresu dat. Pamiętaj o zachowaniu kodowania UTF-8 w odpowiedzi, ponieważ tematy mogą zawierać polskie znaki. Odpowiedź powinna być tylko i wyłącznie tekstem w formacie json, bez żadnych dodatkowych komentarzy czy objaśnień."
+    response = handle_llm(prompt)
+    try:
+        if response is not None:
+            if response.startswith("```") or response.endswith("```"):
+                response = re.sub(r"^```(?:json)?\s*|\s*```$", "", response.strip())
+            response = json.loads(response)
+            selected_subject_names = response.get("selected_subject_names", [])
+            selected_centuries = response.get("selected_centuries", [])
+            selected_date_range = response.get("selected_date_range", [])
+            selected_date_range = tuple(selected_date_range) if selected_date_range else None
+
+            documents = get_data_based_on_selected_filters(
+                selected_subject_names,
+                selected_centuries,
+                selected_date_range,
+                selected_related,
+                kg
+            )
+            return documents
+        else:
+            return None
+    except Exception as e:
+        print(f"Error decoding LLM response: {e}")
+        return None
