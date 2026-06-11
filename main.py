@@ -6,7 +6,7 @@ import streamlit as st
 
 ris_directory_path = "data/data_ris"
 rdfs_directory_path = "data/rdfs"
-available_languages = {"polski": "pl", "english": "en"}
+available_languages = {"Polski 🇵🇱": "pl", "English 🇬🇧": "en"}
 model = "gemini-3.1-flash-lite"  # modele: gemini-3-flash-preview, gemini-2.5-flash, gemini-3.1-flash-lite, 
 allowed_centuries = [19, 20]
 

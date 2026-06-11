@@ -6,7 +6,7 @@
       },
     "utils_display_interface_top_part": {
         "main_header": "Interaktywne Opowieści z danych JBC",
-        "main_description": "Aplikacja do eksploracji danych z Jagiellońskiej Biblioteki Cyfrowej za pomocą modeli językowych Google GenAI."
+        "main_description": "Aplikacja do eksploracji danych z Jagiellońskiej Biblioteki Cyfrowej za pomocą modelu językowego OpenAI: GPT-4o mini."
     },
     "utils_handle_llm": {
         "error_429": "⚠️ **Przekroczono limit zapytań do API.**\n\nSpróbuj ponownie za kilka minut.",
@@ -55,7 +55,8 @@
         "output_type_label": "Wybierz typ opowieści:",
         "output_type_options": ["Historyczna opowieść", "Interaktywna opowieść", "Oś czasu"],
         "timeline": "Oś czasu",
-        "related_documents_label": "Uwzględnij dokumenty powiązane z tematami i/lub datami",
+        "related_documents_label": "Uwzględnij dodatkowe dokumenty",
+        "related_documents_help_text": "Wybierz tę opcję, aby uwzględnić dokumenty, które są powiązane z wybranymi tematami lub datami, ale nie spełniają kryteriów filtrów bezpośrednio. Jest to przydatne, jeśli aplikacja wyszukała mało dokumentów spełniających kryteria, a chcesz rozszerzyć zakres danych używanych do generowania opowieści lub osi czasu.",
         "generate_button_label": "Generuj",
         "getting_data_spinner_text": "Znajduję pasujące dokumenty... ⏳",
         "historical_story": "Historyczna opowieść",

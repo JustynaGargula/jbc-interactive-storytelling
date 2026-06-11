@@ -1057,7 +1057,8 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
         selection_mode="single", default=page_text_part.get("timeline"))
     st.space("xxsmall")
 
-    selected_related = st.checkbox(page_text_part.get("related_documents_label"))
+    selected_related = st.checkbox(page_text_part.get("related_documents_label"), 
+        help=page_text_part.get("related_documents_help_text"))
     st.space("xxsmall")
 
     generate_button = st.button(page_text_part.get("generate_button_label"))

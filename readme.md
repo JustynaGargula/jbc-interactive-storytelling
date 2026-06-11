@@ -4,13 +4,13 @@
 
 - [Opis projektu](#opis-projektu)
 - [Użyte technologie](#użyte-technologie)
-- [Uruchomienie aplikacji](#uruchomienie-aplikacji)
 - [Struktura projektu](#struktura-projektu)
 - [Zrzuty ekranu aplikacji](#zrzuty-ekranu-aplikacji)
+- [Uruchomienie aplikacji lokalnie](#uruchomienie-aplikacji-lokalnie)
 
 ## Opis projektu
 
-Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Biblioteka Cyfrowa) w graf wiedzy, tworzy powiązania semantyczne i wykorzystuje LLM do generowania narracji tematycznych lub chronologicznych. Interfejs umożliwia eksplorację kolekcji w formie osi czasu lub ciągłych opowieści, wspierając kontekstowe odkrywanie treści w badaniach historycznych i edukacyjnych.
+Projekt integruje metadane dokumentów życia społecznego JBC (Jagiellońska Biblioteka Cyfrowa) w graf wiedzy, tworzy powiązania semantyczne i wykorzystuje LLM do generowania narracji tematycznych lub chronologicznych. Interfejs umożliwia eksplorację kolekcji w formie osi czasu lub ciągłych opowieści, wspierając kontekstowe odkrywanie treści w badaniach historycznych i edukacyjnych. Do generowania opwieści i przetwarzania zapytań tekstowych używany jest model GPT-4o mini od OpenAI.
 
 Dane obecnie są używane z następującego źródła: [Jagiellońska Biblioteka Cyfrowa - wybrane dokumenty](https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&p=0&qf1=collections%3A188&qf2=Subject%3AKrak%C3%B3w%20%28Polska%20%3B%20region%29&qf3=Subject%3AII%20wojna%20%C5%9Bwiatowa%20%281939-1945%29&qf4=Subject%3Adruki%20ulotne%20z%20lat%201939-1945&qf5=Subject%3Adruki%20ulotne%2021%20w.&qf6=Subject%3Ateatr%20polski%2019%20w.&qf7=Subject%3Ateatr%2019%C2%A0w.&qf8=Subject%3ATeatr%20Polski%20%28Krak%C3%B3w%29&qf9=Subject%3ADrukarnia%20%E2%80%9ECzasu%E2%80%9D%20%28Krak%C3%B3w%29&qf10=Subject%3ATowarzystwo%20Artyst%C3%B3w%20Dramatycznych&qf11=Subject%3AMa%C5%82opolska%20%28Polska%20%3B%20wojew%C3%B3dztwo%29&qf12=Subject%3ATeatr%20%C5%81%C3%B3dzki%20%28Polska%29&qf13=Subject%3Aliteratura&qf14=Subject%3Aafisz%20muzyczny&ipp=50)
 
@@ -23,8 +23,36 @@ Aplikacja jest dostępna pod adresem: [https://jbc-interactive-storytelling.stre
 - Python
 - Streamlit
 - Gemini API (google-genai)
+- OpenAI API (gpt-4o mini)
+- Streamlit Community Cloud
 
-## Uruchomienie aplikacji
+## Struktura projektu
+
+- `main.py` - główny plik aplikacji Streamlit.
+- `utils.py` - plik z funkcjami pomocniczymi do przetwarzania danych, generowania grafu wiedzy i interfejsu użytkownika, a także wszystkich funkcjonalności.
+- `models.py` - plik z klasami reprezentującymi strukturę dokumentów oraz grafu wiedzy i operacje na nim.
+- `requirements.txt` - plik z listą wymaganych bibliotek Python.
+- `data/` - folder zawierający pliki danych (np. plik RIS z metadanymi JBC).
+- `.streamlit/config.toml` - plik dostosowujący styl aplikacji Streamlit.
+- `jupyter_notebooks/` - folder z notatnikami Jupyter używanymi do eksperymentów i analizy danych przed implementacją aplikacji.
+- `locales/` - folder z plikami JSON zawierającymi teksty interfejsu w różnych językach (np. `en.json`, `pl.json`), a także pogrupowane filtry tematyczne.
+- `evaluation_module.py` - moduł do oceny jakości generowanych narracji i osi czasu, ankieta do wypełniania przez użytkowników.
+
+## Zrzuty ekranu aplikacji
+
+Interfejs aplikacji z wybranymi filtrami:
+
+![Interfejs aplikacji](data/printscreens/interface.png)
+
+Przykładowa oś czasu wygenerowana przez aplikację:
+
+![Oś czasu](data/printscreens/timeline.png)
+
+Przykładowa interaktywna narracja wygenerowana przez aplikację:
+
+![Narracja](data/printscreens/interactive_story.png)
+
+## Uruchomienie aplikacji lokalnie
 
 1. Zainstaluj wymagane biblioteki.
    - Upewnij się, że masz odpowiednią wersję Pythona: 3.9 lub nowszy `python --version`
@@ -52,27 +80,3 @@ Aplikacja jest dostępna pod adresem: [https://jbc-interactive-storytelling.stre
 6. W przyszłośći (jeśli wymagane biblioteki są już zainstalowane, a klucz API jest ustawiony) wystarczy wykonać:
    - `source venv/scripts/activate`
    - `streamlit run main.py`
-
-## Struktura projektu
-
-- `main.py` - główny plik aplikacji Streamlit.
-- `utils.py` - plik z funkcjami pomocniczymi do przetwarzania danych, generowania grafu wiedzy i interfejsu użytkownika.
-- `models.py` - plik z klasami reprezentującymi strukturę dokumentów oraz grafu wiedzy i operacje na nim.
-- `requirements.txt` - plik z listą wymaganych bibliotek Python.
-- `data/` - folder zawierający pliki danych (np. plik RIS z metadanymi JBC).
-- `.streamlit/config.toml` - plik dostosowujący styl aplikacji Streamlit.
-- `jupyter_notebooks/` - folder z notatnikami Jupyter używanymi do eksperymentów i analizy danych przed implementacją aplikacji.
-
-## Zrzuty ekranu aplikacji
-
-Interfejs aplikacji z wybranymi filtrami:
-
-![Interfejs aplikacji](data/printscreens/interface.png)
-
-Przykładowa oś czasu wygenerowana przez aplikację:
-
-![Oś czasu](data/printscreens/timeline.png)
-
-Przykładowa interaktywna narracja wygenerowana przez aplikację:
-
-![Narracja](data/printscreens/interactive_story.png)

@@ -6,7 +6,7 @@
       },
     "utils_display_interface_top_part": {
         "main_header": "Interactive Stories from JBC Data",
-        "main_description": "Application for exploring data from the Jagiellonian Digital Library using Google GenAI language models."
+        "main_description": "Application for exploring data from the Jagiellonian Digital Library using OpenAI: GPT-4o mini language model."
     },
         "utils_handle_llm": {
         "error_429": "⚠️ **API limit is exceeded.**\n\nTry again in a few minutes.",
@@ -55,7 +55,8 @@
         "output_type_label": "Choose story type:",
         "output_type_options": ["Historical Story", "Interactive Story", "Timeline"],
         "timeline": "Timeline",
-        "related_documents_label": "Include documents related to topics and/or dates",
+        "related_documents_label": "Include additional documents",
+        "related_documents_help_text": "Choose this option to include documents that are related to the selected topics or dates, but do not directly match the filter criteria. This is useful if the application has found few documents matching the criteria, and you want to extend the scope of data used for generating the story or timeline.",
         "generate_button_label": "Generate",
         "getting_data_spinner_text": "Finding matching documents... ⏳",
         "historical_story": "Historical Story",
