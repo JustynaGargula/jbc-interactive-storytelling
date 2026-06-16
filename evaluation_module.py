@@ -5,89 +5,74 @@ from datetime import datetime
 from utils import get_or_create_session_id
 
 keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "m1", "m2"]
-
 options_scale = ["1", "2", "3", "4", "5"]
-scale_descriptions = '''
-* 1 - bardzo źle,
-* 2 - źle,
-* 3 - neutralnie,
-* 4 - dobrze,
-* 5 - bardzo dobrze'''
-
-job_options = [
-    "badaczem / badaczką z UJ",
-    "badaczem / badaczką spoza UJ",
-    "pracownikiem / pracowniczką instytucji GLAM (biblioteka, muzeum, archiwum) z UJ",
-    "pracownikiem / pracowniczką instytucji GLAM (biblioteka, muzeum, archiwum) spoza UJ",
-    "studentem / studentką nauk humanistycznych z UJ",
-    "studentem / studentką nauk humanistycznych spoza UJ",
-    "studentem / studentką nauk społecznych z UJ",
-    "studentem / studentką nauk społecznych spoza UJ",
-    "studentem / studentką nauk ścisłych z UJ",
-    "studentem / studentką nauk ścisłych spoza UJ",
-    "inne"
-]
 
 def display_all_questions():
-    st.header("Moduł oceny")
-    st.markdown(f"Poniższe pytania dotyczą różnych aspektów aplikacji. Odpowiedz proszę na każde pytanie wybierając liczbę od 1 do 5, gdzie {scale_descriptions}.")
+    with st.sidebar:
+        global page_text_part
+        page_text_part = st.session_state["page_text"].get("evaluation_module", {})
+        scale_descriptions = page_text_part.get("scale_descriptions", "")
+        job_options = page_text_part.get("demographics", {}).get("job_options", [])
 
-    # Wybór motywu aplikacji
-    st.subheader("Wybór motywu aplikacji")
-    st.pills(label="Komfort wyboru motywu aplikacji (jasny/ciemny)", options=options_scale, selection_mode="single", key=keys[0])
-    st.pills(label="Czytelność motywu jasnego", options=options_scale, selection_mode="single", key=keys[1])
-    st.pills(label="Kolorystyka motywu jasnego", options=options_scale, selection_mode="single", key=keys[2])
+        st.header(page_text_part.get("header"))
+        st.write(f"{page_text_part.get('description')}\n{scale_descriptions}.")
 
-    # Wyszukiwanie i filtrowanie treści
-    st.subheader("Wyszukiwanie i filtrowanie treści")
-    st.pills(label="Łatwość wyboru filtrów do tematu opowieści", options=options_scale, selection_mode="single", key=keys[3])
-    st.pills(label="Czytelność listy tematów", options=options_scale, selection_mode="single", key=keys[4])
-    st.pills(label="Łatwość dodawania wielu tematów jednocześnie", options=options_scale, selection_mode="single", key=keys[5])
-    st.pills(label="Jak oceniasz intuicyjność obecnego systemu wyszukiwania?", options=options_scale, selection_mode="single", key=keys[6])
+        # Wybór motywu aplikacji
+        st.subheader(page_text_part.get("theme_selection", {}).get("subheader"))
+        st.pills(label=page_text_part.get("theme_selection", {}).get("comfort_label"), options=options_scale, selection_mode="single", key=keys[0])
+        st.pills(label=page_text_part.get("theme_selection", {}).get("light_theme_readability_label"), options=options_scale, selection_mode="single", key=keys[1])
+        st.pills(label=page_text_part.get("theme_selection", {}).get("light_theme_color_label"), options=options_scale, selection_mode="single", key=keys[2])
 
-    # Wybór narracji
-    st.subheader("Wybór narracji")
-    st.pills(label="Intuicyjność wyboru typu narracji (historyczna / interaktywna / oś czasu)", options=options_scale, selection_mode="single", key=keys[7])
+        # Wyszukiwanie i filtrowanie treści
+        st.subheader(page_text_part.get("search_and_filtering", {}).get("subheader"))
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("filter_choice_label"), options=options_scale, selection_mode="single", key=keys[3])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("topics_list_readability_label"), options=options_scale, selection_mode="single", key=keys[4])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("multi_topic_addition_label"), options=options_scale, selection_mode="single", key=keys[5])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("search_intuitiveness_label"), options=options_scale, selection_mode="single", key=keys[6])
 
-    # Dodatkowe opcje filtrowania
-    st.subheader("Dodatkowe opcje filtrowania")
-    st.pills(label="Czy opcja „Uwzględnij dokumenty powiązane z tematami i/lub datami” jest dla Ciebie zrozumiała? ", options=options_scale, selection_mode="single", key=keys[8])
+        # Wybór narracji
+        st.subheader(page_text_part.get("narrative_selection", {}).get("subheader"))
+        st.pills(label=page_text_part.get("narrative_selection", {}).get("narration_type_intuitiveness_label"), options=options_scale, selection_mode="single", key=keys[7])
 
-    # Oś czasu
-    st.subheader("Oś czasu")
-    st.pills(label="Oceń na ile funkcje osi czasu są dla Ciebie zrozumiałe?", options=options_scale, selection_mode="single", key=keys[9])
-    st.pills(label="Jak oceniasz czytelność graficzną osi czasu?", options=options_scale, selection_mode="single", key=keys[10])
-    st.pills(label="Jak oceniasz łatwość odnajdywania interesujących dokumentów na osi czasu?", options=options_scale, selection_mode="single", key=keys[11])
-    st.pills(label="Jak oceniasz łatwość lokalizowania konkretnych dokumentów i przechodzenia do ich źródła w JBC (skany PDF)?", options=options_scale, selection_mode="single", key=keys[12])
+        # Dodatkowe opcje filtrowania
+        st.subheader(page_text_part.get("additional_filter_options", {}).get("subheader"))
+        st.pills(label=page_text_part.get("additional_filter_options", {}).get("related_documents_option_label"), options=options_scale, selection_mode="single", key=keys[8])
 
-    # Narracja historyczna
-    st.subheader("Narracja historyczna")
-    st.pills(label="Jak oceniasz wygenerowane opowieści historyczne?", options=options_scale, selection_mode="single", key=keys[13])
-    st.pills(label="Jak oceniasz jakość i wiarygodność podsumowań historycznych?", options=options_scale, selection_mode="single", key=keys[14])
+        # Oś czasu
+        st.subheader(page_text_part.get("timeline", {}).get("subheader"))
+        st.pills(label=page_text_part.get("timeline", {}).get("timeline_understanding_label"), options=options_scale, selection_mode="single", key=keys[9])
+        st.pills(label=page_text_part.get("timeline", {}).get("timeline_visual_readability_label"), options=options_scale, selection_mode="single", key=keys[10])
+        st.pills(label=page_text_part.get("timeline", {}).get("timeline_document_discovery_label"), options=options_scale, selection_mode="single", key=keys[11])
+        st.pills(label=page_text_part.get("timeline", {}).get("timeline_document_navigation_label"), options=options_scale, selection_mode="single", key=keys[12])
 
-    # Narracja interaktywna
-    st.subheader("Narracja interaktywna")
-    st.pills(label="Jak oceniasz intuicyjność wyboru ścieżki narracji interaktywnej?", options=options_scale, selection_mode="single", key=keys[15])
-    st.pills(label="Jak oceniasz zrozumiałość wpływu wyborów na zakończenie historii w narracji interaktywnej?", options=options_scale, selection_mode="single", key=keys[16])
+        # Narracja historyczna
+        st.subheader(page_text_part.get("historical_narrative", {}).get("subheader"))
+        st.pills(label=page_text_part.get("historical_narrative", {}).get("historical_story_quality_label"), options=options_scale, selection_mode="single", key=keys[13])
+        st.pills(label=page_text_part.get("historical_narrative", {}).get("historical_summary_quality_label"), options=options_scale, selection_mode="single", key=keys[14])
 
-    # Ogólne wrażenia z aplikacji 
-    st.subheader("Ogólne wrażenia z aplikacji")
-    st.pills(label="Jak ogólnie oceniasz aplikację?", options=options_scale, selection_mode="single", key=keys[17])
-    st.text_area(label="Czy chcesz podzielić się dodatkowymi uwagami lub sugestiami dotyczącymi aplikacji? Jeśli tak, wpisz je poniżej:", key="q_opt", placeholder="Twoje uwagi...")
+        # Narracja interaktywna
+        st.subheader(page_text_part.get("interactive_narrative", {}).get("subheader"))
+        st.pills(label=page_text_part.get("interactive_narrative", {}).get("interactive_path_intuitiveness_label"), options=options_scale, selection_mode="single", key=keys[15])
+        st.pills(label=page_text_part.get("interactive_narrative", {}).get("interactive_choice_impact_label"), options=options_scale, selection_mode="single", key=keys[16])
 
-    # Metryczka
-    st.subheader("Metryczka")
-    st.radio(label="Które z poniższych określeń najlepiej opisuje Twoją obecną sytuację zawodową lub edukacyjną? Jestem:", options=job_options, key=keys[18], index=None)
-    st.text_input(label="Wpisz proszę kierunek, na którym studiujesz / dyscyplinę badań / doprecyzuj odpowiedź (w zależności od wybranej wcześniej opcji)", key=keys[19], value=None)
-    st.caption("Naciśnij Enter, aby zatwierdzić odpowiedź")
-    
-    st.space("xsmall")
+        # Ogólne wrażenia z aplikacji 
+        st.subheader(page_text_part.get("overall_app_experience", {}).get("subheader"))
+        st.pills(label=page_text_part.get("overall_app_experience", {}).get("overall_app_rating_label"), options=options_scale, selection_mode="single", key=keys[17])
+        st.text_area(label=page_text_part.get("optional_feedback", {}).get("label"), key="q_opt", placeholder=page_text_part.get("optional_feedback", {}).get("placeholder"))
 
-    questions_answered_percentage_float = check_number_of_answered_questions() / len(keys)
-    st.progress(questions_answered_percentage_float, f"{check_number_of_answered_questions()} / {len(keys)} pytań ocenionych")
+        # Metryczka
+        st.subheader(page_text_part.get("demographics", {}).get("subheader"))
+        st.radio(label=page_text_part.get("demographics", {}).get("radio_label"), options=job_options, key=keys[18], index=None)
+        st.text_input(label=page_text_part.get("demographics", {}).get("text_input_label"), key=keys[19], value=None)
+        st.caption(page_text_part.get("demographics", {}).get("caption"))
+        
+        st.space("xsmall")
 
-    if st.button("Wyślij ocenę"):
-        save_evaluation()
+        questions_answered_percentage_float = check_number_of_answered_questions() / len(keys)
+        st.progress(questions_answered_percentage_float, f"{check_number_of_answered_questions()} / {len(keys)} {page_text_part.get('questions_answered')}")
+
+        if st.button(page_text_part.get("buttons", {}).get("submit")):
+            save_evaluation()
 
 def check_number_of_answered_questions():
     counter = 0
@@ -106,11 +91,11 @@ def save_evaluation() -> None:
     answers = [st.session_state.get(k) for k in keys]
 
     if any(a is None for a in answers):
-        st.warning("Proszę odpowiedzieć na wszystkie pytania.")
+        st.warning(page_text_part.get("messages", {}).get("warning_incomplete"))
         return
 
     # Handle the optional comment
-    optional_answer = st.session_state.get("q_opt") or "Brak dodatkowych uwag"
+    optional_answer = st.session_state.get("q_opt") or page_text_part.get("messages", {}).get("optional_answer_default", "Brak dodatkowych uwag")
 
     # Insert optional answer before the last two demographic questions
     answers = answers[0:-2] + [optional_answer] + answers[-2:]
@@ -139,5 +124,4 @@ def save_evaluation() -> None:
     # Append to the Google Sheet
     sheet.append_row(row)
 
-    st.success("Dziękujemy za wyrażenie swoich opinii!")
-
+    st.success(page_text_part.get("messages", {}).get("success_thank_you"))

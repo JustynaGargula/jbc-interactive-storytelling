@@ -88,6 +88,84 @@
         "rewind_button": "Rewind choice",
         "reset_button": "Reset story",
         "choice_button": "I choose this"
+    },
+    "evaluation_module": {
+        "header": "Evaluation module",
+        "description": "The following questions concern various aspects of the application. Please answer each question by choosing a number from 1 to 5, where",
+        "scale_descriptions": "* 1 - very bad,\n* 2 - bad,\n* 3 - neutral,\n* 4 - good,\n* 5 - very good",
+        "theme_selection": {
+        "subheader": "Application theme selection",
+        "comfort_label": "Comfort of choosing the application theme (light/dark)",
+        "light_theme_readability_label": "Readability of the light theme",
+        "light_theme_color_label": "Color palette of the light theme"
+        },
+        "search_and_filtering": {
+        "subheader": "Content search and filtering",
+        "filter_choice_label": "Ease of selecting filters for the story topic",
+        "topics_list_readability_label": "Readability of the topic list",
+        "multi_topic_addition_label": "Ease of adding multiple topics at once",
+        "search_intuitiveness_label": "How do you rate the intuitiveness of the current search system?"
+        },
+        "narrative_selection": {
+        "subheader": "Narrative selection",
+        "narration_type_intuitiveness_label": "Intuitiveness of choosing the type of narrative (historical / interactive / timeline)"
+        },
+        "additional_filter_options": {
+        "subheader": "Additional filtering options",
+        "related_documents_option_label": "Is the option “Include additional documents” clear to you?"
+        },
+        "timeline": {
+        "subheader": "Timeline",
+        "timeline_understanding_label": "Rate how understandable the timeline features are for you.",
+        "timeline_visual_readability_label": "How do you rate the graphic readability of the timeline?",
+        "timeline_document_discovery_label": "How do you rate the ease of finding interesting documents on the timeline?",
+        "timeline_document_navigation_label": "How do you rate the ease of locating specific documents and navigating to their source in JBC (PDF scans)?"
+        },
+        "historical_narrative": {
+        "subheader": "Historical narrative",
+        "historical_story_quality_label": "How do you rate the generated historical stories?",
+        "historical_summary_quality_label": "How do you rate the quality and credibility of the historical summaries?"
+        },
+        "interactive_narrative": {
+        "subheader": "Interactive narrative",
+        "interactive_path_intuitiveness_label": "How do you rate the intuitiveness of choosing a path in the interactive narrative?",
+        "interactive_choice_impact_label": "How do you rate the clarity of the impact of choices on the story ending in the interactive narrative?"
+        },
+        "overall_app_experience": {
+        "subheader": "Overall impressions of the application",
+        "overall_app_rating_label": "How would you rate the application overall?"
+        },
+        "optional_feedback": {
+        "label": "Would you like to share any additional comments or suggestions about the application? If so, enter them below:",
+        "placeholder": "Your comments..."
+        },
+        "demographics": {
+        "subheader": "Profile",
+        "radio_label": "Which of the following descriptions best describes your current professional or educational situation? I am:",
+        "text_input_label": "Please enter your field of study / research discipline / clarify your answer (depending on the option selected above)",
+        "caption": "Press Enter to confirm your answer",
+        "job_options": [
+            "a researcher from UJ",
+            "a researcher from outside UJ",
+            "an employee of a GLAM institution (library, museum, archive) from UJ",
+            "an employee of a GLAM institution (library, museum, archive) from outside UJ",
+            "a humanities student from UJ",
+            "a humanities student from outside UJ",
+            "a social sciences student from UJ",
+            "a social sciences student from outside UJ",
+            "a science student from UJ",
+            "a science student from outside UJ",
+            "other"
+        ]
+        },
+        "buttons": {
+        "submit": "Submit evaluation"
+        },
+        "messages": {
+        "warning_incomplete": "Please answer all questions.",
+        "success_thank_you": "Thank you for sharing your feedback!"
+        },
+        "questions_answered": "questions answered"
     }
 
 }

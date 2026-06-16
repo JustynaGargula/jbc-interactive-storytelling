@@ -88,6 +88,84 @@
         "rewind_button": "Cofnij wybór",
         "reset_button": "Resetuj opowieść",
         "choice_button": "Wybieram to"
+    },
+    "evaluation_module": {
+        "header": "Moduł oceny",
+        "description": "Poniższe pytania dotyczą różnych aspektów aplikacji. Odpowiedz proszę na każde pytanie wybierając liczbę od 1 do 5, gdzie",
+        "scale_descriptions": "* 1 - bardzo źle,\n* 2 - źle,\n* 3 - neutralnie,\n* 4 - dobrze,\n* 5 - bardzo dobrze",
+        "theme_selection": {
+        "subheader": "Wybór motywu aplikacji",
+        "comfort_label": "Komfort wyboru motywu aplikacji (jasny/ciemny)",
+        "light_theme_readability_label": "Czytelność motywu jasnego",
+        "light_theme_color_label": "Kolorystyka motywu jasnego"
+        },
+        "search_and_filtering": {
+        "subheader": "Wyszukiwanie i filtrowanie treści",
+        "filter_choice_label": "Łatwość wyboru filtrów do tematu opowieści",
+        "topics_list_readability_label": "Czytelność listy tematów",
+        "multi_topic_addition_label": "Łatwość dodawania wielu tematów jednocześnie",
+        "search_intuitiveness_label": "Jak oceniasz intuicyjność obecnego systemu wyszukiwania?"
+        },
+        "narrative_selection": {
+        "subheader": "Wybór narracji",
+        "narration_type_intuitiveness_label": "Intuicyjność wyboru typu narracji (historyczna / interaktywna / oś czasu)"
+        },
+        "additional_filter_options": {
+        "subheader": "Dodatkowe opcje filtrowania",
+        "related_documents_option_label": "Czy opcja „Uwzględnij dodatkowe dokumenty” jest dla Ciebie zrozumiała? "
+        },
+        "timeline": {
+        "subheader": "Oś czasu",
+        "timeline_understanding_label": "Oceń na ile funkcje osi czasu są dla Ciebie zrozumiałe?",
+        "timeline_visual_readability_label": "Jak oceniasz czytelność graficzną osi czasu?",
+        "timeline_document_discovery_label": "Jak oceniasz łatwość odnajdywania interesujących dokumentów na osi czasu?",
+        "timeline_document_navigation_label": "Jak oceniasz łatwość lokalizowania konkretnych dokumentów i przechodzenia do ich źródła w JBC (skany PDF)?"
+        },
+        "historical_narrative": {
+        "subheader": "Narracja historyczna",
+        "historical_story_quality_label": "Jak oceniasz wygenerowane opowieści historyczne?",
+        "historical_summary_quality_label": "Jak oceniasz jakość i wiarygodność podsumowań historycznych?"
+        },
+        "interactive_narrative": {
+        "subheader": "Narracja interaktywna",
+        "interactive_path_intuitiveness_label": "Jak oceniasz intuicyjność wyboru ścieżki narracji interaktywnej?",
+        "interactive_choice_impact_label": "Jak oceniasz zrozumiałość wpływu wyborów na zakończenie historii w narracji interaktywnej?"
+        },
+        "overall_app_experience": {
+        "subheader": "Ogólne wrażenia z aplikacji",
+        "overall_app_rating_label": "Jak ogólnie oceniasz aplikację?"
+        },
+        "optional_feedback": {
+        "label": "Czy chcesz podzielić się dodatkowymi uwagami lub sugestiami dotyczącymi aplikacji? Jeśli tak, wpisz je poniżej:",
+        "placeholder": "Twoje uwagi..."
+        },
+        "demographics": {
+        "subheader": "Metryczka",
+        "radio_label": "Które z poniższych określeń najlepiej opisuje Twoją obecną sytuację zawodową lub edukacyjną? Jestem:",
+        "text_input_label": "Wpisz proszę kierunek, na którym studiujesz / dyscyplinę badań / doprecyzuj odpowiedź (w zależności od wybranej wcześniej opcji)",
+        "caption": "Naciśnij Enter, aby zatwierdzić odpowiedź",
+        "job_options": [
+            "badaczem / badaczką z UJ",
+            "badaczem / badaczką spoza UJ",
+            "pracownikiem / pracowniczką instytucji GLAM (biblioteka, muzeum, archiwum) z UJ",
+            "pracownikiem / pracowniczką instytucji GLAM (biblioteka, muzeum, archiwum) spoza UJ",
+            "studentem / studentką nauk humanistycznych z UJ",
+            "studentem / studentką nauk humanistycznych spoza UJ",
+            "studentem / studentką nauk społecznych z UJ",
+            "studentem / studentką nauk społecznych spoza UJ",
+            "studentem / studentką nauk ścisłych z UJ",
+            "studentem / studentką nauk ścisłych spoza UJ",
+            "inne"
+        ]
+        },
+        "buttons": {
+        "submit": "Wyślij ocenę"
+        },
+        "messages": {
+        "warning_incomplete": "Proszę odpowiedzieć na wszystkie pytania.",
+        "success_thank_you": "Dziękujemy za wyrażenie swoich opinii!"
+        },
+        "questions_answered": "pytań ocenionych" 
     }
 
 }

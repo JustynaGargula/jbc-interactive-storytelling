@@ -1,8 +1,7 @@
 import os
-
 import utils
 import streamlit as st
-# import evaluation_module
+import evaluation_module
 
 ris_directory_path = "data/data_ris"
 rdfs_directory_path = "data/rdfs"
@@ -13,7 +12,7 @@ st.set_page_config(
     page_title="Interaktywne Opowieści JBC",
     page_icon="📚",
     layout="wide",
-    # initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded"
 )
 
 if st.session_state.get("language") is None:
@@ -33,6 +32,8 @@ color_mode_caption_placeholder.caption(page_text.get("main_file").get("bottom_co
 with col1:
     utils.display_interface_top_part()
 
+evaluation_module.display_all_questions()
+
 with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
     jsonld_output_file_pl = "data/jbc_knowledge_graph_pl.jsonld"
     if os.path.exists(jsonld_output_file_pl):
@@ -43,6 +44,3 @@ with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
     dates__range = kg.get_dates_range()
 
 utils.display_interface_main_part(all_subject_names, dates__range, kg)
-
-# with st.sidebar:
-#     evaluation_module.display_all_questions()
