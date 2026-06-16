@@ -413,7 +413,7 @@ def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_
 
     return kg
 
-def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, centuries: list, subjects: list) -> List[Document]:
+def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, subjects: list) -> List[Document]:
     """
     Zwraca dokumenty pasujące do podanych filtrów.
 
@@ -421,8 +421,6 @@ def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, cen
     :type knowledge_graph: KnowledgeGraph
     :param years: Lista lat do filtrowania
     :type years: List[int]
-    :param centuries: Lista stuleci do filtrowania
-    :type centuries: List[int]
     :param subjects: Lista tematów do filtrowania
     :type subjects: List[str]
     :return: Lista dokumentów pasujących do filtrów
@@ -433,31 +431,19 @@ def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, cen
     for year in years or []:
         docs_years += knowledge_graph.get_documents_by_year(year) or []
 
-    docs_centuries = []
-    for century in centuries or []:
-        docs_centuries += knowledge_graph.get_documents_by_century(century) or []
-
     docs_subjects = []
     for subject in subjects or []:
         docs_subjects += knowledge_graph.get_documents_by_subject(subject) or []
 
     documents_ids = []
-    if not docs_years and not docs_centuries and not docs_subjects:
+    if not docs_years and not docs_subjects:
         documents_ids = []
-    elif docs_years and not docs_centuries and not docs_subjects:
+    elif docs_years and not docs_subjects:
         documents_ids = docs_years
-    elif not docs_years and docs_centuries and not docs_subjects:
-        documents_ids = docs_centuries
-    elif not docs_years and not docs_centuries and docs_subjects:
+    elif not docs_years and docs_subjects:
         documents_ids = docs_subjects
-    elif docs_years and docs_centuries and not docs_subjects:
-        documents_ids = list(set(docs_years) & set(docs_centuries))
-    elif docs_years and not docs_centuries and docs_subjects:
-        documents_ids = list(set(docs_years) & set(docs_subjects))
-    elif not docs_years and docs_centuries and docs_subjects:
-        documents_ids = list(set(docs_centuries) & set(docs_subjects))
     else:
-        documents_ids = list(set(docs_years) & set(docs_centuries) & set(docs_subjects))
+        documents_ids = list(set(docs_years) & set(docs_subjects))
 
     documents = []
     for id in documents_ids:
@@ -467,15 +453,13 @@ def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, cen
     return documents
 
 
-def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, years: list, centuries: list, subjects: list, max_related: int=10) -> List[Document]:
+def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, years: list, subjects: list, max_related: int=10) -> List[Document]:
     """
     Zwraca dokumenty pasujące do podanych filtrów oraz powiązane z nimi dokumenty.
     :param knowledge_graph: Graf wiedzy
     :type knowledge_graph: KnowledgeGraph
     :param years: Lista lat do filtrowania
     :type years: List[int]
-    :param centuries: Lista stuleci do filtrowania
-    :type centuries: List[int]
     :param subjects: Lista tematów do filtrowania
     :type subjects: List[str]
     :param max_related: Maksymalna liczba powiązanych dokumentów do dodania (domyślnie 10)
@@ -483,7 +467,7 @@ def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, year
     :return: Lista dokumentów pasujących do filtrów oraz powiązanych z nimi
     :rtype: List[Document]
     """
-    selected_docs = get_documents_from_filters(knowledge_graph, years, centuries, subjects)
+    selected_docs = get_documents_from_filters(knowledge_graph, years, subjects)
 
     def check_doc_in_list(doc, doc_list):
         for d, _ in doc_list:
@@ -508,14 +492,12 @@ def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, year
     return selected_docs + related_docs
 
 
-def get_data_based_on_selected_filters(selected_subject_names: list, selected_centuries: list, selected_date_range: tuple, selected_related: bool, kg: KnowledgeGraph) -> List[Document]:
+def get_data_based_on_selected_filters(selected_subject_names: list, selected_date_range: tuple, selected_related: bool, kg: KnowledgeGraph) -> List[Document]:
     """
     Zwraca dokumenty pasujące do wybranych filtrów.
 
     :param selected_subject_names: Lista nazw wybranych tematów
     :type selected_subject_names: list
-    :param selected_centuries: Lista wybranych stuleci
-    :type selected_centuries: list
     :param selected_date_range: Zakres dat (np. (1800, 1900))
     :type selected_date_range: tuple
     :param selected_related: Czy uwzględniać powiązane dokumenty
@@ -538,14 +520,12 @@ def get_data_based_on_selected_filters(selected_subject_names: list, selected_ce
         data = get_documents_from_filters_and_related(
             kg,
             years,
-            selected_centuries,
             selected_subject_names,
         )
     else:
         data = get_documents_from_filters(
             kg,
             years,
-            selected_centuries,
             selected_subject_names,
         )
     return data
@@ -979,20 +959,16 @@ def display_interface_top_part():
     st.space("small")
 
 
-def display_interface_main_part(all_subject_names: List[str], all_centuries: List[str], dates__range: tuple, kg: KnowledgeGraph, model: str):
+def display_interface_main_part(all_subject_names: List[str], dates__range: tuple, kg: KnowledgeGraph):
     """
     Wyświetla główną część interfejsu użytkownika w aplikacji Streamlit, umożliwiając wybór filtrów i generowanie opowieści lub osi czasu.
 
     :param all_subject_names: Lista wszystkich nazw tematów
     :type all_subject_names: List[str]
-    :param all_centuries: Lista wszystkich wieków
-    :type all_centuries: List[str]
     :param dates__range: Zakres lat (np. (1800, 1900))
     :type dates__range: tuple
     :param kg: Graf wiedzy
     :type kg: KnowledgeGraph
-    :param model: Model językowy
-    :type model: str
     """
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
     global interactive_story
@@ -1033,21 +1009,18 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
                     selected_subject_names.append(all_subject_names[index])
             st.space("xxsmall")
 
-            all_roman_centuries = [roman.toRoman(c) for c in all_centuries]
-            selected_centuries = [ roman.fromRoman(c) for c in st.pills(page_text_part.get("centuries_filter_label"), all_roman_centuries, selection_mode="multi") ]
-            st.space("xxsmall")
-
             selected_date_range = st.slider(
                 page_text_part.get("date_range_label"),
                 min_value=dates__range[0],
                 max_value=dates__range[1],
-                value=dates__range
+                value=dates__range,
+                help=page_text_part.get("date_range_help_text")
             )
             st.space("xxsmall")
 
         # zapytanie tekstowe
         elif filters_choice == page_text_part.get("filters_choice_options")[1]:
-            user_query = st.text_area(page_text_part.get("query_filter_label"), height=100)
+            user_query = st.text_area(page_text_part.get("query_filter_label"), height=200, placeholder=page_text_part.get("query_filter_placeholder"))
             st.space("xxsmall")
 
     # wspólne opcje
@@ -1069,7 +1042,6 @@ def display_interface_main_part(all_subject_names: List[str], all_centuries: Lis
             if filters_choice == page_text_part.get("filters_choice_options")[0]:
                 data = get_data_based_on_selected_filters(
                     selected_subject_names,
-                    selected_centuries,
                     selected_date_range,
                     selected_related,
                     kg
@@ -1187,13 +1159,14 @@ def load_page_text_in_chosen_language(language: str) -> dict:
 
 
 def display_and_collect_subject_filters(page_text_part: dict, categorized_subject_names: dict[str, list[str]]) -> List[str]:
+    st.subheader(page_text_part.get('subjects_filter_subheader'), help=page_text_part.get('subjects_filter_description'))
     col1, col2 = st.columns(2)
     selected_subject_names = []
     with col1:
         # Places
         places_names = categorized_subject_names.get("Places", [])
         places_names.sort()
-        selected = st.multiselect(page_text_part.get("subjects_filter_places_label"), places_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        selected = st.multiselect(page_text_part.get("subjects_filter_places_label"), places_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains", help=page_text_part.get("subjects_filter_places_help_text"))
         for subj in selected:
             if subj not in selected_subject_names:
                 selected_subject_names.append(subj)
@@ -1201,7 +1174,7 @@ def display_and_collect_subject_filters(page_text_part: dict, categorized_subjec
         # Events
         events_names = categorized_subject_names.get("Events", [])
         events_names.sort()
-        selected = st.multiselect(page_text_part.get("subjects_filter_events_label"), events_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        selected = st.multiselect(page_text_part.get("subjects_filter_events_label"), events_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains", help=page_text_part.get("subjects_filter_events_help_text"))
         for subj in selected:
             if subj not in selected_subject_names:
                 selected_subject_names.append(subj)
@@ -1209,7 +1182,7 @@ def display_and_collect_subject_filters(page_text_part: dict, categorized_subjec
     # People
         people_names = categorized_subject_names.get("People", [])
         people_names.sort()
-        selected = st.multiselect(page_text_part.get("subjects_filter_people_label"), people_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        selected = st.multiselect(page_text_part.get("subjects_filter_people_label"), people_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains", help=page_text_part.get("subjects_filter_people_help_text"))
         for subj in selected:
             if subj not in selected_subject_names:
                 selected_subject_names.append(subj)
@@ -1217,7 +1190,7 @@ def display_and_collect_subject_filters(page_text_part: dict, categorized_subjec
         # Other
         other_names = categorized_subject_names.get("Other", [])
         other_names.sort()
-        selected = st.multiselect(page_text_part.get("subjects_filter_other_label"), other_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains")
+        selected = st.multiselect(page_text_part.get("subjects_filter_other_label"), other_names, placeholder=page_text_part.get("subjects_filter_placeholder"), filter_mode="contains", help=page_text_part.get("subjects_filter_other_help_text"))
         for subj in selected:
             if subj not in selected_subject_names:
                 selected_subject_names.append(subj)
@@ -1239,7 +1212,7 @@ def get_data_based_on_text_query(query: str, kg: KnowledgeGraph, selected_relate
     if not query:
         return None
 
-    prompt = f"Na podstawie poniższego opisu tekstowego oraz dostępnej listy tematów dobierz tematy i daty pasujące do opisu. Nie wykonuj zadania z opisu, bo to zrobi inny moduł. Ty tylko znajdź pasujące tematy, wieki i daty. Opis: {query}. Lista tematów: {kg.get_all_subject_names()}. Jako odpowiedź zwróć mi słownik (json) w formacie: {{'selected_subject_names': [lista pasujących tematów z nazwami jak w załaczonej liście], 'selected_centuries': [lista pasujących wieków w formie liczb całkowitych], 'selected_date_range': [dopasowany zakres dat, np. (1800, 1900)]}}. Jeśli nie znajdziesz żadnych pasujących tematów, wieków lub dat, zwróć puste listy i None dla zakresu dat. Pamiętaj o zachowaniu kodowania UTF-8 w odpowiedzi, ponieważ tematy mogą zawierać polskie znaki. Odpowiedź powinna być tylko i wyłącznie tekstem w formacie json, bez żadnych dodatkowych komentarzy czy objaśnień."
+    prompt = f"Na podstawie poniższego opisu tekstowego oraz dostępnej listy tematów dobierz tematy i daty pasujące do opisu. Nie wykonuj zadania z opisu, bo to zrobi inny moduł. Ty tylko znajdź pasujące tematy i daty. Opis: {query}. Lista tematów: {kg.get_all_subject_names()}. Jako odpowiedź zwróć mi słownik (json) w formacie: {{'selected_subject_names': [lista pasujących tematów z nazwami jak w załaczonej liście]'selected_date_range': [dopasowany zakres dat, np. (1800, 1900)]}}. Jeśli nie znajdziesz żadnych pasujących tematów lub dat, zwróć pustą listę dla tematów i None dla zakresu dat. Pamiętaj o zachowaniu kodowania UTF-8 w odpowiedzi, ponieważ tematy mogą zawierać polskie znaki. Odpowiedź powinna być tylko i wyłącznie tekstem w formacie json, bez żadnych dodatkowych komentarzy czy objaśnień."
     response = handle_llm(prompt)
     try:
         if response is not None:
@@ -1247,13 +1220,11 @@ def get_data_based_on_text_query(query: str, kg: KnowledgeGraph, selected_relate
                 response = re.sub(r"^```(?:json)?\s*|\s*```$", "", response.strip())
             response = json.loads(response)
             selected_subject_names = response.get("selected_subject_names", [])
-            selected_centuries = response.get("selected_centuries", [])
             selected_date_range = response.get("selected_date_range", [])
             selected_date_range = tuple(selected_date_range) if selected_date_range else None
 
             documents = get_data_based_on_selected_filters(
                 selected_subject_names,
-                selected_centuries,
                 selected_date_range,
                 selected_related,
                 kg

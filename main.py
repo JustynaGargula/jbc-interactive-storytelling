@@ -7,7 +7,6 @@ import streamlit as st
 ris_directory_path = "data/data_ris"
 rdfs_directory_path = "data/rdfs"
 available_languages = {"Polski 🇵🇱": "pl", "English 🇬🇧": "en"}
-model = "gemini-3.1-flash-lite"  # modele: gemini-3-flash-preview, gemini-2.5-flash, gemini-3.1-flash-lite, 
 allowed_centuries = [19, 20]
 
 st.set_page_config(
@@ -41,10 +40,9 @@ with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
     else:
         kg = utils.get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, jsonld_output_file_pl, already_downloaded_rdfs=True, already_saved_jsonld=False)
     all_subject_names = kg.get_all_subject_names()
-    available_centuries = kg.get_all_centuries()
     dates__range = kg.get_dates_range()
 
-utils.display_interface_main_part(all_subject_names, available_centuries, dates__range, kg, model)
+utils.display_interface_main_part(all_subject_names, dates__range, kg)
 
 # with st.sidebar:
 #     evaluation_module.display_all_questions()

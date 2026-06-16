@@ -3,5 +3,6 @@ primaryColor = "#76c5e5"
 
 [theme.dark]
 primaryColor = "#39a7cb"
+backgroundColor = "#141414"
 
 # "#87CEEB" "#578fa5" "#39a7cb"
