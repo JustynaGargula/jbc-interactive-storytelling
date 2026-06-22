@@ -44,7 +44,7 @@
         "filters_choice_label": "Choose whether you want to use regular filters or a text query:",
         "filters_choice_options": ["Regular filters", "Text query"],
         "default_filters_choice": "Regular filters",
-        "filters_header": "Choose filters for the story topic or timeline",
+        "filters_header": "Choice of filters for the story topic or timeline",
         "subjects_filter_subheader": "Choose one or more subjects",
         "subjects_filter_description": "Choose any number of subjects you are interested in. Matching documents will be found. Unfortunately, some subjects have only a few associated documents. Some documents are linked to only one of similar subjects, e.g., \"Polish theater 19th century\", but not \"theater 19th century\" (unfortunately, such described data is available). If you want to narrow down the search to specific subjects, use the text query instead.",
         "subjects_filter_people_label": "People:",
@@ -53,7 +53,7 @@
         "subjects_filter_places_help_text": "Places such as cities, countries, streets, institutions, churches, etc.",
         "subjects_filter_events_label": "Events:",
         "subjects_filter_events_help_text": "Historical events such as battles, but also event types like funerals, weddings, anniversaries",
-        "subjects_filter_other_label": "The rest of the filters:",
+        "subjects_filter_other_label": "Other:",
         "subjects_filter_other_help_text": "Other topics that have not been automatically categorized into other categories, e.g., organizations, social groups, objects, individual concepts",
         "subjects_filter_placeholder": "Choose one or more subjects",
         "centuries_filter_label": "Choose century(s):",
@@ -74,7 +74,7 @@
         "generating_timeline_spinner_text": "Generating timeline... ⏳",
         "timeline_header": "🕰️ Generated Timeline",
         "documents_number": "Documents number",
-        "date_range_label": "Year range",
+        "date_range_label": "Choose year range (optional)",
         "documents_types_label": "Documents types",
         "no_story_type_warning": "No story type selected.",
         "expander_text": "📋 View source documents in the table",
@@ -93,22 +93,22 @@
         "header": "Evaluation module",
         "description": "The following questions concern various aspects of the application. Please answer each question by choosing a number from 1 to 5, where",
         "scale_descriptions": "* 1 - very bad,\n* 2 - bad,\n* 3 - neutral,\n* 4 - good,\n* 5 - very good",
-        "theme_selection": {
-        "subheader": "Application theme selection",
-        "comfort_label": "Comfort of choosing the application theme (light/dark)",
-        "light_theme_readability_label": "Readability of the light theme",
-        "light_theme_color_label": "Color palette of the light theme"
-        },
         "search_and_filtering": {
-        "subheader": "Content search and filtering",
+        "subheader": "Searching and filtering content [regular filters]",
         "filter_choice_label": "Ease of selecting filters for the story topic",
         "topics_list_readability_label": "Readability of the topic list",
         "multi_topic_addition_label": "Ease of adding multiple topics at once",
-        "search_intuitiveness_label": "How do you rate the intuitiveness of the current search system?"
+        "search_intuitiveness_label": "Intuitiveness of the current search system",
+        "usefullness_label": "Usefulness of manual filter selection" 
+        },
+        "textual_search": {
+        "subheader": "Searching content [text query]",
+        "query_clarity_label": "Clarity of how the text query works",
+        "query_effectiveness_label": "Effectiveness of searching through the text query"
         },
         "narrative_selection": {
-        "subheader": "Narrative selection",
-        "narration_type_intuitiveness_label": "Intuitiveness of choosing the type of narrative (historical / interactive / timeline)"
+        "subheader": "Story selection",
+        "narration_type_intuitiveness_label": "Intuitiveness of choosing the type of story (historical / interactive / timeline)"
         },
         "additional_filter_options": {
         "subheader": "Additional filtering options",
@@ -122,18 +122,21 @@
         "timeline_document_navigation_label": "How do you rate the ease of locating specific documents and navigating to their source in JBC (PDF scans)?"
         },
         "historical_narrative": {
-        "subheader": "Historical narrative",
+        "subheader": "Historical story",
         "historical_story_quality_label": "How do you rate the generated historical stories?",
         "historical_summary_quality_label": "How do you rate the quality and credibility of the historical summaries?"
         },
         "interactive_narrative": {
-        "subheader": "Interactive narrative",
-        "interactive_path_intuitiveness_label": "How do you rate the intuitiveness of choosing a path in the interactive narrative?",
-        "interactive_choice_impact_label": "How do you rate the clarity of the impact of choices on the story ending in the interactive narrative?"
+        "subheader": "Interactive story",
+        "interactive_path_intuitiveness_label": "How do you rate the intuitiveness of choosing a path in the interactive story?",
+        "interactive_choice_impact_label": "How do you rate the clarity of the impact of choices on the story ending in the interactive story?",
+        "interactive_choices_satisfaction_label": "How satisfied are you with the choices you had the opportunity to make in the interactive story?"
         },
         "overall_app_experience": {
         "subheader": "Overall impressions of the application",
-        "overall_app_rating_label": "How would you rate the application overall?"
+        "overall_app_rating_label": "How would you rate the application overall?",
+        "tooltip_label": "How useful are the tooltips (shown when hovering over the question mark icon)"
+        
         },
         "optional_feedback": {
         "label": "Would you like to share any additional comments or suggestions about the application? If so, enter them below:",
@@ -142,7 +145,7 @@
         "demographics": {
         "subheader": "Profile",
         "radio_label": "Which of the following descriptions best describes your current professional or educational situation? I am:",
-        "text_input_label": "Please enter your field of study / research discipline / clarify your answer (depending on the option selected above)",
+        "text_input_label": "Please clarify your answer: enter your field of study / research discipline / name of your institution and its country (if different than Poland)",
         "caption": "Press Enter to confirm your answer",
         "job_options": [
             "a researcher from UJ",
@@ -163,7 +166,8 @@
         },
         "messages": {
         "warning_incomplete": "Please answer all questions.",
-        "success_thank_you": "Thank you for sharing your feedback!"
+        "success_thank_you": "Thank you for sharing your feedback!",
+        "optional_answer_default": "No additional comments"
         },
         "questions_answered": "questions answered"
     }

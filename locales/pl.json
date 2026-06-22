@@ -44,7 +44,7 @@
         "filters_choice_label": "Wybierz, czy chcesz użyć zwykłych filtrów czy zapytania tekstowego:",
         "filters_choice_options": ["Zwykłe filtry", "Zapytanie tekstowe"],
         "default_filters_choice": "Zwykłe filtry",
-        "filters_header": "Wybierz filtry do tematu opowieści lub osi czasu",
+        "filters_header": "Wybór filtrów do tematu opowieści lub osi czasu",
         "subjects_filter_subheader": "Wybierz jeden lub więcej tematów",
         "subjects_filter_description": "Wybierz dowolną liczbę tematów, które Cię interesują. Wyszukane zostaną dokumenty, które pasują do co najmniej jednego z wybranych tematów (wybranie większej liczby tematów nie zawęża wyszukiwania, a znajduje możliwie najwięcej pasujących dokumentów). Niestety niektóre tematy mają przypisane niewiele dokumentów. Niektóre dokumenty mają przypisane tylko jeden z podobnych tematów np, \"teatr polski 19 wiek\", ale już nie \"teatr 19 wiek\" (niestety tak opisane dane są dostępne). Jeśli chcesz zawęzić wyszukiwanie do konkretnych tematów, użyj zamiast tego zapytania tekstowego.",
         "subjects_filter_people_label": "Osoby:",
@@ -53,7 +53,7 @@
         "subjects_filter_places_help_text": "Miejsca takie jak miasto, kraj, ulica, instytucja, kościół itp.",
         "subjects_filter_events_label": "Wydarzenia:",
         "subjects_filter_events_help_text": "Wydarzenia historyczne np. bitwy, ale i typy wydarzeń jak np. pogrzeb, ślub, rocznica",
-        "subjects_filter_other_label": "Reszta filtrów:",
+        "subjects_filter_other_label": "Inne:",
         "subjects_filter_other_help_text": "Inne tematy, które nie zostały zakwalifikowane automatycznym grupowaniem do pozostałych kategorii, np. organizacje, grupy społeczne, przedmioty, pojedyncze pojęcia",
         "subjects_filter_placeholder": "Wybierz jeden lub więcej tematów",
         "centuries_filter_label": "Wybierz wiek(i):",
@@ -74,7 +74,7 @@
         "generating_timeline_spinner_text": "Generuję oś czasu... ⏳",
         "timeline_header": "🕰️ Wygenerowana oś czasu",
         "documents_number": "Liczba dokumentów",
-        "date_range_label": "Zakres lat",
+        "date_range_label": "Wybierz zakres lat (opcjonalne)",
         "documents_types_label": "Typy dokumentów",
         "no_story_type_warning": "Nie wybrano typu opowieści.",
         "expander_text": "📋 Zobacz dokumenty żródłowe w tabeli",
@@ -93,22 +93,22 @@
         "header": "Moduł oceny",
         "description": "Poniższe pytania dotyczą różnych aspektów aplikacji. Odpowiedz proszę na każde pytanie wybierając liczbę od 1 do 5, gdzie",
         "scale_descriptions": "* 1 - bardzo źle,\n* 2 - źle,\n* 3 - neutralnie,\n* 4 - dobrze,\n* 5 - bardzo dobrze",
-        "theme_selection": {
-        "subheader": "Wybór motywu aplikacji",
-        "comfort_label": "Komfort wyboru motywu aplikacji (jasny/ciemny)",
-        "light_theme_readability_label": "Czytelność motywu jasnego",
-        "light_theme_color_label": "Kolorystyka motywu jasnego"
-        },
         "search_and_filtering": {
-        "subheader": "Wyszukiwanie i filtrowanie treści",
+        "subheader": "Wyszukiwanie i filtrowanie treści [zwykłe filtry]",
         "filter_choice_label": "Łatwość wyboru filtrów do tematu opowieści",
         "topics_list_readability_label": "Czytelność listy tematów",
         "multi_topic_addition_label": "Łatwość dodawania wielu tematów jednocześnie",
-        "search_intuitiveness_label": "Jak oceniasz intuicyjność obecnego systemu wyszukiwania?"
+        "search_intuitiveness_label": "Intuicyjność obecnego systemu wyszukiwania",
+        "usefullness_label": "Użyteczność ręcznego wyboru filtrów" 
+        },
+        "textual_search": {
+        "subheader": "Wyszukiwanie treści [zapytanie tekstowe]",
+        "query_clarity_label": "Jasność tego, jak działa zapytanie tekstowe",
+        "query_effectiveness_label": "Użyteczność wyszukiwania przez zapytanie tekstowe"
         },
         "narrative_selection": {
-        "subheader": "Wybór narracji",
-        "narration_type_intuitiveness_label": "Intuicyjność wyboru typu narracji (historyczna / interaktywna / oś czasu)"
+        "subheader": "Wybór opowieści",
+        "narration_type_intuitiveness_label": "Intuicyjność wyboru typu opowieści (historyczna / interaktywna / oś czasu)"
         },
         "additional_filter_options": {
         "subheader": "Dodatkowe opcje filtrowania",
@@ -122,18 +122,20 @@
         "timeline_document_navigation_label": "Jak oceniasz łatwość lokalizowania konkretnych dokumentów i przechodzenia do ich źródła w JBC (skany PDF)?"
         },
         "historical_narrative": {
-        "subheader": "Narracja historyczna",
+        "subheader": "Opowieść historyczna",
         "historical_story_quality_label": "Jak oceniasz wygenerowane opowieści historyczne?",
         "historical_summary_quality_label": "Jak oceniasz jakość i wiarygodność podsumowań historycznych?"
         },
         "interactive_narrative": {
-        "subheader": "Narracja interaktywna",
-        "interactive_path_intuitiveness_label": "Jak oceniasz intuicyjność wyboru ścieżki narracji interaktywnej?",
-        "interactive_choice_impact_label": "Jak oceniasz zrozumiałość wpływu wyborów na zakończenie historii w narracji interaktywnej?"
+        "subheader": "Opowieść interaktywna",
+        "interactive_path_intuitiveness_label": "Jak oceniasz intuicyjność wyboru ścieżki opowieści interaktywnej?",
+        "interactive_choice_impact_label": "Jak oceniasz zrozumiałość wpływu wyborów na zakończenie historii w opowieści interaktywnej?",
+        "interactive_choices_satisfaction_label": "Jak bardzo jesteś zadowolony/a z wyborów, które miałeś/aś do podjęcia w opowieści interaktywnej?"
         },
         "overall_app_experience": {
         "subheader": "Ogólne wrażenia z aplikacji",
-        "overall_app_rating_label": "Jak ogólnie oceniasz aplikację?"
+        "overall_app_rating_label": "Jak ogólnie oceniasz aplikację?",
+        "tooltip_label": "Jak przydatne są podpowiedzi w dymkach (wyświetlane po najechaniu na ikonę znaku zapytania)?"
         },
         "optional_feedback": {
         "label": "Czy chcesz podzielić się dodatkowymi uwagami lub sugestiami dotyczącymi aplikacji? Jeśli tak, wpisz je poniżej:",
@@ -142,7 +144,7 @@
         "demographics": {
         "subheader": "Metryczka",
         "radio_label": "Które z poniższych określeń najlepiej opisuje Twoją obecną sytuację zawodową lub edukacyjną? Jestem:",
-        "text_input_label": "Wpisz proszę kierunek, na którym studiujesz / dyscyplinę badań / doprecyzuj odpowiedź (w zależności od wybranej wcześniej opcji)",
+        "text_input_label": "Doprecyzuj proszę odpowiedź: wpisz kierunek studiów / dyscyplinę badań / nazwę instytucji i jej kraj (jeśli inny niż Polska)",
         "caption": "Naciśnij Enter, aby zatwierdzić odpowiedź",
         "job_options": [
             "badaczem / badaczką z UJ",
@@ -163,7 +165,8 @@
         },
         "messages": {
         "warning_incomplete": "Proszę odpowiedzieć na wszystkie pytania.",
-        "success_thank_you": "Dziękujemy za wyrażenie swoich opinii!"
+        "success_thank_you": "Dziękujemy za wyrażenie swoich opinii!",
+        "optional_answer_default": "Brak dodatkowych uwag"
         },
         "questions_answered": "pytań ocenionych" 
     }

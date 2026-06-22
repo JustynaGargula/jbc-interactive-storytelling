@@ -4,7 +4,7 @@ from google.oauth2.service_account import Credentials
 from datetime import datetime
 from utils import get_or_create_session_id
 
-keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "m1", "m2"]
+keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "m1", "m2"]
 options_scale = ["1", "2", "3", "4", "5"]
 
 def display_all_questions():
@@ -17,18 +17,18 @@ def display_all_questions():
         st.header(page_text_part.get("header"))
         st.write(f"{page_text_part.get('description')}\n{scale_descriptions}.")
 
-        # Wybór motywu aplikacji
-        st.subheader(page_text_part.get("theme_selection", {}).get("subheader"))
-        st.pills(label=page_text_part.get("theme_selection", {}).get("comfort_label"), options=options_scale, selection_mode="single", key=keys[0])
-        st.pills(label=page_text_part.get("theme_selection", {}).get("light_theme_readability_label"), options=options_scale, selection_mode="single", key=keys[1])
-        st.pills(label=page_text_part.get("theme_selection", {}).get("light_theme_color_label"), options=options_scale, selection_mode="single", key=keys[2])
-
-        # Wyszukiwanie i filtrowanie treści
+        # Wyszukiwanie i filtrowanie treści [zwykłe filtry]
         st.subheader(page_text_part.get("search_and_filtering", {}).get("subheader"))
-        st.pills(label=page_text_part.get("search_and_filtering", {}).get("filter_choice_label"), options=options_scale, selection_mode="single", key=keys[3])
-        st.pills(label=page_text_part.get("search_and_filtering", {}).get("topics_list_readability_label"), options=options_scale, selection_mode="single", key=keys[4])
-        st.pills(label=page_text_part.get("search_and_filtering", {}).get("multi_topic_addition_label"), options=options_scale, selection_mode="single", key=keys[5])
-        st.pills(label=page_text_part.get("search_and_filtering", {}).get("search_intuitiveness_label"), options=options_scale, selection_mode="single", key=keys[6])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("filter_choice_label"), options=options_scale, selection_mode="single", key=keys[0])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("topics_list_readability_label"), options=options_scale, selection_mode="single", key=keys[1])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("multi_topic_addition_label"), options=options_scale, selection_mode="single", key=keys[2])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("search_intuitiveness_label"), options=options_scale, selection_mode="single", key=keys[3])
+        st.pills(label=page_text_part.get("search_and_filtering", {}).get("usefullness_label"), options=options_scale, selection_mode="single", key=keys[4])
+
+        # Wyszukiwanie treści [zapytanie tekstowe]
+        st.subheader(page_text_part.get("textual_search", {}).get("subheader"))
+        st.pills(label=page_text_part.get("textual_search", {}).get("query_clarity_label"), options=options_scale, selection_mode="single", key=keys[5])
+        st.pills(label=page_text_part.get("textual_search", {}).get("query_effectiveness_label"), options=options_scale, selection_mode="single", key=keys[6])
 
         # Wybór narracji
         st.subheader(page_text_part.get("narrative_selection", {}).get("subheader"))
@@ -54,16 +54,18 @@ def display_all_questions():
         st.subheader(page_text_part.get("interactive_narrative", {}).get("subheader"))
         st.pills(label=page_text_part.get("interactive_narrative", {}).get("interactive_path_intuitiveness_label"), options=options_scale, selection_mode="single", key=keys[15])
         st.pills(label=page_text_part.get("interactive_narrative", {}).get("interactive_choice_impact_label"), options=options_scale, selection_mode="single", key=keys[16])
+        st.pills(label=page_text_part.get("interactive_narrative", {}).get("interactive_choices_satisfaction_label"), options=options_scale, selection_mode="single", key=keys[17])
 
         # Ogólne wrażenia z aplikacji 
         st.subheader(page_text_part.get("overall_app_experience", {}).get("subheader"))
-        st.pills(label=page_text_part.get("overall_app_experience", {}).get("overall_app_rating_label"), options=options_scale, selection_mode="single", key=keys[17])
+        st.pills(label=page_text_part.get("overall_app_experience", {}).get("overall_app_rating_label"), options=options_scale, selection_mode="single", key=keys[18])
+        st.pills(label=page_text_part.get("overall_app_experience", {}).get("tooltip_label"), options=options_scale, selection_mode="single", key=keys[19])
         st.text_area(label=page_text_part.get("optional_feedback", {}).get("label"), key="q_opt", placeholder=page_text_part.get("optional_feedback", {}).get("placeholder"))
 
         # Metryczka
         st.subheader(page_text_part.get("demographics", {}).get("subheader"))
-        st.radio(label=page_text_part.get("demographics", {}).get("radio_label"), options=job_options, key=keys[18], index=None)
-        st.text_input(label=page_text_part.get("demographics", {}).get("text_input_label"), key=keys[19], value=None)
+        st.radio(label=page_text_part.get("demographics", {}).get("radio_label"), options=job_options, key=keys[20], index=None)
+        st.text_input(label=page_text_part.get("demographics", {}).get("text_input_label"), key=keys[21], value=None)
         st.caption(page_text_part.get("demographics", {}).get("caption"))
         
         st.space("xsmall")
@@ -95,7 +97,7 @@ def save_evaluation() -> None:
         return
 
     # Handle the optional comment
-    optional_answer = st.session_state.get("q_opt") or page_text_part.get("messages", {}).get("optional_answer_default", "Brak dodatkowych uwag")
+    optional_answer = st.session_state.get("q_opt") or page_text_part.get("messages", {}).get("optional_answer_default")
 
     # Insert optional answer before the last two demographic questions
     answers = answers[0:-2] + [optional_answer] + answers[-2:]
