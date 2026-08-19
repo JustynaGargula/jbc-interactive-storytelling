@@ -1,7 +1,7 @@
 {
     "main_file": {
         "loading_spinner_text": "Loading data for application functionality... ⏳",
-        "bottom_color_mode_caption": "💡 **Changing the theme to dark or light:** Click the 3 dots - ⋮ - in the top right corner → Settings → Theme",
+        "bottom_color_mode_caption": "💡 **Changing the theme to dark or light:** Click the 3 dots - ⋮ - in the top right corner",
         "change_language": "Change language 🌐"
       },
     "utils_display_interface_top_part": {
@@ -74,7 +74,7 @@
         "generating_timeline_spinner_text": "Generating timeline... ⏳",
         "timeline_header": "🕰️ Generated Timeline",
         "documents_number": "Documents number",
-        "date_range_label": "Choose year range (optional)",
+        "date_range_label": "Date range of matching documents",
         "documents_types_label": "Documents types",
         "no_story_type_warning": "No story type selected.",
         "expander_text": "📋 View source documents in the table",

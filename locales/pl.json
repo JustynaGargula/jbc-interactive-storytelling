@@ -1,7 +1,7 @@
 {
     "main_file": {
         "loading_spinner_text": "Ładowanie danych do działania aplikacji... ⏳",
-        "bottom_color_mode_caption": "💡 **Zmiana motywu na ciemny lub jasny:** Kliknij 3 kropki - ⋮ - w prawym górnym rogu → Settings → Theme",
+        "bottom_color_mode_caption": "💡 **Zmiana motywu na ciemny lub jasny:** Kliknij 3 kropki - ⋮ - w prawym górnym rogu",
         "change_language": "Zmień język 🌐"
       },
     "utils_display_interface_top_part": {
@@ -74,10 +74,10 @@
         "generating_timeline_spinner_text": "Generuję oś czasu... ⏳",
         "timeline_header": "🕰️ Wygenerowana oś czasu",
         "documents_number": "Liczba dokumentów",
-        "date_range_label": "Wybierz zakres lat (opcjonalne)",
+        "date_range_label": "Zakres lat pasujących dokumentów",
         "documents_types_label": "Typy dokumentów",
         "no_story_type_warning": "Nie wybrano typu opowieści.",
-        "expander_text": "📋 Zobacz dokumenty żródłowe w tabeli",
+        "expander_text": "📋 Zobacz dokumenty źródłowe w tabeli",
         "open_document_button": "Otwórz",
         "progress_label": "Jesteś na etapie",
         "query_filter_label": "Wpisz zapytanie tekstowe, które opisuje temat opowieści lub osi czasu, którą chcesz wygenerować. Możesz uwzględnić w nim konkretne tematy, daty, wydarzenia, osoby itp.",
