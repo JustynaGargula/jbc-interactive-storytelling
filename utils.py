@@ -1,4 +1,4 @@
-import re     # regular expressions
+import re       # regular expressions
 import requests
 from rdflib import Graph
 import glob
@@ -1034,7 +1034,8 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
         help=page_text_part.get("related_documents_help_text"))
     st.space("xxsmall")
 
-    generate_button = st.button(page_text_part.get("generate_button_label"))
+    button_status_placeholder = st.empty()
+    generate_button = st.button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),))
     story_placeholder = st.empty()
 
     if generate_button:
@@ -1107,6 +1108,7 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                         if row['url']:
                             st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
                     st.divider()
+        button_status_placeholder = st.empty()
 
     if st.session_state.get("interactive_story"):
         with story_placeholder.container():
@@ -1125,6 +1127,10 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                     st.progress(progress_value, text=progress_text)
 
             display_interactive_story(st.session_state.get("interactive_story"))
+
+def show_button_status(placeholder, text):
+    with placeholder:
+        st.info(text)
 
 def reset_interactive_story_completely():
     """

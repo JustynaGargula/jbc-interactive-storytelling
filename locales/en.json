@@ -81,7 +81,8 @@
         "open_document_button": "Open",
         "progress_label": "You are at stage",
         "query_filter_label": "Enter a text query that describes the topic of the story or timeline you want to generate. You can include specific topics, dates, events, people, etc.",
-        "query_filter_placeholder": "For example, you could type:\n\"I want a story about Polish theater in the 19th century, including differences on the stages of individual Polish cities.\"\nor\n\"Describe Polish theater in the 19th century, including important figures, events, and places related to this topic\"\n or\n\"Polish theater in the 19th century\""
+        "query_filter_placeholder": "For example, you could type:\n\"I want a story about Polish theater in the 19th century, including differences on the stages of individual Polish cities.\"\nor\n\"Describe Polish theater in the 19th century, including important figures, events, and places related to this topic\"\n or\n\"Polish theater in the 19th century\"",
+        "button_clicked_info": "Button clicked. Generating result..."
     },
     "utils_display_interactive_story": {
         "story_ending": "The end of the story",

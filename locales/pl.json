@@ -81,7 +81,8 @@
         "open_document_button": "Otwórz",
         "progress_label": "Jesteś na etapie",
         "query_filter_label": "Wpisz zapytanie tekstowe, które opisuje temat opowieści lub osi czasu, którą chcesz wygenerować. Możesz uwzględnić w nim konkretne tematy, daty, wydarzenia, osoby itp.",
-        "query_filter_placeholder": "Przykładowo możesz wpisać:\n\"Chcę opowieść o teatrze polskim w XIX wieku, uwzględniając różnice na scenach teatrów poszczególnych miast polskich.\"\nlub\n\"Opisz mi polski teatr w XIX wieku, uwzględniając ważne postacie, wydarzenia i miejsca związane z tym tematem\"\n lub\n\"Teatr polski w XIX wieku\""
+        "query_filter_placeholder": "Przykładowo możesz wpisać:\n\"Chcę opowieść o teatrze polskim w XIX wieku, uwzględniając różnice na scenach teatrów poszczególnych miast polskich.\"\nlub\n\"Opisz mi polski teatr w XIX wieku, uwzględniając ważne postacie, wydarzenia i miejsca związane z tym tematem\"\n lub\n\"Teatr polski w XIX wieku\"",
+        "button_clicked_info": "Kliknięto przycisk. Generowanie wyniku..."
     },
     "utils_display_interactive_story": {
         "story_ending": "Koniec opowieści",
