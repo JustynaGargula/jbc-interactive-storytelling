@@ -984,60 +984,63 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
         selection_mode="single", default=page_text_part.get("default_filters_choice"),
         width="stretch")
     st.space("xsmall")
-    
-    with st.container(border=True):
-        # podstawowe filtry
-        if filters_choice == page_text_part.get("filters_choice_options")[0]:
-            if st.session_state.get("language") == "pl":
-                with open("locales/grouped_topics_pl.json", "r", encoding="utf-8") as f:
-                    categorized_subject_names = json.load(f)
-                selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
-            elif st.session_state.get("language") == "en":
-                all_english_subject_names = []
-                with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
-                    for line in f:
-                        all_english_subject_names.append(line.strip())
-                with open("locales/grouped_topics_en.json", "r", encoding="utf-8") as f:
-                    categorized_subject_names = json.load(f)
-                
-                english_selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
-                st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
 
-                selected_subject_names = []
-                for subj in english_selected_subject_names:
-                    index = all_english_subject_names.index(subj)
-                    selected_subject_names.append(all_subject_names[index])
-            st.space("xxsmall")
+    with st.form("filter_form", border=False):    
+        with st.container(border=True):
+            # podstawowe filtry
+            if filters_choice == page_text_part.get("filters_choice_options")[0]:
+                if st.session_state.get("language") == "pl":
+                    with open("locales/grouped_topics_pl.json", "r", encoding="utf-8") as f:
+                        categorized_subject_names = json.load(f)
+                    selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
+                elif st.session_state.get("language") == "en":
+                    all_english_subject_names = []
+                    with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
+                        for line in f:
+                            all_english_subject_names.append(line.strip())
+                    with open("locales/grouped_topics_en.json", "r", encoding="utf-8") as f:
+                        categorized_subject_names = json.load(f)
+                    
+                    english_selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
+                    st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
 
-            selected_date_range = st.slider(
-                page_text_part.get("date_range_label"),
-                min_value=dates__range[0],
-                max_value=dates__range[1],
-                value=dates__range,
-                help=page_text_part.get("date_range_help_text")
-            )
-            st.space("xxsmall")
+                    selected_subject_names = []
+                    for subj in english_selected_subject_names:
+                        index = all_english_subject_names.index(subj)
+                        selected_subject_names.append(all_subject_names[index])
+                st.space("xxsmall")
 
-        # zapytanie tekstowe
-        elif filters_choice == page_text_part.get("filters_choice_options")[1]:
-            user_query = st.text_area(page_text_part.get("query_filter_label"), height=200, placeholder=page_text_part.get("query_filter_placeholder"))
-            st.space("xxsmall")
+                selected_date_range = st.slider(
+                    page_text_part.get("date_range_label"),
+                    min_value=dates__range[0],
+                    max_value=dates__range[1],
+                    value=dates__range,
+                    help=page_text_part.get("date_range_help_text")
+                )
+                st.space("xxsmall")
 
-    # wspólne opcje
-    output_type = st.segmented_control(
-        page_text_part.get("output_type_label"),
-        page_text_part.get("output_type_options"),
-        selection_mode="single", default=page_text_part.get("timeline"))
-    st.space("xxsmall")
+            # zapytanie tekstowe
+            elif filters_choice == page_text_part.get("filters_choice_options")[1]:
+                user_query = st.text_area(page_text_part.get("query_filter_label"), height=200, placeholder=page_text_part.get("query_filter_placeholder"))
+                st.space("xxsmall")
 
-    selected_related = st.checkbox(page_text_part.get("related_documents_label"), 
-        help=page_text_part.get("related_documents_help_text"))
-    st.space("xxsmall")
+        # wspólne opcje
+        output_type = st.segmented_control(
+            page_text_part.get("output_type_label"),
+            page_text_part.get("output_type_options"),
+            selection_mode="single", default=page_text_part.get("timeline"))
+        st.space("xxsmall")
 
-    button_status_placeholder = st.empty()
-    generate_button = st.button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),))
+        selected_related = st.checkbox(page_text_part.get("related_documents_label"), 
+            help=page_text_part.get("related_documents_help_text"))
+        st.space("xxsmall")
+
+        button_status_placeholder = st.empty()
+        generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),))
+
     story_placeholder = st.empty()
 
+    # generowanie
     if generate_button:
         with st.spinner(page_text_part.get("getting_data_spinner_text")):
             if filters_choice == page_text_part.get("filters_choice_options")[0]:
