@@ -1,4 +1,5 @@
 import os
+from datetime import date
 import utils
 import streamlit as st
 import evaluation_module
@@ -44,3 +45,7 @@ with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
     dates__range = kg.get_dates_range()
 
 utils.display_interface_main_part(all_subject_names, dates__range, kg)
+
+st.space("xsmall")
+current_year = date.today().year
+st.caption(f"© {str(current_year)} Justyna Gargula", text_alignment="center")
