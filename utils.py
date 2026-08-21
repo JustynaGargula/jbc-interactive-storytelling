@@ -1036,7 +1036,7 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
         st.space("xxsmall")
 
         button_status_placeholder = st.empty()
-        generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),))
+        generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),), type="primary", width="stretch")
 
     story_placeholder = st.empty()
 
