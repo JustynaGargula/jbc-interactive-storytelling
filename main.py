@@ -1,7 +1,8 @@
 import os
 from datetime import date
-import utils
 import streamlit as st
+from utils.general import load_page_text_in_chosen_language
+from utils.gathering_and_main_functions import display_interface_main_part, display_interface_top_part, get_knowledge_graph_from_ris, import_knowledge_graph_from_jsonld_file
 import evaluation_module
 
 ris_directory_path = "data/data_ris"
@@ -25,26 +26,26 @@ col1, col2= st.columns([8, 2])
 with col2:
     lan_name = st.selectbox(label="Zmień język / Change language 🌐", options=available_languages.keys(), index=0, filter_mode=None)
     st.session_state["language"] = available_languages.get(lan_name)
-    utils.load_page_text_in_chosen_language(st.session_state["language"])
+    load_page_text_in_chosen_language(st.session_state["language"])
 
 page_text = st.session_state["page_text"]
 color_mode_caption_placeholder.caption(page_text.get("main_file").get("bottom_color_mode_caption"), text_alignment="right")
 
 with col1:
-    utils.display_interface_top_part()
+    display_interface_top_part()
 
 evaluation_module.display_all_questions()
 
 with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
     jsonld_output_file_pl = "data/jbc_knowledge_graph_pl.jsonld"
     if os.path.exists(jsonld_output_file_pl):
-        kg = utils.import_knowledge_graph_from_jsonld_file(jsonld_output_file_pl)
+        kg = import_knowledge_graph_from_jsonld_file(jsonld_output_file_pl)
     else:
-        kg = utils.get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, jsonld_output_file_pl, already_downloaded_rdfs=True, already_saved_jsonld=False)
+        kg = get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, jsonld_output_file_pl, already_downloaded_rdfs=True, already_saved_jsonld=False)
     all_subject_names = kg.get_all_subject_names()
     dates__range = kg.get_dates_range()
 
-utils.display_interface_main_part(all_subject_names, dates__range, kg)
+display_interface_main_part(all_subject_names, dates__range, kg)
 
 st.space("xsmall")
 current_year = date.today().year

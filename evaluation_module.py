@@ -2,7 +2,7 @@ import streamlit as st
 import gspread
 from google.oauth2.service_account import Credentials
 from datetime import datetime
-from utils import get_or_create_session_id
+from utils.general import get_or_create_session_id
 
 keys = ["q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11", "q12", "q13", "q14", "q15", "q16", "q17", "q18", "q19", "q20", "m1", "m2"]
 options_scale = ["1", "2", "3", "4", "5"]
@@ -56,7 +56,7 @@ def display_all_questions():
         st.pills(label=page_text_part.get("interactive_narrative", {}).get("interactive_choice_impact_label"), options=options_scale, selection_mode="single", key=keys[16])
         st.pills(label=page_text_part.get("interactive_narrative", {}).get("interactive_choices_satisfaction_label"), options=options_scale, selection_mode="single", key=keys[17])
 
-        # Ogólne wrażenia z aplikacji 
+        # Ogólne wrażenia z aplikacji
         st.subheader(page_text_part.get("overall_app_experience", {}).get("subheader"))
         st.pills(label=page_text_part.get("overall_app_experience", {}).get("overall_app_rating_label"), options=options_scale, selection_mode="single", key=keys[18])
         st.pills(label=page_text_part.get("overall_app_experience", {}).get("tooltip_label"), options=options_scale, selection_mode="single", key=keys[19])
@@ -67,7 +67,7 @@ def display_all_questions():
         st.radio(label=page_text_part.get("demographics", {}).get("radio_label"), options=job_options, key=keys[20], index=None)
         st.text_input(label=page_text_part.get("demographics", {}).get("text_input_label"), key=keys[21], value=None)
         st.caption(page_text_part.get("demographics", {}).get("caption"))
-        
+
         st.space("xsmall")
 
         questions_answered_percentage_float = check_number_of_answered_questions() / len(keys)
