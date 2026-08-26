@@ -24,7 +24,7 @@
     },
     "utils_generate_interactive_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka rozdziałów (najlepiej 3), z których każdy ma dwie ścieżki wyboru. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki. Opowieść zwróć w formacie json bez dodatkowego tekstu. Ma mieć strukturę analogiczną (z identycznymi kluczami) do tej:",
+        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka rozdziałów (najlepiej 3), z których każdy ma dwie ścieżki wyboru. Każdy wybór ma zawierać klikuzdaniowy (rozbudowany i długi, bo to opowieść jest) opis tego, czym skutuje dany wybór. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki. Opowieść zwróć w formacie json bez dodatkowego tekstu. Ma mieć strukturę analogiczną (z identycznymi kluczami) do tej:",
         "prompt_pt3": "Dodatkowy opis od użytkownika o tym, co chce przeczytać:"
     },
     "utils_generate_historical_story_from_data": {

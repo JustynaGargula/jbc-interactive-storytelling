@@ -37,7 +37,7 @@ def generate_interactive_story_from_data(data: List[Document], user_prompt: Opti
             return None
     except Exception as e:
         print(f"Błąd podczas analizy odpowiedzi JSON: {e}")
-        return response_text
+        return None
 
 def display_interactive_story(story: str):
     """
@@ -46,9 +46,9 @@ def display_interactive_story(story: str):
     :type story: str
     """
     page_text = st.session_state["page_text"].get("utils_display_interactive_story")
-    st.header(story.get("title"))
-    st.write(story.get("description"))
+    st.header(story.get("title"), text_alignment="center")
 
+    # initializing session variables
     if st.session_state.get("choices_path") is None:
         st.session_state["choices_path"] = []
         if story.get("choices"):
@@ -62,13 +62,25 @@ def display_interactive_story(story: str):
         st.session_state["story_depth"] = story_depth
         st.rerun() # odświeża strone, żeby załadować dane do paska wyboru
 
+    # displaying story description or ending
+    with st.container(border=True):
+        description = st.empty()
+    if len(st.session_state["choices_path"]) == 0:
+        description.write(story.get("description"))
+    elif st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) < st.session_state["story_depth"]:
+        prev_choice_id = st.session_state["choices_path"][-1]
+        chosen_path_description = get_choices_or_ending(story, "previous")[prev_choice_id]["option_description"]
+        description.write(chosen_path_description)
+    else:
+        st.markdown(f"<div style='text-align:center; font-size:large;'> <i>✧ {page_text.get("story_ending")} ✧</i></div>", unsafe_allow_html=True)
+        st.space("xsmall")
+        description.write(get_choices_or_ending(story, "ending"))
+
+    # displaying story choices or ending
     if st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) < st.session_state["story_depth"]:
         display_choices(get_choices_or_ending(story, "current"), page_text.get("choice_button"))
-    else:
-        with st.container(border=True):
-            st.subheader(page_text.get("story_ending"), text_alignment="center")
-            st.write(get_choices_or_ending(story, "ending"))
 
+    # rewind and reset buttons
     with st.container(horizontal=True, horizontal_alignment="center"):
         if st.button(page_text.get("rewind_button")):
             if len(st.session_state["choices_path"]) > 0:
@@ -111,13 +123,14 @@ def display_choices(choices: List[dict], choice_text: str):
     :param choice_text: Tekst do wyświetlenia na przycisku wyboru
     :type choice_text: str
     """
-    for i, choice in enumerate(choices):
-        with st.container(border=True):
-            st.subheader(choice.get("option_title"))
-            st.write(choice.get("option_description"))
-            if st.button(choice_text, key=f"choice_{len(st.session_state['choices_path'])}_{i}"):
-                st.session_state["choices_path"].append(i)
-                st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
+    with st.container(horizontal=True):
+        for i, choice in enumerate(choices):
+            with st.container(border=True, height="stretch", vertical_alignment="center"):
+                st.subheader(choice.get("option_title"))
+                # st.write(choice.get("option_description"))
+                if st.button(choice_text, key=f"choice_{len(st.session_state['choices_path'])}_{i}"):
+                    st.session_state["choices_path"].append(i)
+                    st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
 
 def reset_interactive_story_completely():
     """
