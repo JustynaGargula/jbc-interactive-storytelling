@@ -72,7 +72,8 @@ def display_interactive_story(story: str):
         chosen_path_description = get_choices_or_ending(story, "previous")[prev_choice_id]["option_description"]
         description.write(chosen_path_description)
     else:
-        st.markdown(f"<div style='text-align:center; font-size:large;'> <i>✧ {page_text.get("story_ending")} ✧</i></div>", unsafe_allow_html=True)
+        story_end_text = page_text.get("story_ending")
+        st.markdown(f"<div style='text-align:center; font-size:large;'> <i>✧ {story_end_text} ✧</i></div>", unsafe_allow_html=True)
         st.space("xsmall")
         description.write(get_choices_or_ending(story, "ending"))
 
