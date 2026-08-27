@@ -1,11 +1,9 @@
 import json
-from pathlib import Path
-import re
 from typing import List, Optional
 import streamlit as st
 from models import Document
-from .llm import handle_llm
-
+from .llm import get_llm_config, handle_llm
+from google.genai import types
 
 def generate_interactive_story_from_data(data: List[Document], user_prompt: Optional[str] = None) -> Optional[str]:
     """
@@ -22,21 +20,20 @@ def generate_interactive_story_from_data(data: List[Document], user_prompt: Opti
         return None
     page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
 
-    story_template_path = Path("data/stories/story_template.json")
-    with open(story_template_path, "r", encoding="utf-8") as f:
-        story_template = json.load(f)
-    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')} {str(story_template)}"
+    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
     if user_prompt:
         prompt += f" {page_text_part.get('prompt_pt3')} {user_prompt}"
-    response_text = handle_llm(prompt)
-    try:
-        if response_text is not None:
-            response_text = re.sub(r"^```(?:json)?\s*|\s*```$", "", response_text.strip())
-            return json.loads(response_text)
-        else:
-            return None
-    except Exception as e:
-        print(f"Błąd podczas analizy odpowiedzi JSON: {e}")
+
+    story_depth = 3  # Głębokość opowieści (liczba rozdziałów)
+    choices_per_chapter = 2  # Liczba wyborów w każdym rozdziale
+
+    story_schema = get_story_schema(story_depth, choices_per_chapter)
+    response_text = handle_llm(prompt, interactive_story=True, story_schema=story_schema)
+
+    if response_text is not None:
+        return json.loads(response_text)
+    else:
+        print("Brak odpowiedzi od LLM lub błąd podczas generowania opowieści.")
         return None
 
 def display_interactive_story(story: str):
@@ -69,7 +66,7 @@ def display_interactive_story(story: str):
         description.write(story.get("description"))
     elif st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) < st.session_state["story_depth"]:
         prev_choice_id = st.session_state["choices_path"][-1]
-        chosen_path_description = get_choices_or_ending(story, "previous")[prev_choice_id]["option_description"]
+        chosen_path_description = get_choices_or_ending(story, "previous")[prev_choice_id].get("option_description")
         description.write(chosen_path_description)
     else:
         story_end_text = page_text.get("story_ending")
@@ -128,7 +125,6 @@ def display_choices(choices: List[dict], choice_text: str):
         for i, choice in enumerate(choices):
             with st.container(border=True, height="stretch", vertical_alignment="center"):
                 st.subheader(choice.get("option_title"))
-                # st.write(choice.get("option_description"))
                 if st.button(choice_text, key=f"choice_{len(st.session_state['choices_path'])}_{i}"):
                     st.session_state["choices_path"].append(i)
                     st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
@@ -146,3 +142,135 @@ def reset_interactive_story_to_first_choice():
     Resetuje stan interaktywnej opowieści do pierwszego wyboru.
     """
     st.session_state["choices_path"] = []
+
+def get_story_schema(story_depth: int, choices_per_chapter: int) -> dict:
+    """
+    Tworzy schemat JSON dla interaktywnej opowieści na podstawie głębokości i liczby wyborów w każdym rozdziale.
+
+    :param depth: Głębokość opowieści (liczba rozdziałów)
+    :type depth: int
+    :param choices_per_chapter: Liczba wyborów w każdym rozdziale
+    :type choices_per_chapter: int
+    :return: Schemat JSON dla interaktywnej opowieści
+    :rtype: dict
+    """
+    llm_provider = get_llm_config()["provider"]
+    if llm_provider == "openrouter":
+        story_schema = {
+            "type": "object",
+            "properties": {
+                "title": {"type": "string"},
+                "description": {"type": "string"},
+                "choices": {
+                    "type": "array",
+                    "minItems": choices_per_chapter,
+                    "maxItems": choices_per_chapter,
+                    "items": create_choice_schema_for_openrouter(story_depth - 1, choices_per_chapter),
+                },
+            },
+            "required": [
+                "title",
+                "description",
+                "choices",
+            ],
+            "additionalProperties": False,
+        }
+    elif llm_provider == "gemini":
+        story_schema = types.Schema(
+            type=types.Type.OBJECT,
+            properties={
+                "title": types.Schema(
+                    type=types.Type.STRING,
+                ),
+                "description": types.Schema(
+                    type=types.Type.STRING,
+                ),
+                "choices": types.Schema(
+                    type=types.Type.ARRAY,
+                    min_items=choices_per_chapter,
+                    max_items=choices_per_chapter,
+                    items=create_choice_schema_for_gemini(
+                        story_depth - 1,
+                        choices_per_chapter,
+                    ),
+                ),
+            },
+            required=[
+                "title",
+                "description",
+                "choices",
+            ],
+        )
+    return story_schema
+
+def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) -> dict:
+    if depth <= 0:
+        return {
+            "type": "object",
+            "properties": {
+                "option_title": {"type": "string"},
+                "ending": {"type": "string"},
+            },
+            "required": [
+                "option_title",
+                "ending",
+            ],
+            "additionalProperties": False,
+        }
+
+    return {
+        "type": "object",
+        "properties": {
+            "option_title": {"type": "string"},
+            "option_description": {"type": ["string", "null"]},
+            "ending": {"type": ["string", "null"]},
+            "choices": {
+                "type": "array",
+                "minItems": choices_per_chapter,
+                "maxItems": choices_per_chapter,
+                "items": create_choice_schema_for_openrouter(depth - 1, choices_per_chapter),
+            },
+        },
+        "required": [
+            "option_title",
+            "option_description",
+            "ending",
+            "choices",
+        ],
+        "additionalProperties": False,
+    }
+
+def create_choice_schema_for_gemini(depth: int, choices_per_chapter: int) -> dict:
+    properties = {
+        "option_title": types.Schema(
+            type=types.Type.STRING,
+        ),
+        "option_description": types.Schema(
+            type=types.Type.STRING,
+        ),
+    }
+
+    if depth > 0:
+        properties["ending"] = types.Schema(
+            type=types.Type.STRING,
+        )
+
+        properties["choices"] = types.Schema(
+            type=types.Type.ARRAY,
+            min_items=choices_per_chapter,
+            max_items=choices_per_chapter,
+            items=create_choice_schema_for_gemini(
+                depth - 1,
+                choices_per_chapter,
+            ),
+        )
+    else:
+        properties["ending"] = types.Schema(
+            type=types.Type.STRING,
+        )
+
+    return types.Schema(
+        type=types.Type.OBJECT,
+        properties=properties,
+        required=list(properties.keys()),
+    )

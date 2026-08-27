@@ -2,6 +2,7 @@ from typing import Optional
 from google import genai
 import requests
 import streamlit as st
+from google.genai import types
 from .general import display_error, print_llm_usage
 
 DEFAULT_LLM_PROVIDER = "gemini"
@@ -25,7 +26,7 @@ def get_llm_config() -> dict:
         "openrouter_api_key": llm_config.get("openrouter_api_key"),
     }
 
-def call_gemini(prompt: str, model: str, api_key: Optional[str] = None) -> Optional[str]:
+def call_gemini(prompt: str, model: str, api_key: Optional[str] = None, interactive_story: Optional[bool]=None, story_schema: Optional[dict] = None) -> Optional[str]:
     """
     Obsługuje komunikację z Gemini.
     """
@@ -37,10 +38,20 @@ def call_gemini(prompt: str, model: str, api_key: Optional[str] = None) -> Optio
             # The client gets the API key from the environment variable `GEMINI_API_KEY`.
             client = genai.Client()
 
-        response = client.models.generate_content(
-            model=model,
-            contents=prompt,
-        )
+        if interactive_story:
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    response_schema=story_schema,
+                ),
+            )
+        else:
+            response = client.models.generate_content(
+                model=model,
+                contents=prompt,
+            )
 
         usage_metadata = getattr(response, "usage_metadata", None)
 
@@ -88,7 +99,7 @@ def call_gemini(prompt: str, model: str, api_key: Optional[str] = None) -> Optio
         return None
 
 
-def call_openrouter(prompt: str, model: str, api_key: Optional[str]) -> Optional[str]:
+def call_openrouter(prompt: str, model: str, api_key: Optional[str], interactive_story: Optional[bool], story_schema: Optional[dict] = None) -> Optional[str]:
     """
     Obsługuje komunikację z OpenRouter.
     """
@@ -100,6 +111,34 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str]) -> Optional
         return None
 
     try:
+        if interactive_story:
+            response_json = {
+                "model": model,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    }
+                ],
+                "response_format": {
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "story",
+                        "strict": True,
+                        "schema": story_schema,
+                    },
+                },
+            }
+        else:
+            response_json = {
+                "model": model,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    }
+                ],
+            }
         response = requests.post(
             OPENROUTER_API_URL,
             headers={
@@ -108,15 +147,7 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str]) -> Optional
                 "HTTP-Referer": "http://localhost:8501",
                 "X-OpenRouter-Title": "JBC Interactive Storytelling",
             },
-            json={
-                "model": model,
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": prompt,
-                    }
-                ],
-            },
+            json=response_json,
             timeout=60,
         )
 
@@ -181,7 +212,7 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str]) -> Optional
         return None
 
 
-def handle_llm(prompt: str) -> Optional[str]:
+def handle_llm(prompt: str, interactive_story: Optional[bool] = None, story_schema: Optional[dict] = None) -> Optional[str]:
     """
     Obsługuje komunikację z wybranym backendem LLM.
 
@@ -196,6 +227,8 @@ def handle_llm(prompt: str) -> Optional[str]:
             prompt=prompt,
             model=config["gemini_model"],
             api_key=config["gemini_api_key"],
+            interactive_story=interactive_story,
+            story_schema=story_schema
         )
 
     if provider == "openrouter":
@@ -203,6 +236,8 @@ def handle_llm(prompt: str) -> Optional[str]:
             prompt=prompt,
             model=config["openrouter_model"],
             api_key=config["openrouter_api_key"],
+            interactive_story=interactive_story,
+            story_schema=story_schema
         )
 
     st.error(

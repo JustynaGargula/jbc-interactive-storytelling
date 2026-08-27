@@ -3,6 +3,7 @@ from typing import Tuple
 from dataclasses import dataclass, field
 from typing import List, Optional, Dict
 import re
+from pydantic import BaseModel, ConfigDict
 
 @dataclass
 class Document:
