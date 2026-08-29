@@ -5,12 +5,16 @@ from models import Document
 from .llm import get_llm_config, handle_llm
 from google.genai import types
 
-def generate_interactive_story_from_data(data: List[Document], user_prompt: Optional[str] = None) -> Optional[str]:
+def generate_interactive_story_from_data(data: List[Document], story_depth: int, choices_per_chapter: int, user_prompt: Optional[str] = None) -> Optional[str]:
     """
     Generuje interaktywną opowieść na podstawie podanych dokumentów.
 
     :param data: Lista dokumentów do wygenerowania interaktywnej opowieści
     :type data: List[Document]
+    :param story_depth: Głębokość opowieści (liczba etapów)
+    :type story_depth: int
+    :param choices_per_chapter: Liczba wyborów w każdym etapie opowieści
+    :type choices_per_chapter: int
     :param user_prompt: Dodatkowy opis od użytkownika o tym, co chce przeczytać
     :type user_prompt: Optional[str]
     :return: Wygenerowana interaktywna opowieść lub None, jeśli dane są puste
@@ -23,9 +27,6 @@ def generate_interactive_story_from_data(data: List[Document], user_prompt: Opti
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
     if user_prompt:
         prompt += f" {page_text_part.get('prompt_pt3')} {user_prompt}"
-
-    story_depth = 3  # Głębokość opowieści (liczba rozdziałów)
-    choices_per_chapter = 2  # Liczba wyborów w każdym rozdziale
 
     story_schema = get_story_schema(story_depth, choices_per_chapter)
     response_text = handle_llm(prompt, interactive_story=True, story_schema=story_schema)
@@ -165,7 +166,7 @@ def get_story_schema(story_depth: int, choices_per_chapter: int) -> dict:
                     "type": "array",
                     "minItems": choices_per_chapter,
                     "maxItems": choices_per_chapter,
-                    "items": create_choice_schema_for_openrouter(story_depth - 1, choices_per_chapter),
+                    "items": create_choice_schema_for_openrouter(story_depth-1, choices_per_chapter),
                 },
             },
             "required": [

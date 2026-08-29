@@ -129,6 +129,10 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
 
     st.header(page_text_part.get("filters_header"))
     st.space("xsmall")
+
+    # Elementy do wyboru, które potrzebują się odświeżać zanim formularz zostanie wysłany
+    output_type, story_depth, choices_per_chapter = display_result_type_options(page_text_part)
+
     filters_choice = st.segmented_control(
         page_text_part.get("filters_choice_label"),
         options=page_text_part.get("filters_choice_options"),
@@ -136,6 +140,7 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
         width="stretch")
     st.space("xsmall")
 
+    # Formularz z filtrami
     with st.form("filter_form", border=False):
         with st.container(border=True):
             # podstawowe filtry
@@ -176,12 +181,6 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                 st.space("xxsmall")
 
         # wspólne opcje
-        output_type = st.segmented_control(
-            page_text_part.get("output_type_label"),
-            page_text_part.get("output_type_options"),
-            selection_mode="single", default=page_text_part.get("timeline"))
-        st.space("xxsmall")
-
         selected_related = st.checkbox(page_text_part.get("related_documents_label"),
             help=page_text_part.get("related_documents_help_text"))
         st.space("xxsmall")
@@ -220,7 +219,7 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
 
         elif output_type == page_text_part.get("interactive_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_interactive_story_from_data(data, user_query)
+                story = generate_interactive_story_from_data(data, story_depth, choices_per_chapter, user_query)
 
             if story:
                 st.session_state["interactive_story"] = story
@@ -281,3 +280,25 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                     st.progress(progress_value, text=progress_text)
 
             display_interactive_story(st.session_state.get("interactive_story"))
+
+@st.fragment
+def display_result_type_options(page_text_part):
+    output_type = st.segmented_control(
+        page_text_part.get("output_type_label"),
+        page_text_part.get("output_type_options"),
+        selection_mode="single", default=page_text_part.get("timeline"), width="stretch")
+
+    if output_type == page_text_part.get("interactive_story"):
+        col1, col2 = st.columns(2, vertical_alignment="center")
+        with col1:
+            story_depth = st.number_input(page_text_part.get("story_depth_label"), min_value=1, max_value=5, value=3, step=1, help=page_text_part.get("story_depth_help_text"))
+        with col2:
+            choices_per_chapter = st.number_input(page_text_part.get("choices_per_chapter_label"), min_value=2, max_value=4, value=2, step=1, help=page_text_part.get("choices_per_chapter_help_text"))
+    else:
+        story_depth = None
+        choices_per_chapter = None
+
+    st.space("xxsmall")
+
+    return output_type, story_depth, choices_per_chapter
+    
