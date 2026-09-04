@@ -75,18 +75,23 @@
         "generating_story_spinner_text": "Generuję opowieść... ⏳",
         "generated_story_header": "📖 Wygenerowana opowieść",
         "no_documents_warning": "Nie znaleziono dokumentów pasujących do wybranych filtrów.",
+        "no_documents_warning2": "Nie znaleziono dokumentów pasujących do wszystkich wybranych filtrów. Spróbuj zmienić typ dopasowania tematów na 'lub', aby znaleźć dokumenty pasujące do przynajmniej jednego z wybranych tematów albo zmień wybrane tematy.",
         "generating_timeline_spinner_text": "Generuję oś czasu... ⏳",
         "timeline_header": "🕰️ Wygenerowana oś czasu",
         "documents_number": "Liczba dokumentów",
         "date_range_label": "Zakres lat pasujących dokumentów",
         "documents_types_label": "Typy dokumentów",
+        "no_timeline_warning": "Nie udało się wygenerować osi czasu.",
         "no_story_type_warning": "Nie wybrano typu opowieści.",
         "expander_text": "📋 Zobacz dokumenty źródłowe w tabeli",
         "open_document_button": "Otwórz",
         "progress_label": "Jesteś na etapie",
         "query_filter_label": "Wpisz zapytanie tekstowe, które opisuje temat opowieści lub osi czasu, którą chcesz wygenerować. Możesz uwzględnić w nim konkretne tematy, daty, wydarzenia, osoby itp.",
         "query_filter_placeholder": "Przykładowo możesz wpisać:\n\"Chcę opowieść o teatrze polskim w XIX wieku, uwzględniając różnice na scenach teatrów poszczególnych miast polskich.\"\nlub\n\"Opisz mi polski teatr w XIX wieku, uwzględniając ważne postacie, wydarzenia i miejsca związane z tym tematem\"\n lub\n\"Teatr polski w XIX wieku\"",
-        "button_clicked_info": "Kliknięto przycisk. Generowanie wyniku..."
+        "button_clicked_info": "Kliknięto przycisk. Generowanie wyniku...",
+        "fit_type_label": "Wybierz typ dopasowania tematów:",
+        "fit_type_options": ["lub", "oraz"],
+        "fit_type_help_text": "Wybierz, czy dokumenty mają pasować do co najmniej jednego z wybranych tematów - dopasowanie \"lub\", czy do wszystkich wybranych tematów - dopasowanie \"oraz\" (wynik będzie na podstawie tylko tych dokumentów, które pasują do każdego z wybranych tematów)."
     },
     "utils_display_interactive_story": {
         "story_ending": "Koniec opowieści",
@@ -175,5 +180,4 @@
         },
         "questions_answered": "pytań ocenionych" 
     }
-
 }

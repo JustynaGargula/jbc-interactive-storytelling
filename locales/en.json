@@ -75,18 +75,23 @@
         "generating_story_spinner_text": "Generating story... ⏳",
         "generated_story_header": "📖 Generated Story",
         "no_documents_warning": "No documents found matching the selected filters.",
+        "no_documents_warning2": "No documents found matching all selected filters. Try changing the topic matching type to 'or' to find documents that match at least one of the selected topics, or change the selected topics.",
         "generating_timeline_spinner_text": "Generating timeline... ⏳",
         "timeline_header": "🕰️ Generated Timeline",
         "documents_number": "Documents number",
         "date_range_label": "Date range of matching documents",
         "documents_types_label": "Documents types",
+        "no_timeline_warning": "Failed to generate timeline.",
         "no_story_type_warning": "No story type selected.",
         "expander_text": "📋 View source documents in the table",
         "open_document_button": "Open",
         "progress_label": "You are at stage",
         "query_filter_label": "Enter a text query that describes the topic of the story or timeline you want to generate. You can include specific topics, dates, events, people, etc.",
         "query_filter_placeholder": "For example, you could type:\n\"I want a story about Polish theater in the 19th century, including differences on the stages of individual Polish cities.\"\nor\n\"Describe Polish theater in the 19th century, including important figures, events, and places related to this topic\"\n or\n\"Polish theater in the 19th century\"",
-        "button_clicked_info": "Button clicked. Generating result..."
+        "button_clicked_info": "Button clicked. Generating result...",
+        "fit_type_label": "Choose topic matching type:",
+        "fit_type_options": ["or", "and"],
+        "fit_type_help_text": "Choose whether documents should match at least one of the selected topics - \"or\" matching or all selected topics - \"and\" matching (result will be based only on documents that match every selected topic)."
     },
     "utils_display_interactive_story": {
         "story_ending": "The end of the story",
@@ -141,7 +146,6 @@
         "subheader": "Overall impressions of the application",
         "overall_app_rating_label": "How would you rate the application overall?",
         "tooltip_label": "How useful are the tooltips (shown when hovering over the question mark icon)"
-        
         },
         "optional_feedback": {
         "label": "Would you like to share any additional comments or suggestions about the application? If so, enter them below:",
@@ -176,5 +180,4 @@
         },
         "questions_answered": "questions answered"
     }
-
 }

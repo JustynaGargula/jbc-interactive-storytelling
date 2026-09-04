@@ -164,6 +164,11 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                     for subj in english_selected_subject_names:
                         index = all_english_subject_names.index(subj)
                         selected_subject_names.append(all_subject_names[index])
+                        
+                fit_type = st.radio(page_text_part.get("fit_type_label"), page_text_part.get("fit_type_options"), horizontal=True, help=page_text_part.get("fit_type_help_text"))
+                general_fit_type_names = ["or", "and"]
+                fit_type = general_fit_type_names[page_text_part.get("fit_type_options").index(fit_type)]
+
                 st.space("xxsmall")
 
                 selected_date_range = st.slider(
@@ -198,12 +203,16 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                     selected_subject_names,
                     selected_date_range,
                     selected_related,
-                    kg
+                    kg,
+                    fit_type=fit_type
                 )
             elif filters_choice == page_text_part.get("filters_choice_options")[1]:
                 data = get_data_based_on_text_query(user_query, kg, selected_related)
             if not data:
-                st.warning(page_text_part.get("no_documents_warning"))
+                if fit_type == "or":
+                    st.warning(page_text_part.get("no_documents_warning"))
+                else:
+                    st.warning(page_text_part.get("no_documents_warning2"))
                 return
             df = convert_data_to_dataframe(data)
         reset_interactive_story_completely()
@@ -242,7 +251,7 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                     st.metric(page_text_part.get("documents_types_label"), len(df['type'].unique()))
 
             else:
-                st.warning(page_text_part.get("no_documents_warning"))
+                st.warning(page_text_part.get("no_timeline_warning"))
 
         else:
             st.error(page_text_part.get("no_story_type_warning"))

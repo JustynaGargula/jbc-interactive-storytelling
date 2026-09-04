@@ -1,13 +1,13 @@
 
 import json
 import re
-from typing import List
+from typing import List, Optional
 from models import Document, KnowledgeGraph
 import streamlit as st
 from .llm import handle_llm
 
 
-def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, subjects: list) -> List[Document]:
+def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, subjects: list, fit_type: Optional[str] = "or") -> List[Document]:
     """
     Zwraca dokumenty pasujące do podanych filtrów.
 
@@ -17,6 +17,8 @@ def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, sub
     :type years: List[int]
     :param subjects: Lista tematów do filtrowania
     :type subjects: List[str]
+    :param fit_type: Typ dopasowania ("or" lub "and")
+    :type fit_type: Optional[str]
     :return: Lista dokumentów pasujących do filtrów
     :rtype: List[Document]
     """
@@ -25,17 +27,11 @@ def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, sub
     for year in years or []:
         docs_years += knowledge_graph.get_documents_by_year(year) or []
 
-    docs_subjects = []
-    for subject in subjects or []:
-        docs_subjects += knowledge_graph.get_documents_by_subject(subject) or []
+    docs_subjects = create_document_subjects_list_by_fit_type(knowledge_graph, subjects, fit_type)
 
     documents_ids = []
-    if not docs_years and not docs_subjects:
+    if not docs_subjects:
         documents_ids = []
-    elif docs_years and not docs_subjects:
-        documents_ids = docs_years
-    elif not docs_years and docs_subjects:
-        documents_ids = docs_subjects
     else:
         documents_ids = list(set(docs_years) & set(docs_subjects))
 
@@ -46,8 +42,21 @@ def get_documents_from_filters(knowledge_graph: KnowledgeGraph, years: list, sub
 
     return documents
 
+def create_document_subjects_list_by_fit_type(knowledge_graph: KnowledgeGraph, subjects: list, fit_type: Optional[str] = "or") -> List[str]:
+    docs_subjects = []
+    for index, subject in enumerate(subjects or []):
+        doc_part = knowledge_graph.get_documents_by_subject(subject) or []
+        if fit_type == "or":
+            docs_subjects += doc_part
+        elif fit_type == "and":
+            if index == 0:
+                docs_subjects = doc_part
+            docs_subjects = list(set(docs_subjects) & set(doc_part))
 
-def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, years: list, subjects: list, max_related: int=10) -> List[Document]:
+    return docs_subjects
+
+
+def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, years: list, subjects: list, max_related: int=10, fit_type: Optional[str]="or") -> List[Document]:
     """
     Zwraca dokumenty pasujące do podanych filtrów oraz powiązane z nimi dokumenty.
     :param knowledge_graph: Graf wiedzy
@@ -61,7 +70,7 @@ def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, year
     :return: Lista dokumentów pasujących do filtrów oraz powiązanych z nimi
     :rtype: List[Document]
     """
-    selected_docs = get_documents_from_filters(knowledge_graph, years, subjects)
+    selected_docs = get_documents_from_filters(knowledge_graph, years, subjects, fit_type=fit_type)
 
     def check_doc_in_list(doc, doc_list):
         for d, _ in doc_list:
@@ -86,7 +95,7 @@ def get_documents_from_filters_and_related(knowledge_graph: KnowledgeGraph, year
     return selected_docs + related_docs
 
 
-def get_data_based_on_selected_filters(selected_subject_names: list, selected_date_range: tuple, selected_related: bool, kg: KnowledgeGraph) -> List[Document]:
+def get_data_based_on_selected_filters(selected_subject_names: list, selected_date_range: tuple, selected_related: bool, kg: KnowledgeGraph, fit_type: Optional[str] = "or") -> List[Document]:
     """
     Zwraca dokumenty pasujące do wybranych filtrów.
 
@@ -115,12 +124,14 @@ def get_data_based_on_selected_filters(selected_subject_names: list, selected_da
             kg,
             years,
             selected_subject_names,
+            fit_type=fit_type
         )
     else:
         data = get_documents_from_filters(
             kg,
             years,
             selected_subject_names,
+            fit_type=fit_type
         )
     return data
 
