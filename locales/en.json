@@ -76,6 +76,7 @@
         "generated_story_header": "📖 Generated Story",
         "no_documents_warning": "No documents found matching the selected filters.",
         "no_documents_warning2": "No documents found matching all selected filters. Try changing the topic matching type to 'or' to find documents that match at least one of the selected topics, or change the selected topics.",
+        "no_story_warning": "Failed to generate story. Click the 'Generate' button again or change the selected filters and try again.",
         "generating_timeline_spinner_text": "Generating timeline... ⏳",
         "timeline_header": "🕰️ Generated Timeline",
         "documents_number": "Documents number",

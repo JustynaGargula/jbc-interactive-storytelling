@@ -32,9 +32,19 @@ def generate_interactive_story_from_data(data: List[Document], story_depth: int,
     response_text = handle_llm(prompt, interactive_story=True, story_schema=story_schema)
 
     if response_text is not None:
-        return json.loads(response_text)
+        try:
+            return json.loads(response_text)
+        except json.JSONDecodeError as e:
+            print("Błąd podczas przetwarzania odpowiedzi od LLM.")
+            print(f"Więcej o błędzie: {e}")
+            stars = "*" * 20
+            print(f"{stars}\n Wygenerowana opowieść: {response_text} \n{stars}")
+            return None
+        except Exception as e:
+            print(f"Wystąpił nieoczekiwany błąd: {e}")
+            return None
     else:
-        print("Brak odpowiedzi od LLM lub błąd podczas generowania opowieści.")
+        print("Brak odpowiedzi od LLM")
         return None
 
 def display_interactive_story(story: str):

@@ -76,6 +76,7 @@
         "generated_story_header": "📖 Wygenerowana opowieść",
         "no_documents_warning": "Nie znaleziono dokumentów pasujących do wybranych filtrów.",
         "no_documents_warning2": "Nie znaleziono dokumentów pasujących do wszystkich wybranych filtrów. Spróbuj zmienić typ dopasowania tematów na 'lub', aby znaleźć dokumenty pasujące do przynajmniej jednego z wybranych tematów albo zmień wybrane tematy.",
+        "no_story_warning": "Nie udało się wygenerować opowieści. Kliknij przycisk 'Generuj' ponownie lub zmień wybrane filtry i spróbuj ponownie.",
         "generating_timeline_spinner_text": "Generuję oś czasu... ⏳",
         "timeline_header": "🕰️ Wygenerowana oś czasu",
         "documents_number": "Liczba dokumentów",

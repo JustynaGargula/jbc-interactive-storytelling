@@ -164,7 +164,7 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                     for subj in english_selected_subject_names:
                         index = all_english_subject_names.index(subj)
                         selected_subject_names.append(all_subject_names[index])
-                        
+
                 fit_type = st.radio(page_text_part.get("fit_type_label"), page_text_part.get("fit_type_options"), horizontal=True, help=page_text_part.get("fit_type_help_text"))
                 general_fit_type_names = ["or", "and"]
                 fit_type = general_fit_type_names[page_text_part.get("fit_type_options").index(fit_type)]
@@ -225,6 +225,8 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                 st.divider()
                 st.subheader(page_text_part.get("generated_story_header"))
                 st.markdown(story)
+            else:
+                st.warning(page_text_part.get("no_story_warning"))
 
         elif output_type == page_text_part.get("interactive_story"):
             with st.spinner(page_text_part.get("generating_story_spinner_text")):
@@ -232,6 +234,8 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
 
             if story:
                 st.session_state["interactive_story"] = story
+            else:
+                st.warning(page_text_part.get("no_story_warning"))
 
         elif output_type == page_text_part.get("timeline"):
             with st.spinner(page_text_part.get("generating_timeline_spinner_text")):
