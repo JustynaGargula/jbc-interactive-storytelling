@@ -5,11 +5,12 @@ from typing import List
 import streamlit as st
 from models import Document, KnowledgeGraph, Relation, Subject
 from .downloading_data_and_creating_graph import build_kg_from_rdf, create_graph, export_kg_to_jsonld, get_ids, get_rdfs, save_jsonld_to_file, save_rdfs_to_file
-from .filtering_data import display_and_collect_subject_filters, get_data_based_on_selected_filters, get_data_based_on_text_query
+from .filtering_data import get_data_based_on_selected_filters, get_data_based_on_text_query
 from .general import convert_data_to_dataframe, show_button_status
 from .interactive_story import display_interactive_story, generate_interactive_story_from_data, reset_interactive_story_completely
 from .historical_story import generate_historical_story_from_data
 from .timeline import generate_timeline
+from .interface_parts import display_additional_documents_checkbox, display_date_range_choice, display_filters_choice, display_result_type_options, display_text_query, display_topics_choice
 
 @st.cache_data(show_spinner=False)
 def import_knowledge_graph_from_jsonld_file(jsonld_file: str) -> KnowledgeGraph:
@@ -110,7 +111,7 @@ def display_interface_top_part():
     st.space("small")
 
 
-def display_interface_main_part(all_subject_names: List[str], dates__range: tuple, kg: KnowledgeGraph):
+def display_interface_main_part(all_subject_names: List[str], dates_range: tuple, kg: KnowledgeGraph):
     """
     Wyświetla główną część interfejsu użytkownika w aplikacji Streamlit, umożliwiając wybór filtrów i generowanie opowieści lub osi czasu.
 
@@ -122,76 +123,8 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
     :type kg: KnowledgeGraph
     """
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
-    global interactive_story
-    global user_query
-    user_query = None
-    interactive_story = None
 
-    st.header(page_text_part.get("filters_header"))
-    st.space("xsmall")
-
-    # Elementy do wyboru, które potrzebują się odświeżać zanim formularz zostanie wysłany
-    output_type, story_depth, choices_per_chapter = display_result_type_options(page_text_part)
-
-    filters_choice = st.segmented_control(
-        page_text_part.get("filters_choice_label"),
-        options=page_text_part.get("filters_choice_options"),
-        selection_mode="single", default=page_text_part.get("default_filters_choice"),
-        width="stretch")
-    st.space("xsmall")
-
-    # Formularz z filtrami
-    with st.form("filter_form", border=False):
-        with st.container(border=True):
-            # podstawowe filtry
-            if filters_choice == page_text_part.get("filters_choice_options")[0]:
-                if st.session_state.get("language") == "pl":
-                    with open("locales/grouped_topics_pl.json", "r", encoding="utf-8") as f:
-                        categorized_subject_names = json.load(f)
-                    selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
-                elif st.session_state.get("language") == "en":
-                    all_english_subject_names = []
-                    with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
-                        for line in f:
-                            all_english_subject_names.append(line.strip())
-                    with open("locales/grouped_topics_en.json", "r", encoding="utf-8") as f:
-                        categorized_subject_names = json.load(f)
-
-                    english_selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
-                    st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
-
-                    selected_subject_names = []
-                    for subj in english_selected_subject_names:
-                        index = all_english_subject_names.index(subj)
-                        selected_subject_names.append(all_subject_names[index])
-
-                fit_type = st.radio(page_text_part.get("fit_type_label"), page_text_part.get("fit_type_options"), horizontal=True, help=page_text_part.get("fit_type_help_text"))
-                general_fit_type_names = ["or", "and"]
-                fit_type = general_fit_type_names[page_text_part.get("fit_type_options").index(fit_type)]
-
-                st.space("xxsmall")
-
-                selected_date_range = st.slider(
-                    page_text_part.get("date_range_label"),
-                    min_value=dates__range[0],
-                    max_value=dates__range[1],
-                    value=dates__range,
-                    help=page_text_part.get("date_range_help_text")
-                )
-                st.space("xxsmall")
-
-            # zapytanie tekstowe
-            elif filters_choice == page_text_part.get("filters_choice_options")[1]:
-                user_query = st.text_area(page_text_part.get("query_filter_label"), height=200, placeholder=page_text_part.get("query_filter_placeholder"))
-                st.space("xxsmall")
-
-        # wspólne opcje
-        selected_related = st.checkbox(page_text_part.get("related_documents_label"),
-            help=page_text_part.get("related_documents_help_text"))
-        st.space("xxsmall")
-
-        button_status_placeholder = st.empty()
-        generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),), type="primary", width="stretch")
+    output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button = display_whole_filters_sections(page_text_part, all_subject_names, dates_range)
 
     story_placeholder = st.empty()
 
@@ -274,7 +207,6 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
                         if row['url']:
                             st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
                     st.divider()
-        button_status_placeholder = st.empty()
 
     if st.session_state.get("interactive_story"):
         with story_placeholder.container():
@@ -294,24 +226,37 @@ def display_interface_main_part(all_subject_names: List[str], dates__range: tupl
 
             display_interactive_story(st.session_state.get("interactive_story"))
 
-@st.fragment
-def display_result_type_options(page_text_part):
-    output_type = st.segmented_control(
-        page_text_part.get("output_type_label"),
-        page_text_part.get("output_type_options"),
-        selection_mode="single", default=page_text_part.get("timeline"), width="stretch")
+def display_whole_filters_sections(page_text_part, all_subject_names, dates_range):
+    global user_query
+    user_query = None
 
-    if output_type == page_text_part.get("interactive_story"):
-        col1, col2 = st.columns(2, vertical_alignment="center")
-        with col1:
-            story_depth = st.number_input(page_text_part.get("story_depth_label"), min_value=1, max_value=5, value=3, step=1, help=page_text_part.get("story_depth_help_text"))
-        with col2:
-            choices_per_chapter = st.number_input(page_text_part.get("choices_per_chapter_label"), min_value=2, max_value=4, value=2, step=1, help=page_text_part.get("choices_per_chapter_help_text"))
-    else:
-        story_depth = None
-        choices_per_chapter = None
+    col1, col2 = st.columns([0.8, 0.2])
+    col1.header(page_text_part.get("filters_header"))
+    is_advanced_mode_on = col2.container(horizontal_alignment="right", height="stretch", vertical_alignment="bottom").toggle(page_text_part["advanced_mode_label"])
+    st.space("xsmall")
 
-    st.space("xxsmall")
+    # Elementy do wyboru, które potrzebują się odświeżać zanim formularz zostanie wysłany
+    output_type, story_depth, choices_per_chapter = display_result_type_options(page_text_part, is_advanced_mode_on)
 
-    return output_type, story_depth, choices_per_chapter
-    
+    filters_choice = display_filters_choice(page_text_part)
+
+    # Formularz z filtrami
+    with st.form("filter_form", border=False):
+        with st.container(border=True):
+            # podstawowe filtry
+            if filters_choice == page_text_part.get("filters_choice_options")[0]:
+                selected_subject_names, fit_type = display_topics_choice(page_text_part, all_subject_names, is_advanced_mode_on)
+
+                selected_date_range = display_date_range_choice(page_text_part, dates_range)
+
+            # zapytanie tekstowe
+            elif filters_choice == page_text_part.get("filters_choice_options")[1]:
+                user_query = display_text_query(page_text_part)
+
+        # wspólne opcje
+        selected_related = display_additional_documents_checkbox(page_text_part, is_advanced_mode_on)
+
+        button_status_placeholder = st.empty()
+        generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),), type="primary", width="stretch")
+
+    return output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button

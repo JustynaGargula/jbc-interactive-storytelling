@@ -41,6 +41,7 @@
         "subjects": "Tematy"
     },
     "utils_display_interface_main_part": {
+        "advanced_mode_label": "Tryb zaawansowany",
         "filters_choice_label": "Wybierz, czy chcesz użyć zwykłych filtrów czy zapytania tekstowego:",
         "filters_choice_options": ["Zwykłe filtry", "Zapytanie tekstowe"],
         "default_filters_choice": "Zwykłe filtry",

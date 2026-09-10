@@ -41,6 +41,7 @@
         "subjects": "Subjects"
     },
     "utils_display_interface_main_part": {
+        "advanced_mode_label": "Advanced mode",
         "filters_choice_label": "Choose whether you want to use regular filters or a text query:",
         "filters_choice_options": ["Regular filters", "Text query"],
         "default_filters_choice": "Regular filters",

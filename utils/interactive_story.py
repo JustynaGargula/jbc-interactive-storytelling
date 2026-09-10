@@ -22,6 +22,10 @@ def generate_interactive_story_from_data(data: List[Document], story_depth: int,
     """
     if not data:
         return None
+    if not story_depth or not choices_per_chapter:
+        story_depth = 3
+        choices_per_chapter = 2
+    
     page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
 
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
