@@ -25,7 +25,7 @@ def generate_interactive_story_from_data(data: List[Document], story_depth: int,
     if not story_depth or not choices_per_chapter:
         story_depth = 3
         choices_per_chapter = 2
-    
+
     page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
 
     prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
@@ -75,8 +75,16 @@ def display_interactive_story(story: str):
         st.rerun() # odświeża strone, żeby załadować dane do paska wyboru
 
     # displaying story description or ending
-    with st.container(border=True):
+    st.markdown("""
+        <style>
+        .st-key-description {
+            border: 1px solid;
+        }
+        </style>
+        """, unsafe_allow_html=True)
+    with st.container(border=True, key="description"):
         description = st.empty()
+
     if len(st.session_state["choices_path"]) == 0:
         description.write(story.get("description"))
     elif st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) < st.session_state["story_depth"]:

@@ -7,7 +7,7 @@ def display_result_type_options(page_text_part: str, is_advanced_mode_on: bool):
     output_type = st.segmented_control(
         page_text_part.get("output_type_label"),
         page_text_part.get("output_type_options"),
-        selection_mode="single", default=page_text_part.get("timeline"), width="stretch")
+        selection_mode="single", default=page_text_part.get("timeline"), width=1200)
 
     if output_type == page_text_part.get("interactive_story") and is_advanced_mode_on:
         col1, col2 = st.columns(2, vertical_alignment="center")
@@ -19,7 +19,7 @@ def display_result_type_options(page_text_part: str, is_advanced_mode_on: bool):
         story_depth = None
         choices_per_chapter = None
 
-    st.space("xxsmall")
+    st.space("small")
 
     return output_type, story_depth, choices_per_chapter
 

@@ -34,7 +34,7 @@ color_mode_caption_placeholder.caption(page_text.get("main_file").get("bottom_co
 with col1:
     display_interface_top_part()
 
-evaluation_module.display_all_questions()
+# evaluation_module.display_all_questions()
 
 with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
     jsonld_output_file_pl = "data/jbc_knowledge_graph_pl.jsonld"

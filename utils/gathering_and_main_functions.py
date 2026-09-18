@@ -124,7 +124,7 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
     """
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
 
-    output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button = display_whole_filters_sections(page_text_part, all_subject_names, dates_range)
+    output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button, user_query = display_whole_filters_sections(page_text_part, all_subject_names, dates_range)
 
     story_placeholder = st.empty()
 
@@ -236,9 +236,9 @@ def display_whole_filters_sections(page_text_part, all_subject_names, dates_rang
     st.space("xsmall")
 
     # Elementy do wyboru, które potrzebują się odświeżać zanim formularz zostanie wysłany
-    output_type, story_depth, choices_per_chapter = display_result_type_options(page_text_part, is_advanced_mode_on)
-
-    filters_choice = display_filters_choice(page_text_part)
+    with st.container(horizontal_alignment="center"):
+        output_type, story_depth, choices_per_chapter = display_result_type_options(page_text_part, is_advanced_mode_on)
+        filters_choice = display_filters_choice(page_text_part)
 
     # Formularz z filtrami
     with st.form("filter_form", border=False):
@@ -246,17 +246,21 @@ def display_whole_filters_sections(page_text_part, all_subject_names, dates_rang
             # podstawowe filtry
             if filters_choice == page_text_part.get("filters_choice_options")[0]:
                 selected_subject_names, fit_type = display_topics_choice(page_text_part, all_subject_names, is_advanced_mode_on)
-
                 selected_date_range = display_date_range_choice(page_text_part, dates_range)
+                user_query = None
 
             # zapytanie tekstowe
             elif filters_choice == page_text_part.get("filters_choice_options")[1]:
                 user_query = display_text_query(page_text_part)
+                selected_subject_names = []
+                fit_type = None
+                selected_date_range = []
 
         # wspólne opcje
         selected_related = display_additional_documents_checkbox(page_text_part, is_advanced_mode_on)
 
-        button_status_placeholder = st.empty()
-        generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),), type="primary", width="stretch")
+        with st.container(horizontal_alignment="center"):
+            button_status_placeholder = st.empty()
+            generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),), type="primary", width=350)
 
-    return output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button
+    return output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button, user_query

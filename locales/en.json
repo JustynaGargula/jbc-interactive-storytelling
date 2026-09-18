@@ -43,8 +43,8 @@
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Advanced mode",
         "filters_choice_label": "Choose whether you want to use regular filters or a text query:",
-        "filters_choice_options": ["Regular filters", "Text query"],
-        "default_filters_choice": "Regular filters",
+        "filters_choice_options": ["Filters", "Text query"],
+        "default_filters_choice": "Filters",
         "filters_header": "Choice of filters for the story topic or timeline",
         "subjects_filter_subheader": "Choose one or more subjects",
         "subjects_filter_description": "Choose any number of subjects you are interested in. Matching documents will be found. Unfortunately, some subjects have only a few associated documents. Some documents are linked to only one of similar subjects, e.g., \"Polish theater 19th century\", but not \"theater 19th century\" (unfortunately, such described data is available). If you want to narrow down the search to specific subjects, use the text query instead.",
@@ -111,7 +111,7 @@
         "topics_list_readability_label": "Readability of the topic list",
         "multi_topic_addition_label": "Ease of adding multiple topics at once",
         "search_intuitiveness_label": "Intuitiveness of the current search system",
-        "usefullness_label": "Usefulness of manual filter selection" 
+        "usefullness_label": "Usefulness of manual filter selection"
         },
         "textual_search": {
         "subheader": "Searching content [text query]",

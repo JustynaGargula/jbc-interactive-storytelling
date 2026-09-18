@@ -43,8 +43,8 @@
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Tryb zaawansowany",
         "filters_choice_label": "Wybierz, czy chcesz użyć zwykłych filtrów czy zapytania tekstowego:",
-        "filters_choice_options": ["Zwykłe filtry", "Zapytanie tekstowe"],
-        "default_filters_choice": "Zwykłe filtry",
+        "filters_choice_options": ["Filtry", "Zapytanie tekstowe"],
+        "default_filters_choice": "Filtry",
         "filters_header": "Wybór filtrów do tematu opowieści lub osi czasu",
         "subjects_filter_subheader": "Wybierz jeden lub więcej tematów",
         "subjects_filter_description": "Wybierz dowolną liczbę tematów, które Cię interesują. Wyszukane zostaną dokumenty, które pasują do co najmniej jednego z wybranych tematów (wybranie większej liczby tematów nie zawęża wyszukiwania, a znajduje możliwie najwięcej pasujących dokumentów). Niestety niektóre tematy mają przypisane niewiele dokumentów. Niektóre dokumenty mają przypisane tylko jeden z podobnych tematów np, \"teatr polski 19 wiek\", ale już nie \"teatr 19 wiek\" (niestety tak opisane dane są dostępne). Jeśli chcesz zawęzić wyszukiwanie do konkretnych tematów, użyj zamiast tego zapytania tekstowego.",
@@ -111,7 +111,7 @@
         "topics_list_readability_label": "Czytelność listy tematów",
         "multi_topic_addition_label": "Łatwość dodawania wielu tematów jednocześnie",
         "search_intuitiveness_label": "Intuicyjność obecnego systemu wyszukiwania",
-        "usefullness_label": "Użyteczność ręcznego wyboru filtrów" 
+        "usefullness_label": "Użyteczność ręcznego wyboru filtrów"
         },
         "textual_search": {
         "subheader": "Wyszukiwanie treści [zapytanie tekstowe]",
@@ -180,6 +180,6 @@
         "success_thank_you": "Dziękujemy za wyrażenie swoich opinii!",
         "optional_answer_default": "Brak dodatkowych uwag"
         },
-        "questions_answered": "pytań ocenionych" 
+        "questions_answered": "pytań ocenionych"
     }
 }
