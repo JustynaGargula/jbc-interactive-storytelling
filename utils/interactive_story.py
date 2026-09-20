@@ -84,20 +84,21 @@ def display_interactive_story(story: str):
         """, unsafe_allow_html=True)
     with st.container(border=True, key="description"):
         description = st.empty()
-
     if len(st.session_state["choices_path"]) == 0:
         description.write(story.get("description"))
-    elif st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) < st.session_state["story_depth"]:
-        prev_choice_id = st.session_state["choices_path"][-1]
-        chosen_path_description = get_choices_or_ending(story, "previous")[prev_choice_id].get("option_description")
-        description.write(chosen_path_description)
-    else:
-        story_end_text = page_text.get("story_ending")
-        st.markdown(f"<div style='text-align:center; font-size:large;'> <i>✧ {story_end_text} ✧</i></div>", unsafe_allow_html=True)
-        st.space("xsmall")
-        description.write(get_choices_or_ending(story, "ending"))
+    elif st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) <= st.session_state["story_depth"]:
+        full_story_description = story.get("description")
+        for phase_index, choice_index in enumerate(st.session_state["choices_path"]):
+            full_story_description += "\n\n" + get_choices_or_ending(story, "specific", phase_index)[choice_index].get("option_description")
+        # adding ending text if the story is finished
+        if len(st.session_state["choices_path"]) == st.session_state["story_depth"]:
+            full_story_description += "\n\n" + get_choices_or_ending(story, "ending")
+            story_end_text = page_text.get("story_ending")
+            st.markdown(f"<div style='text-align:center; font-size:large;'> <i>✧ {story_end_text} ✧</i></div>", unsafe_allow_html=True)
+            st.space("xsmall")
+        description.markdown(full_story_description)
 
-    # displaying story choices or ending
+    # displaying story choices
     if st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) < st.session_state["story_depth"]:
         display_choices(get_choices_or_ending(story, "current"), page_text.get("choice_button"))
 
@@ -111,12 +112,12 @@ def display_interactive_story(story: str):
             reset_interactive_story_to_first_choice()
             st.rerun()
 
-def get_choices_or_ending(story: str, type: str) -> Optional[List[dict]]:
+def get_choices_or_ending(story: str, type: str, specific_index: int = None) -> Optional[List[dict]]:
     """
     Zwraca aktualne opcje wyboru na podstawie głębokości opowieści i zapisanej ścieżki wyborów.
     :param story: Tekst interaktywnej opowieści
     :type story: str
-    :param type: Typ wyborów do zwrócenia ("current" lub "previous" lub "ending")
+    :param type: Typ wyborów do zwrócenia ("current" lub "previous" lub "ending" lub "specific")
     :type type: str
     :return: Lista aktualnych opcji wyboru
     :rtype: List[dict]
@@ -133,6 +134,14 @@ def get_choices_or_ending(story: str, type: str) -> Optional[List[dict]]:
             choices = choices[choice_index].get("choices")
         ending = choices[st.session_state["choices_path"][-1]].get("ending")
         return ending
+    elif type == "specific":
+        if specific_index is None:
+            return None
+        elif specific_index == 0:
+            return choices
+        else:
+            for i in range(specific_index):
+                choices = choices[st.session_state["choices_path"][i]].get("choices")
     return choices
 
 def display_choices(choices: List[dict], choice_text: str):
@@ -148,6 +157,7 @@ def display_choices(choices: List[dict], choice_text: str):
         for i, choice in enumerate(choices):
             with st.container(border=True, height="stretch", vertical_alignment="center"):
                 st.subheader(choice.get("option_title"))
+                st.write(choice.get("option_description"))
                 if st.button(choice_text, key=f"choice_{len(st.session_state['choices_path'])}_{i}"):
                     st.session_state["choices_path"].append(i)
                     st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
