@@ -234,6 +234,8 @@ def get_story_schema(story_depth: int, choices_per_chapter: int) -> dict:
                 "choices",
             ],
         )
+    else:
+        return None
     return story_schema
 
 def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) -> dict:
@@ -242,10 +244,12 @@ def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) ->
             "type": "object",
             "properties": {
                 "option_title": {"type": "string"},
+                "option_description": {"type": ["string", "null"]},
                 "ending": {"type": "string"},
             },
             "required": [
                 "option_title",
+                "option_description",
                 "ending",
             ],
             "additionalProperties": False,
@@ -256,7 +260,6 @@ def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) ->
         "properties": {
             "option_title": {"type": "string"},
             "option_description": {"type": ["string", "null"]},
-            "ending": {"type": ["string", "null"]},
             "choices": {
                 "type": "array",
                 "minItems": choices_per_chapter,
@@ -267,7 +270,6 @@ def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) ->
         "required": [
             "option_title",
             "option_description",
-            "ending",
             "choices",
         ],
         "additionalProperties": False,
@@ -284,10 +286,6 @@ def create_choice_schema_for_gemini(depth: int, choices_per_chapter: int) -> dic
     }
 
     if depth > 0:
-        properties["ending"] = types.Schema(
-            type=types.Type.STRING,
-        )
-
         properties["choices"] = types.Schema(
             type=types.Type.ARRAY,
             min_items=choices_per_chapter,
