@@ -95,7 +95,9 @@ def get_markdown_link_list(source_ids: List[str]) -> str:
 
     link_list = []
     for i, source_id in enumerate(source_ids):
-        url = f"https://jbc.bj.uj.edu.pl/dlibra/publication/{source_id}"
-        link_list.append(f"[link{i+1}]({url})")
+        if source_id[0:5] == "https":
+            urls = source_id.split("https")
+            url  = "https" + urls[-1]
+            link_list.append(f"[link{i+1}]({url})")
 
     return ", ".join(link_list)
