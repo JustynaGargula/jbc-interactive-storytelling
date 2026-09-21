@@ -24,12 +24,12 @@
     },
     "utils_generate_interactive_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka etapów, a każdy z nich ma minimum dwie ścieżki wyboru. Każdy wybór ma zawierać klikuzdaniowy (rozbudowany i długi, bo to opowieść jest) opis tego, czym skutuje dany wybór. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki.",
+        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka etapów, a każdy z nich ma minimum dwie ścieżki wyboru. Każdy wybór ma zawierać klikuzdaniowy (rozbudowany i długi, bo to opowieść jest) opis tego, czym skutuje dany wybór. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki. W polu 'source_ids' umieść identyfikatory dokumentów, z których korzystałeś przy tworzeniu danego fragmentu opowieści.",
         "prompt_pt3": "Dodatkowy opis od użytkownika o tym, co chce przeczytać:"
     },
     "utils_generate_historical_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie. Możesz dodać w nawiasach linki do dokumentów w Jagiellońskiej Bibliotece Cyfrowej, z których korzystałeś w poprawnym formacie markdownowym '([link]({url}))'.",
+        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie. Dodaj w nawiasach linki do dokumentów w Jagiellońskiej Bibliotece Cyfrowej, z których korzystałeś przy tworzeniu danego fragmentu opowieści, w poprawnym formacie markdownowym '([link]({url}))'.",
         "prompt_pt3": "Dodatkowy opis od użytkownika o tym, co chce przeczytać:"
     },
     "utils_generate_timeline": {

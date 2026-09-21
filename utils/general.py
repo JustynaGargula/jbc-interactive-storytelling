@@ -81,3 +81,21 @@ def load_page_text_in_chosen_language(language: str) -> dict:
         json_text = json.load(f)
         st.session_state["page_text"] = json_text
 
+def get_markdown_link_list(source_ids: List[str]) -> str:
+    """
+    Generates a markdown-formatted list of links based on the provided source IDs.
+
+    :param source_ids: List of source identifiers (e.g., document IDs)
+    :type source_ids: List[str]
+    :return: A string containing markdown-formatted links
+    :rtype: str
+    """
+    if not source_ids:
+        return ""
+
+    link_list = []
+    for i, source_id in enumerate(source_ids):
+        url = f"https://jbc.bj.uj.edu.pl/dlibra/publication/{source_id}"
+        link_list.append(f"[link{i+1}]({url})")
+
+    return ", ".join(link_list)

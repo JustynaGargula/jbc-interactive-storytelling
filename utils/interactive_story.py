@@ -2,6 +2,7 @@ import json
 from typing import List, Optional
 import streamlit as st
 from models import Document
+from utils.general import get_markdown_link_list
 from .llm import get_llm_config, handle_llm
 from google.genai import types
 
@@ -89,7 +90,9 @@ def display_interactive_story(story: str):
     elif st.session_state["story_depth"] > 0 and len(st.session_state["choices_path"]) <= st.session_state["story_depth"]:
         full_story_description = story.get("description")
         for phase_index, choice_index in enumerate(st.session_state["choices_path"]):
-            full_story_description += "\n\n" + get_choices_or_ending(story, "specific", phase_index)[choice_index].get("option_description")
+            choice = get_choices_or_ending(story, "specific", phase_index)[choice_index]
+            full_story_description += "\n\n" + choice.get("option_description")
+            full_story_description += " " + f"(Źródła: {get_markdown_link_list(choice.get('source_ids'))})"
         # adding ending text if the story is finished
         if len(st.session_state["choices_path"]) == st.session_state["story_depth"]:
             full_story_description += "\n\n" + get_choices_or_ending(story, "ending")
@@ -158,6 +161,7 @@ def display_choices(choices: List[dict], choice_text: str):
             with st.container(border=True, height="stretch", vertical_alignment="center"):
                 st.subheader(choice.get("option_title"))
                 st.write(choice.get("option_description"))
+                st.markdown(f"Źródła: {get_markdown_link_list(choice.get('source_ids'))}")
                 if st.button(choice_text, key=f"choice_{len(st.session_state['choices_path'])}_{i}"):
                     st.session_state["choices_path"].append(i)
                     st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
@@ -245,11 +249,13 @@ def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) ->
             "properties": {
                 "option_title": {"type": "string"},
                 "option_description": {"type": ["string", "null"]},
+                "source_ids": {"type": "array", "items": {"type": "string"}},
                 "ending": {"type": "string"},
             },
             "required": [
                 "option_title",
                 "option_description",
+                "source_ids",
                 "ending",
             ],
             "additionalProperties": False,
@@ -260,6 +266,7 @@ def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) ->
         "properties": {
             "option_title": {"type": "string"},
             "option_description": {"type": ["string", "null"]},
+            "source_ids": {"type": "array", "items": {"type": "string"}},
             "choices": {
                 "type": "array",
                 "minItems": choices_per_chapter,
@@ -270,6 +277,7 @@ def create_choice_schema_for_openrouter(depth: int, choices_per_chapter: int) ->
         "required": [
             "option_title",
             "option_description",
+            "source_ids",
             "choices",
         ],
         "additionalProperties": False,
@@ -282,6 +290,12 @@ def create_choice_schema_for_gemini(depth: int, choices_per_chapter: int) -> dic
         ),
         "option_description": types.Schema(
             type=types.Type.STRING,
+        ),
+        "source_ids": types.Schema(
+            type=types.Type.ARRAY,
+            items=types.Schema(
+                type=types.Type.STRING,
+            ),
         ),
     }
 
