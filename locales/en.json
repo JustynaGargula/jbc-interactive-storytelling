@@ -93,7 +93,8 @@
         "button_clicked_info": "Button clicked. Generating result...",
         "fit_type_label": "Choose topic matching type:",
         "fit_type_options": ["or", "and"],
-        "fit_type_help_text": "Choose whether documents should match at least one of the selected topics - \"or\" matching or all selected topics - \"and\" matching (result will be based only on documents that match every selected topic)."
+        "fit_type_help_text": "Choose whether documents should match at least one of the selected topics - \"or\" matching or all selected topics - \"and\" matching (result will be based only on documents that match every selected topic).",
+        "other_output_types_info": " Generate a different result for the same filters:"
     },
     "utils_display_interactive_story": {
         "story_ending": "The end of the story",

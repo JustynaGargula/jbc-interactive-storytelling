@@ -127,86 +127,13 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
     output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button, user_query = display_whole_filters_sections(page_text_part, all_subject_names, dates_range)
 
     story_placeholder = st.empty()
+    is_output = False
+    df = None
 
     # generowanie
     if generate_button:
-        with st.spinner(page_text_part.get("getting_data_spinner_text")):
-            if filters_choice == page_text_part.get("filters_choice_options")[0]:
-                data = get_data_based_on_selected_filters(
-                    selected_subject_names,
-                    selected_date_range,
-                    selected_related,
-                    kg,
-                    fit_type=fit_type
-                )
-            elif filters_choice == page_text_part.get("filters_choice_options")[1]:
-                data = get_data_based_on_text_query(user_query, kg, selected_related)
-            if not data:
-                if fit_type == "or":
-                    st.warning(page_text_part.get("no_documents_warning"))
-                else:
-                    st.warning(page_text_part.get("no_documents_warning2"))
-                return
-            df = convert_data_to_dataframe(data)
-        reset_interactive_story_completely()
-
-        if output_type == page_text_part.get("historical_story"):
-            with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_historical_story_from_data(data, user_query)
-
-            if story:
-                st.divider()
-                st.subheader(page_text_part.get("generated_story_header"))
-                st.markdown(story)
-            else:
-                st.warning(page_text_part.get("no_story_warning"))
-
-        elif output_type == page_text_part.get("interactive_story"):
-            with st.spinner(page_text_part.get("generating_story_spinner_text")):
-                story = generate_interactive_story_from_data(data, story_depth, choices_per_chapter, user_query)
-
-            if story:
-                st.session_state["interactive_story"] = story
-            else:
-                st.warning(page_text_part.get("no_story_warning"))
-
-        elif output_type == page_text_part.get("timeline"):
-            with st.spinner(page_text_part.get("generating_timeline_spinner_text")):
-                timeline = generate_timeline(data)
-
-            if timeline:
-                st.divider()
-                st.subheader(page_text_part.get("timeline_header"))
-                st.plotly_chart(timeline, width="stretch")
-
-                col1, col2, col3 = st.columns(3)
-                with col1:
-                    st.metric(page_text_part.get("documents_number"), len(df))
-                with col2:
-                    st.metric(page_text_part.get("date_range_label"), f"{int(df['year'].min())} - {int(df['year'].max())}")
-                with col3:
-                    st.metric(page_text_part.get("documents_types_label"), len(df['type'].unique()))
-
-            else:
-                st.warning(page_text_part.get("no_timeline_warning"))
-
-        else:
-            st.error(page_text_part.get("no_story_type_warning"))
-
-        if data:
-            st.space("small")
-            with st.expander(page_text_part.get("expander_text")):
-                for idx, row in df.iterrows():
-                    col1, col2, col3 = st.columns([3, 1, 1])
-                    with col1:
-                        st.markdown(f"**{row['title']}**")
-                        st.caption(f"{row['subjects']}")
-                    with col2:
-                        st.text(row['date_display'])
-                    with col3:
-                        if row['url']:
-                            st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
-                    st.divider()
+        is_output, df = handle_generating_output(page_text_part, output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder)
+        st.session_state["other_output_type"] = None
 
     if st.session_state.get("interactive_story"):
         with story_placeholder.container():
@@ -225,6 +152,42 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
                     st.progress(progress_value, text=progress_text)
 
             display_interactive_story(st.session_state.get("interactive_story"))
+            is_output = True
+
+    if not st.session_state.get("second_generate"):
+        st.session_state["second_generate"] = False
+    if not st.session_state.get("other_output_type"):
+        st.session_state["other_output_type"] = None
+
+    if st.session_state.get("second_generate"):
+        is_output, df = handle_generating_output(page_text_part, st.session_state["other_output_type"], story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder)
+
+    if output_type and is_output:
+        current_output_type =  st.session_state["other_output_type"] or output_type
+        other_output_types = page_text_part.get("output_type_options").copy()
+        other_output_types.remove(current_output_type)
+        st.space("small")
+        st.subheader(page_text_part.get("other_output_types_info"), text_alignment="left")
+        status_placeholder = st.empty()
+        with st.container(horizontal=True, horizontal_alignment="left"):
+            for other_output_type in other_output_types:
+                st.button(other_output_type, width=350, key=other_output_type, type="primary", on_click=second_button_callback, args=(status_placeholder, page_text_part.get("button_clicked_info"), other_output_type, ))
+        st.space("small")
+
+    if is_output and df is not None:
+        st.space("small")
+        with st.expander(page_text_part.get("expander_text")):
+            for idx, row in df.iterrows():
+                col1, col2, col3 = st.columns([3, 1, 1])
+                with col1:
+                    st.markdown(f"**{row['title']}**")
+                    st.caption(f"{row['subjects']}")
+                with col2:
+                    st.text(row['date_display'])
+                with col3:
+                    if row['url']:
+                        st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
+                st.divider()
 
 def display_whole_filters_sections(page_text_part, all_subject_names, dates_range):
     global user_query
@@ -264,3 +227,81 @@ def display_whole_filters_sections(page_text_part, all_subject_names, dates_rang
             generate_button = st.form_submit_button(page_text_part.get("generate_button_label"), on_click=show_button_status, args=(button_status_placeholder, page_text_part.get("button_clicked_info"),), type="primary", width=350)
 
     return output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button, user_query
+
+def handle_generating_output(page_text_part, output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder):
+    is_output = False
+    with st.spinner(page_text_part.get("getting_data_spinner_text")):
+        if filters_choice == page_text_part.get("filters_choice_options")[0]:
+            data = get_data_based_on_selected_filters(
+                selected_subject_names,
+                selected_date_range,
+                selected_related,
+                kg,
+                fit_type=fit_type
+            )
+        elif filters_choice == page_text_part.get("filters_choice_options")[1]:
+            data = get_data_based_on_text_query(user_query, kg, selected_related)
+        if not data:
+            if fit_type == "or":
+                st.warning(page_text_part.get("no_documents_warning"))
+            else:
+                st.warning(page_text_part.get("no_documents_warning2"))
+            return is_output, None
+        df = convert_data_to_dataframe(data)
+    reset_interactive_story_completely()
+
+    if output_type == page_text_part.get("historical_story"):
+        with story_placeholder.container():
+            with st.spinner(page_text_part.get("generating_story_spinner_text")):
+                story = generate_historical_story_from_data(data, user_query)
+
+            if story:
+                st.divider()
+                st.subheader(page_text_part.get("generated_story_header"))
+                st.markdown(story)
+                is_output = True
+            else:
+                st.warning(page_text_part.get("no_story_warning"))
+
+    elif output_type == page_text_part.get("interactive_story"):
+        with story_placeholder.container():
+            with st.spinner(page_text_part.get("generating_story_spinner_text")):
+                story = generate_interactive_story_from_data(data, story_depth, choices_per_chapter, user_query)
+            if story:
+                st.session_state["interactive_story"] = story
+                is_output = True
+            else:
+                st.warning(page_text_part.get("no_story_warning"))
+
+    elif output_type == page_text_part.get("timeline"):
+        with story_placeholder.container():
+            with st.spinner(page_text_part.get("generating_timeline_spinner_text")):
+                timeline = generate_timeline(data)
+
+            if timeline:
+                st.divider()
+                st.subheader(page_text_part.get("timeline_header"))
+                st.plotly_chart(timeline, width="stretch")
+
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric(page_text_part.get("documents_number"), len(df))
+                with col2:
+                    st.metric(page_text_part.get("date_range_label"), f"{int(df['year'].min())} - {int(df['year'].max())}")
+                with col3:
+                    st.metric(page_text_part.get("documents_types_label"), len(df['type'].unique()))
+                is_output = True
+
+            else:
+                st.warning(page_text_part.get("no_timeline_warning"))
+
+    else:
+        st.error(page_text_part.get("no_story_type_warning"))
+    st.session_state["second_generate"] = False
+
+    return is_output, df
+
+def second_button_callback(placeholder, text, other_output_type):
+    show_button_status(placeholder, text)
+    st.session_state["second_generate"] = True
+    st.session_state["other_output_type"] = other_output_type
