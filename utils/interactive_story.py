@@ -173,6 +173,7 @@ def reset_interactive_story_completely():
     st.session_state["story_depth"] = None
     st.session_state["choices_path"] = None
     st.session_state["interactive_story"] = None
+    st.session_state["df"] = None
 
 def reset_interactive_story_to_first_choice():
     """

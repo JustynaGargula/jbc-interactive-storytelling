@@ -94,7 +94,8 @@
         "fit_type_label": "Wybierz typ dopasowania tematów:",
         "fit_type_options": ["lub", "oraz"],
         "fit_type_help_text": "Wybierz, czy dokumenty mają pasować do co najmniej jednego z wybranych tematów - dopasowanie \"lub\", czy do wszystkich wybranych tematów - dopasowanie \"oraz\" (wynik będzie na podstawie tylko tych dokumentów, które pasują do każdego z wybranych tematów).",
-        "other_output_types_info": " Wygeneruj inny wynik do tych samych filtrów:"
+        "other_output_types_info": " Wygeneruj inny wynik do tych samych filtrów:",
+        "ai_generated_content_warning": "*⚠️ **Uwaga:** Wygenerowana opowieść jest tworzona przez sztuczną inteligencję i może zawierać nieścisłości historyczne. Zawsze sprawdzaj informacje w źródłach historycznych.*"
     },
     "utils_display_interactive_story": {
         "story_ending": "Koniec opowieści",

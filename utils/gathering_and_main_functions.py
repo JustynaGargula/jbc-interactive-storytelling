@@ -129,12 +129,23 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
     story_placeholder = st.empty()
     is_output = False
     df = None
+    if "second_generate" not in st.session_state:
+        st.session_state["second_generate"] = False
+    if "other_output_type" not in st.session_state:
+        st.session_state["other_output_type"] = None
+    if "df" not in st.session_state:
+        st.session_state["df"] = None
 
     # generowanie
     if generate_button:
         is_output, df = handle_generating_output(page_text_part, output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder)
         st.session_state["other_output_type"] = None
 
+    # gnerowanie z przycisku pod wynikiem
+    if st.session_state.get("second_generate"):
+        is_output, df = handle_generating_output(page_text_part, st.session_state["other_output_type"], story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder)
+
+    # wyświetlanie interaktywnej opowieści
     if st.session_state.get("interactive_story"):
         with story_placeholder.container():
             st.divider()
@@ -152,17 +163,14 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
                     st.progress(progress_value, text=progress_text)
 
             display_interactive_story(st.session_state.get("interactive_story"))
-            is_output = True
+        is_output = True
+        df = st.session_state.get("df")
 
-    if not st.session_state.get("second_generate"):
-        st.session_state["second_generate"] = False
-    if not st.session_state.get("other_output_type"):
-        st.session_state["other_output_type"] = None
-
-    if st.session_state.get("second_generate"):
-        is_output, df = handle_generating_output(page_text_part, st.session_state["other_output_type"], story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder)
-
+    # przycisk do zmiany typu wyniku i tabela z dokumentami źródłowymi
     if output_type and is_output:
+        st.divider()
+        st.markdown(page_text_part.get("ai_generated_content_warning"))
+
         current_output_type =  st.session_state["other_output_type"] or output_type
         other_output_types = page_text_part.get("output_type_options").copy()
         other_output_types.remove(current_output_type)
@@ -174,20 +182,20 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
                 st.button(other_output_type, width=350, key=other_output_type, type="primary", on_click=second_button_callback, args=(status_placeholder, page_text_part.get("button_clicked_info"), other_output_type, ))
         st.space("small")
 
-    if is_output and df is not None:
-        st.space("small")
-        with st.expander(page_text_part.get("expander_text")):
-            for idx, row in df.iterrows():
-                col1, col2, col3 = st.columns([3, 1, 1])
-                with col1:
-                    st.markdown(f"**{row['title']}**")
-                    st.caption(f"{row['subjects']}")
-                with col2:
-                    st.text(row['date_display'])
-                with col3:
-                    if row['url']:
-                        st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
-                st.divider()
+        if df is not None or not df.empty:
+            st.space("small")
+            with st.expander(page_text_part.get("expander_text")):
+                for idx, row in df.iterrows():
+                    col1, col2, col3 = st.columns([3, 1, 1])
+                    with col1:
+                        st.markdown(f"**{row['title']}**")
+                        st.caption(f"{row['subjects']}")
+                    with col2:
+                        st.text(row['date_display'])
+                    with col3:
+                        if row['url']:
+                            st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
+                    st.divider()
 
 def display_whole_filters_sections(page_text_part, all_subject_names, dates_range):
     global user_query
@@ -272,6 +280,7 @@ def handle_generating_output(page_text_part, output_type, story_depth, choices_p
                 is_output = True
             else:
                 st.warning(page_text_part.get("no_story_warning"))
+        st.session_state["df"] = df
 
     elif output_type == page_text_part.get("timeline"):
         with story_placeholder.container():
