@@ -20,8 +20,22 @@ def generate_timeline(data: List[Document]) -> Optional[px.scatter]:
 
     page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
     df = convert_data_to_dataframe(data)
-    type_heights = {doc_type: i for i, doc_type in enumerate(df['type'].unique())}
-    df['height'] = df['type'].map(type_heights)
+
+    # Grupowanie dokumentów według typu i roku, aby ustalić pozycję na osi Y, żeby uniknąć nakładania się punktów
+    STACK_STEP = 0.3    # odstęp Y między punktami w słupku (1.0 = pełny poziom)
+    TYPE_GAP = 0.8      # przerwa między pasmami typów
+    PX_PER_UNIT = 30    # ile pikseli odpowiada jednej jednostce osi Y
+
+    df['stack_pos'] = df.groupby(['type', 'year']).cumcount()
+    max_stack = df.groupby('type')['stack_pos'].max()
+    type_base = {}
+    current = 0.0
+    for doc_type in df['type'].unique():
+        type_base[doc_type] = current
+        current += int(max_stack[doc_type]) * STACK_STEP + TYPE_GAP
+
+    df['height'] = df['type'].map(type_base) + df['stack_pos'] * STACK_STEP
+    total_levels = current
 
     fig = px.scatter(
         df,
@@ -45,9 +59,9 @@ def generate_timeline(data: List[Document]) -> Optional[px.scatter]:
     fig.update_traces(marker=dict(size=12, line=dict(width=1, color='white')))
 
     fig.update_layout(
-        height=400,
+        height=min(700, max(300, 150 + int(total_levels * PX_PER_UNIT))),
         showlegend=True,
-        yaxis={'visible': False, 'showticklabels': False},  # ukryj oś Y
+        yaxis={'visible': False, 'showticklabels': False, 'range': [-0.5, total_levels]},
         xaxis={'title': page_text_part.get("year"), 'showgrid': True},
         hovermode='closest',
         clickmode='event+select',
