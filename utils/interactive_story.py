@@ -166,15 +166,6 @@ def display_choices(choices: List[dict], choice_text: str):
                     st.session_state["choices_path"].append(i)
                     st.rerun() # odświeża stronę, żeby pokazać kolejne opcje
 
-def reset_interactive_story_completely():
-    """
-    Resetuje stan interaktywnej opowieści, umożliwiając rozpoczęcie od nowa.
-    """
-    st.session_state["story_depth"] = None
-    st.session_state["choices_path"] = None
-    st.session_state["interactive_story"] = None
-    st.session_state["df"] = None
-
 def reset_interactive_story_to_first_choice():
     """
     Resetuje stan interaktywnej opowieści do pierwszego wyboru.

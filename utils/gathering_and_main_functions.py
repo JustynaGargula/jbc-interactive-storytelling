@@ -7,9 +7,9 @@ from models import Document, KnowledgeGraph, Relation, Subject
 from .downloading_data_and_creating_graph import build_kg_from_rdf, create_graph, export_kg_to_jsonld, get_ids, get_rdfs, save_jsonld_to_file, save_rdfs_to_file
 from .filtering_data import get_data_based_on_selected_filters, get_data_based_on_text_query
 from .general import convert_data_to_dataframe, show_button_status
-from .interactive_story import display_interactive_story, generate_interactive_story_from_data, reset_interactive_story_completely
+from .interactive_story import display_interactive_story, generate_interactive_story_from_data
 from .historical_story import generate_historical_story_from_data
-from .timeline import generate_timeline
+from .timeline import display_timeline, generate_timeline
 from .interface_parts import display_additional_documents_checkbox, display_date_range_choice, display_filters_choice, display_result_type_options, display_text_query, display_topics_choice
 
 @st.cache_data(show_spinner=False)
@@ -135,6 +135,8 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
         st.session_state["other_output_type"] = None
     if "df" not in st.session_state:
         st.session_state["df"] = None
+    if "timeline_fig" not in st.session_state:
+        st.session_state["timeline_fig"] = None
 
     # generowanie
     if generate_button:
@@ -165,6 +167,12 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
             display_interactive_story(st.session_state.get("interactive_story"))
         is_output = True
         df = st.session_state.get("df")
+
+    # wyświetlanie osi czasu
+    if st.session_state.get("timeline_fig"):
+        df = st.session_state.get("df")
+        display_timeline(st.session_state.get("timeline_fig"), df, page_text_part)
+        is_output = True
 
     # przycisk do zmiany typu wyniku i tabela z dokumentami źródłowymi
     if output_type and is_output:
@@ -256,7 +264,7 @@ def handle_generating_output(page_text_part, output_type, story_depth, choices_p
                 st.warning(page_text_part.get("no_documents_warning2"))
             return is_output, None
         df = convert_data_to_dataframe(data)
-    reset_interactive_story_completely()
+    reset_interactive_story_and_timeline()
 
     if output_type == page_text_part.get("historical_story"):
         with story_placeholder.container():
@@ -286,23 +294,14 @@ def handle_generating_output(page_text_part, output_type, story_depth, choices_p
         with story_placeholder.container():
             with st.spinner(page_text_part.get("generating_timeline_spinner_text")):
                 timeline = generate_timeline(data)
-
             if timeline:
                 st.divider()
                 st.subheader(page_text_part.get("timeline_header"))
-                st.plotly_chart(timeline, width="stretch")
-
-                col1, col2, col3 = st.columns(3)
-                with col1:
-                    st.metric(page_text_part.get("documents_number"), len(df))
-                with col2:
-                    st.metric(page_text_part.get("date_range_label"), f"{int(df['year'].min())} - {int(df['year'].max())}")
-                with col3:
-                    st.metric(page_text_part.get("documents_types_label"), len(df['type'].unique()))
+                st.session_state["timeline_fig"] = timeline
                 is_output = True
-
             else:
                 st.warning(page_text_part.get("no_timeline_warning"))
+        st.session_state["df"] = df
 
     else:
         st.error(page_text_part.get("no_story_type_warning"))
@@ -314,3 +313,13 @@ def second_button_callback(placeholder, text, other_output_type):
     show_button_status(placeholder, text)
     st.session_state["second_generate"] = True
     st.session_state["other_output_type"] = other_output_type
+
+def reset_interactive_story_and_timeline():
+    """
+    Resetuje stan interaktywnej opowieści, umożliwiając rozpoczęcie od nowa.
+    """
+    st.session_state["story_depth"] = None
+    st.session_state["choices_path"] = None
+    st.session_state["interactive_story"] = None
+    st.session_state["df"] = None
+    st.session_state["timeline_fig"] = None
