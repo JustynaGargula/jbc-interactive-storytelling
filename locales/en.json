@@ -37,8 +37,11 @@
         "title_pt2": "documents",
         "type": "Type",
         "year": "Year",
-        "date_display": "Display Date",
-        "subjects": "Subjects"
+        "date_display": "Date",
+        "subjects": "Subjects",
+        "modal_header": "Document Information",
+        "title": "Title",
+        "open_document": "Open document"
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Advanced mode",

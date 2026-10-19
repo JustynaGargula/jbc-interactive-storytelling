@@ -6,6 +6,11 @@ from .general import convert_data_to_dataframe
 import streamlit as st
 import plotly.express as px
 
+# if st.session_state.get("page_text"):
+#     page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
+# else:
+#     page_text_part = {"modal_header": None}
+
 def generate_timeline(data: List[Document]) -> Optional[px.scatter]:
     """
     Generuje oś czasu na podstawie podanych dokumentów.
@@ -68,7 +73,6 @@ def generate_timeline(data: List[Document]) -> Optional[px.scatter]:
     )
     return fig
 
-@st.dialog("Informacje o dokumencie", width="large")
 def show_document_dialog(row: pd.Series) -> None:
     """
     Wyświetla okienko modalne z informacjami o dokumencie.
@@ -76,12 +80,13 @@ def show_document_dialog(row: pd.Series) -> None:
     :param doc: Dokument do wyświetlenia
     :type doc: Document
     """
-    st.write(f"**Tytuł:** {row['title']}")
-    st.write(f"**Typ:** {row['type']}")
-    st.write(f"**Data:** {row['date_display']}")
-    st.write(f"**Tematy:** {row['subjects']}")
+    page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
+    st.write(f"**{page_text_part.get('title')}:** {row['title']}")
+    st.write(f"**{page_text_part.get('type')}:** {row['type']}")
+    st.write(f"**{page_text_part.get('date_display')}:** {row['date_display']}")
+    st.write(f"**{page_text_part.get('subjects')}:** {row['subjects']}")
     if row['url']:
-        st.link_button("Otwórz dokument", row['url'])
+        st.link_button(page_text_part.get("open_document"), row['url'])
 
 def display_timeline(fig: px.scatter, df: pd.DataFrame, page_text_part: dict) -> None:
     """
@@ -121,5 +126,7 @@ def display_timeline(fig: px.scatter, df: pd.DataFrame, page_text_part: dict) ->
 
     if not matches.empty and st.session_state.get("last_opened_doc") != identifier:
         st.session_state["last_opened_doc"] = identifier
-        show_document_dialog(matches.iloc[0])
+        title = st.session_state.get("page_text").get("utils_generate_timeline").get("modal_header")
+        dialog = st.dialog(title, width="large")(show_document_dialog)
+        dialog(matches.iloc[0])
 

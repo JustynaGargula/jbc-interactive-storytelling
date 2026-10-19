@@ -37,8 +37,11 @@
         "title_pt2": "dokumentów",
         "type": "Typ",
         "year": "Rok",
-        "date_display": "Wyświetlana data",
-        "subjects": "Tematy"
+        "date_display": "Data",
+        "subjects": "Tematy",
+        "modal_header": "Informacje o dokumencie",
+        "title": "Tytuł",
+        "open_document": "Otwórz dokument"
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Tryb zaawansowany",
