@@ -87,11 +87,17 @@ def create_graph(directory_path_with_rdfs: str) -> Graph:
     :return graph: obiekt grafu RDFLib zawierający dane z podanych plików
     """
     graph = Graph()
+    rdf_search_path = Path(directory_path_with_rdfs+ "/*.rdf")
 
-    for rdf_file in glob.glob(f"{directory_path_with_rdfs}" + "/*.rdf"):
-        graph.parse(rdf_file)
+    for rdf_file in glob.glob(str(rdf_search_path)):
+        try:
+            graph.parse(rdf_file)
+        except Exception as e:
+            print(f"Błąd w pliku: {rdf_file}")
+            print(f"Typ błędu: {type(e).__name__}")
+            print(f"Treść błędu: {e}")
+
     print(f"Łącznie wczytano {len(graph)} trójek.")
-
     return graph
 
 def save_data_to_one_file(graph: Graph, format="turtle", file_extension=".ttl"):
