@@ -111,12 +111,10 @@ def display_interface_top_part():
     st.space("small")
 
 
-def display_interface_main_part(all_subject_names: List[str], dates_range: tuple, kg: KnowledgeGraph):
+def display_interface_main_part(dates_range: tuple, kg: KnowledgeGraph):
     """
     Wyświetla główną część interfejsu użytkownika w aplikacji Streamlit, umożliwiając wybór filtrów i generowanie opowieści lub osi czasu.
 
-    :param all_subject_names: Lista wszystkich nazw tematów
-    :type all_subject_names: List[str]
     :param dates__range: Zakres lat (np. (1800, 1900))
     :type dates__range: tuple
     :param kg: Graf wiedzy
@@ -124,7 +122,7 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
     """
     page_text_part = st.session_state["page_text"].get("utils_display_interface_main_part")
 
-    output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button, user_query = display_whole_filters_sections(page_text_part, all_subject_names, dates_range)
+    output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button, user_query = display_whole_filters_sections(page_text_part, dates_range)
 
     story_placeholder = st.empty()
     is_output = False
@@ -212,7 +210,7 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
                             st.link_button(page_text_part.get("open_document_button"), row['url'], width="stretch")
                     st.divider()
 
-def display_whole_filters_sections(page_text_part, all_subject_names, dates_range):
+def display_whole_filters_sections(page_text_part, dates_range):
     global user_query
     user_query = None
 
@@ -231,7 +229,7 @@ def display_whole_filters_sections(page_text_part, all_subject_names, dates_rang
         with st.container(border=True):
             # podstawowe filtry
             if filters_choice == page_text_part.get("filters_choice_options")[0]:
-                selected_subject_names, fit_type = display_topics_choice(page_text_part, all_subject_names, is_advanced_mode_on)
+                selected_subject_names, fit_type = display_topics_choice(page_text_part, is_advanced_mode_on)
                 selected_date_range = display_date_range_choice(page_text_part, dates_range)
                 user_query = None
 

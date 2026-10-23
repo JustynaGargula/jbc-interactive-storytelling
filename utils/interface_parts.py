@@ -1,6 +1,8 @@
 import json
 
 import streamlit as st
+
+from .general import read_names_from_file, translate_names_to_polish
 from .filtering_data import display_and_collect_subject_filters
 
 def display_result_type_options(page_text_part: str, is_advanced_mode_on: bool):
@@ -32,26 +34,19 @@ def display_filters_choice(page_text_part):
     st.space("xsmall")
     return filters_choice
 
-def display_topics_choice(page_text_part, all_subject_names, is_advanced_mode_on):
+def display_topics_choice(page_text_part, is_advanced_mode_on):
     if st.session_state.get("language") == "pl":
-        with open("locales/grouped_topics_pl.json", "r", encoding="utf-8") as f:
-            categorized_subject_names = json.load(f)
+        categorized_subject_names = read_names_from_file("grouped_topics", "pl")
         selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
     elif st.session_state.get("language") == "en":
-        all_english_subject_names = []
-        with open ("locales/subjects_en.txt", "r", encoding="utf-8") as f:
-            for line in f:
-                all_english_subject_names.append(line.strip())
-        with open("locales/grouped_topics_en.json", "r", encoding="utf-8") as f:
-            categorized_subject_names = json.load(f)
+        all_english_subject_names = read_names_from_file("subjects", "en")
+        all_polish_subject_names = read_names_from_file("subjects", "pl")
+        categorized_subject_names = read_names_from_file("grouped_topics", "en")
 
         english_selected_subject_names = display_and_collect_subject_filters(page_text_part, categorized_subject_names)
-        st.write("*Notes: The subjects in English were tranlated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
+        st.write("*Notes: The subjects in English were translated by AI and may not be entirely accurate. The subjects in the generated story will be based on the Polish names, but you can select them using their English translations.*")
 
-        selected_subject_names = []
-        for subj in english_selected_subject_names:
-            index = all_english_subject_names.index(subj)
-            selected_subject_names.append(all_subject_names[index])
+        selected_subject_names = translate_names_to_polish(english_selected_subject_names, all_english_subject_names, all_polish_subject_names)
 
     general_fit_type_names = ["or", "and"]
     if is_advanced_mode_on:
