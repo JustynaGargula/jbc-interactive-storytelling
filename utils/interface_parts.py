@@ -66,7 +66,7 @@ def display_topics_choice(page_text_part, all_subject_names, is_advanced_mode_on
 
 def display_date_range_choice(page_text_part, dates_range):
     selected_date_range = st.slider(
-        page_text_part.get("date_range_label"),
+        label = page_text_part.get("date_range_filter_label"),
         min_value=dates_range[0],
         max_value=dates_range[1],
         value=dates_range,
