@@ -41,7 +41,14 @@
         "subjects": "Subjects",
         "modal_header": "Document Information",
         "title": "Title",
-        "open_document": "Open document"
+        "open_document": "Open document",
+        "documents_number": "Documents number",
+        "date_range_label": "Date range of matching documents",
+        "documents_types_label": "Documents types",
+        "prompt_pt1": "Context: Use these data primarily:",
+        "prompt_pt2": "Task: Describe the documents shown on the timeline (you have them in context) in a few sentences.",
+        "description_label": "Description of documents on the timeline",
+        "help_text": "Click on any dot on the timeline to display information about the corresponding document."
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Advanced mode",
@@ -83,9 +90,6 @@
         "no_story_warning": "Failed to generate story. Click the 'Generate' button again or change the selected filters and try again.",
         "generating_timeline_spinner_text": "Generating timeline... ⏳",
         "timeline_header": "🕰️ Generated Timeline",
-        "documents_number": "Documents number",
-        "date_range_label": "Date range of matching documents",
-        "documents_types_label": "Documents types",
         "no_timeline_warning": "Failed to generate timeline.",
         "no_story_type_warning": "No story type selected.",
         "expander_text": "📋 View source documents in the table",

@@ -2,6 +2,7 @@ from typing import List, Optional
 
 import pandas as pd
 from models import Document
+from utils.llm import handle_llm
 from .general import convert_data_to_dataframe
 import streamlit as st
 import plotly.express as px
@@ -55,9 +56,9 @@ def generate_timeline(data: List[Document]) -> Optional[px.scatter]:
             'height': False,
         },
         custom_data=['url'],
-        title=f'{page_text_part.get("title_pt1")} {len(df)} {page_text_part.get("title_pt2")}',
+        # title=f'{page_text_part.get("title_pt1")} {len(df)} {page_text_part.get("title_pt2")}',
         labels={ 'type': page_text_part.get("type"), 'year': page_text_part.get("year"), 'date_display': page_text_part.get("date_display"), 'subjects': page_text_part.get("subjects") },
-        size_max=15
+        size_max=15,
     )
 
     # Dostosuj wygląd
@@ -88,23 +89,30 @@ def show_document_dialog(row: pd.Series) -> None:
     if row['url']:
         st.link_button(page_text_part.get("open_document"), row['url'])
 
-def display_timeline(fig: px.scatter, df: pd.DataFrame, page_text_part: dict) -> None:
+def display_timeline(fig: px.scatter, description: str, df: pd.DataFrame, page_text_part: dict) -> None:
     """
     Wyświetla oś czasu w aplikacji Streamlit.
 
     :param fig: Oś czasu do wyświetlenia
     :type fig: px.scatter
+    :param description: Opis osi czasu
+    :type description: str
     :param df: DataFrame zawierający dane do wyświetlenia
     :type df: pd.DataFrame
+    :param page_text_part: Słownik z tekstami do wyświetlenia
+    :type page_text_part: dict
     """
+    page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
 
-    event = st.plotly_chart(
-        fig,
-        width="stretch",
-        on_select="rerun",
-        selection_mode="points",
-        key="timeline_chart",
-    )
+    with st.container(border=True, horizontal=True):
+        event = st.plotly_chart(
+            fig,
+            width="stretch",
+            on_select="rerun",
+            selection_mode="points",
+            key="timeline_chart",
+        )
+        st.markdown("", help=page_text_part.get("help_text"))
 
     # wyświetlanie metryk pod osią czasu
     col1, col2, col3 = st.columns(3)
@@ -114,6 +122,11 @@ def display_timeline(fig: px.scatter, df: pd.DataFrame, page_text_part: dict) ->
         st.metric(page_text_part.get("date_range_label"), f"{int(df['year'].min())} - {int(df['year'].max())}")
     with col3:
         st.metric(page_text_part.get("documents_types_label"), len(df['type'].unique()))
+
+    # wyświetlenie krótkiego opisu dokumentów na osi czasu
+    st.space("small")
+    st.markdown(f"**{page_text_part.get('description_label')}**")
+    st.write(description)
 
     # obsługa kliknięcia w punkt na osi czasu
     points = event.selection.points if event and event.selection else []
@@ -130,3 +143,16 @@ def display_timeline(fig: px.scatter, df: pd.DataFrame, page_text_part: dict) ->
         dialog = st.dialog(title, width="large")(show_document_dialog)
         dialog(matches.iloc[0])
 
+def generate_timeline_description(df: pd.DataFrame) -> str:
+    """
+    Generuje opis osi czasu na podstawie znalezionych dokumentów.
+
+    :param df: DataFrame zawierający dane dokumentów
+    :type df: pd.DataFrame
+    :return: Opis osi czasu
+    :rtype: str
+    """
+    page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
+    prompt = f"{page_text_part.get('prompt_pt1')}{df.to_string(index=False)}\n{page_text_part.get('prompt_pt2')}\n\n"
+    description = handle_llm(prompt)
+    return description

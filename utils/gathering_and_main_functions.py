@@ -9,7 +9,7 @@ from .filtering_data import get_data_based_on_selected_filters, get_data_based_o
 from .general import convert_data_to_dataframe, show_button_status
 from .interactive_story import display_interactive_story, generate_interactive_story_from_data
 from .historical_story import generate_historical_story_from_data
-from .timeline import display_timeline, generate_timeline
+from .timeline import display_timeline, generate_timeline, generate_timeline_description
 from .interface_parts import display_additional_documents_checkbox, display_date_range_choice, display_filters_choice, display_result_type_options, display_text_query, display_topics_choice
 
 @st.cache_data(show_spinner=False)
@@ -137,6 +137,8 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
         st.session_state["df"] = None
     if "timeline_fig" not in st.session_state:
         st.session_state["timeline_fig"] = None
+    if "timeline_description" not in st.session_state:
+        st.session_state["timeline_description"] = None
 
     # generowanie
     if generate_button:
@@ -171,7 +173,12 @@ def display_interface_main_part(all_subject_names: List[str], dates_range: tuple
     # wyświetlanie osi czasu
     if st.session_state.get("timeline_fig"):
         df = st.session_state.get("df")
-        display_timeline(st.session_state.get("timeline_fig"), df, page_text_part)
+        fig = st.session_state.get("timeline_fig")
+        description = st.session_state.get("timeline_description")
+
+        st.divider()
+        st.subheader(page_text_part.get("timeline_header"))
+        display_timeline(fig, description, df, page_text_part)
         is_output = True
 
     # przycisk do zmiany typu wyniku i tabela z dokumentami źródłowymi
@@ -294,10 +301,10 @@ def handle_generating_output(page_text_part, output_type, story_depth, choices_p
         with story_placeholder.container():
             with st.spinner(page_text_part.get("generating_timeline_spinner_text")):
                 timeline = generate_timeline(data)
+                description = generate_timeline_description(df)
             if timeline:
-                st.divider()
-                st.subheader(page_text_part.get("timeline_header"))
                 st.session_state["timeline_fig"] = timeline
+                st.session_state["timeline_description"] = description
                 is_output = True
             else:
                 st.warning(page_text_part.get("no_timeline_warning"))
@@ -323,3 +330,4 @@ def reset_interactive_story_and_timeline():
     st.session_state["interactive_story"] = None
     st.session_state["df"] = None
     st.session_state["timeline_fig"] = None
+    st.session_state["timeline_description"] = None

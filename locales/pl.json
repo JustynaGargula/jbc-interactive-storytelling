@@ -41,7 +41,14 @@
         "subjects": "Tematy",
         "modal_header": "Informacje o dokumencie",
         "title": "Tytuł",
-        "open_document": "Otwórz dokument"
+        "open_document": "Otwórz dokument",
+        "documents_number": "Liczba dokumentów",
+        "date_range_label": "Zakres lat pasujących dokumentów",
+        "documents_types_label": "Typy dokumentów",
+        "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
+        "prompt_pt2": "Zadanie: Opisz w paru zdaniach dokumenty pokazane na osi czasu (ty masz je w konktekście).",
+        "description_label": "Opis dokumentów na osi czasu",
+        "help_text": "Kliknij na dowolną kropkę na osi czasu, aby wyświetlić informacje o odpowiadającym mu dokumencie."
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Tryb zaawansowany",
@@ -83,9 +90,6 @@
         "no_story_warning": "Nie udało się wygenerować opowieści. Kliknij przycisk 'Generuj' ponownie lub zmień wybrane filtry i spróbuj ponownie.",
         "generating_timeline_spinner_text": "Generuję oś czasu... ⏳",
         "timeline_header": "🕰️ Wygenerowana oś czasu",
-        "documents_number": "Liczba dokumentów",
-        "date_range_label": "Zakres lat pasujących dokumentów",
-        "documents_types_label": "Typy dokumentów",
         "no_timeline_warning": "Nie udało się wygenerować osi czasu.",
         "no_story_type_warning": "Nie wybrano typu opowieści.",
         "expander_text": "📋 Zobacz dokumenty źródłowe w tabeli",
