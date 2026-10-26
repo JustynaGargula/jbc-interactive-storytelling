@@ -85,7 +85,10 @@ def show_document_dialog(row: pd.Series) -> None:
     st.write(f"**{page_text_part.get('title')}:** {row['title']}")
     st.write(f"**{page_text_part.get('type')}:** {row['type']}")
     st.write(f"**{page_text_part.get('date_display')}:** {row['date_display']}")
-    st.write(f"**{page_text_part.get('subjects')}:** {row['subjects']}")
+    st.write(f"**{page_text_part.get('subjects')}:**")
+    subjects = row['subjects'].split(", ")
+    for subject in subjects:
+        st.write(f"* {subject}")
     if row['url']:
         st.link_button(page_text_part.get("open_document"), row['url'])
 
