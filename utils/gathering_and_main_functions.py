@@ -8,7 +8,7 @@ from .downloading_data_and_creating_graph import build_kg_from_rdf, create_graph
 from .filtering_data import get_data_based_on_selected_filters, get_data_based_on_text_query
 from .general import convert_data_to_dataframe, show_button_status
 from .interactive_story import display_interactive_story, generate_interactive_story_from_data
-from .historical_story import generate_historical_story_from_data
+from .historical_story import display_historical_story, generate_historical_story_from_data
 from .timeline import display_timeline, generate_timeline, generate_timeline_description
 from .interface_parts import display_additional_documents_checkbox, display_date_range_choice, display_filters_choice, display_result_type_options, display_text_query, display_topics_choice
 
@@ -279,7 +279,7 @@ def handle_generating_output(page_text_part, output_type, story_depth, choices_p
             if story:
                 st.divider()
                 st.subheader(page_text_part.get("generated_story_header"))
-                st.markdown(story)
+                display_historical_story(story)
                 is_output = True
             else:
                 st.warning(page_text_part.get("no_story_warning"))

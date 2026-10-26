@@ -24,12 +24,12 @@
     },
     "utils_generate_interactive_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka etapów, a każdy z nich ma minimum dwie ścieżki wyboru. Każdy wybór ma zawierać klikuzdaniowy (rozbudowany i długi, bo to opowieść jest) opis tego, czym skutuje dany wybór. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki. W polu 'source_ids' umieść identyfikatory dokumentów (identifier w klasie Document, który jest linkiem), z których korzystałeś przy tworzeniu danego fragmentu opowieści. Nie wymyślaj identyfikatorów.",
+        "prompt_pt2": "Zadanie: wygenereuj interaktywną opowieść na ich podstawie po polsku. Opowieść powinna zawierać kilka etapów, a każdy z nich ma minimum dwie ścieżki wyboru. Każdy wybór ma zawierać klikuzdaniowy (rozbudowany i długi, bo to opowieść jest) opis tego, czym skutuje dany wybór. Każdy wybór prowadzi do innych wyborów i wreszcie do zakończenia. Zakończenie ma być inne dla każdej ścieżki wyborów, chociaż może się zdarzyć, że różne wybory doprowadzą do podobnych rezultatów. W zakończeniu, oprócz wyniku opowieści, zawrzyj też podsumowanie podjętych wyborów i tła historycznego dla tej ścieżki. W polu 'source_ids' umieść identyfikatory dokumentów (identifier w klasie Document, który jest linkiem), z których korzystałeś przy tworzeniu danego fragmentu opowieści. Nie wymyślaj identyfikatorów. Nie przypisuj źródeł, które nie potwierdzają informacji zawartych w akapicie. Jeśli żaden dokument nie stanowi podstawy danego akapitu, zwróć pustą tablicę",
         "prompt_pt3": "Dodatkowy opis od użytkownika o tym, co chce przeczytać:"
     },
     "utils_generate_historical_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
-        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie. Dodaj w nawiasach linki do dokumentów w Jagiellońskiej Bibliotece Cyfrowej, z których korzystałeś przy tworzeniu danego fragmentu opowieści, w poprawnym formacie markdownowym '([link]({url}))'.",
+        "prompt_pt2": "Zadanie: Jesteś historykiem badającym dokumenty historyczne. Stwórz historyczną opowieść na ich podstawie, która opowie, co się działo w danym czasie. Podziel opowieść historyczną na 2-10 logicznych akapitów. Dla każdego akapitu zwróć pole `source_ids` zawierające identyfikatory wszystkich dokumentów źródłowych, na których rzeczywiście opiera się treść tego akapitu. Korzystaj wyłącznie z identyfikatorów źródeł przekazanych w danych wejściowych (`identifier` w klasie `Document`, który jest linkiem). Nie wymyślaj identyfikatorów. Nie przypisuj źródeł, które nie potwierdzają informacji zawartych w akapicie. Jeśli żaden dokument nie stanowi podstawy danego akapitu, zwróć pustą tablicę. Nie umieszczaj adresów URL ani linków Markdown w polu `text`.",
         "prompt_pt3": "Dodatkowy opis od użytkownika o tym, co chce przeczytać:"
     },
     "utils_generate_timeline": {
@@ -109,6 +109,10 @@
         "rewind_button": "Cofnij wybór",
         "reset_button": "Resetuj opowieść",
         "choice_button": "Wybieram to"
+    },
+    "general": {
+        "none": "brak",
+        "sources": "Żródła"
     },
     "evaluation_module": {
         "header": "Moduł oceny",

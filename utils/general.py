@@ -109,7 +109,7 @@ def get_markdown_link_list(source_ids: List[str]) -> str:
     :rtype: str
     """
     if not source_ids:
-        return ""
+        return st.session_state["page_text"].get("general").get("none")
 
     link_list = []
     for i, source_id in enumerate(source_ids):

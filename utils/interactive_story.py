@@ -34,7 +34,7 @@ def generate_interactive_story_from_data(data: List[Document], story_depth: int,
         prompt += f" {page_text_part.get('prompt_pt3')} {user_prompt}"
 
     story_schema = get_story_schema(story_depth, choices_per_chapter)
-    response_text = handle_llm(prompt, interactive_story=True, story_schema=story_schema)
+    response_text = handle_llm(prompt, story_schema=story_schema)
 
     if response_text is not None:
         try:
@@ -59,6 +59,7 @@ def display_interactive_story(story: str):
     :type story: str
     """
     page_text = st.session_state["page_text"].get("utils_display_interactive_story")
+    sources_word = st.session_state["page_text"].get("general").get("sources")
     st.header(story.get("title"), text_alignment="center")
 
     # initializing session variables
@@ -92,7 +93,7 @@ def display_interactive_story(story: str):
         for phase_index, choice_index in enumerate(st.session_state["choices_path"]):
             choice = get_choices_or_ending(story, "specific", phase_index)[choice_index]
             full_story_description += "\n\n" + choice.get("option_description")
-            full_story_description += " " + f"(Źródła: {get_markdown_link_list(choice.get('source_ids'))})"
+            full_story_description += " " + f"({sources_word}: {get_markdown_link_list(choice.get('source_ids'))})"
         # adding ending text if the story is finished
         if len(st.session_state["choices_path"]) == st.session_state["story_depth"]:
             full_story_description += "\n\n" + get_choices_or_ending(story, "ending")
@@ -156,12 +157,14 @@ def display_choices(choices: List[dict], choice_text: str):
     :param choice_text: Tekst do wyświetlenia na przycisku wyboru
     :type choice_text: str
     """
+    sources_word = st.session_state["page_text"].get("general").get("sources")
+
     with st.container(horizontal=True):
         for i, choice in enumerate(choices):
             with st.container(border=True, height="stretch", vertical_alignment="center"):
                 st.subheader(choice.get("option_title"))
                 st.write(choice.get("option_description"))
-                st.markdown(f"Źródła: {get_markdown_link_list(choice.get('source_ids'))}")
+                st.markdown(f"{sources_word}: {get_markdown_link_list(choice.get('source_ids'))}")
                 if st.button(choice_text, key=f"choice_{len(st.session_state['choices_path'])}_{i}"):
                     st.session_state["choices_path"].append(i)
                     st.rerun() # odświeża stronę, żeby pokazać kolejne opcje

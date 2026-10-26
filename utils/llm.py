@@ -26,7 +26,7 @@ def get_llm_config() -> dict:
         "openrouter_api_key": llm_config.get("openrouter_api_key"),
     }
 
-def call_gemini(prompt: str, model: str, api_key: Optional[str] = None, interactive_story: Optional[bool]=None, story_schema: Optional[dict] = None) -> Optional[str]:
+def call_gemini(prompt: str, model: str, api_key: Optional[str] = None, story_schema: Optional[dict] = None) -> Optional[str]:
     """
     Obsługuje komunikację z Gemini.
     """
@@ -38,7 +38,7 @@ def call_gemini(prompt: str, model: str, api_key: Optional[str] = None, interact
             # The client gets the API key from the environment variable `GEMINI_API_KEY`.
             client = genai.Client()
 
-        if interactive_story:
+        if story_schema:
             response = client.models.generate_content(
                 model=model,
                 contents=prompt,
@@ -99,7 +99,7 @@ def call_gemini(prompt: str, model: str, api_key: Optional[str] = None, interact
         return None
 
 
-def call_openrouter(prompt: str, model: str, api_key: Optional[str], interactive_story: Optional[bool], story_schema: Optional[dict] = None) -> Optional[str]:
+def call_openrouter(prompt: str, model: str, api_key: Optional[str], story_schema: Optional[dict] = None) -> Optional[str]:
     """
     Obsługuje komunikację z OpenRouter.
     """
@@ -111,7 +111,7 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str], interactive
         return None
 
     try:
-        if interactive_story:
+        if story_schema:
             response_json = {
                 "model": model,
                 "messages": [
@@ -212,7 +212,7 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str], interactive
         return None
 
 
-def handle_llm(prompt: str, interactive_story: Optional[bool] = None, story_schema: Optional[dict] = None) -> Optional[str]:
+def handle_llm(prompt: str, story_schema: Optional[dict] = None) -> Optional[str]:
     """
     Obsługuje komunikację z wybranym backendem LLM.
 
@@ -227,7 +227,6 @@ def handle_llm(prompt: str, interactive_story: Optional[bool] = None, story_sche
             prompt=prompt,
             model=config["gemini_model"],
             api_key=config["gemini_api_key"],
-            interactive_story=interactive_story,
             story_schema=story_schema
         )
 
@@ -236,7 +235,6 @@ def handle_llm(prompt: str, interactive_story: Optional[bool] = None, story_sche
             prompt=prompt,
             model=config["openrouter_model"],
             api_key=config["openrouter_api_key"],
-            interactive_story=interactive_story,
             story_schema=story_schema
         )
 
