@@ -8,6 +8,7 @@ from typing import List
 from rdflib import Graph
 import requests
 from models import Document, KnowledgeGraph
+import time
 
 
 SEARCH_URL = "https://jbc.bj.uj.edu.pl/dlibra/results?q=&action=SimpleSearchAction&type=-6&qf1=collections%3A188&qf2=collections%3A201&qf3=Subject%3Aspo%C5%82ecze%C5%84stwo&qf4=Subject%3Adruki%20ulotne%2020%20w.&qf5=Subject%3Adruki%20ulotne%2019%20w.&ipp=50"
@@ -37,23 +38,133 @@ def get_ids(files: List[str]) -> List[str]:
     print(f"Znaleziono {len(ids)} ID.")
     return ids
 
-
 def get_rdfs(ids: List[str]) -> List[bytes]:
     """
-    Pobiera dokumenty rdf według podanych id.
+    Pobiera dokumenty RDF według podanych ID.
 
-    :param ids: lista id obiektów w JBC
-    :type ids: List[str]
+    Ponawia próby po błędach HTTP i odpowiedziach HTML
+    zamiast RDF. Stosuje stopniowo wydłużane przerwy.
 
-    :return rdfs: lista pobranych dokumentów w formacie rdf
+    :param ids: lista ID obiektów w JBC
+    :return: lista poprawnie pobranych dokumentów RDF
     """
     rdfs = []
-    for id in ids:
-        print(f"Pobieram rdf dla id={id}")
-        r = requests.get(RDF_URL+str(id))
-        if r.ok:
-            rdfs.append(r.content)
-    print(f"Pobrano {len(rdfs)} rdfów.")
+    session = requests.Session()
+    not_downloaded_ids = []
+    start_time = time.perf_counter()
+
+    max_attempts = 5
+    base_delay = 2
+    max_delay = 60
+
+    for count, id in enumerate(ids):
+        url = RDF_URL + str(id)
+        print(f"Pobieram RDF dla id={id}")
+
+        for attempt in range(max_attempts):
+            try:
+                response = session.get(
+                    url,
+                    timeout=(10, 30)
+                )
+
+                # Serwer może sygnalizować przeciążenie.
+                if response.status_code == 429 or response.status_code >= 500:
+                    retry_after = response.headers.get("Retry-After")
+
+                    if retry_after and retry_after.isdigit():
+                        delay = min(int(retry_after), max_delay)
+                    else:
+                        delay = min(base_delay * (2 ** attempt), max_delay)
+
+                    print(
+                        f"Serwer zwrócił HTTP {response.status_code}. "
+                        f"Próba {attempt + 1}/{max_attempts}. "
+                        f"Czekam {delay} s."
+                    )
+
+                    if attempt < max_attempts - 1:
+                        time.sleep(delay)
+                        continue
+
+                    break
+
+                response.raise_for_status()
+
+                content = response.content
+                content_type = response.headers.get(
+                    "Content-Type", ""
+                ).lower()
+
+                # Sprawdzamy, czy odpowiedź nie jest stroną HTML.
+                is_html = (
+                    "text/html" in content_type
+                    or content.lstrip().lower().startswith(
+                        (b"<!doctype html", b"<html")
+                    )
+                )
+
+                if is_html:
+                    delay = min(
+                        base_delay * (2 ** attempt),
+                        max_delay
+                    )
+
+                    print(
+                        f"Otrzymano HTML zamiast RDF dla id={id}. "
+                        f"Próba {attempt + 1}/{max_attempts}."
+                    )
+
+                    if attempt < max_attempts - 1:
+                        print(f"Ponawiam za {delay} s.")
+                        time.sleep(delay)
+                        continue
+
+                    print(f"Pominięto id={id}: nie udało się pobrać RDF.")
+                    not_downloaded_ids.append(id)
+                    break
+
+                # Akceptujemy dokument RDF, a nie dowolną odpowiedź HTTP.
+                # Dla RDF/XML oczekujemy dokumentu XML.
+                stripped = content.lstrip()
+
+                if not (
+                    stripped.startswith(b"<?xml")
+                    or stripped.startswith(b"<rdf:RDF")
+                    or stripped.startswith(b"<")
+                ):
+                    print(
+                        f"Nieoczekiwany format odpowiedzi dla id={id}."
+                    )
+                    break
+
+                rdfs.append(content)
+                print(f"{count}. Pobrano RDF dla id={id}.")
+                break
+
+            except requests.RequestException as e:
+                delay = min(
+                    base_delay * (2 ** attempt),
+                    max_delay
+                )
+
+                print(
+                    f"Błąd pobierania id={id}: {e}. "
+                    f"Próba {attempt + 1}/{max_attempts}."
+                )
+
+                if attempt < max_attempts - 1:
+                    time.sleep(delay)
+
+        # Krótka przerwa między kolejnymi identyfikatorami.
+        time.sleep(1)
+
+    session.close()
+    end_time = time.perf_counter()
+    duration = end_time - start_time
+
+    print(f"Pobrano {len(rdfs)} RDF-ów z {len(ids)} żądanych. Zajęło to {duration/60:.2f} min")
+    print(f"Nie udało się pobrać plików dla następujących ID: {not_downloaded_ids}")
     return rdfs
 
 
