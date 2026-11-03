@@ -52,6 +52,7 @@
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Tryb zaawansowany",
+        "advanced_mode_help_text": "Włącz tryb zaawansowany, aby mieć dodatkowe opcje filtrowania.",
         "filters_choice_label": "Wybierz, czy chcesz użyć zwykłych filtrów czy zapytania tekstowego:",
         "filters_choice_options": ["Filtry", "Zapytanie tekstowe"],
         "default_filters_choice": "Filtry",

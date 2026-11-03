@@ -52,6 +52,7 @@
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Advanced mode",
+        "advanced_mode_help_text": "Enable advanced mode to have additional filtering options.",
         "filters_choice_label": "Choose whether you want to use regular filters or a text query:",
         "filters_choice_options": ["Filters", "Text query"],
         "default_filters_choice": "Filters",

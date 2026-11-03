@@ -216,7 +216,7 @@ def display_whole_filters_sections(page_text_part, dates_range):
 
     col1, col2 = st.columns([0.8, 0.2])
     col1.header(page_text_part.get("filters_header"))
-    is_advanced_mode_on = col2.container(horizontal_alignment="right", height="stretch", vertical_alignment="bottom").toggle(page_text_part["advanced_mode_label"])
+    is_advanced_mode_on = col2.container(horizontal_alignment="right", height="stretch", vertical_alignment="bottom").toggle(page_text_part["advanced_mode_label"], help=page_text_part.get("advanced_mode_help_text"), value=False)
     st.space("xsmall")
 
     # Elementy do wyboru, które potrzebują się odświeżać zanim formularz zostanie wysłany
