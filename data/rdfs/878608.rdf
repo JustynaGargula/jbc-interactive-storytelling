@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878608">
+    <dc:date xml:lang="pl">1889</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo św. Wincentego à Paulo (Tarnów)</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 432</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Kasa Oszczędności (Tarnów)</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">sędziowie</dc:subject>
+    <dc:subject xml:lang="pl">Grabowski, Maksymilian (1826-1889)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907126</dc:relation>
+    <dc:title xml:lang="pl">Maxymilian Grabowski c. k. em. radca Sądu Krajowego w tarnowie, vice-burmistrz miasta Tarnowa, prezes Wydziału Tarnowskiej kasy Oszczędności, vice-prezes Towarzystwa św. Wincentego a Paulo i t. d. [...] zasnął w Panu dnia 25 kwietnia b. r. w 63 roku życia [...]</dc:title>
+    <dc:issued xml:lang="pl">1889</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878608/NDIGDZS086546.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

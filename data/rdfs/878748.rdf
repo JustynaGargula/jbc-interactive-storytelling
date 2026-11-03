@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878748">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 492</dc:source>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878748/NDIGDZS089889.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">ziemiaństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Franciszek Salezy Łada Grodzicki b. oficer wojsk polskich [...] przeżywszy lat 84 [...] zakończył życie dnia 17 Stycznia 1886 r. [...]</dc:title>
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:912729</dc:relation>
+    <dc:subject xml:lang="pl">Łada Grodzicki, Franciszek Salezy (1802-1886)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

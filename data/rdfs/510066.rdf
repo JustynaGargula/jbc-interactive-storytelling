@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510066">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Grünwald, Adolf (1826-1901)</dc:subject>
+    <dc:description xml:lang="pl">Dwustronny druk reklamowy, wśród różnych ogłoszeń znajduje się umieszczony centralnie afisz muzyczny</dc:description>
+    <dc:subject xml:lang="pl">Kálmán, Imre (1882-1953)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510066/NDIGMUZ025451.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Księżna cyrkówka : operetka w 3 aktach Juljusza Brammera i Alfreda Grünwalda : muzyka Emeryka Kalmana : tłumaczył Kaz. Wroczyński</dc:title>
+    <dc:issued xml:lang="pl">ca 1927</dc:issued>
+    <dc:date xml:lang="pl">ca 1927</dc:date>
+    <dc:subject xml:lang="pl">Wroczyński, Kazimierz (1883-1957)</dc:subject>
+    <dc:subject xml:lang="pl">Brammer, Julius (1877-1943)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535605</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:subject xml:lang="pl">operetka</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 101</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

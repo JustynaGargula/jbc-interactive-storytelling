@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509203">
+    <dc:issued xml:lang="pl">1854</dc:issued>
+    <dc:date xml:lang="pl">1854</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:subject xml:lang="pl">koncert fortepianowy</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Lubowski, Józef (1824-1855)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:534702</dc:relation>
+    <dc:title xml:lang="pl">C. k. Teatr w Krakowie : w poniedziałek dnia 6 marca 1854 r. : Drugi Concert J. Lubowskiego, fortepianisty</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 86</dc:source>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr krakowski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509203/NDIGMUZ025465.pdf</dc:identifier>
+    <dc:title xml:lang="pl">K. k. Theater in Krakau : Montag den 6 März 1854 : Zweites Concert des J. Lubowski, pianist</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

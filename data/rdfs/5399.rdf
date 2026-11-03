@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/5399">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:10556</dc:relation>
+    <dc:subject xml:lang="pl">święcenia kapłańskie</dc:subject>
+    <dc:subject xml:lang="pl">diecezja krakowska</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 52756 II</dc:source>
+    <dc:subject xml:lang="pl">Ecclesia Catholica</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Kościół Katolicki 17 w.</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:date xml:lang="pl">1991</dc:date>
+    <dc:title xml:lang="pl">Księgi egzaminów do święceń w diecezji krakowskiej z lat 1573-1614</dc:title>
+    <dc:type xml:lang="pl">książka</dc:type>
+    <dc:issued xml:lang="pl">1991</dc:issued>
+    <dc:format xml:lang="pl">image/vnd.djvu</dc:format>
+    <dc:subject xml:lang="pl">Kościół Katolicki 16 w.</dc:subject>
+    <dc:description xml:lang="pl">Seria: Varia - Uniwersytet Jagielloński</dc:description>
+    <dc:contributor xml:lang="pl">Pietrzyk, Zdzisław (1957- ). Oprac.</dc:contributor>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:subject xml:lang="pl">duchowieństwo</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

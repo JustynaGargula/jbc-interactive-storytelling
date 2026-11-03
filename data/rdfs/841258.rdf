@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841258">
+    <dc:title xml:lang="pl">Mieczysław Pelczar ppor. rezerwy Wojsk Polskich 10 P. A. C., asystent Akad. Górniczej [..] poległ w obronie Ojczyzny pod Przemyślem dnia 13 września 1939 r. Pochowany został koło fortu Medyka [...]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">pracownicy naukowi</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Przemyśl (Polska ; region)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841258/NDIGDZS068892.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874165</dc:relation>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pas-Pie 38</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1939</dc:issued>
+    <dc:date xml:lang="pl">1939</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Medyka (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">Pelczar, Mieczysław (?-1939)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

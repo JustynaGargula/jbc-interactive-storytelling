@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/408416">
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/408416/PDF/NDIGDZS022137.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/408416/PDF/NDIGDZS022137.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402090</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402090</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dyrekcją Anastazego Trapszo, w poniedziałek dnia 26 listopada (8 grudnia) 1873 r. : po raz pierwszy Sinobrody (Barbe Bleue), pan Morozowicz pierwszy raz po słabości przedstawi Króla Bobesza</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/24</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:title xml:lang="pl">No 14 S dozvolenìâ Načalʹstva Obšestvo Dramatičeskih Artistov pod direkcìeû Anastazìâ Trapšo, v ponedèlʹnik 26 noâbrâ (8 dekabrâ) 1873 goda : v piervyj raz Sinââ boroda (Barbe Bleue), G-n Morozovič poslě bolězni piervyj raz predstavit Korolâ Bobeša</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

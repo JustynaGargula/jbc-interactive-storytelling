@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509251">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509251/NDIGMUZ025506.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Krakau : Mittwoch den 2. März 1853. : Concert der jungen Violinvirtuosin Fr. Johanna Bierlich (aus Jena) im Redouten-Saale</dc:title>
+    <dc:issued xml:lang="pl">[1853]</dc:issued>
+    <dc:date xml:lang="pl">[1853]</dc:date>
+    <dc:subject xml:lang="pl">koncert skrzypkowy</dc:subject>
+    <dc:title xml:lang="pl">Dziś dnia 2 Marca 1853 roku danym będzie w Salach Teatralnych koncert przez p. Joannę Bierlich</dc:title>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Bierlich, Johanna</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 73</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:534734</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

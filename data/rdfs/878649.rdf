@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878649">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907140</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">ul. Grodzka (Kraków)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878649/NDIGDZS087342.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 459</dc:source>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:date xml:lang="pl">1877</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Stanisław Gralewski obywatel miasta Krakowa. Przeżywszy lat 60. [...] w dniu 18. Września 1877 r. [...] zasnął w Panu [...]</dc:title>
+    <dc:issued xml:lang="pl">1877</dc:issued>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Gralewski, Stanisław (1817?-1877)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

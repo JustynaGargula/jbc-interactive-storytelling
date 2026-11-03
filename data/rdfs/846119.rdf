@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/846119">
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">Cmentarz Bronowice (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/846119/NDIGDZS072740.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Antos, Tadeusz (?-2018)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:879567</dc:relation>
+    <dc:issued xml:lang="pl">2018</dc:issued>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:date xml:lang="pl">2018</dc:date>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 8 marca 2018 roku zmarł mgr Tadeusz Antos emerytowany kustosz Biblioteki Jagiellońskiej</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI A 125</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

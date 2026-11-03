@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570006">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/24</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570006/NDIGDZS030804.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">No 28 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Osipa Tekselâ, v subbotu 11 (23) maâ 1874 goda vtoroj debût gg. Sěnnickih, artistov krakovskago teatra, dana budet v pervyj raz drama v 5-ti dějstvìah Kamelʹevaâ Dama</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Dumas, Alexandre (1824-1895 ; syn)</dc:subject>
+    <dc:title xml:lang="pl">No 28 W teatrze p. Spahna, Towarzystwo Dramatyczne pod dyrekcją Józefa Texel, w sobotę dnia 11 (23) maja 1874 roku, drugi występ P-twa Siennickich, artystów teatru krakowskiego, przedstawi po raz pierwszy dramat w 5-ciu aktach Dama z Kamelją.</dc:title>
+    <dc:subject xml:lang="pl">Teatr Krakowski 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599857</dc:relation>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

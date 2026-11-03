@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527757">
+    <dc:title xml:lang="pl">No 10 Drugi Wieczór Fredrowski Artyści Teatru Łódzkiego w teatrze miejscowym, w czwartek dnia 16 stycznia 1896 roku : Wielki człowiek do małych interesów, komedja w 5-ciu aktach przez Aleksandra hr. Fredro</dc:title>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Fredro, Aleksander (1793-1876)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/527757/NDIGDZS019687.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527757/NDIGDZS019687.pdf</dc:identifier>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:398690</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:398690</dc:relation>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/11</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Vtoroj Fredrovskìj Večerʺ Artisty Lodzinskago Teatra, vʺ městnomʺ teatrʺ vʺ četvergʺ 4-go ânavrâ 1896 goda Velikij čelověkʺ na malyâ děla, komedìâ vʺ 5-ti dějstvìah, sočinenìâ Gr. Al. Fredro</dc:title>
+    <dc:publisher xml:lang="pl">M. Stochalski</dc:publisher>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

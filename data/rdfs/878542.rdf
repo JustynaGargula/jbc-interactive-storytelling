@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878541">
+    <dc:subject xml:lang="pl">Wielowiejski, Antoni (1790?-1854)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908822</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878541/NDIGDZS089401.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Wielowiejski Antoni, rzeczywisty Szambelan dworu Jego C. K. Mości Franciszka Igo [...]. Przeżywszy lat 64, w dniu 25tym Stycznia 1854 roku przeniósł się do wieczności [...]</dc:title>
+    <dc:date xml:lang="pl">1854</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1854</dc:issued>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 327</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839966">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1947</dc:issued>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:date xml:lang="pl">1947</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III J-Jar 9</dc:source>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:title xml:lang="pl">Kazimierz Iwanicki inżynier architekt urodz. w 1911 r. we Lwowie, zginął z rąk okupanta, w służbie Ojczyzny 1 września 1944 r. w Krośnie [...] Nabożeństwo żałobne przy zwłokach, odprawione zostanie w sobotę dnia 21 czerwca 1947 r. [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839966/NDIGDZS068306.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873827</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Iwanicki, Kazimierz</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">architekci</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

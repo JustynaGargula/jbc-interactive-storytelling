@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514014">
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:contributor xml:lang="pl">Frank, Hans (1900-1946)</dc:contributor>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:creator xml:lang="pl">Nationalsozialistische Deutsche Arbeiterpartei</dc:creator>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514014/NDIGDZS027916.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">Ukraina</dc:subject>
+    <dc:title xml:lang="pl">Grosskundgebung im Schauspielhaus Lemberg Montag, den 21. Juni 1943 [...] es spricht [...] Hans Frank</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, L/2</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537247</dc:relation>
+    <dc:creator xml:lang="pl">Distriktsstandortführung Galizien</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

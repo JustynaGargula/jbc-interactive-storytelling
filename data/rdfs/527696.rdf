@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527696">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554380</dc:relation>
+    <dc:publisher xml:lang="pl">Departament Turystyki, Sportu i Promocji Urzędu Marszałkowskiego Województwa Małopolskiego. Zespół ds. Regionalnego Systemu Informacji Turystycznej :</dc:publisher>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:title xml:lang="pl">Małopolska : city breaks</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001662</dc:source>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510095">
+    <dc:issued xml:lang="pl">[1858]</dc:issued>
+    <dc:title xml:lang="pl">Erstes diesjahriges koncert des Vereins zur Beförderung der Tonkunst in Galizien : im städtischen Rathhaussaale : Montag den 14. Juni 1858</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 3, 11</dc:source>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510095/NDIGMUZ032080.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Pierwszy tegoroczny koncert Towarzystwa do wykstałcenia muzyki w Galicyi : w miejskiej sali ratuszowej w poniedziałek dnia 14. czerwca 1858</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535628</dc:relation>
+    <dc:date xml:lang="pl">[1858]</dc:date>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

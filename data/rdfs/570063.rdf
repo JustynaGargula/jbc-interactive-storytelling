@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570063">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/44</dc:source>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">https://polona.pl/item/narzeczone-komedia-w-2-aktach,NzI1Mzg1MjM/6/#info:metadata Narzeczone : komedia w 2 aktach</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599939</dc:relation>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:relation xml:lang="pl">http://www.pbc.gda.pl/publication/16419 Dzieła Józefa Korzeniowskiego. T. 10</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570063/NDIGDZS030834.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 39 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w czwartek dnia 29 listopada (11 grudnia) 1873 roku, na benefis Anny Zaczkiewicz i Józefa Kwiecińskiego przedstawi pierwszy raz komedjo-opera w 2-ch aktach, z tańcami i śpiewami ukrainskiemi Jan i Paweł, oryginalna komedja w 2-ch aktach Narzeczone</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">No 39 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v četverg 29 noâbrâ (11 dekabrâ ) 1873 goda, na benefis Anny Začkevič i Ìosifa Kvěcinskago dany budut v pervyj raz komedìâ-opera v 2-h dějstvìâh, s ukrainskimi tancami i pěnìemm Ân i Pavel, originalʹnaâ komedìâ v 2-h dějstvìâh Nevěsty</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

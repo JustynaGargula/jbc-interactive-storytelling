@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878660">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Marya z Drescherów Graupe przeżywszy lat 39 [...] rozstała się z tym światem dnia 30. Maja 1866 r. [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 470</dc:source>
+    <dc:date xml:lang="pl">1866</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878660/NDIGDZS087579.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906418</dc:relation>
+    <dc:issued xml:lang="pl">1866</dc:issued>
+    <dc:subject xml:lang="pl">Kościół św. Szczepana (Kraków, pl. Szczepański)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Graupe, Maria (1827?-1866)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

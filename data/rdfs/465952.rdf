@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/465952">
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491639</dc:relation>
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/465952/NDIGDZS022757.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/33</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dyrekcyą Anastazego Trapszo, w sobotę dnia 8 (20) grudnia 1873 roku : po raz pierwszy poema sceniczna w 5-ciu aktach Fr. Szyllera, przekład Sokołowskiego i Fricze, pod tytułem: Don Karlos Infant hiszpański</dc:title>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:title xml:lang="pl">No 20 S dozvolenìâ Načalʹstva Obŝestvo Dramatičeskih Artistov pod direkcìeû Anastazìâ Trapšo, v subboty 8 (20) dekabrâ 1873 goda : v pervyj raz sceničeskaâ poèma v 5-ti dějstvìâh soč. Fr. Šillera perevod Sokolovskago i Friča p. n. : Don Karlos Infant ispanskìj</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

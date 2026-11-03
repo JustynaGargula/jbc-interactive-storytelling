@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878216">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:913995</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878216/NDIGDZS091382.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Budryk, Witold (1891-1958)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 186</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:issued xml:lang="pl">1961</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Za spokój duszy ś. p. Witolda Budryka rektora Akademii Górniczo-Hutniczej jako w trzecią bolesną rocznicę śmierci odprawione zostanie [...] dnia 18 listopada 1961 roku […] w Kościele OO. Dominikanów w kaplicy Matki Boskiej nabożeństwo żałobne […] zawiadamia rodzina</dc:title>
+    <dc:subject xml:lang="pl">Kościół św. Trójcy przy ulicy Stolarskiej (Kraków)</dc:subject>
+    <dc:date xml:lang="pl">1961</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

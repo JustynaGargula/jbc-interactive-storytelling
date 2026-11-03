@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570012">
+    <dc:title xml:lang="pl">No 25 Načalo rovno v 7 časov večera, v teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v subbotu 3 (15) noâbrâ 1873 goda, dana budet vo vtoroj raz drama c muzykoj, v 5-ti aktah, s francuzskago Staryj Kapral, akt pervyj (prolog) „Smertʹ na polě brani”</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/30</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599862</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570012/NDIGDZS030811.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:title xml:lang="pl">No 25 Początek punktualnie o godzinie 7-ej wieczorem, w teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w sobotę dnia 3 (15) listopada 1873 roku, przedstawi po raz drugi, dramat z muzyką w 5-ciu aktach, z francuskiego Stary Kapral, akt pierwszy (prolog) „Śmierć na polu chwały”</dc:title>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

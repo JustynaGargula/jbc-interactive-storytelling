@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/854301">
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:issued xml:lang="pl">2006</dc:issued>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">2006</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Brusić, Helena (1946-2006)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bos-Bucz 128</dc:source>
+    <dc:title xml:lang="pl">Społeczność Uniwersytetu Jagiellońskiego z głębokim żalem zawiadamia, że w dniu 2 kwietnia 2006 roku zmarła ś. p. Bożena Brusić [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/854301/NDIGDZS076696.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:884651</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

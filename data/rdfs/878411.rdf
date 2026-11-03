@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878411">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:911167</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Anna z Najedłów Wilert Obywatelka miasta Krakowa przeżywszy lat 80. i Anna Wilert Córka przeżywszy lat 45 [...] przeniosły się do wieczności w dniu 29. Grudnia 1866 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">Wilert, Anna (1786?-1866)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 374</dc:source>
+    <dc:subject xml:lang="pl">Wilert, Anna (1821?-1866)</dc:subject>
+    <dc:date xml:lang="pl">1866</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878411/NDIGDZS090312.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1866</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

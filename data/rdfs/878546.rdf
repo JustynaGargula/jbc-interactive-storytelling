@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878545">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Wierciński, Ferdynand (1811?-1873)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878545/NDIGDZS089405.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908826</dc:relation>
+    <dc:title xml:lang="pl">Ferdynand Wierciński właściciel wsi Zielonek, przeżywszy lat 62 [...] zasnął w Panu dnia 22go Czerwca 1873 r. [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 331</dc:source>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

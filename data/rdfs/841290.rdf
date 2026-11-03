@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841290">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:subject xml:lang="pl">Pieczarkowski, Tadeusz</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pas-Pie 55</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841290/NDIGDZS068912.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Za spokój duszy ś. p. inż. Tadeusza Pieczarkowskiego zmarłego w Warszawie w r. 1940 w 39 roku życia jako w trzecią bolesną rocznicę śmierci odprawione zostanie w czwartek 15 kwietnia 1943 r. o godz. 8 rano w kościele OO. Kapucynów Msza Święta [...]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874710</dc:relation>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/465962">
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dyrekcyą Anastazego Trapszo, w sobotę dnia 22 grudnia (3 stycznia) 1873/4 roku, na żądanie : Strachy w zamczysku czyli Bojomir i Wanda, Dziewiąta godzina czyli ucieczka z Bastylji</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491647</dc:relation>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 28 S dozvolenìâ Načalʹstva Obŝestvo Dramatičeskih Artistov pod direkcìeû Anastazìâ Trapšo, vʺ subbotu 22 dekabrâ (3 ânvarâ) 1873/4 goda, po želanìû : Prividěnìâ vʺ zamkě ili Boìomirʺ i Vanda, Devâtyj časʺ ili ušedstvìe izʺ Bastilìi</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/465962/NDIGDZS022769.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/41</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/548884">
+    <dc:issued xml:lang="pl">ca 1939</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/548884/NDIGDZS019044.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Książka niezastąpiony Towarzysz Wywczasów</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 4/49</dc:source>
+    <dc:date xml:lang="pl">ca 1939</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:577359</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

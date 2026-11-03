@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/600644">
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.3/29</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">ca 1944</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Gospodarzu! Wyjątkowy stan w okresie żniw ma na celu ujęcie plonów na korzyść wszystkich uczciwie pracujących ludzi. Nie skąp i dotrzymaj przepisanego terminu</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:555346</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">ca 1944</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/600644/NDIGDZS029746.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

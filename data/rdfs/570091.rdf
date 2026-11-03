@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570091">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599994</dc:relation>
+    <dc:subject xml:lang="pl">Pękalski, Wojciech (ca 1780-1817)</dc:subject>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570091/NDIGDZS030841.pdf</dc:identifier>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:relation xml:lang="pl">https://sbc.org.pl/publication/27915 (Ukarany zazdrośnik) Trafiła kosa na kamień. Komedja w 1 akcie z Francuzkiego tłomaczona przez I. Majeranowskiego</dc:relation>
+    <dc:title xml:lang="pl">No 47 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v četverg 27 dekabrâ (8 ânvarâ) 1873/4 goda, dana budet lûbimaâ komedìâ Varšavskih teatrov v 3-h dějstvìâh Zamužnââ Děvica, komedìâ v 1-m dějstvìi Našla Kosa na Kamenʹ</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/50</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">https://polona.pl/item/panna-mezatka-komedya-we-trzech-aktach-przez-jozefa-korzeniowskiego,MTA5NDI0MDA/8/#info:metadata Panna mężatka : komedya we trzech aktach (1851)</dc:relation>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:title xml:lang="pl">No 47 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w czwartek dnia 27 grudnia (8 stycznia) 1873/4 roku, przedstawi komedja ulubiona teatrów Warszawskich w 3-ch aktach, Panna Mężatka, komedia w 1-m akcie, Trafiła Kosa na Kamień</dc:title>
+    <dc:relation xml:lang="pl">https://polona.pl/item/panna-mezatka-komedya-we-trzech-aktach,ODEzNzgxNTk/6/#info:metadata Panna mężatka : komedya we trzech aktach (1845)</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

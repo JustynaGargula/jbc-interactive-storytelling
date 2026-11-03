@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878600">
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">Grabowska, Józefa (1808-1886)</dc:subject>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:title xml:lang="pl">Józefa z Różańskich Grabowska Obywatelka dóbr ziemskich urodzona w roku 1808, dnia 22 Sierpnia 1886 r. zakończyła życie [...]</dc:title>
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 425</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878600/NDIGDZS086367.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:903036</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">ziemiaństwo</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

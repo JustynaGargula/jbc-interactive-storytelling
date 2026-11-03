@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838545">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">rocznice</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Puszcza Niepołomicka</dc:subject>
+    <dc:subject xml:lang="pl">adwokaci</dc:subject>
+    <dc:date xml:lang="pl">1950</dc:date>
+    <dc:issued xml:lang="pl">1950</dc:issued>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:subject xml:lang="pl">Klimecki, Stanisław (1883-1942)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838545/NDIGDZS068673.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Za spokój duszy ś. p. dra Stanisława Klimeckiego adwokata i b. wiceprezydenta m. Krakowa rozstrzelanego 11 grudnia 1942 r. w Puszczy Niepołomickiej jako w ósmą rocznicę śmierci odbędzie się w poniedziałek 11 grudnia 1950 r. nabożeństwo żałobne [...]</dc:title>
+    <dc:subject xml:lang="pl">prezydent miasta</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:871280</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 71</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

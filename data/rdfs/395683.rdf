@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/395683">
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:title xml:lang="pl">Żołnierze Polskich Oddziałów Leśnych!</dc:title>
+    <dc:issued xml:lang="pl">1945</dc:issued>
+    <dc:creator xml:lang="pl">Korboński, Stefan (1901–1989)</dc:creator>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:409995</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:409995</dc:relation>
+    <dc:subject xml:lang="pl">Delegat Sił Zbrojnych</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639987 III 128</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Pełnomocnik Rządu na Kraj</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/395683/PDF/NDIGDZS022895.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/395683/PDF/NDIGDZS022895.pdf</dc:identifier>
+    <dc:creator xml:lang="pl">Rzepecki, Jan (1899–1983)</dc:creator>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1945</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

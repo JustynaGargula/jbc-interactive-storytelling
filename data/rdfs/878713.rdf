@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878713">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 511</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878713/NDIGDZS088955.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Szpital św. Łazarza (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Ernest Gross Officyał urzędu podatkowego, przeżywszy lat 47 [...] rozstał się z tym światem w dniu 23 Kwietnia 1873 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">urzędnicy</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910594</dc:relation>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Gross, Ernest (1826?-1873)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

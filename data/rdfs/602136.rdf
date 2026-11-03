@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/602136">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/602136/NDIGMUZ032383.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:date xml:lang="pl">1854</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Koncert des eilfjährigen [!] Pianisten Alexander Bogucki, der das hohe Glück hatte, vor Seiner Kaiserlichen Hoheit Karl Ludwig unter allgemeinem Beifall öffentlich sich zu produziren : das Konzert wird am 23 September 1854 gegeben werden</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:634626</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 4,8</dc:source>
+    <dc:subject xml:lang="pl">Bogucki, Aleksander</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Koncert jedenastoletniego pianisty Aleksandra Boguckiego, któren wysoki miał zaszczyt, przed Jego Cesarzewiczowską Mością Karolem Ludwikiem z powszechném zadowoleniem publicznnie dać się słyszeć : koncert danym będzie dnia 23 września b. r.</dc:title>
+    <dc:issued xml:lang="pl">1854</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

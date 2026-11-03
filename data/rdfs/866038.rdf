@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866038">
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866038/NDIGDZS081998.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">fizycy</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:893436</dc:relation>
+    <dc:date xml:lang="pl">2010</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 71</dc:source>
+    <dc:issued xml:lang="pl">2010</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:title xml:lang="pl">Ś. P. Andrzej Burzyński [...] przeżywszy lat 68 [...] zasnął w Panu dnia 11 października 2010 roku [...]</dc:title>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Burzyński, Andrzej (1942-2010)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

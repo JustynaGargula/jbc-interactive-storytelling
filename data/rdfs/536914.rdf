@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536914">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564207</dc:relation>
+    <dc:relation xml:lang="pl">https://sbc.org.pl/publication/30806 Pierwej mama. Komedia w 1 akcie</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536914/NDIGDZS030756.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:title xml:lang="pl">No 7 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek dnia 2 (14) października 1873 roku, komedja w 1-m akcie Józefa Korzeniowskiego Pierwéj Mama, komedja w 1-m akcie z francuzkiego Trzy Wizyty, komedja w 1-m akcie Zofji Meller Postanowienia</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:title xml:lang="pl">No 7 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, vo vtornik 2 (14) oktâbrâ 1873 goda komedìâ v 1-m dějstvìi, soč. Iosifa Koženëvskago Prežde Mamaša, komedìâ v 1-m dějstvìi s francuzskago Tri Wizita, komedìâ v 1-m dějstvìi, soč. Sofìi Meller Postanovlenìâ</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:subject xml:lang="pl">Meller, Zofia</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/8</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

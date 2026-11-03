@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838581">
+    <dc:subject xml:lang="pl">Nowakowski, Saturnian</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838581/NDIGDZS068712.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Za spokój dusz ś. p. Stanisława Kartona kontrolera K. M. K. E., lat 49, zmarłego dnia 19 lipca 1941 r. w obozie w Oświęcimiu Saturnina Nowakowskiego pracownika K. M. K. E., lat 47, zmarłego dnia 22 lipca 1942 r. w obozie w Oświęcimiu odprawione zostanie w poniedziałek dnia 19 sierpnia 1946 r. [...] nabożeństwo żałobne [...]</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">więźniowie obozów</dc:subject>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:issued xml:lang="pl">1946</dc:issued>
+    <dc:date xml:lang="pl">1946</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 107</dc:source>
+    <dc:subject xml:lang="pl">Auschwitz-Birkenau (niemiecki obóz koncentracyjny)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:870635</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Karton, Stanisław</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

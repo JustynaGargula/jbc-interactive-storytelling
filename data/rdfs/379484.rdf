@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/379484">
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401322</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401322</dc:relation>
+    <dc:subject xml:lang="pl">„Żegota” (Rada Pomocy Żydom)</dc:subject>
+    <dc:subject xml:lang="pl">polskie organizacje podziemne</dc:subject>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:title xml:lang="pl">Rozkaz ogólny nr. 3</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399875 III</dc:source>
+    <dc:subject xml:lang="pl">Narodowe Siły Zbrojne</dc:subject>
+    <dc:creator xml:lang="pl">Kurcyusz, Tadeusz (1881–1944)</dc:creator>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/379484/PDF/NDIGDZS021411.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/379484/PDF/NDIGDZS021411.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

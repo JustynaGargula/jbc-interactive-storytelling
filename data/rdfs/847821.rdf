@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847821">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:title xml:lang="pl">Prof. Dr hab. Krystyna Bednarska-Ruszaj […] przeżywszy lat 62, opatrzona św. Sakramentami, zmarła 15 kwietnia 2008 r. […]</dc:title>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:879977</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847821/NDIGDZS074273.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:date xml:lang="pl">2008</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bart-Be 153</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">profesorowie</dc:subject>
+    <dc:subject xml:lang="pl">Bednarska-Ruszajowa, Krystyna (1945-2008)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:issued xml:lang="pl">2008</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

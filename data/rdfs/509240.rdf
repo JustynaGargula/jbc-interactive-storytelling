@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509240">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:subject xml:lang="pl">teatr krakowski 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 76</dc:source>
+    <dc:date xml:lang="pl">1853</dc:date>
+    <dc:issued xml:lang="pl">1853</dc:issued>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:title xml:lang="pl">Mittwoch den 6 Juli 1853 : Concert im Redouten-Saale (des Theater-Gebäudes) ...</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509240/NDIGMUZ025483.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:534723</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">We srodę [!] dnia 6 lipca 1853 r. : koncert w Sali Teatralnej</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

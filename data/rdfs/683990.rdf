@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/683990">
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">Teatr v četverg 6 (18) dekabrâ 1873 goda Dramatičeskoe Obšestvo pod direkcìeû Vladislava Dembskago, v polʹzu Marìi Stobinskoj komedìâ Dva Angela Hranitielâ, komedìâ Pěsnka Dâdûški, komedìâ Vykuplennyj Vystrělʹ</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/683990/NDIGDZS031678.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608326</dc:relation>
+    <dc:title xml:lang="pl">No 12 Teatr w czwartek d. 6 (18) grudnia 1873 r. Towarzystwo Dramatyczne pod dyrekcyą Władysława Dębskiego, na benefis Maryi Stobińskiej, komedja Dwóch Aniołów Opiekuńczych, komedja Piosnka Wujaszka, komedja Wykupiony Strzał</dc:title>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 26/11</dc:source>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+  </rdf:Description>
+</rdf:RDF>
+

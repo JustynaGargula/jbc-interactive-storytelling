@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570013">
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 27 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek dnia 6 (18) listopada 1873 roku, przedstawi opera komiczna, przekład z niemieckiego Bursze (Flote Burschen), rozpocznie komedja w 1-m akcie z francuskiego Dwaj Bracia, nastąpi komedja w 1-m akcie, z niemieckiego Dwaj Roztargnieni</dc:title>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599863</dc:relation>
+    <dc:subject xml:lang="pl">Anczyc, Władysław Ludwik (1823-1883)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/32</dc:source>
+    <dc:title xml:lang="pl">No 27 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, vo vtornik 6 (18) noâbrâ 1873 goda, dana budet komičeskaâ opera, perevod s německago Šaluny (Flote Burschen), komedìâ v 1-m dějstvìi, s francuzskago Dwa Brata, komedìâ v 1-m dějstvìi, s německago Dvoe Razsěânnyh</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570013/NDIGDZS030820.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

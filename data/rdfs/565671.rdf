@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/565671">
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:creator xml:lang="pl">Baturo, Iwona</dc:creator>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">budownictwo drewniane</dc:subject>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:595228</dc:relation>
+    <dc:publisher xml:lang="pl">Abteilung für Öffentlichkeitsarbeit und Tourismus des Marschallamts der Wojewodschaft von Małopolska. Gruppe für Tourismusförderung</dc:publisher>
+    <dc:title xml:lang="pl">Małopolska : Holzarchitekturroute</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001700</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

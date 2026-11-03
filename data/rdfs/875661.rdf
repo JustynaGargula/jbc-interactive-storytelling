@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/875661">
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bn-Bor 202</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 8 października 2017 roku zmarła dr hab. Ewa Bojenko-Izdebska adiunkt w Instytucie Nauk Politycznych i Stosunków Międzynarodowych Wydziału Studiów Międzynarodowych i Politycznych Uniwersytetu Jagiellońskiego [...]</dc:title>
+    <dc:subject xml:lang="pl">Bojenko-Izdebska, Ewa (1951-2017)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/875661/NDIGDZS088658.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:909056</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

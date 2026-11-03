@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/475430">
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">http://pbc.gda.pl/publication/16382 Dzieła Józefa Korzeniowskiego. T. 9</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/475430/NDIGDZS028576.pdf</dc:identifier>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:title xml:lang="pl">No 36 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juliana Grabińskiego, w sobotę dnia 29 grudnia 1873 r. (10 stycznia 1874 roku) Stary Mąż, Zbudziło się w Niej Serce</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/37</dc:source>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/38567 Stary mąż. Komedyja w 4ch aktach przez Józefa Korzeniowskiego napisana w 1842</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:500961</dc:relation>
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, v subbotu 29 dekabrâ 1873 g. (10 ânvarâ 1874 g.) Staryj Muž, Prosnulos΄ u Neâ Serdce</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

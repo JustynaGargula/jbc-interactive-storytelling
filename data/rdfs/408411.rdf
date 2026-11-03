@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/408411">
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:subject xml:lang="pl">Kossakowski, Wincenty, właśc. W. Kuźmin</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/408411/PDF/NDIGDZS022132.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/408411/PDF/NDIGDZS022132.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dytekcją Anastazego Trapszo, we wtorek dnia 13 (25) listopada 1873 roku daną będzie tragedija w 5-ciu aktach, Fryderyka Schillera p. t. Zbójcy</dc:title>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402102</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402102</dc:relation>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/19</dc:source>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:title xml:lang="pl">No 5 Sʺ dozvolenìâ Načalʹstva Obŝestvo Dramatičeskihʺ Artistovʺ podʺ direkcìeû Anastazìâ Trapšo, vʺ vtornikʺ 13 (25) noâbrâ 1873 goda : Razbojniki, tragedìâ vʺ 5-ti dějstvìâhʺ, soč. Fridriha Šillera</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

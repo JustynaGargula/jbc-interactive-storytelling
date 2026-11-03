@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/281633">
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:creator xml:lang="pl">Flig, Małgorzata</dc:creator>
+    <dc:subject xml:lang="pl">mit</dc:subject>
+    <dc:date xml:lang="pl">2012</dc:date>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2012/052</dc:source>
+    <dc:issued xml:lang="pl">2012</dc:issued>
+    <dc:subject xml:lang="pl">myth</dc:subject>
+    <dc:subject xml:lang="pl">literatura</dc:subject>
+    <dc:subject xml:lang="pl">soviet cinema</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:177089</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:177089</dc:relation>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">kino sowieckie</dc:subject>
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:subject xml:lang="pl">literature</dc:subject>
+    <dc:title xml:lang="pl">Struktury mitologiczne w kulturze radzieckiej lat 30. Mitotwórczy charakter kina i literatury</dc:title>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841453">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Pińczów (woj. świętokrzyskie)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:860851</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:issued xml:lang="pl">1945</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1945</dc:date>
+    <dc:title xml:lang="pl">Henryk Halastra [...] zginął w walce z Niemcami pod Sadkami, pow. Pińczów dnia 15 września 1943 r. Nabożeństwo żałobne odprawione zostanie w sobotę 15 września 1945 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">żołnierze</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ha-Hyt 13</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841453/NDIGDZS062060.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Halastra, Henryk (?-1943)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

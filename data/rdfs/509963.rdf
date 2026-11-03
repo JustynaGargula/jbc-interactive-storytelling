@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509963">
+    <dc:date xml:lang="pl">[1843]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 3, 3</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509963/NDIGMUZ032087.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">[1843]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535466</dc:relation>
+    <dc:title xml:lang="pl">Fünfter Jahrgang : Mittwoch den 6. Dezember 1843 : zwölfte (in diesem Jahre letzte) Musikübung im Musikvereins-Saale</dc:title>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

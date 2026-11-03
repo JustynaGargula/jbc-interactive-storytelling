@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/465960">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491646</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/37</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 25 S dozvolenìâ Načalʹstva Obŝestvo Dramatičeskih Artistov pod direkcìeû Anastazìâ Trapšo, vʺ voskresenʹe 16 (28) dekabrâ 1873 goda : Bolʹšoj Dramatičeskìj Buketʺ ili Quod-Libet</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dyrekcyą Anastazego Trapszo, w niedzielę dnia 16 (28) grudnia 1873 roku : Wielki Bukiet Dramatyczny czyli Quod-Libet</dc:title>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/465960/NDIGDZS022768.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

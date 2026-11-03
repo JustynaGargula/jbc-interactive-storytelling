@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539513">
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">parki narodowe</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567199</dc:relation>
+    <dc:publisher xml:lang="pl">Abteilung für Öffentlichkeitsarbeit und Tourismus des Marschallamts der Wojewodschaft von Małopolska. Gruppe für Tourismusförderung</dc:publisher>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001685</dc:source>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:description xml:lang="pl">Neuauflage</dc:description>
+    <dc:title xml:lang="pl">Małopolska : Nationalparks, Landschaftsparks und Naturreservate</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:creator xml:lang="pl">Baturo, Iwona</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

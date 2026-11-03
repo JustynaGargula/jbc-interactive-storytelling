@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485343">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:title xml:lang="pl">No 42 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juljana Grabińskiego, we wtorek dnia 8 (20) stycznia 1874 roku Benefis Józefa Bendy, Narcyz Rameau</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/41</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Benda, Józef (1872-?)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485343/NDIGDZS028633.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 42 Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, vo vtornik 8 (20) ânvarâ 1874 goda v Polʹzu Osipa Bendy, Narcyz Ramo</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:511506</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

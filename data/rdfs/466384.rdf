@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466384">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466384/NDIGDZS026307.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Na rzecz ubogiej dziatwy szkolnej w sobotę dnia 14go lutego 1885, odbędzie się w sali kasyna w Lisku przedstawienie amatorów : Po kweście, fraszka w 1 akcie przez Sulisława, Tajemnica, fraszka sceniczna w jednej odsłonie Stanisława Dobrzańskiego, poczem nastąpi zabawa z tańcami</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492050</dc:relation>
+    <dc:date xml:lang="pl">[1885]</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">[1885]</dc:issued>
+    <dc:subject xml:lang="pl">Dobrzański, Stanisław</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 16/16</dc:source>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

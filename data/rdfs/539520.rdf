@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539520">
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:creator xml:lang="pl">Baturo, Iwona</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567227</dc:relation>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:description xml:lang="pl">Wydanie nowe</dc:description>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001687</dc:source>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:publisher xml:lang="pl">Departamento de Turismo, Deporte y Promoción de la Oficina del Mariscal de la Voivodía de Małopolska. Grupo para el Sistema Regional de la Información Turística</dc:publisher>
+    <dc:title xml:lang="pl">Małopolska : parques nacionales y paisajistas, reservas naturales</dc:title>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:subject xml:lang="pl">parki narodowe</dc:subject>
+    <dc:language xml:lang="pl">spa</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

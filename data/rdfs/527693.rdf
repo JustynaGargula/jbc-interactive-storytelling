@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527693">
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001661</dc:source>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:publisher xml:lang="pl">Departament Turystyki, Sportu i Promocji Urzędu Marszałkowskiego Województwa Małopolskiego. Zespół ds. Regionalnego Systemu Informacji Turystycznej :</dc:publisher>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:title xml:lang="pl">Małopolska : aktywnie latem</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554377</dc:relation>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

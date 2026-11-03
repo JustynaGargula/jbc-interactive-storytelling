@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514097">
+    <dc:subject xml:lang="pl">Grünberg, Julia</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 6</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Montag den 24ten Juli 1843. wird Dlle. Julie von Grünberg, Pianistin aus St. Petersburg, auf ihrer Kunstreise nach Deutschland die Ehre haben ein Concert im galizischen Musikvereins-Saale zu geben [...]</dc:title>
+    <dc:date xml:lang="pl">[1843]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514097/NDIGMUZ025870.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">[1843]</dc:issued>
+    <dc:subject xml:lang="pl">koncert fortepianowy</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:531908</dc:relation>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

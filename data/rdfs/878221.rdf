@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878221">
+    <dc:title xml:lang="pl">Ś. p. Jan Budziło architekt plastyk emerytowany prof. Akademii Sztuk Pięknych w Krakowie […] odszedł od nas na zawsze, dnia 10 października 1983 roku […]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:914001</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 191</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1983</dc:issued>
+    <dc:subject xml:lang="pl">Budziło, Jan (1908-1983)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878221/NDIGDZS091387.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:date xml:lang="pl">1983</dc:date>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

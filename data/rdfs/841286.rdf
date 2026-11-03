@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841286">
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">inwalidzi wojenni</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Florian Piech inwalida wojenny [...] zasnął w Panu dnia 16 czerwca 1942 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841286/NDIGDZS068909.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:date xml:lang="pl">1942</dc:date>
+    <dc:issued xml:lang="pl">1942</dc:issued>
+    <dc:subject xml:lang="pl">Piech, Florian</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874709</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pas-Pie 53</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684095">
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:title xml:lang="pl">No 13 Teatr w niedzielę d. 9 (21) grudnia 1873 r. Towarzystwo Dramatyczne pod dyrekcyą Władysława Dębskiego, komedja Podejście, komedja Biała Kamelja, komedja Niezgody Domowe</dc:title>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608322</dc:relation>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Teatr v voskresenʹe 9 (21) dekabrâ 1873 goda Dramatičeskoe Obšestvo pod direkcìeû Vladislava Dembskago, komedìâ Hitrostì, komedìâ Bělaâ Kamelìâ, komedìâ Domašnââ SSora</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 26/12</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684095/NDIGDZS031679.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

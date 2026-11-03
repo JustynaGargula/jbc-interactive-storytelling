@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/237058">
+    <dc:title xml:lang="pl">Obóz zagłady w Chełmnie nad Nerem</dc:title>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:subject xml:lang="pl">Żydzi</dc:subject>
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:creator xml:lang="pl">Chrostowski, Witold</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:180044</dc:relation>
+    <dc:issued xml:lang="pl">2004</dc:issued>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">obozy</dc:subject>
+    <dc:date xml:lang="pl">2004</dc:date>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">ludobójstwo</dc:subject>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2004/198</dc:source>
+    <dc:subject xml:lang="pl">Niemcy</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

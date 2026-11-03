@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/576469">
+    <dc:subject xml:lang="pl">zamki</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001724</dc:source>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:publisher xml:lang="pl">Departament Turystyki, Sportu i Promocji Urzędu Marszałkowskiego Województwa Małopolskiego. Zespół ds. Regionalnego Systemu Informacji Turystycznej</dc:publisher>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:title xml:lang="pl">Małopolska : zamki wiecznie żywe</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:607812</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

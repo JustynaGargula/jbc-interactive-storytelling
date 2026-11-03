@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/875676">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bn-Bor 217</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/875676/NDIGDZS088675.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:909028</dc:relation>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Borkacki, Stanisław (1919-2017)</dc:subject>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 11 lipca 2017 roku zmarł prof. dr hab. Stanisław Borkacki [...] Nestor wśród naukowców, prawnik i ekonomista [...]</dc:title>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

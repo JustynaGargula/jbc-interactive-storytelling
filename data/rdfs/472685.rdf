@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472685">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472685/NDIGDZS028551.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/7</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:title xml:lang="pl">No 6 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juljana Grabińskiego, we wtorek dnia 6 (18) listopada 1873 r. po raz pierwszy Przezorna Mama</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498255</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, vo vtornik 6 (18) noâbrâ 1873 g. pervyj raz Predusmotritelʹnaâ Mamenʹka</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:subject xml:lang="pl">Bliziński, Józef (1827-1893)</dc:subject>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

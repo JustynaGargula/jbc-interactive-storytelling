@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/602543">
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:date xml:lang="pl">1888</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 24660 IV 41/7</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/602543/NDIGDZS030843.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1888</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Nr 6 Stały teatr amatorski w Żywcu, na dochód pogorzelców miejscowych! W sobotę dnia 2 czerwca 1888 w sali ratuszowej rozpocznie: Vendetta, w 1 akcie przez Gondineta</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605501</dc:relation>
+    <dc:subject xml:lang="pl">Gondinet, Edmond (1828-1888)</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

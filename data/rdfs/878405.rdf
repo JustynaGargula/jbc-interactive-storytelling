@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878405">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Julian Wilczyński uczeń 1. kursu wyższej realnej w 15 wiośnie życia swego, rozstał się z tym światem w dniu 17 Czerwca b. r. [...]</dc:title>
+    <dc:date xml:lang="pl">1870</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1870</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878405/NDIGDZS090271.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910976</dc:relation>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Wilczyński, Julian (1855?-1870)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 368</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

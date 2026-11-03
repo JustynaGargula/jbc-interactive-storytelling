@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841049">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Vom tiefsten Schmerze erfüllt geben wir hiemit allen Verwandten und Ferunden die traurige Nachricht vom Hinscheiden unserer innigstgeliebten Schwester, Frau Rosamunde Pietruszewicz Oberstenwitwe welche im After vom 56 Jahren, am 27. Februar 1940 [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pas-Pie 90</dc:source>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Pietruszewicz, Rosamunde</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874687</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841049/NDIGDZS069000.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

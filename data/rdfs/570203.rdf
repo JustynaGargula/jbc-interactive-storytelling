@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570203">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001715</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600170</dc:relation>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser</dc:contributor>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:title xml:lang="pl">Małopolska : sentier de l'UNESCO</dc:title>
+    <dc:creator xml:lang="pl">Baturo, Iwona</dc:creator>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:publisher xml:lang="pl">Département du Tourisme, du Sport et de la Promotion de l’Office du Maréchal de la Voïvodie de Małopolska. L��Ensemble chargé du Système Régional d’Information Touristique</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

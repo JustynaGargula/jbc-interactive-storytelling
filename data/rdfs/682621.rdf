@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/682621">
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:subject xml:lang="pl">Bałucki, Michał (1837-1901)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/682621/NDIGDZS034597.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Na dochód pogorzelców miasta Stryja i Liska, dnia 6 maja 1886 odbędzie się w Złoczowie w sali Towarzystwa Teatru amatorskiego : Wieczorek Muzykalny połączony z przedstawieniem amatorskim : Teatr amatorski, krotochwila w 2 aktach Michała Bałuckiego</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608618</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 40/8</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

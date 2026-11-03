@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/602539">
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/602539/NDIGDZS030808.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/28</dc:source>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605531</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 23 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek, dnia 30 października (11 listopada), 1873 roku przedstawi dramat z muzyką, w 5-ciu aktach, z francuzkiego, Stary Kapral, akt pierwszy (prolog) „Śmierć na polu chwały”</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 23 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, vo vtornik, 30 oktâbrâ (11 noâbrâ), 1873 goda. Dana budet drama s muzykoj, v 5-ti aktah, s francuzskago Staryj Kapral akt pervyj (prolog) „Smertʹ na polě brani”</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

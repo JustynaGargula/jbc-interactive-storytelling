@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878739">
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910600</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:title xml:lang="pl">Edmund Grosse c. i k. Porucznik rezerwy 13 batalionu Strzelców, Właściciel winnic w Satoralya Ujhely przeżywszy lat 30 [...] zmarł tamże w Niedzielę dnia 21 stycznia 1900 r. [...]</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 517</dc:source>
+    <dc:subject xml:lang="pl">Grosse, Edmund (1870?-1900)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1900</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878739/NDIGDZS089711.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1900</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

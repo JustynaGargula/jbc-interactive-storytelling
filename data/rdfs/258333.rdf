@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/258333">
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:subject xml:lang="pl">city</dc:subject>
+    <dc:subject xml:lang="pl">Europa</dc:subject>
+    <dc:subject xml:lang="pl">tożsamość</dc:subject>
+    <dc:creator xml:lang="pl">Kubicki, Paweł</dc:creator>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:180352</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:180352</dc:relation>
+    <dc:subject xml:lang="pl">identity</dc:subject>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2005/140</dc:source>
+    <dc:date xml:lang="pl">2005</dc:date>
+    <dc:title xml:lang="pl">Miasto jako symbol w procesie tworzenia tożsamości regionalnej, narodowej i ponadnarodowej</dc:title>
+    <dc:subject xml:lang="pl">Europe</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">miasto</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">Cracow</dc:subject>
+    <dc:issued xml:lang="pl">2005</dc:issued>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:subject xml:lang="pl">Królestwo Galicji i Lodomerii (1772–1918)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

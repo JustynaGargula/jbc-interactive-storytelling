@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/565766">
+    <dc:date xml:lang="pl">1859</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:595397</dc:relation>
+    <dc:issued xml:lang="pl">1859</dc:issued>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">K. Binder w Brodach poleca swój nowo zrestaurowany Hotel Rosyjski po zgorzelisku i prosi o łaskawe uczęszczanie</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/565766/NDIGDZS024400.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">K. Binder in Brody empfiehlt sein neu restaurirtes Hotel de Russie nach dem Brande und bittet um den gefälligen Zuspruch</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 67</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

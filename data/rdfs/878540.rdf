@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878539">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908821</dc:relation>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:subject xml:lang="pl">Wielopolski, Jan Kanty (1780?-1860)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 323</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:title xml:lang="pl">Jan Kanty Hr. Wielopolski b. senator, kasztelan Królestwa Polskiego. Przeżywszy lat 86 [...] dnia jedenastego Marca r. 1860 zakończył pobożne i przykładne życie [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878539/NDIGDZS089388.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

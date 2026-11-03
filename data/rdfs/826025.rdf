@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/826025">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Żydzi</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/826025/NDIGDZS055592.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224650 V Hl-Hu 99</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:849532</dc:relation>
+    <dc:issued xml:lang="pl">1905</dc:issued>
+    <dc:title xml:lang="pl">Dr Leon Horowitz : Adwokat krajowy, [...] zmarł dnia 20 lutego 1905 r. w 62-gim roku życia</dc:title>
+    <dc:date xml:lang="pl">1905</dc:date>
+    <dc:subject xml:lang="pl">adwokaci</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Horowitz, Leon (1844-1905)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570010">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/27</dc:source>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:title xml:lang="pl">No 22 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v voskresenʹe 28 oktâbrâ (9 noâbrâ) 1873 goda, v pervyj raz dana budut volšebno-komičeskaâ komedìâ-opera s pěnìem i tancami, v 3-h dějstvìah prologom Putešestvìe na Svadʹbu ili Dʹâvol Volokita, prolog s pěnìem i dìâvolʹskimi tancami pod nazvanìem Rebelìoza, Dʹâvolʹskaâ Koketka</dc:title>
+    <dc:title xml:lang="pl">No 22 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w niedzielę dnia 28 października (9 listopada) 1873 roku, pierwszy raz przedstawi czarodziejsko-komiczno komedjo-opera z tańcami, w 3-ch aktach i prologiem Podróż na wesele czyli Djabeł w Zalotach, prolog z chórami i tańcami djabelskiemi pod tytułem Rebelioza Szatańska Zalotnica</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599861</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570010/NDIGDZS030807.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

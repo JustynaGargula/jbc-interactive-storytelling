@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466127">
+    <dc:title xml:lang="pl">No 2 S dozvolenìâ Načalʹstva Tryppa Dramatičeskih Poznanskih Artistov pod direkcìeû Severina Zamojskago, v ponedĕlʹnik 13 (25) maâ 1874 goda : Gorohovoj věnok ili Krakovskìe Mazury, komedìâ v 4 dějstvìah</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/49</dc:source>
+    <dc:issued xml:lang="pl">[1874]</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491796</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1874]</dc:date>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych Poznańskich</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych Poznańskich pod dyrekcyą Seweryna Zamojskiego, w poniedziałek dnia 13 (25) maja 1874 roku : Grochowy wieniec czyli Mazury w Krakowskiem, komedja w 4 aktach</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466127/NDIGDZS023999.pdf</dc:identifier>
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

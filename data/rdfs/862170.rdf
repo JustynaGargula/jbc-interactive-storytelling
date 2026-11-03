@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/862170">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/862170/NDIGDZS078834.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Da-Dmy 64</dc:source>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:887713</dc:relation>
+    <dc:issued xml:lang="pl">2018</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Dec, Przemysław (1969-2018)</dc:subject>
+    <dc:title xml:lang="pl">Ś.p. Dr Przemysław Dec [...] Wykładowca w Instytucie Judaistyki Uniwersytetu Jagiellońskiego [...]. Msza św. żałobna przy Zmarłym odprawiona zostanie w poniedziałek, dnia 24 września 2018 roku [...]</dc:title>
+    <dc:date xml:lang="pl">2018</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

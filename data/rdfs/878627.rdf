@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878627">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 450</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878627/NDIGDZS087076.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Szpital św. Łazarza (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Graff, Józia (1879?-1884)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907138</dc:relation>
+    <dc:title xml:lang="pl">Józia Graff po długiej a bardzo dolegliwej słabości w piątej wiośnie życia swego zasnęła w Panu [...]</dc:title>
+    <dc:issued xml:lang="pl">1884</dc:issued>
+    <dc:date xml:lang="pl">1884</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

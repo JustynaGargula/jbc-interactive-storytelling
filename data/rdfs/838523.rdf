@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838523">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838523/NDIGDZS068648.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">Kimler, Adolfl (?-1943)</dc:subject>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Wir geben bekannt, dass es dem Allmächtigen gefallen hat unseren innigst geliebten Gatten und Vater, den Herrn Adolf Kimler Eisenbahner im Ruchestande und Bürger der Stadt Krakau, nach langem und schwerem Leiden am 11. 5. 1943 [...] Die Beerdigung findet auf dem Rakowitzer Friedhof den 14. Mai 1943 [...]</dc:title>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:870429</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 49</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

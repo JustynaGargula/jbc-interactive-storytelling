@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878634">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Bujak, Stanisław (1895?-1978)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1978</dc:issued>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Kościół św. Stanisława Kostki (Kraków)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878634/NDIGDZS091586.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Nowy Cmentarz Podgórski (Kraków)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:914852</dc:relation>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:date xml:lang="pl">1978</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 220</dc:source>
+    <dc:title xml:lang="pl">Ś. p. Stanisław Bujak były legionista, oficer Wojska Polskiego […] zmarl dnia 24 listopada 1978 roku</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

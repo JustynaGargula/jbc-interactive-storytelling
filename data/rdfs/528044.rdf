@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/528044">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">M. Nowo-Radomsk, tylko dwa przedstawienia Artystów teatru Polskiego z St. Petersburga w teatrze miejscowym w niedzielę dnia 3 kwietnia 1892 r. Ciotka na wydaniu, Fałszywe Blaski, Lorenco i Jessyka, Stanisław i Zośka</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">G. Novoradomsk, tolʹko dva predstavlenìâ Artistov Polʹskago teatra iz C. Peterburga v mĕstnomʺ teatrě v voskresenʹe 22 marta 1892 g. Tetka ženitsâ, Falʹšivye Bleski, Lorenco i Essyka, Stanislav i Zocʹka</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Sankt Petersburg (Rosja)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 21/7</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/528044/NDIGDZS028671.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554806</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Kohn i Oderfeld</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

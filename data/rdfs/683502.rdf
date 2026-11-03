@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/683502">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 26/9</dc:source>
+    <dc:title xml:lang="pl">No 10 Teatr w niedzielę Towarzystwo Dramatyczne pod dyrekcyą Władysława Dębskiego, komedja Majster i Czeladnik, komedja ze śpiewami Pod Strychem</dc:title>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608317</dc:relation>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/683502/NDIGDZS031676.pdf</dc:identifier>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:title xml:lang="pl">Teatr v voskresenʹe 2 (14) dekabrâ 1873 goda Dramatičeskoe Obšestvo pod direkcìeû Vladislava Dembskago, komedìâ Master i Rabotnik, komedìâ s pěnìenâmi Na Čerdakě</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840089">
+    <dc:issued xml:lang="pl">1939</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840089/NDIGDZS069089.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">nauczyciele</dc:subject>
+    <dc:subject xml:lang="pl">podoficerowie</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1939</dc:date>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:title xml:lang="pl">Julian Piszczkiewicz nauczyciel, podchorąży rez. W. P. przeżywszy lat 24, zginął śmiercią bohaterską w obronie nadewszystko ukochanej Ojczyzny dnia 20 września 1939 r. w Młynkach koło Narolu [...]</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873491</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pig-Pon 51</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Piszczkiewicz, Julian (?-1939)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

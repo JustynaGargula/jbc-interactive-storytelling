@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878414">
+    <dc:title xml:lang="pl">Piotr Wilkosz emerytowany poborca podatków, przeżywszy lat 75, rozstał się z tym światem w dniu 21 Czerwca 1871 r. [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878414/NDIGDZS090335.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:911172</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1871</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 377</dc:source>
+    <dc:date xml:lang="pl">1871</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Wilkosz, Piotr (1796?-1871)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878421">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 384</dc:source>
+    <dc:subject xml:lang="pl">Wilkuszewski, Antoni (1853?-1888)</dc:subject>
+    <dc:date xml:lang="pl">1888</dc:date>
+    <dc:title xml:lang="pl">Antoni Wilkuszewski obywatel Półwsia Zwierzyniec, majster krawiecki przeżywszy lat 35 [...] zasnął w Panu dnia 13 Lutego 1888 roku [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878421/NDIGDZS090356.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:911192</dc:relation>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1888</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

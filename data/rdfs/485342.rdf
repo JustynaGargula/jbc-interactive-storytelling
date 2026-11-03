@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485342">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:title xml:lang="pl">No 39 Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, v četverg 1 (13) ânvarâ 1874 goda Děvičʹi Oběty, Koncert Učenicy G. Kvatrini Marìi Kolakovskoj</dc:title>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:511505</dc:relation>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/40</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485342/NDIGDZS028580.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 39 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juliana Grabińskiego, w czwartek dnia 3 (15) stycznia 1874 roku Śluby Panieńskie, Koncert Uczennicy Pana Quatriniego Maryi Kołakowskiéj</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

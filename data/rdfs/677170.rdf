@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677170">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:creator xml:lang="pl">Czuma, Mieczysław (1936– )</dc:creator>
+    <dc:subject xml:lang="pl">Polska</dc:subject>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:date xml:lang="pl">2012</dc:date>
+    <dc:description xml:lang="pl">Publikacja zawiera plik ISO. Instrukcja otwierania pliku dla systemu Windows 10/11 i macOS znajduje się na stronie: https://www.avaide.com/pl/rip-bd-dvd/mount-an-iso/</dc:description>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">Sekretariat Regionalny Krajowej Sieci Obszarów Wiejskich</dc:publisher>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:creator xml:lang="pl">Siwiec, Katarzyna</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:714756</dc:relation>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:title xml:lang="pl">Zasmakuj w Małopolsce produkty regionalne</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ A Ez 202739</dc:source>
+    <dc:subject xml:lang="pl">produkty regionalne</dc:subject>
+    <dc:issued xml:lang="pl">2012</dc:issued>
+    <dc:subject xml:lang="pl">wydawnictwa informacyjne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

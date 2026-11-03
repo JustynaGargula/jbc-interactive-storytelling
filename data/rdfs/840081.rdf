@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840081">
+    <dc:issued xml:lang="pl">1942</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pig-Pon 43</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:date xml:lang="pl">1942</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873460</dc:relation>
+    <dc:subject xml:lang="pl">dyrektorzy szkół</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840081/NDIGDZS069075.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Stanisław Pirowski emer. kierownik szkoły [...] zasnął w Panu dnia 15 września 1942 r. [...]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Pirowski, Stanisław (?-1942)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527974">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527974/NDIGDZS028661.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">litografia</dc:subject>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Teatr we wtorek dnia 30 września 1873 r. Artyści Dramatyczni przdstawią komedię w 1-m ak. z dzieł Józefa Korzeniowskiego pod tytułem Nowy Mizantrop i Druciarz, poprzedzi Qui pro Quo, zakończy Złe Wychowanie</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">No 10 S dozvolenìâ Načalʹstva Teatr vo vtornik 18 sentâbrâ 1873 goda Dramatičeskìe Artisty predstavât komedû v 1-m dějstvìi sočinenìe Josifa Korženëvskago po nazvanìem Novyj Mizantrop i Proulŝik, predšestvuet Qui pro Quo, Hudoe Vospitanìe</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 21/2</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554722</dc:relation>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

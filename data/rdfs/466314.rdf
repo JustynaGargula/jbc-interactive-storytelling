@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466314">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466314/NDIGDZS024352.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491981</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 14/23</dc:source>
+    <dc:title xml:lang="pl">Na wyłączny dochód Michaliny Monikowskiej, w niedzielę dnia 10 września 1865 : Trafiła kosa na kamień, komedya w 1 akcie z fran. p. Dubois, zakończy Antoni i Antosia, komedya ze śpiewami w 1 akcie</dc:title>
+    <dc:subject xml:lang="pl">litografia</dc:subject>
+    <dc:issued xml:lang="pl">[1865]</dc:issued>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">[1865]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/276104">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:181564</dc:relation>
+    <dc:date xml:lang="pl">2007</dc:date>
+    <dc:subject xml:lang="pl">lokator</dc:subject>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:creator xml:lang="pl">Hołda, Elżbieta</dc:creator>
+    <dc:issued xml:lang="pl">2007</dc:issued>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2007/292</dc:source>
+    <dc:subject xml:lang="pl">właściciel</dc:subject>
+    <dc:title xml:lang="pl">Społeczno-prawne uwarunkowania wzajemnych postaw i relacji właścicieli oraz najemców lokali mieszkalnych w Polsce po 1990 roku</dc:title>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">najem</dc:subject>
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:subject xml:lang="pl">czynsz</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:181564</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

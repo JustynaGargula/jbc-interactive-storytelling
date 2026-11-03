@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/865925">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:897420</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Chmielarz, Krzysztof (?-2015)</dc:subject>
+    <dc:issued xml:lang="pl">2015</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Ca-Chrz 153</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/865925/NDIGDZS083435.pdf</dc:identifier>
+    <dc:date xml:lang="pl">2015</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 17 października 2015 r. zmarł Krzysztof Chmielarz pracownik obsługi zatrudniony w Dziale Administrowania Nieruchomościami UJ [...]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

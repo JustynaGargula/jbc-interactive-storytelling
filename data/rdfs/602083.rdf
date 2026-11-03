@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/602083">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 4,6</dc:source>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">We czwartek dnia 9. marca 1843 r. J. Remmers i G. Schumann, w podróży artystowskiej z Petersburga do Berlina, będą mieli zaszczyt, dać w tutejszej sali Towarzystwa muzycznego koncert</dc:title>
+    <dc:date xml:lang="pl">[1843]</dc:date>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:title xml:lang="pl">J. Remmers u. G. Schumann, auf ihrer Kunstreise von Petersburg nach Berlin, werden die Ehre haben, Donnerstag den 9. März 1843, im Musikvereins-Saale ein Concert zu geben</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/602083/NDIGMUZ032379.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">[1843]</dc:issued>
+    <dc:subject xml:lang="pl">Towarzystwo Muzyczne (Lwów)</dc:subject>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:634616</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847371">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:879482</dc:relation>
+    <dc:title xml:lang="pl">Uniwersytet Jagielloński z głębokim żalem zawiadamiamy, że w dniu 16 października 2008 roku po ciężkiej chorobie zmarł w Krakowie w wieku 65 lat ś. p. dr Andrzej Beauvale urodzony 16.11.1943 roku we Lwowie, pracownik Instytutu Psychologii UJ […]</dc:title>
+    <dc:date xml:lang="pl">2008</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847371/NDIGDZS074180.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Instytut Psychologii Uniwersytetu Jagiellońskiego</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Beauvale, Andrzej (1943-2008)</dc:subject>
+    <dc:issued xml:lang="pl">2008</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bart-Be 117</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">nauczyciele akademiccy</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

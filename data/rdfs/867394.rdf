@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/867394">
+    <dc:date xml:lang="pl">2006</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Do-Drzy 7</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Dobijanka-Witczakowa, Olga (1921-2006)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:issued xml:lang="pl">2006</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:902076</dc:relation>
+    <dc:title xml:lang="pl">Msza święta w intencji śp. prof. dr hab. Olgi Dobijanki-Witczakowej zostanie odprawiona 23 maja 2006 o godz. 19.30 w Kolegiacie św. Anny [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/867394/NDIGDZS085967.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

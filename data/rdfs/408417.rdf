@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/408417">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dytekcją Anastazego Trapszo, we wtorek dnia 20 listopada (2 grudnia) 1873 r. Benefis pani Adolfiny Zimajer : po raz pierwszy Sztuka przypodobania się czyli Vice-Hrabia de Letorieres, Pochód z pochodniami</dc:title>
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/408417/PDF/NDIGDZS022138.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/408417/PDF/NDIGDZS022138.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 10 S dozvolenìâ Načalʹstva Obšestvo Dramatičeskih Artistov pod direkcìeû Anastazìâ Trapšo, vo vtornik 20 noâbrâ (2 dekabrâ) 1873 goda Benefis g-ži Adolʹfiny Zimaer v piervyj raz Iskustvo nravitsâ ili Vikont de Letorier, Poxod s fakelami</dc:title>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:402085</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:402085</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/25</dc:source>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

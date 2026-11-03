@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/277725">
+    <dc:date xml:lang="pl">2009</dc:date>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2009/105</dc:source>
+    <dc:issued xml:lang="pl">2009</dc:issued>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:creator xml:lang="pl">Starzyński, Marcin</dc:creator>
+    <dc:title xml:lang="pl">Krakowska rada miejska w średniowieczu</dc:title>
+    <dc:subject xml:lang="pl">municipal goverment</dc:subject>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">samorząd miejski</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:184685</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:184685</dc:relation>
+    <dc:subject xml:lang="pl">miasto średniowieczne</dc:subject>
+    <dc:subject xml:lang="pl">Cracow</dc:subject>
+    <dc:subject xml:lang="pl">mediaeval town</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840598">
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:date xml:lang="pl">1946</dc:date>
+    <dc:subject xml:lang="pl">Jossé, Tadeusz (1917?-1944)</dc:subject>
+    <dc:issued xml:lang="pl">1946</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">żołnierze</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840598/NDIGDZS068410.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874308</dc:relation>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">więźniowie polityczni</dc:subject>
+    <dc:subject xml:lang="pl">Batalion Skała (Armia Krajowa)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">rocznice</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Za spokój dusz najdroższych synów Tadeusza Jossé lat 27, więźnia politycznego Montelupich, zgasłego na skutek kilkuletnich przejść więziennych dnia 30 stycznia 1944 r. oraz Jerzego Jossé („Szary”) lat 17, żołnierza A. K., Batalionu „Skała” poległego w walce z okupantem pod Sadkami pow. Miechów dnia 30. VIII. 1944 r. jako w drugą bolesną rocznicę śmierci odbędzie się w środę dnia 30. I. 1946 r. w kościele Najśw. M. Panny przed ukrzyżowanym P. Jezusem nabożeństwo żałobne [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III J-Jar 70</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

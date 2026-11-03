@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878763">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:912745</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 525</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Grossowa, Józefa (1817?-1885)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Józefa z Grossów Grossowa wdowa po urzędniku c. k. Dyrekcji krajowej, przeżywszy lat 68 [...] zmarła d. 22 Kwietnia 1885 r. [...]</dc:title>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878763/NDIGDZS089958.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

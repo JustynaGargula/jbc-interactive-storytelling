@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510519">
+    <dc:subject xml:lang="pl">okupacja niemiecka w Polsce (1939-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:536673</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, B 23131 II 63</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:title xml:lang="pl">Karta żywnościowa dla nieniemców dorosłych i młodzieży ponad 14 lat</dc:title>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:issued xml:lang="pl">[1944]</dc:issued>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">[1944]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510519/NDIGDZS027363.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Lebensmittelkarte für nichtdeutsche Erwachsene und Jugendliche über 14 Jahre</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:description xml:lang="pl">Karta żywnościowa, ważna na miesiąc maj 1944</dc:description>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:subject xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

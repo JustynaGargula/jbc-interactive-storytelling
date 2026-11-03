@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485325">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:511493</dc:relation>
+    <dc:title xml:lang="pl">No 7 Obŝestvo Dramatičeskih Artistov pod upravlenìem F. Rataeviča v subbotu 22 fevralâ 1897 goda, Čestʹ drama c učastìem lûbitelâ</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 19/11</dc:source>
+    <dc:date xml:lang="pl">[1897]</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:issued xml:lang="pl">[1897]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:publisher xml:lang="pl">K. Rybacki</dc:publisher>
+    <dc:title xml:lang="pl">Towarzystwo Artystów Dramatycznych pod dyrekcyą Feliksa Ratajewicza w sobotę dnia 6 marca 1897 roku, Honor dramat z łask. współudziałem amatora</dc:title>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485325/NDIGDZS027415.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

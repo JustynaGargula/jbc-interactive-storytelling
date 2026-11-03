@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570664">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Teatr hr. Skarbka we Lwowie</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 3, 18</dc:source>
+    <dc:title xml:lang="pl">Uwiadomienie tymczasowe : Podpisany ma zaszczyt zawiadomić szanowną P. T. Publiczność, że za dni kilka pierwsi członkowie opery teatru hr. Skarbka we Lwowie w swoim przejeździe kilka Koncertów wyprawią</dc:title>
+    <dc:date xml:lang="pl">ca 1845</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:601488</dc:relation>
+    <dc:title xml:lang="pl">Vorläufige Anzeige : Gefertigter erlaubt sich einem P. T. Publikum die ergebenste Anzeige zu machen, dass in einigen Tagen die ersten Opern-Mitglieder vom Gräflich Skarbek'schen Theater in Lemberg auf ihrer Durchreise einige Concerte zu geben die Ehre haben werden</dc:title>
+    <dc:issued xml:lang="pl">ca 1845</dc:issued>
+    <dc:creator xml:lang="pl">Moser, Karol</dc:creator>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570664/NDIGMUZ032093.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

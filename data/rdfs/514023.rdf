@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514023">
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:title xml:lang="pl">Polizeliche Anordnung über Festellung von Verkaufszeiten für Einzelhandelgeschäfte</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:537238</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:title xml:lang="pl">Zarządzenie policyjne o ustaleniu godzin sprzedaży dla sklepów z towarem jednorakim</dc:title>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514023/NDIGDZS027929.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.1, Rz/8</dc:source>
+    <dc:creator xml:lang="pl">Ehaus, Heinz (1906–1945)</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

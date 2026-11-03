@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570090">
+    <dc:relation xml:lang="pl">https://polona.pl/item/rinaldo-rinaldini-wielki-bandyta-wloski-t-1,NjY0NDA5MzM/2/#info:metadata Rinaldo Rinaldini, wielki bandyta włoski. T. 1</dc:relation>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 46 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, vo vtornik 25 dekabrâ (6 ânvarâ) 1873/4 goda, dano budet sceničeskoe sočinenìe s pěnìem, v 6 kartinah Rinalʹdo-Rinalʹdini Opasnyj Italʹânskìj Bandyt</dc:title>
+    <dc:title xml:lang="pl">No 46 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek dnia 25 grudnia (6 stycznia) 1873/4 roku, przedstawi dzieło sceniczne ze śpiewami w 6-ciu obrazach Rinaldo-Rinaldini Wielki Bandyta Włoski</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570090/NDIGDZS030840.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599992</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/49</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

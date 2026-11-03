@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839666">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pig-Pon 82</dc:source>
+    <dc:title xml:lang="pl">J. M. J. A. O. Alojzy Polak kapłan-jubilat zakonu OO. Augustianów [...] zasnął w Panu dnia 23 września 1944 r. w Krakowie [...]</dc:title>
+    <dc:subject xml:lang="pl">zakonnicy</dc:subject>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873443</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Polak, Alojzy (?-1944)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839666/NDIGDZS069122.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">duchowieństwo katolickie</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

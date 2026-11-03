@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838502">
+    <dc:subject xml:lang="pl">lekarze</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:870238</dc:relation>
+    <dc:date xml:lang="pl">1945</dc:date>
+    <dc:issued xml:lang="pl">1945</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Cetnarowski, Edward (?-1933)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">piłkarze nożni</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 28</dc:source>
+    <dc:subject xml:lang="pl">Kałuża, Józef (1896-1944)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838502/NDIGDZS068601.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:title xml:lang="pl">Za spokój dusz ś. p. dr Edwarda Cetnarowskiego niezapomnianego prezesa K. S. Cracovia i P. Z. P. N. oraz Józefa Kałuży kapitana P. Z. P. N. odbędzie się w sobotę 21 lipca 1945 [...] nabożeństwo żałobne [...]</dc:title>
+    <dc:subject xml:lang="pl">nauczyciele</dc:subject>
+    <dc:subject xml:lang="pl">rocznice</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

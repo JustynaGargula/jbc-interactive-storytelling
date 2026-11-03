@@ -1,7 +1,7 @@
 import os
 from datetime import date
 import streamlit as st
-from utils.general import load_page_text_in_chosen_language
+from utils.general import load_page_text_in_chosen_language, write_subject_names_to_file
 from utils.gathering_and_main_functions import display_interface_main_part, display_interface_top_part, get_knowledge_graph_from_ris, import_knowledge_graph_from_jsonld_file
 import evaluation_module
 

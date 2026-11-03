@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569943">
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001720</dc:source>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:title xml:lang="pl">Małopolska : for health and beauty</dc:title>
+    <dc:publisher xml:lang="pl">Departament of Tourism, Sport and Promotion at the Office of the Marshal of the Małopolska Province. Regional Tourism Information System Team</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599760</dc:relation>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:date xml:lang="pl">2017</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

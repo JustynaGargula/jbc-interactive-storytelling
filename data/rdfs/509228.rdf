@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509228">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:534716</dc:relation>
+    <dc:subject xml:lang="pl">Gaudelius, Carl</dc:subject>
+    <dc:subject xml:lang="pl">Neruda, Amalie</dc:subject>
+    <dc:subject xml:lang="pl">Neruda, Wilhelmine</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:date xml:lang="pl">1854</dc:date>
+    <dc:issued xml:lang="pl">1854</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 81</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">koncert skrzypkowy</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">teatr krakowski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509228/NDIGMUZ025469.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">koncert fortepianowy</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">K. k. Theater in Krakau : unter der Direktion des Carl Gaudelius : Dienstag den 14 November 1854 : grosses Concert der Geschwister Amalie und Wilhelmine Neruda : Violin- und Piano-Forte Virituosinnen</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

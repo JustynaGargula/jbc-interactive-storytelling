@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878669">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906428</dc:relation>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878669/NDIGDZS087692.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Karol Grigar emer. c. k. nadkomisarz straży skarbowej przeżywszy lat 71 [...] zasnął w Panu dnia 6 Listopada 1892 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">Grigar, Karol (1821-1892)</dc:subject>
+    <dc:subject xml:lang="pl">Kościół św. Floriana (Kraków)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:subject xml:lang="pl">pracownicy ochrony mienia i osób</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 480</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

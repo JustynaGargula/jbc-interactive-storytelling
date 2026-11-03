@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878609">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 433</dc:source>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878609/NDIGDZS086626.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Moyer Grabowska, Melanie (1810?-1892)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907127</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:title xml:lang="pl">Melanie Moyer Grabowska Wdowa po Emigrancie. urodzona w Rouen we Francyi, przeżywszy lat 82 [...] zasnęła w Panu dnia Grudnia 1892 roku [...]</dc:title>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

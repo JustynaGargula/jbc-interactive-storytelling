@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839989">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Grybów (woj. małopolskie, pow. nowosądecki, gm. Grybów)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">rocznice</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839989/NDIGDZS068349.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Jastrzębiec Wierzbicki, Gustaw (?-1943)</dc:subject>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:title xml:lang="pl">Za spokój duszy ś. p. dra Gustawa Jastrzębiec Wierzbickiego lekarza w Grybowie jako w pierwszą bolesną rocznicę śmierci odprawione zostanie w piątek 12 maja 1944 roku o godzinie 7.30 rano w kościele parafialnym w Grybowie Nabożeństwo Żałobne [...]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873028</dc:relation>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">lekarze</dc:subject>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III J-Jar 32</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

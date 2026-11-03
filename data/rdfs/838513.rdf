@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838513">
+    <dc:subject xml:lang="pl">Auschwitz-Birkenau (niemiecki obóz koncentracyjny)</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:title xml:lang="pl">Ś. P. Stanisław Keller por. rez. W. P., więzień Oświęcimia, przeżywszy lat 45, zginął rozstrzelany dnia 27 maja 1942 r. [...] nabożeństwo żałobne odprawione zostanie [...] dnia 27 maja 1946 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">rocznice</dc:subject>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Keller, Stanisław (?-1942)</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">więźniowie obozów</dc:subject>
+    <dc:issued xml:lang="pl">1946</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838513/NDIGDZS068636.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1946</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:870403</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 39</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

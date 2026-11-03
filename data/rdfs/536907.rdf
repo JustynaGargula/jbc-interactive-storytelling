@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536907">
+    <dc:title xml:lang="pl">No 6 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, v voskresenʹe 30 sentâbrâ (12 oktâbrâ) 1873 goda, novaâ drama v 4-h dějstvìâh, soč. Iosifa Naržimskago Èpidemìâ</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536907/NDIGDZS030755.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/7</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564202</dc:relation>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Narzymski, Józef (1839-1872)</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">No 6 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w niedzielę dnia 30 września (12 października) 1873 roku, nowy dramat w 4-ch aktach przez Józefa Narzymskiego napisany Epidemja</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

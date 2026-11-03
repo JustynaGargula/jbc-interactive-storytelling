@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539358">
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/539358/NDIGDZS030771.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:566673</dc:relation>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/20</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">No 11 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek dnia 9 (21) października 1873 roku pierwszy raz wielki dramat z chórem i muzyką, w 4-ch aktach a 9-ciu obrazach, z niemieckiego Deborah</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">No 11 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, vo vtornik 9 (21) oktâbrâ 1873 goda v pervyj raz bolʹšaâ drama s horom i muzykoû v 4-h dějstvìâh 9-ti kartinax s neměckago Debora</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:date xml:lang="pl">1873</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

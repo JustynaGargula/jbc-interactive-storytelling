@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878412">
+    <dc:issued xml:lang="pl">1890</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:911168</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878412/NDIGDZS090314.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Wilka, Josef (1863?-1890)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:date xml:lang="pl">1890</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 375</dc:source>
+    <dc:title xml:lang="pl">[...] Josef Wilka [...] am 16. September 1890 [...] im 27. Lebensjahre verschieden ist [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

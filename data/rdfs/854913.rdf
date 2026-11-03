@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/854913">
+    <dc:issued xml:lang="pl">2019</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bab-Bars 139</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">2019</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877771</dc:relation>
+    <dc:subject xml:lang="pl">Banach, Andrzej Kazimierz (1944-2019)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/854913/NDIGDZS072877.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 7 kwietnia 2019 roku zmarł prof. dr hab. Andrzej K. Banach profesor Instytutu Historii Uniwersytetu Jagiellońskiego , dziekan (2005-2012) oraz prodziekan (1999-2005) Wydziału Historycznego UJ [...]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

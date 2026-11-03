@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878561">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 205</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:issued xml:lang="pl">1956</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878561/NDIGDZS091533.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:914400</dc:relation>
+    <dc:date xml:lang="pl">1956</dc:date>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:title xml:lang="pl">Alfred Bugaj inwalida WP przeżywszy lat 42 […] zasnął w Panu dnia 22 czerwca 1956 roku</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Bugaj, Alfred (1914?-1956)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

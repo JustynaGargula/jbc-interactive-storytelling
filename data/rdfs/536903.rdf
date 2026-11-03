@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536903">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564184</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536903/NDIGDZS030753.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 4 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, v četverg 27 sentâbrâ (9 oktâbrâ) 1873 goda, v pervyj raz komedìâ v 1-m dějstvìi s pěnìem perevod s russkago, sočinenìe M. Bojkova Kuplennyj Vystrěl, komedìâ v 1-m dějstvìi s francuzskago soč. Gg. Siroden i L. Tibu, Plačuŝìâ Ženy, operetka v 1-m dějstvìi, s francuzskago Čuvstvitelʹnaâ Struna</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 4 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w czwartek dnia 27 września (9 października) 1873 roku, pierwszy raz komedja w 1-m akcie ze śpiewem z russkiego M. Bojkowa Okupiony Strzał, komedja w 1-m akcie z francuzkiego pp. Siraudin i Thibourt Żony Płaczące, operetka w 1-m akcie z francuzkiego Czuła Struna</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/5</dc:source>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

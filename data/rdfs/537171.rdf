@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/537171">
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 20 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we czwartek dnia 25 października (6 listopada) 1873 roku, na benefis Kazimierza Królikowskiego przedstawi dramat w 5-u aktach i 7 odsłonach z niemieckiego Narcyz Rameau czyli Żebrak Idiota-Prorok</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Królikowski, Kazimierz Napoleon</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/537171/NDIGDZS030760.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">No 20 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v četverg 25 oktâbrâ (6 noâbrâ) 1873 goda na benefis Kazimìra Krulikovskago dana bydet drama v 5 dějstvìâh i 7 pereměnah, perevod s německago Narciz Ramo ili Niŝìj Idìot-Prorok</dc:title>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564476</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/12</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570112">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570112/NDIGDZS032465.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224630 V a/2</dc:source>
+    <dc:title xml:lang="pl">Bal maskowy na dochód Straży ochotniczej ogniowej Tarnowskiej</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Masken-ball zu Gunsten der Tarnowerfreiwilligen Feuerwehr stattfinden</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600005</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

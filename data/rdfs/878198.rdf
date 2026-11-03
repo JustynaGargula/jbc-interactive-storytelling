@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878198">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910932</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 352</dc:source>
+    <dc:date xml:lang="pl">1855</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1855</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878198/NDIGDZS090252.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Ludwik Wiktor Dziedzic dóbr Borowy i Luszowic w 59tym roku życia swego [...] przeniósł się do wieczności [...]</dc:title>
+    <dc:subject xml:lang="pl">Wiktor, Ludwik (1796?-1855)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

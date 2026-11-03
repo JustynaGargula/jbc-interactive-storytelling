@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/839964">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873825</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III J-Jar 7</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Iskrzyński, Zbigniew</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1945</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/839964/NDIGDZS068302.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1945</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:title xml:lang="pl">Za spokój duszy ś. p. Zbigniewa Iskrzyńskiego pporucznika W. P., kawalera orderu "Virtuti Militari" poległego na polu chwały pod Falaise we Francji jako w pierwszą boleną rocznicę śmierci odprawione zostanie w sobotę dnia 25 sierpnia 1945 r. [...] nabożeństwo żałobne [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

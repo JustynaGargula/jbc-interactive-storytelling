@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/279263">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="en">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:291903</dc:relation>
+    <dc:title xml:lang="pl">Polacy!</dc:title>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:291903</dc:relation>
+    <dc:title xml:lang="en">Polacy!</dc:title>
+    <dc:subject xml:lang="en">Kraków (Polska ; region)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">plakaty polityczne</dc:subject>
+    <dc:rights xml:lang="en">Public domain</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 894928 IV 1914/14</dc:source>
+    <dc:source xml:lang="en">Biblioteka Jagiellońska, 894928 IV 1914/14</dc:source>
+    <dc:subject xml:lang="pl">Polska</dc:subject>
+    <dc:subject xml:lang="en">Polish Legions</dc:subject>
+    <dc:subject xml:lang="en">Polska</dc:subject>
+    <dc:coverage xml:lang="en">20th century</dc:coverage>
+    <dc:date xml:lang="pl">1914</dc:date>
+    <dc:date xml:lang="en">1914</dc:date>
+    <dc:type xml:lang="en">leaflet</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">odezwy</dc:subject>
+    <dc:subject xml:lang="en">appeals</dc:subject>
+    <dc:issued xml:lang="pl">1914</dc:issued>
+    <dc:subject xml:lang="pl">Legiony Polskie</dc:subject>
+    <dc:subject xml:lang="en">posters</dc:subject>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:issued xml:lang="en">1914</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

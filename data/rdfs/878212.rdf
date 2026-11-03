@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878212">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878212/NDIGDZS091369.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Budryk, Witold (1891-1958)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:date xml:lang="pl">1958</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:914849</dc:relation>
+    <dc:issued xml:lang="pl">1958</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 181</dc:source>
+    <dc:title xml:lang="pl">Prof. dr inż. Witold Budryk, rektor Akademii Górniczo-Hutniczej, członek rzeczywisty Polskiej Akademii Nauk odznaczony Orderem Sztandaru Pracy […] zmarł dnia 18-go listopada 1958 roku w Krakowie</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

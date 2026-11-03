@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466378">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466378/NDIGDZS026300.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">[1872]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492044</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">[1872]</dc:date>
+    <dc:subject xml:lang="pl">litografia</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 14/74</dc:source>
+    <dc:subject xml:lang="pl">Teatr Krakowski 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">No 17 Teatr Krakowski w Krynicy, we czwartek dnia 29 sierpnia 1872 na dochód Józefa Szymańskiego : komedya w 5 aktach Moliera, przełożył J. Narzymski, p. t. Skąpiec, pan Rychter wystąpi z grzeczności w roli Harpagona</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

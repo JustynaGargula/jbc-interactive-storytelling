@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/869254">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">2010</dc:issued>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901824</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">2010</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Da-Dmy 196</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/869254/NDIGDZS084908.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 21 września 2010 roku zmarł śp. Dr Tadeusz Dal emerytowany pracownik naukowo-dydaktyczny [...] na Wydziale Chemii Uniwersytetu Jagiellońskiego [...]</dc:title>
+    <dc:subject xml:lang="pl">Dal, Tadeusz (1939-2010)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

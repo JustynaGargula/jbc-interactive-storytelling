@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472593">
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 17/2</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498223</dc:relation>
+    <dc:title xml:lang="pl">Nr 2 S dozvolenìâ Načalʹstva Teatr w mieście Łodzi u p. Sellina, ostatnie przedstawienie, Towarzystwo Artystów Dramatycznych pod dyrekcją Henryka Modzelewskiego, we wtorek d. 20 listopada (2 grudnia) 1873 r. : przedstawi dramat w 3-ch aktach a 9 obrazach z prologiem Oszust Wielkiego Świata</dc:title>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:publisher xml:lang="pl">J. Petersilge</dc:publisher>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472593/NDIGDZS026436.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Łódź (Polska ; region)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

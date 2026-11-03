@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878655">
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906403</dc:relation>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 465</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">studenci</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878655/NDIGDZS087420.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Józef Gramatyka Słuchacz Medycyny V. roku, przeżywszy lat 24, [...] dnia 14 Grudnia 1873 roku przeniósł się do wieczności [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Gramatyka, Józef (1849?-1873)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

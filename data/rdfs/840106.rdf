@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840106">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Poczyńska, Elżbieta (?-1940)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840106/NDIGDZS069109.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873733</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pig-Pon 69</dc:source>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Nach langen und schweren Leiden [...] starb am 29. Juli 1940 [...] Elisabeth Poczynski [...] Die Beerdigung findet am 31. Juli von der Friedhofs-kapelle Rakowice um 18 Uhr statt. [...] Po długich i ciężkich cierpieniach [...] zmarła dnia 29 lipca 1940 r. [...] Elżbieta Poczyńska [...] Pogrzeb odbędzie się 31 lipca z kaplicy cmentarnej w Rakowicach o godzinie 18-tej [...]</dc:title>
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

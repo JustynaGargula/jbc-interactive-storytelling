@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/874662">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/874662/NDIGDZS088011.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">2005</dc:issued>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że w dniu 13 stycznia 2005 r. zmarł prof. dr hab. med. Józef Bogdał wieloletni kierownik Katedry i Kliniki Gastroenterologii Uniwersytetu Jagiellońskiego Collegium Madicum [...]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908631</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bn-Bor 101</dc:source>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:date xml:lang="pl">2005</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">Bogdał, Józef (1937-2005)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

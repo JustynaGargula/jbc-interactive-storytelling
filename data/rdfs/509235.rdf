@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509235">
+    <dc:date xml:lang="pl">1853</dc:date>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:subject xml:lang="pl">teatr krakowski 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1,79</dc:source>
+    <dc:title xml:lang="pl">Auf Verlangen : Samstag den 1 October 1853 im Redouten-Saale : noch ein Koncert der Geschwister Friedrich, Sophie und Victor Raczek</dc:title>
+    <dc:subject xml:lang="pl">Raczek, Wiktor</dc:subject>
+    <dc:subject xml:lang="pl">koncert skrzypkowy</dc:subject>
+    <dc:subject xml:lang="pl">Hellmesbeger, Joseph (1828-1893)</dc:subject>
+    <dc:issued xml:lang="pl">1853</dc:issued>
+    <dc:publisher xml:lang="pl">Drukarnia „Czasu” (Kraków)</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509235/NDIGMUZ025474.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:534719</dc:relation>
+    <dc:subject xml:lang="pl">Raczek, Fryderyk</dc:subject>
+    <dc:title xml:lang="pl">Na żądanie w sobotę dnia 1 października 1853 r. w Sali Redutowej : jeszcze jeden koncert Fryderyka, Zofii i Wiktora Raczków</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">Raczek, Zofia</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

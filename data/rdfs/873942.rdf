@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/873942">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">2012</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:908916</dc:relation>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">Bobrownicka, Maria (1920-2012)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bn-Bor 29</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/873942/NDIGDZS087938.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:date xml:lang="pl">2012</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Społeczność akademicka Uniwersytetu Jagiellońskiego z głębokim żalem zawiadamia, że w dniu 29 maja 2012 roku zmarła ś. p. prof. dr hab. Maria Bobrownicka [...]</dc:title>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

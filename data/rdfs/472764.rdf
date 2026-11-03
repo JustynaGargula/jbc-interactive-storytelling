@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472764">
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/14</dc:source>
+    <dc:title xml:lang="pl">No 14 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juljana Grabińskiego, w czwartek dnia 15 (27) listopada 1873 r., występ p. Sikorskiego artysty z Poznania, Broń Niewieścia, Włóczęga, Czuła Struna</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498284</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472764/NDIGDZS028477.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, v četverg 15 (27) noâbrâ 1873 g. debût G. Sikorskago artista poznanskago teatra, Ženskoe Oružìe, Brodâga, Čuvstvitel΄naâ Struna</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

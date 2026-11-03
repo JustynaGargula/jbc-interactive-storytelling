@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838540">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 66</dc:source>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:subject xml:lang="pl">Armia Krajowa (AK)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">Więcławice Stare (woj. małopolskie, pow. krakowski, gm. Michałowice)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838540/NDIGDZS068668.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Kleszczyński, Bogusław</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:issued xml:lang="pl">1947</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Zofia Kleszczyńska najukochańsza Córka i Siostra łączniczka A. K. obszaru Kraków, odznaczona Srebrnym Krzyżem Zasługi z Mieczami, słuchaczka U. J.ur. 21 stycznia 1921 r. [...] zasnęła w Panu dnia 2 czerwca 1947 r. [...] Bogusław Kleszczyński najukochańszy Syn i Brat urodzony 8 listopada 1923 r. porucznik A. K., pseudonim „Jabłoński” dowódca plutonu w grupie partyzanckiej „Kłosa” Inspektorat Miechów, odznaczony Orderem Virtuti Militari V klasy oraz Srebrnym Krzyżem Zasługi z Mieczami, zginął za Polskę w walce pod Naramą 19 grudnia 1944 r. [...] Nabożeństwo żałobne odbędzie się dnia 11 czerwca 1947 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">Kleszczyńska, Zofia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:872256</dc:relation>
+    <dc:date xml:lang="pl">1947</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

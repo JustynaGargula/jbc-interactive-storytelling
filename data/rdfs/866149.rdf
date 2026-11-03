@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866149">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866149/NDIGDZS083335.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud- Bży 109</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:897272</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Ś. P. Maria Wanda Bunschowa z domu Belina - Prażmowska - Kryńska historyk sztuki, urodzona 19 grudnia 1929 r. w Warszawie [...] zmarła w dniu 13 grudnia 2003 r. w Rabce Zdroju [...]</dc:title>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:issued xml:lang="pl">2003</dc:issued>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">2003</dc:date>
+    <dc:subject xml:lang="pl">Bunsch-Prażmowska, Maria (1929-2003)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

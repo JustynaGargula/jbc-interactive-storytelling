@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684466">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608471</dc:relation>
+    <dc:description xml:lang="pl">Litografia</dc:description>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684466/NDIGDZS031510.pdf</dc:identifier>
+    <dc:title xml:lang="pl">S dozvolenìâ Načalʹstva G. Sandomìr, v doma Gna Vajrauha teatr pod direkcìeû Vladislava Dembskago v četverg 13 sentâbrâ 1873 goda predstavlena budet komedìa Recept dlâ Serdityh Ženšin</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 3 Za pozwoleniem Zwierzchności M. Sandomierz, w Domu W-go Wajraucha teatr pod dyrekcją Władysława Dębskiego w czwartek 25 września 1873 r. daną będzie komedja Recepta na Złośnice</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 28/3</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

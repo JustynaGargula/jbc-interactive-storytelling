@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539419">
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:description xml:lang="pl">Wydanie piąte, poprawione</dc:description>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001679</dc:source>
+    <dc:title xml:lang="pl">Małopolska : weekend trips</dc:title>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:publisher xml:lang="pl">Małopolska Tourist Organisation</dc:publisher>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:publisher xml:lang="pl">Department of Tourism, Sport and Promotion at The Office of the Marshal of the Małopolska Province. Regional Tourism Information System Team</dc:publisher>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:566784</dc:relation>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

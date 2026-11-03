@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677171">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:714757</dc:relation>
+    <dc:description xml:lang="pl">Publikacja zawiera plik ISO. Instrukcja otwierania pliku dla systemu Windows 10/11 i macOS znajduje się na stronie: https://www.avaide.com/pl/rip-bd-dvd/mount-an-iso/</dc:description>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:creator xml:lang="pl">Siwiec, Katarzyna</dc:creator>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">historia</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">tradycja</dc:subject>
+    <dc:issued xml:lang="pl">2012</dc:issued>
+    <dc:title xml:lang="pl">Nasza polska Małopolska lokalne grupy działania - miejsca, ludzie, wydarzenia, atrakcje</dc:title>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ A Ez 202740</dc:source>
+    <dc:publisher xml:lang="pl">Sekretariat Regionalny Krajowej Sieci Obszarów Wiejskich</dc:publisher>
+    <dc:creator xml:lang="pl">Czuma, Mieczysław (1936– )</dc:creator>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:date xml:lang="pl">2012</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

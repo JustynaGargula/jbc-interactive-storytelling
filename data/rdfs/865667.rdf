@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/865667">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 7</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że dnia 8 maja 2001 r. zmarła w wieku 90 lat ś. p. Maria Krystyna Bzowska z d. Kaczorowska, wychowanka Sacré Coeur w Zbylitowskiej Górze, emerytowany bibliotekarz Biblioteki Jagiellońskiej [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/865667/NDIGDZS080393.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Cmentarz komunalny Prądnik Czerwony (Kraków)</dc:subject>
+    <dc:date xml:lang="pl">2001</dc:date>
+    <dc:subject xml:lang="pl">Bzowska, Maria Krystyna (1911?-2001)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:898913</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">2001</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

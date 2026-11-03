@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/854280">
+    <dc:subject xml:lang="pl">Miejsce Piastowe (woj. podkarpackie, pow. krośnieński, gm. Miejsce Piastowe)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bos-Bucz 104</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Brożek, Jolanta (?-2020)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:884326</dc:relation>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 6 lutego 2020 roku zmarła mgr Jolanta Brożek, wieloletni pracownik Działu Administrowania Nieruchomościami Uniwersytetu Jagiellońskiego [...].Z głębokim żalem zawiadamiamy, że 6 lutego 2020</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/854280/NDIGDZS076256.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:issued xml:lang="pl">2021</dc:issued>
+    <dc:date xml:lang="pl">2021</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

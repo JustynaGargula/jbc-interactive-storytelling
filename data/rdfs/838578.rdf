@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838578">
+    <dc:subject xml:lang="pl">Cyga Karpiński, Zygmunt</dc:subject>
+    <dc:date xml:lang="pl">1942</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838578/NDIGDZS068709.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 104</dc:source>
+    <dc:issued xml:lang="pl">1942</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:title xml:lang="pl">Za spokój duszy ś. p. dr. Zygmunta Cygi Karpińskiego zmarłego dnia 1 maja 1942 r. w Krakowie odprawione zostanie nabożeństwo żałobne w sobotę dnia 9 maja [...]</dc:title>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:870632</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

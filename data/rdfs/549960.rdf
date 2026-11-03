@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/549943">
+    <dc:title xml:lang="pl">Nakładem Wydawnictwa Czytelni Ludowej w Krakowie wyszły Bajki i powiastki Stanisława Jachowicza w trzech częściach</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Jachowicz, Stanisław (1796-1857)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:578451</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/549943/NDIGDZS019058.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Wydawnictwo „Czytelni Ludowej”</dc:subject>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 5/14</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

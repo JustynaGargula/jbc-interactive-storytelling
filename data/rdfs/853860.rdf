@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/853860">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, XXI Bia-Bło 147</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:issued xml:lang="pl">2003</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/853860/NDIGDZS077980.pdf</dc:identifier>
+    <dc:date xml:lang="pl">2003</dc:date>
+    <dc:title xml:lang="pl">Wszystkich, którzy zachowali w pamięci prof. dr hab. Wiesława Bieńkowskiego zapraszamy do wspólnej modlitwy w Jego intencji w czwartą rocznicę śmierci [...]</dc:title>
+    <dc:subject xml:lang="pl">Bieńkowski, Wiesław (1926-1999)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:886063</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

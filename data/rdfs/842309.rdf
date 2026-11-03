@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/842309">
+    <dc:subject xml:lang="pl">czasopisma polskie</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">czasopisma literackie</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:876503</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:876503</dc:relation>
+    <dc:publisher xml:lang="pl">Aleksander Świętochowski</dc:publisher>
+    <dc:issued xml:lang="pl">1898.01.15</dc:issued>
+    <dc:coverage xml:lang="pl">19-20 w.</dc:coverage>
+    <dc:contributor xml:lang="pl">Świętochowski, Aleksander (1849-1938). Red.</dc:contributor>
+    <dc:type xml:lang="pl">czasopismo</dc:type>
+    <dc:subject xml:lang="pl">polityka</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 7639 IV czasop.</dc:source>
+    <dc:date xml:lang="pl">1898.01.15</dc:date>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/842309/NDIGCZAS022296_1898_003.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/842309/NDIGCZAS022296_1898_003.pdf</dc:identifier>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">stosunki międzynarodowe</dc:subject>
+    <dc:title xml:lang="pl">Prawda : tygodnik polityczny, społeczny i literacki. R.18, 1898, nr 3</dc:title>
+    <dc:subject xml:lang="pl">literatura</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570052">
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/119261 Dziwak z uprzedzenia czyli Staroświecczyzna i Postęp czasu czyli Dziwak z uprzedzenia (Despotyczna starościanka). Komedja ze śpiewami w 4ch aktach przez J. N. Kamińskiego</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599923</dc:relation>
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570052/NDIGDZS030832.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 37 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v voskresenʹe 25 noâbrâ (7 dekabrâ ) 1873 goda, dano budet dramatičeskoe sočinenìe v 4-h dějstvìâh, s pěnìem i tancami Starina i Progress</dc:title>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 37 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w niedzielę dnia 25 listopada (7 grudnia) 1873 roku, przedstawi szkic dramatyczny w 4-h aktach, ze śpiewami i tańcami Staroświecczyzna i Postęp Czasu</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/42</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

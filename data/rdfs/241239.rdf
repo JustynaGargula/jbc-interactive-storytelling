@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/241239">
+    <dc:subject xml:lang="pl">okres międzywojenny</dc:subject>
+    <dc:subject xml:lang="pl">interwar time</dc:subject>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:creator xml:lang="pl">Pordes, Anis D.</dc:creator>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:issued xml:lang="pl">2005</dc:issued>
+    <dc:subject xml:lang="pl">Israel</dc:subject>
+    <dc:title xml:lang="pl">Obraz międzywojennego Krakowa w pamięci Izraelczyków, przedwojennych mieszkańców tego miasta</dc:title>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2005/196</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:180484</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:180484</dc:relation>
+    <dc:date xml:lang="pl">2005</dc:date>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">Izrael</dc:subject>
+    <dc:subject xml:lang="pl">memoris</dc:subject>
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:subject xml:lang="pl">Cracow</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/853238">
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Goświnowice (woj. opolskie, pow. nyski, gm. Nysa)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Bieniek, Adam (arabistyka)</dc:subject>
+    <dc:date xml:lang="pl">2015</dc:date>
+    <dc:issued xml:lang="pl">2015</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, XXI Bia-Bło 129</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/853238/NDIGDZS077786.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:886788</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem informujemy, że 10 listopada 2015 r. zmarł dr hab. Adam Bieniek [...] : uroczystości pogrzebowe odbędą się 17 listopada 2015 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

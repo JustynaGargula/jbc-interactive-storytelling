@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/861783">
+    <dc:date xml:lang="pl">2019</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:887037</dc:relation>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Denkowski, Zdzisław (1940-2019)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Da-Dmy 35</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/861783/NDIGDZS078676.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">2019</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 28 czerwca 2019 roku zmarł Prof. dr hab. Zdzisław Denkowski emerytowany profesor Uniwersytetu Jagiellońskiego, Dyrektor Instytutu Informatyki w latach 1981-1984, 1987-1990 i 2005-2006. Wieloletni kierownik Katedry Teorii Optymalizacji i Sterowania [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

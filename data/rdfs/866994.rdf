@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866994">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">2009</dc:issued>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866994/NDIGDZS083963.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:898895</dc:relation>
+    <dc:subject xml:lang="pl">Giebułtów (woj. małopolskie, pow. krakowski, gm. Wielka Wieś)</dc:subject>
+    <dc:date xml:lang="pl">2009</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:title xml:lang="pl">Ś. P. Marian Bujak [...] przeżywszy lat 74, zmarł dnia 18 września 2009 r. [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 166</dc:source>
+    <dc:subject xml:lang="pl">Bujak, Marian (1935?-2009)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

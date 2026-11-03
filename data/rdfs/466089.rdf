@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466089">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1871]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466089/NDIGDZS023806.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1871]</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 14/43</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491770</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Suppé, Franz von (1819-1895)</dc:subject>
+    <dc:title xml:lang="pl">No 27 Ostatnie przedstawienie we czwartek dnia 31 sierpnia 1871 r., Komiczna operetka w 1 akcie z muzyką Fr. Suppègo p. t. : Bursze czyli Portret pani Putyfarowèj, rozpocznie komedya w 1 akcie z francuskiego pt. Wdówka</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

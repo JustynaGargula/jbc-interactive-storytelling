@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/677185">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/677185/NDIGMUZ036747.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 8,11</dc:source>
+    <dc:title xml:lang="pl">Herte am 18. Mai I. J. Concert parisien Volksgarten : unter der Direction des Hrn. Professor Antonio</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">ca 1886</dc:date>
+    <dc:issued xml:lang="pl">ca 1886</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:646828</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

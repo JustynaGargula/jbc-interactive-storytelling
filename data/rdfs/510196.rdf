@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510196">
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510196/NDIGDZS026167.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">kasy oszczędności</dc:subject>
+    <dc:subject xml:lang="pl">spółdzielnie kredytowe</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 41</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">I znowu trzeba zacząć od początku [...] Banki Kasy Oszczędności Spółdzielnie kredytowe albo na pocztowej książeczce oszczędnościowej</dc:title>
+    <dc:description xml:lang="pl">Druk w formie parawanika</dc:description>
+    <dc:subject xml:lang="pl">finanse</dc:subject>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535838</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

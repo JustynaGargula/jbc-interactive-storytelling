@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485326">
+    <dc:publisher xml:lang="pl">K. Rybacki</dc:publisher>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 5 Obŝestvo Dramatičeskih Artistov pod upravlenìem F. Rataeviča vo vtornik 18 fevralâ 1897 goda, Dočʹ Polka</dc:title>
+    <dc:title xml:lang="pl">Towarzystwo Artystów Dramatycznych pod dyrekcyą Feliksa Ratajewicza w wtorek dnia 2 marca 1897 roku, Córka Pułku</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">[1897]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 19/10</dc:source>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:511494</dc:relation>
+    <dc:issued xml:lang="pl">[1897]</dc:issued>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485326/NDIGDZS027416.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

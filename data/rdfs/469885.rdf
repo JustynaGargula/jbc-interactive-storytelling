@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/469885">
+    <dc:publisher xml:lang="pl">J. Petersilge</dc:publisher>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:title xml:lang="pl">No 11 Teatr Łódzki w Ogrodzie Sellina, we wtorek 9-go czerwca 1896 r. : Dorożkarz No 117 (Le Fiacre No 117), farsa w 3-ch aktach</dc:title>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 17/33</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/469885/NDIGDZS027429.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:495524</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

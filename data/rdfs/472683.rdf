@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472683">
+    <dc:subject xml:lang="pl">Łódź (Polska ; region)</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 17/20</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472683/NDIGDZS026488.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Nr 8 S dozvolenìâ Načalʹstva Deutsches Theater in Lodz Im Saale des Herrn. Fr. Sellin, Sonnabend den 8 (20) December 1873 : Auf allgemeines Verlangen! Kern u. Schaale, zum schluss: Die Kunst geliebt zu werden</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">J. Petersilge</dc:publisher>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498254</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

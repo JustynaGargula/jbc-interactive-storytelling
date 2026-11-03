@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684408">
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684408/NDIGDZS031687.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 26/16</dc:source>
+    <dc:title xml:lang="pl">No 15 Dziś w niedzielę, to jest dnia 22 maja 1853 roku, niewidziane dotąd na Scenie Teatru Radomskiego Historyczne Obrazy, w złotych ramach za gazą, z żywych osób ułożone : Życie i Śmierć Maryi Sztuart Królowéj Szkockéj, zakończy bardzo wesoła Kmedya Podstarzała Panna</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608523</dc:relation>
+    <dc:issued xml:lang="pl">[1853]</dc:issued>
+    <dc:date xml:lang="pl">[1853]</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

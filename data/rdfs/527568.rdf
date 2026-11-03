@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527568">
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554260</dc:relation>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:creator xml:lang="pl">Lednicki, Wacław (1891–1967)</dc:creator>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:title xml:lang="pl">Russian-Polish Relations : speach delivered in the Harvard Observatory Forum for International Problems and at the Lunch of the American Defense Committee, Harvard Group, August 12, 1943</dc:title>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 107</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684464">
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684464/NDIGDZS031649.pdf</dc:identifier>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">Teatr v subbotu 17 (29) noâbrâ 1873 goda Dramatičeskoe Obšestvo pod direkcìeû Vladislava Dembskago, komedìâ Ohota na Muža, komedìâ Pěsenka Dâdûški</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608540</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 26/3</dc:source>
+    <dc:title xml:lang="pl">No 3 Teatr w sobotę d. 17 (29) listopada 1873 r. Towarzystwo Dramatyczne pod dyrekcyą Władysława Dębskiego, komedja Polowanie na Męża, komedja Piosenka Wujaszka</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

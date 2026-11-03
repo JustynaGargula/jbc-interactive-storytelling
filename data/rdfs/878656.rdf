@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878656">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:subject xml:lang="pl">Kościół Mariacki (Kraków)</dc:subject>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878656/NDIGDZS087533.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">lekarze</dc:subject>
+    <dc:subject xml:lang="pl">rocznice</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Gramatyka, Karol (?-1882)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Za duszę ś. p. Karola Gramatyki Doktora medycyny, jako w trzecią bolesną rocznicę śmierci jego [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 466</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906405</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

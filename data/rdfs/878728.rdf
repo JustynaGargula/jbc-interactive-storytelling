@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878728">
+    <dc:subject xml:lang="pl">Dormicki, Eryk (1905?-1969)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Do-Drzy 163</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878728/NDIGDZS089620.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:912182</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1969</dc:issued>
+    <dc:title xml:lang="pl">Ś. p. dr Eryk Dormicki długoletni pracownik służby zdrowia [...] zasnął w Panu dnia 19 listopada 1969 roku</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1969</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

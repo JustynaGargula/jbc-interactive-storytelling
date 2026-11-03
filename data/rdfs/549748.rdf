@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/551048">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/551048/NDIGDZS024292.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224653 IV 14</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Der ergebenst Unterzeichnete, Director der bereits hier bekannten Kunstreiter=Gesellschaft, erlanbt sich einem hohen Adel, k. k. Garnison und geehrten P. T. Publikum ergebenst bekannt zu geben, das derselbe mit Ende April I. J. hier eintressen und mit 1. Mai einen Enclus von kunstproduktionen eröffnen wird.</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1858</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:580019</dc:relation>
+    <dc:date xml:lang="pl">1858</dc:date>
+    <dc:title xml:lang="pl">Niżej podpisany dyrektor znanego tutaj już towarzystwa jeźdźców konnych ma zaszczyt Wysokim Stanom, c. k. Wojskowości i szanownej P. T. Publiczności niniejszem oznajmić, że tenże z końcem kwietnia tutaj przybędzie, i z pierwszemi dniami maja szereg sztuczych przedstawień otworzy</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/845984">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/845984/NDIGDZS071263.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Kościół św. Augustyna i św. Jana Chrzciciela (Kraków)</dc:subject>
+    <dc:issued xml:lang="pl">2008</dc:issued>
+    <dc:subject xml:lang="pl">Cmentarz Salwatorski (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">Adamek-Guzik, Teresa (1939-2008)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Ś. P. Prof. dr hab. med. Teresa Adamek-Guzik [...] odeszła od swoich najbliższych, współpracowników, pacjentów i studentów w dniu 29 kwietnia 2008 roku [...]</dc:title>
+    <dc:date xml:lang="pl">2008</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:876612</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI A 33</dc:source>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

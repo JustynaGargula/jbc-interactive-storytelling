@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/474492">
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, v pâtnicu 14 (26) dekabrâ 1873 g. Damy i Gusary, Vesna</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/474492/NDIGDZS028569.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:title xml:lang="pl">No 28 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juliana Grabińskiego, w piątek dnia 14 (26) grudnia 1873 r. Damy i Huzary, Wiosna</dc:title>
+    <dc:subject xml:lang="pl">Fredro, Aleksander (1793-1876)</dc:subject>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/29</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:500013</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

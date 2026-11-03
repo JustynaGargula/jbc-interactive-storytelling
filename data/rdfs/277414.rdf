@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/277414">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Florencja (Włochy)</dc:subject>
+    <dc:creator xml:lang="pl">Gurgul, Jacek</dc:creator>
+    <dc:subject xml:lang="pl">miastotwórczy</dc:subject>
+    <dc:format xml:lang="en">image/x.djvu</dc:format>
+    <dc:format xml:lang="pl">image/x.djvu</dc:format>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">kultura</dc:subject>
+    <dc:issued xml:lang="pl">2008</dc:issued>
+    <dc:subject xml:lang="pl">urban-development</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:type xml:lang="pl">rozprawa doktorska</dc:type>
+    <dc:date xml:lang="pl">2008</dc:date>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:181990</dc:relation>
+    <dc:source xml:lang="pl">Archiwum UJ, Dokt. 2008/174</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:181990</dc:relation>
+    <dc:title xml:lang="pl">Miastotwórcza rola kultury w rozwoju Florencji i Krakowa</dc:title>
+    <dc:publisher xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:publisher>
+    <dc:subject xml:lang="pl">Cracow</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

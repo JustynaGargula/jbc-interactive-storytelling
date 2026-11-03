@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878559">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:914302</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 207</dc:source>
+    <dc:issued xml:lang="pl">1969</dc:issued>
+    <dc:subject xml:lang="pl">Bugajska, Katarzyna (1885?-1967)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:date xml:lang="pl">1969</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">śmierć</dc:subject>
+    <dc:title xml:lang="pl">Ś. p. ze Staniszów Katarzyna Bugajska […] zasnęła w Panu dnia 11 listopada 1967 roku</dc:title>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878559/NDIGDZS091527.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

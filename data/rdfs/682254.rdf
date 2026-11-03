@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/682254">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/682254/NDIGMUZ036977.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:645844</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:title xml:lang="pl">Au Grand Théâtre : dimanche, le 25 février, 1868, à 8 heures du soir, au bénéfice de l'orchestre impérial de l'opera italien : grand concert vocal et instrumental avec le concours de m-me Volpini... de m-me Fioretti, m-r Gassier, m-rs Wiéniawsky et Wurm</dc:title>
+    <dc:title xml:lang="pl">Na Bol'šom Teatrě v voskresen'e , 25-go fevralâ v 8 časov večera, benefis pridvornago orkestra ital'ânskoj opery : bolšoj vokal'nyj i instrumental'nyj koncert : c učastìem g-ži Vol'pini... Fioretti, G. Gass'e i gr. Venâvskago i Vurma</dc:title>
+    <dc:issued xml:lang="pl">1868</dc:issued>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:date xml:lang="pl">1868</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 6,1</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

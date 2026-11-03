@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536873">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001672</dc:source>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564145</dc:relation>
+    <dc:title xml:lang="pl">Małopolska : Kraków : catalogo delle attrazioni touristiche</dc:title>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:creator xml:lang="pl">Baturo, Iwona</dc:creator>
+    <dc:language xml:lang="pl">ita</dc:language>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

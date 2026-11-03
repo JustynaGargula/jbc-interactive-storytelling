@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/533426">
+    <dc:title xml:lang="pl">No 1 S razrĕšenìâ Načalʹstva v subbotu 15 (17) marta 1894 g., v mĕstnom teatrě v g. Lovičě dan budet lûbitelʹskìj spektaklʹ, v polʹzu bědnyh goroda Loviča Na ulicě, Doždʹ i pogoda, Novyj Teatr, 1 Ètažem vyše</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:560530</dc:relation>
+    <dc:relation xml:lang="pl">http://www.wbc.poznan.pl/publication/489316 Na ulicy. Obrazek dramatyczny w 1-ej odsłonie przez Wacława Szymanowskiego</dc:relation>
+    <dc:relation xml:lang="pl">http://www.wbc.poznan.pl/publication/488473 Deszcz i pogoda. Komedja w 1 akcie przez Leona Gozlan z francuzkiego</dc:relation>
+    <dc:subject xml:lang="pl">Chęciński, Jan (1826-1874)</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">Szymanowski, Wacław (1821-1886)</dc:subject>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">[1894]</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 19/18</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Za Pozwoleniem Zwierzchności, w sobotę 17 marca 1894 r. w teatrze miejscowym w Łowiczu danem będzie przedstawienie amatorskie na rzecz biednych miasta Łowicza Na ulicy, Deszcz i pogoda, Nowy teatr, Piętro wyżej.</dc:title>
+    <dc:publisher xml:lang="pl">K. Rybacki</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">[1894]</dc:issued>
+    <dc:subject xml:lang="pl">Gozlan, Léon (1803-1866)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/533426/NDIGDZS027404.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

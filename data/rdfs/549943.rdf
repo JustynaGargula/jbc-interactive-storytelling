@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/1016486">
+    <dc:title xml:lang="pl">Ś. P. ks. mgr Czesław Krupa [...] zmarł nagle w Krakowie, dnia 4 listopada 1984 r.</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">klepsydra</dc:type>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">Cmentarz parafialny w Ludźmierzu</dc:subject>
+    <dc:subject xml:lang="pl">Kościół Świętego Krzyża (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">Ludźmierz (Polska ; region)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Kra-Krz 235</dc:source>
+    <dc:subject xml:lang="pl">Krupa, Czesław (ok. 1916-1984)</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">religia</dc:subject>
+    <dc:format xml:lang="pl">pdf</dc:format>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/1016486/NDIGDZS118534.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/1016486/NDIGDZS118534.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">duchowość</dc:subject>
+    <dc:issued xml:lang="en">1984</dc:issued>
+    <dc:issued xml:lang="pl">1984</dc:issued>
+    <dc:date xml:lang="en">1984</dc:date>
+    <dc:date xml:lang="pl">1984</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:1067729</dc:relation>
+    <dc:subject xml:lang="pl">duchowieństwo katolickie</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:1067729</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

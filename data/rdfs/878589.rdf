@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878589">
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:905762</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Christiani Grabieński, Henryk (1751-1883)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 411</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878589/NDIGDZS086072.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1883</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Henryk Christiani Grabieński właściciel dóbr ziemskich [...] zasnął w Bogu dnia 21. Lipca 1883. w 52. roku życie [...]</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1883</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878415">
+    <dc:subject xml:lang="pl">Wilkosz, Witalisa (1837?-1875)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1875</dc:date>
+    <dc:issued xml:lang="pl">1875</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:911178</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878415/NDIGDZS090339.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 378</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Witalisa Wilkosz córka ś. p. Piotra Wilkosza emerytowanego poborcy w Niepołomicach, przeżywszy lat 38 [...] w dniu 20 listopada 1875 r. [...] przeniosła się do wieczności [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

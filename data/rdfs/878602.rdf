@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878602">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 428</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Katarzyna z Hankiewiczów Grabowska urodz. w r. 1854 w Trzemeszynie w W. Ks. Poznańskiem, żona majstra krawieckiego wł. magazynu [...] zasnęła w Panu d. 8 Października 1893 roku [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906363</dc:relation>
+    <dc:subject xml:lang="pl">Kościół św. Kazimierza Królewicza (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878602/NDIGDZS086431.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1893</dc:date>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1893</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Grabowska, Katarzyna (1854-1893)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

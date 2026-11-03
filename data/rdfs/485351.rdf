@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485351">
+    <dc:title xml:lang="pl">No 80 Teatr Lubelski w czwartek dnia 6-go lutego 1896 roku, na Benefis Wacława Szymborskiego, pierwszy raz Na Jedną Kartę, Wesele w Ojcowie</dc:title>
+    <dc:title xml:lang="pl">No 80 Lûblinskij Teatr v četverg 25-go ânvarâ 1896 goda v Benefis Vaclava Šimborskago, pervyj raz Na Odny Kartu, Svadʹba v Ojcově</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:511515</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1896</dc:issued>
+    <dc:publisher xml:lang="pl">Drukarnia Rządowa (Lublin)</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485351/NDIGDZS028642.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/45</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1896</dc:date>
+    <dc:publisher xml:lang="pl">Lûblinskaâ Gubernskaâ Tipografiâ</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">Szymborski, Wacław (1866-1932)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/683494">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Nieodwołalne ostatnie pożegnalne przedstawienie, na dochód Józefy Piaseckiej, w sobotę dnia 20 lutego 1886 : rozpocznie Nieprzyjaciel kobiet, komedya w 1 akcie z francusk., zakończy Raj na ziemi, operetka w 2 aktach z franc</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1886</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/683494/NDIGDZS034594.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1886</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608535</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 40/5</dc:source>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

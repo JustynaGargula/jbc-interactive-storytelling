@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/549960">
+    <dc:title xml:lang="pl">Fabryka wyrobów glinianych, pieców kaflowych i cegielnia parowa Maurycego Baruch w Łagiewinikach przy Krakowie</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1867</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:578526</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:description xml:lang="pl">Dodatek do Nru 153 dziennika „Czas” z dnia 7 lipca 1867 r.</dc:description>
+    <dc:subject xml:lang="pl">Baruch, Maurycy (1801 - 1874)</dc:subject>
+    <dc:issued xml:lang="pl">1867</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 5/26</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/549960/NDIGDZS019071.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

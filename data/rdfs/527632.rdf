@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527632">
+    <dc:description xml:lang="pl">Maszynopis powielany</dc:description>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Warsaw crisis in threat to allied unity</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:creator xml:lang="pl">Bartlett, Vernon (1894–1983)</dc:creator>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 191</dc:source>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:contributor xml:lang="pl">Rząd Rzeczypospolitej Polskiej na Uchodźstwie. Ministerstwo Informacji i Dokumentacji</dc:contributor>
+    <dc:date xml:lang="pl">1944</dc:date>
+    <dc:issued xml:lang="pl">1944</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554308</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527632/NDIGDZS025085.pdf</dc:identifier>
+    <dc:language xml:lang="pl">eng</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

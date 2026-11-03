@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527547">
+    <dc:title xml:lang="pl">The following editorial replying to criticism of General Tadeusz Komorowski /Bor/, made in Moscow last saturday appeared in the semi-official Polish „Dziennik Polski”, October 3, published in London</dc:title>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">[1944]</dc:date>
+    <dc:subject xml:lang="pl">Komorowski, Tadeusz Bór (1895-1966)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 94</dc:source>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:540505</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527547/NDIGDZS024845.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">[20 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:issued xml:lang="pl">[1944]</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

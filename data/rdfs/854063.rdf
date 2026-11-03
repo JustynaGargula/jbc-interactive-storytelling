@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/854063">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/854063/NDIGDZS072474.pdf</dc:identifier>
+    <dc:date xml:lang="pl">2012</dc:date>
+    <dc:subject xml:lang="pl">Brand, Maja</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">doktoranci</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Maja Brand [...] zginęła tragicznie w wieku 30 lat, w dniu 3 marca 2012 roku [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bos-Bucz 22</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877786</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">2012</dc:issued>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

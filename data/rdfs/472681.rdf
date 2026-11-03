@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472681">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498251</dc:relation>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472681/NDIGDZS026478.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Nr 1 S dozvolenìâ Načalʹstva Deutsches Theater in Lodz „Paradies”, Donnerstag den 22 November (4 December) 1873 : Zur Eröffnung der Saison! Sie hat ihr Herz entdeckt, hierauf: Garibaldi, zum schluss: Bei Vasser und Brod</dc:title>
+    <dc:publisher xml:lang="pl">J. Petersilge</dc:publisher>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:subject xml:lang="pl">Łódź (Polska ; region)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 17/13</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509226">
+    <dc:title xml:lang="pl">W piątek dnia 10 lutego 1854 roku : Józ. Lubowski, fortepianista : będzie miał zaszczyt w Sali Redutowej dać koncert</dc:title>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509226/NDIGMUZ025466.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 85</dc:source>
+    <dc:date xml:lang="pl">1854</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:534715</dc:relation>
+    <dc:title xml:lang="pl">Freitag den 10 Februar 1854 : Jos. Lubowski, pianist : wird die ehre haben im Redouten Saale ein Koncert zu geben</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:issued xml:lang="pl">1854</dc:issued>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:subject xml:lang="pl">Lubowski, Józef (1824-1855)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">koncert fortepianowy</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

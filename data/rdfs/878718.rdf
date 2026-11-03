@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878718">
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Do-Drzy 153</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:912165</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1969</dc:issued>
+    <dc:subject xml:lang="pl">Doniec, Anna (1930?-1969)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Ś. p. Anna Doniec [...] zginęła tragicznie dnia 10 lipca 1969 r.</dc:title>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:date xml:lang="pl">1969</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878718/NDIGDZS089608.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

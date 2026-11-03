@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866207">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:897198</dc:relation>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:date xml:lang="pl">2005</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud- Bży 113</dc:source>
+    <dc:subject xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Społeczność Uniwersytetu Jagiellońskiego z żalem zawiadamia, że w dniu 22 maja 2005 roku zmarł ś. p. mgr. Adam Bunsch były kwestor Uniwersytetu Jagiellońskiego [...]</dc:title>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Bunsch, Adam (1929-2005)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866207/NDIGDZS083364.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:issued xml:lang="pl">2005</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

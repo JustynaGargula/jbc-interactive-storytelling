@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878730">
+    <dc:subject xml:lang="pl">Dornbach, Tadeusz (1890?-1965)</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Ś. p. Tadeusz Dornbach emer. rotmistrz 8 Pułku Ułanów im. Ks. Józefa Poniatowskiego [...] zmarł dnia 28-go września 1965 roku</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:912256</dc:relation>
+    <dc:issued xml:lang="pl">1965</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Do-Drzy 165</dc:source>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:date xml:lang="pl">1965</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878730/NDIGDZS089626.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

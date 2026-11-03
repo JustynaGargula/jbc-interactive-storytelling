@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570008">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/25</dc:source>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:title xml:lang="pl">No 29 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Osipa Tekselâ, v voskresenʹe 12 (24) maâ 1874 goda, dany budut komedìâ v 4-h dějstvìah Staryj Muž, v zaklûčenìe balet v 1-m dějstvìi Svadʹba v Ojcově</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570008/NDIGDZS030805.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/38567 Stary mąż. Komedyja w 4ch aktach przez Józefa Korzeniowskiego napisana w 1842</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">http://pbc.gda.pl/publication/16382 Dzieła Józefa Korzeniowskiego. T. 9</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599859</dc:relation>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:title xml:lang="pl">No 29 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Józefa Texel, w niedzielę dnia 12 (24) maja1874 roku, przedstawi komedję w 4-ch aktach Stary Mąż, zakończy balet w 1-m akcie Wesele w Ojcowie</dc:title>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

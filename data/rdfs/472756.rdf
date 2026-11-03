@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472756">
+    <dc:title xml:lang="pl">No 18 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juljana Grabińskiego, w niedzielę dnia 25 listopada (7 grudnia) 1873 r. On nie jest zazdrosny, Tylko jedno słowo, Papugi Babuni</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472756/NDIGDZS028470.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498276</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/19</dc:source>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, v voskresenʹe 25 noâbrâ (7 dekabrâ) 1873 g. On ne revniv, Tolʹko odno slovo, Babuškiny Popugai</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

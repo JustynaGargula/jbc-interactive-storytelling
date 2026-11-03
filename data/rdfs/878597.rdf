@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878597">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:date xml:lang="pl">1881</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:905839</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 420</dc:source>
+    <dc:subject xml:lang="pl">Grabowski, Feliks (1823?-1881)</dc:subject>
+    <dc:subject xml:lang="pl">Kościół św. Barbary (Kraków)</dc:subject>
+    <dc:issued xml:lang="pl">1881</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878597/NDIGDZS086329.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Feliks Jastrzębiec Grabowski Urzędnik Towarzystwa Wzajemnych Ubezpieczeń, przeżywszy lat 58 [...] przeniósł się do wieczności dnia 19 Lutego 1881 r. [...]</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">szlachta</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Wzajemnych Ubezpieczeń (Kraków)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

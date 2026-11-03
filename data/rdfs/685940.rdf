@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/685940">
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/685940/NDIGMUZ044740.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:683044</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:title xml:lang="pl">Heute Sonntag den 24. Juni 1860 findet auf dem Franz-Josefs-Berge eine große Koncert-soirée statt, wobei die Musik-Kapelle vom Regimente GH. Josef unter persönlicher Leitung des Hrn. Kapellmeisters K. Leibold, mit dem großen Streich-Orchester die neuesten Piecen zur Aufführung bringen wird</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 3, 21</dc:source>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Dziś w niedzielę dnia 24 czerwca 1860 dana będzie na Górze Frańciszka Józefa wielka Koncert-soirée przy której muzyka pułku arcyksięcia Józefa pod osobistem przewodnictwem swego kapelmistrza pana K. Leibold odgrywać będzie wielką instrumentalną orkiestrą najnowsze kompozycje muzyczne</dc:title>
+    <dc:subject xml:lang="pl">Leibold, K.</dc:subject>
+    <dc:publisher xml:lang="pl">E. Winiarz</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466100">
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Nr 4 Za pozwoleniem Zwierzchności Teatr Amatorski na korzyść Ochronki Miejskiej przy Szpitalu ś. Aleksandra, w niedzielę d. 25 listopada (7 grudnia) 1873 r. przedstawione zostaną : Stacja pocztowa w Hulczy, Dwóch głuchych, Folwark Primerose</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 13/1</dc:source>
+    <dc:publisher xml:lang="pl">Tipografìâ Kěl. Gub. Pravlenìâ</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466100/NDIGDZS023967.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 4 S dozvolenìâ Načalʹstva Teatr Lûbitelej v polʹzu Gorodskago Prìûta pri Bolʹnicĕ sv. Aleksandra, v voskresenʹe 25 noâbrâ (7 dekabrâ) 1873 g. predstavleny budut : Počtovaâ stancìâ v Gulʹči, Dva gluhìe, Hutor Primeroz</dc:title>
+    <dc:subject xml:lang="pl">Kielce (Polska ; region)</dc:subject>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491780</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

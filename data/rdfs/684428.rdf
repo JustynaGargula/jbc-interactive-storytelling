@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684428">
+    <dc:date xml:lang="pl">[1875]</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Teatr v četverg 15 (27) goda Dramatičeskoe Obšestvo pod direkcìeû Vladislava Dembskago, komedìâ Neprìâtelʹ Ženšin, komedìâ Duročka s San-Flûr, Komnata Zuzi</dc:title>
+    <dc:issued xml:lang="pl">[1875]</dc:issued>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608544</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 26/2</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684428/NDIGDZS031651.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">No 2 Teatr w czwartek d. 15 (27) listopada 1875 r. Towarzystwo Dramatyczne pod dyrekcyą Władysława Dębskiego, komedja Nieprzyjaciel Kobiet, komedja Gapiątko z Saint-Flour, krotochwila Pokoik Zuzi</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

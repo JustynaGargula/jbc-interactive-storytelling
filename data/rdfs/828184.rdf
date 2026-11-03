@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/828184">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Ś. P. Za wszystkich którzy zginęli śmiercią męczeńską w obozach koncentracyjnych i więzieniach podczas ostatnie wojny odprawione zostanie Uroczyste Nabożeństwo Żałobne we wtorek dnia 14 czerwca 1966 roku o godzinie 17.15 [...]</dc:title>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/828184/NDIGDZS060972.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:859631</dc:relation>
+    <dc:date xml:lang="pl">1966</dc:date>
+    <dc:subject xml:lang="pl">niemieckie nazistowskie obozy koncentracyjne</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Msze 70</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1966</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

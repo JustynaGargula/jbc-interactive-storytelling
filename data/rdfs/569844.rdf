@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569844">
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:subject xml:lang="pl">widowiska i spektakle</dc:subject>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">Abteilung für Öffentlichkeitsarbeit und Tourismus des Marschallamts der Wojewodschaft von Małopolska. Gruppe für Tourismusförderung</dc:publisher>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:title xml:lang="pl">Małopolska : Sitten und Braüche</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599599</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001706</dc:source>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">wydawnictwa informacyjne</dc:subject>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:subject xml:lang="pl">obrzędy i ceremonie</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

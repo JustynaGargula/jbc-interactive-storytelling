@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684421">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:606138</dc:relation>
+    <dc:title xml:lang="pl">Teatr pod dyrekcyą Pawła Ratajewicza w czwartek dnia 23 maja 1872 r. mellodramat liryczny ze śpiewami i tańcami cygańskimi w 4-ch aktach</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1872</dc:issued>
+    <dc:title xml:lang="pl">No 22 Teatr pod direkcìeû Pavla Rataeviča v četverg 11 maâ 1872 goda liričeskaâ drama s pěnìem v 4-h dějstvìâh Precìoza</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">1872</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684421/NDIGDZS033663.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 38/7</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

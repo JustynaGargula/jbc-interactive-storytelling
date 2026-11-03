@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/876731">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1897</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/876731/NDIGDZS090886.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Za duszę ś. p. Mikołaja Zyblikiewicza zmarłego w Krakowie dnia 16 maja, odbędzie się w przyszły poniedziałek dnia 30 maja żałobna msza [...]</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">Zyblikiewicz, Mikołaj (1823-1887)</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Zw-Zy 465</dc:source>
+    <dc:issued xml:lang="pl">1897</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:913721</dc:relation>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

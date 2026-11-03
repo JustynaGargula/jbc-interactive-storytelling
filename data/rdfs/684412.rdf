@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684412">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605714</dc:relation>
+    <dc:description xml:lang="pl">Litografia</dc:description>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Schiller, Friedrich (1759-1805)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 28/16</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">S dozvolenìâ Načalʹstva G. Sandomìr, v doma Gna Vajrauha teatr pod direkcìeû Vladislava Dembskago, v voskresenʹe 28 oktâbrâ 1873 goda, otryvok iz tragedìû Šillera p. n. Razdbojniki, komedìâ Prekrasnaâ Melʹničiha</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684412/NDIGDZS031529.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:title xml:lang="pl">No 17 Za pozwoleniem Zwierzchności M. Sandomierz, w Domu W-go Wajraucha teatr pod dyrekcją Władysława Dębskiego, w niedzielę dnia 9 listopada 1873 r., wyjątek z tragedii Szyllera pod tytułem Zbójcy, komedia Piękna Młynarka</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

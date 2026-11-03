@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/853954">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:886994</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/853954/NDIGDZS078574.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że w dniu 13 czerwca 2007 roku zmarła w Krakowie śp. Danuta Bigaj [...]</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Cmentarz komunalny Prądnik Czerwony (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">Bigaj, Danuta (1951?-2007)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, XXI Bia-Bło 188</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:issued xml:lang="pl">2007</dc:issued>
+    <dc:date xml:lang="pl">2007</dc:date>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

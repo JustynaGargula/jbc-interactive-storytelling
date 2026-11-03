@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684454">
+    <dc:subject xml:lang="pl">balet</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:606244</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 38/4</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 3 Teatr Petrokowskie Towarzystwo Artystów Dramatycznych pod dyrekcyą Aleksandra Carmantrant, we czwartek dnia 4 (16) września 1869 r. : Wesele w Ojcowie balet w jednym akcie, Nowa Recepta na Złośnice komedja w 4-ch aktach</dc:title>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:date xml:lang="pl">1869</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684454/NDIGDZS033660.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

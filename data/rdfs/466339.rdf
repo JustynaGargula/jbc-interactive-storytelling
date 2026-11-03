@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466339">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">ca 1915</dc:issued>
+    <dc:date xml:lang="pl">ca 1915</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 14/34</dc:source>
+    <dc:publisher xml:lang="pl">Drukarnia Dziennika Polskiego</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492002</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Lwowski Teatr Miejski w Krynicy : nowość Florio i Flavio, igraszki i sceny miłosne w 3 aktach (4 odsł.) przez F. R. Schönthana i F. R. Koppel-Ellfelda ; przekład Z. Wójcickiej</dc:title>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466339/NDIGDZS024362.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Teatr Lwowski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

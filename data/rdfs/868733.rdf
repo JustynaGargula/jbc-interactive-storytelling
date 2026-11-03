@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/868733">
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/868733/NDIGDZS085601.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 21 grudnia 2017 roku zmarła prof. dr hab. Maria Dąbrowska-Partyka wybitna badaczka literatur i kultur słowiańskich [...]</dc:title>
+    <dc:subject xml:lang="pl">Dąbrowska-Partyka, Maria (1947-2017)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:901674</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Da-Dmy 156</dc:source>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

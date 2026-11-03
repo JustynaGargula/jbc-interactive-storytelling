@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841454">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:860850</dc:relation>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841454/NDIGDZS062063.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">więźniowie obozów</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ha-Hyt 14</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Jako w czwartą bolesną rocznicę męczeńskiej śmierci ś. p. Kazimierza Halińskiego zmarłego w obozie w Oświęcimiu dnia 20. VIII. 1943 r., oficera rez. W. P., urzędnika firmy „Ozet” w Mościcach odprawione zostanie w Krakowie, we środę 20 sierpnia 1947 r. [...]</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">1947</dc:issued>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:subject xml:lang="pl">urzędnicy</dc:subject>
+    <dc:subject xml:lang="pl">Auschwitz-Birkenau (niemiecki obóz koncentracyjny)</dc:subject>
+    <dc:date xml:lang="pl">1947</dc:date>
+    <dc:subject xml:lang="pl">Haliński, Kazimierz (?-1934)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866321">
+    <dc:subject xml:lang="pl">Bulanda, Jan (1873?-1953)</dc:subject>
+    <dc:title xml:lang="pl">Jan Bulanda, emer. profesor gimn. przeżywszy lat 80, po krótkiej a ciężkiej chorobie, opatrzony św. Sakramentami, zasnął w Panu dnia 5 listopada 1953 r. [...]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:897441</dc:relation>
+    <dc:issued xml:lang="pl">1953</dc:issued>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud- Bży 132</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">1953</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866321/NDIGDZS083558.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

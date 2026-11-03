@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/379546">
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:401224</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:401224</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:creator xml:lang="pl">Armia Krajowa. Komenda Główna. Kierownictwo Walki Podziemnej</dc:creator>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/379546/PDF/NDIGDZS021396.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/379546/PDF/NDIGDZS021396.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">polskie organizacje podziemne</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:type xml:lang="pl">maszynopis powielany</dc:type>
+    <dc:title xml:lang="pl">O Polskiej Armii</dc:title>
+    <dc:date xml:lang="pl">ca 1944</dc:date>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Armia Krajowa (AK)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 399875 III</dc:source>
+    <dc:issued xml:lang="pl">ca 1944</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

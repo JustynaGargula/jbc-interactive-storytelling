@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/838537">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/838537/NDIGDZS068664.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ka-Kaz 63</dc:source>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Klementowska, Helena (?-1942)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:871247</dc:relation>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">1942</dc:date>
+    <dc:title xml:lang="pl">Z Lambachów Helena Klementowska żona b. pułkownika zmarła dnia 29 kwietnia 1942 r. w Lublinie Nabożeństwo żałobne odprawione zostanie w środę dnia 3 czerwca 1942 r. [..]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Lublin (Polska ; region)</dc:subject>
+    <dc:issued xml:lang="pl">1942</dc:issued>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878618">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Kazimierz Graczyński urodzony w Wadowicach w r. 1815 [...] zakończył swój żywot doczesny [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878618/NDIGDZS087016.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 438</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Graczyński, Kazimierz (1815-1888)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907121</dc:relation>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:issued xml:lang="pl">1888</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1888</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

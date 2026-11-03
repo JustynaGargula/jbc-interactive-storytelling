@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841029">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ha-Hyt 61</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841029/NDIGDZS068149.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">obozy jenieckie</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:issued xml:lang="pl">1942</dc:issued>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Władysław Hercok przeżywszy lat 47, zmarł dnia 2 lipca 1942 r. w Oflagu [...]</dc:title>
+    <dc:subject xml:lang="pl">Hercok, Władysław (1895-1942)</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873801</dc:relation>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:date xml:lang="pl">1942</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

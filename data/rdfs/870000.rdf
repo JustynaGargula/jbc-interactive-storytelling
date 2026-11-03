@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/870000">
+    <dc:subject xml:lang="pl">bibliotekarze</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Z największym żalem zawiadamiamy, że w dniu 17 marca 2015 roku, zmarła w Krakowie w wieku lat 92 ś. p. Irena Czerni [...] st. kustosz dyplomowany Biblioteki Jagiellońskiej [...]</dc:title>
+    <dc:date xml:lang="pl">2015</dc:date>
+    <dc:subject xml:lang="pl">Czerni, Irena (1923-2015)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/870000/NDIGDZS080887.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:892022</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Czar-Czyż 129</dc:source>
+    <dc:issued xml:lang="pl">2015</dc:issued>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

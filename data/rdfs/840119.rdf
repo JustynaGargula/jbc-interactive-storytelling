@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/840119">
+    <dc:subject xml:lang="pl">Auschwitz-Birkenau (niemiecki obóz koncentracyjny)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">więźniowie obozów</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pig-Pon 87</dc:source>
+    <dc:subject xml:lang="pl">harcerze</dc:subject>
+    <dc:subject xml:lang="pl">Gross-Rosen (Niemiecki nazistowski obóz koncentracyjny w Rogoźnicy)</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:873832</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Mittelbau-Dora (niemiecki obóz koncentracyjny)</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">oficerowie</dc:subject>
+    <dc:date xml:lang="pl">1947</dc:date>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">Półkozic Czarnek, Stanisław</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/840119/NDIGDZS069132.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">jeńcy wojenni</dc:subject>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:issued xml:lang="pl">1947</dc:issued>
+    <dc:title xml:lang="pl">Nieodżałowanej pamięci Najdroższy Syn i Brat Stanisław Półkozic Czarnek absolwent gimn. im. Sobieskiego, harcerz, podchorąży artylerii W. P., b. jeniec wojenny, pporucznik Armii Krajowej, więzień niemieckich obozów koncentracyjnych Oświęcimia i Gross-Rosen, zmarł w 25 roku życia w obozie Dora-Nordhausen dnia 6 maja 1945 r. [...]. Nabożeństwo żałobne odbędzie ię we środę dnia 7 maja 1947 r. [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

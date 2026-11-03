@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841275">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Mgr Władysław Petzelt [...] zmarł dnia 5 listopada 1941 roku [...]</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pas-Pie 47</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Petzelt, Władysław (?-1941)</dc:subject>
+    <dc:date xml:lang="pl">1941</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874629</dc:relation>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841275/NDIGDZS068902.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1941</dc:issued>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

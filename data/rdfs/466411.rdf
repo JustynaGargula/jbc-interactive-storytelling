@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466411">
+    <dc:publisher xml:lang="pl">J. Petersilge</dc:publisher>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466411/NDIGDZS026466.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 17/5</dc:source>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Łódź (Polska ; region)</dc:subject>
+    <dc:title xml:lang="pl">Nr 14 S dozvolenìâ Načalʹstva Německìj Teatrʺ vʺ zalě Paradiza vʺ g. Lodzi : Deutsches Theater in Lodz, im „Paradies”, Donnerstag den 20 Dec. 1873 (1 Jan. 1874) Der Gold-Onkel</dc:title>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492065</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/862738">
+    <dc:subject xml:lang="pl">Dedecius, Karl (1921-2016)</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:887717</dc:relation>
+    <dc:issued xml:lang="pl">2016</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Da-Dmy 66</dc:source>
+    <dc:date xml:lang="pl">2016</dc:date>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 26 lutego 2016 roku we Frankfurcie nad Menem zmarł Karl Dedecius doktor honoris causa Uniwersytetu Jagiellońskiego. Wybitny i niezwykle zasłużony tłumacz literatury polskiej na język niemiecki, krytyk i wydawca, ambasador kultury polskiej w Niemczech [...]</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/862738/NDIGDZS078836.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

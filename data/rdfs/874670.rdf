@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/874670">
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Bogdaszewska-Czabanowska, Jadwiga (1932-2013)</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że w dniu 27 sierpnia 2013 r. zmarła prof. dr hab. Jadwiga Bogdaszewska-Czabanowska emerytowany profesor, wieloletni Kierownik Katedry i Kliniki Dermatologii Uniwersytetu Jagiellońskiego - Collegium Medicum [...]</dc:title>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:date xml:lang="pl">2013</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910513</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bn-Bor 109</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/874670/NDIGDZS088019.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:issued xml:lang="pl">2013</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

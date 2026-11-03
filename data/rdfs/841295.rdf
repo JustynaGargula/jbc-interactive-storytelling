@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841295">
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841295/NDIGDZS067911.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1939</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Ha-Hyt 35</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Za spokój duszy ś. p. Marii Anny Haraschinowej zmarłej tragicznie dnia 5-go września 1939 roku wskutek działań wojennych w Jaworowie odprawione zostanie w sobotę dnia 9 grudnia 1939 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">ofiary wojny</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:date xml:lang="pl">1939</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:869095</dc:relation>
+    <dc:subject xml:lang="pl">Haraschin, Maria Anna (?-1939)</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

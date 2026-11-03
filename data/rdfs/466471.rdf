@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466471">
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466471/NDIGDZS026482.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492126</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Łódź (Polska ; region)</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 17/17</dc:source>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:publisher xml:lang="pl">J. Petersilge</dc:publisher>
+    <dc:title xml:lang="pl">Nr 5 S dozvolenìâ Načalʹstva Deutsches Theater in Lodz im „Paradies”, Donnerstag den 29 November (11 December) 1873 : Neu zum ersten male: Kern und Schaale, new zum schluss: Die Kunst geliebt zu werden</dc:title>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/851235">
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877323</dc:relation>
+    <dc:issued xml:lang="pl">2010</dc:issued>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/851235/NDIGDZS072539.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Bąkowska, Ewa (1962-2010)</dc:subject>
+    <dc:date xml:lang="pl">2010</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Ś.p. 10 kwietnia 2010 roku w wieku 48 lat zmarła śmiercią tragiczną mgr Ewa Bąkowska kustosz Biblioteki Jagiellońskiej, kierownik Oddziału Informacji Naukowej i Katalogów. Zginęła w katastrofie samolotu prezydenckiego pod Smoleńskiem [...]. Dyrekcja i pracownicy Biblioteki Jagiellońskiej.</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bab-Bars 86</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

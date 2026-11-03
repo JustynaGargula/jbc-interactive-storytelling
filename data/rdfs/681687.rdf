@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/681687">
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">N 3 Słupcy, Za pozwoleniem Zwierzchności, Teatr pod Dyrekcyą Kazimierza i Lucyana Królikowskich, we czwartek 11/19 października 1871 r. przedstawionym będzie : komedja p. t. Piętro Wyżej czyli Powrót z Meksyku, nastąpi deklamacja p.t. Czarny Szal, zakończy komedja ludowa Łobzowanie</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/681687/NDIGDZS031532.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605709</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 29/1</dc:source>
+    <dc:issued xml:lang="pl">[1871]</dc:issued>
+    <dc:date xml:lang="pl">[1871]</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:description xml:lang="pl">Litografia</dc:description>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

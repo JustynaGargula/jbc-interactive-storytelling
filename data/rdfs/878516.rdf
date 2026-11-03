@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878643">
+    <dc:date xml:lang="pl">1896</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 455</dc:source>
+    <dc:subject xml:lang="pl">Gralewski, Jerzy (1895?-1896)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906387</dc:relation>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878643/NDIGDZS087108.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:issued xml:lang="pl">1896</dc:issued>
+    <dc:subject xml:lang="pl">śmierć dziecka</dc:subject>
+    <dc:title xml:lang="pl">Jerzy Gralewski najukochańszy synek Eugeniusza, w pierwszej wiośnie życia, w dniu 28 Sierpnia 1896 r. powiększył grono aniołków [...]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

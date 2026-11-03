@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472311">
+    <dc:subject xml:lang="pl">litografia</dc:subject>
+    <dc:date xml:lang="pl">[1877]</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Na cele dobroczynne w Lisku w sali kasyna odbędzie się w niedzielę dnia 12 sierpnia 1877 r. przedstawienie amatorskie : program: Karpaccy Górale, dramat w 3 aktach napisany przez Korzeniowskiego</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:497945</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 16/4</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">[1877]</dc:issued>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472311/NDIGDZS026256.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

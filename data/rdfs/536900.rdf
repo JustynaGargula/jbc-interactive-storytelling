@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536900">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564167</dc:relation>
+    <dc:title xml:lang="pl">No 3 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, v vtornik 25 sentâbrâ (7 oktâbrâ) 1873 goda, komedìâ v 1-m dějstvìi s francuzskago Dvě Teŝi, komedìâ v 1-m dějstvìi s francuzskago Ubìjca, v zaklûčenìe vodevilʹ v 1-m dějstvìi s německago Prekrasnyj Pol</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/4</dc:source>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536900/NDIGDZS030751.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 3 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek dnia 25 września (7 października) 1873 roku, komedja w 1-m akcie z francuzkiego Dwie teściowe, komedja w 1-m akcie z francuzkiego Morderca, na zakończenie wodewil w 1-m akcie z niemieckiego Płeć piękna</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

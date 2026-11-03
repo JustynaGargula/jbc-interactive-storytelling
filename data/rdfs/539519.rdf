@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539519">
+    <dc:publisher xml:lang="pl">Małopolska Tourist Organisation</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:567223</dc:relation>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:subject xml:lang="pl">parki narodowe</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001686</dc:source>
+    <dc:title xml:lang="pl">Małopolska : national and landscape parks, nature reserves</dc:title>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:publisher xml:lang="pl">Department of Tourism, Sport and Promotion at The Office of the Marshal of the Małopolska Province. Regional Tourism Information System Team</dc:publisher>
+    <dc:description xml:lang="pl">New release.</dc:description>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:creator xml:lang="pl">Baturo, Iwona</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

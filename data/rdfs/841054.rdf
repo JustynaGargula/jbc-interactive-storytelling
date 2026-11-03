@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/841054">
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:874700</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">adwokaci</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/841054/NDIGDZS069005.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1946</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:issued xml:lang="pl">1946</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">powstańcy warszawscy</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Mgr. Tadeusz Pietsch adwokat w Radomiu, kapitan A. K., odznaczony pośmiertnie krzyżem Grunwaldu III kl. zginął śmiercią żołnierza w 3-cim tygodniu powstania w Warszawie, przy ulicy Grzybowskiej Pochowany został na cmentarzu "Obrońców Warszawy" Nabożeństwo żałobne odprawione zostanie w niedzielę dnia 1 września 1946 r. [...]</dc:title>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Pietsch, Tadeusz</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 III Pas-Pie 94</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/514075">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">[1845]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:533369</dc:relation>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">[1845]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/514075/NDIGMUZ025809.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 26</dc:source>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:title xml:lang="pl">Kraków : we środę 13go sierpnia 1845 roku : w Sali Knotza : koncert instrumentalno-wokalny : przez aktorów muzyki na korzyśc [!] mieszkańców m. Krakowa ostatnią powodzią dotkniętych</dc:title>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847201">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bart-Be 79</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:title xml:lang="pl">Społeczność Uniwersytetu Jagiellońskiego z głębokim żalem zawiadiamia, ze w dniu 3 stycznia 2014 roku zmarł Ś. P. inż. Kazimierz Batko […]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">2014</dc:issued>
+    <dc:subject xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:subject>
+    <dc:subject xml:lang="pl">Batko, Kazimierz (19??-2014)</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">2014</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847201/NDIGDZS073781.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">kadry</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:879307</dc:relation>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

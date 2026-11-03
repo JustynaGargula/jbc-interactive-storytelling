@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/549946">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/549946/NDIGDZS019061.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 5/16</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:578454</dc:relation>
+    <dc:date xml:lang="pl">1869</dc:date>
+    <dc:title xml:lang="pl">Niesłychanie tanio!!! Po cenach fabrycznych!!! Nabyć można w składzie komisowym J. Przeworskiego przy ulicy Stolarskiej obok urzędu telegraficznego najgustowniejszych lamp i najlepszą czyszczoną naftę, oraz wszelkiego rodzaju części pojedynczych jako to: kul, tulipanów, daszków, cylindrów, brennerów, reserwoarów itp.</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1869</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

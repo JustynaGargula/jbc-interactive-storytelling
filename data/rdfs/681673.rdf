@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/681673">
+    <dc:issued xml:lang="pl">[1842]</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 3, 2</dc:source>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:646777</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/681673/NDIGMUZ034282.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Schnötzinger, Anton (1816-1865)</dc:subject>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:date xml:lang="pl">[1842]</dc:date>
+    <dc:coverage xml:lang="pl">[19 w.]</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Lemberg : Freitag den 20. Mai 1842, wird Anton Schnötzinger Kapellmeister des Hrn. Alex. Guerra im ehemaligen königl. städt. Redouten-Saale : ein grosses vocal- und instrumental Concert</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

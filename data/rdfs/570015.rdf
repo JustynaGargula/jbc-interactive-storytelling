@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570015">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/34</dc:source>
+    <dc:title xml:lang="pl">No 29 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v subbotu 10 (22) noâbrâ 1873 goda, dana budet v pervyj raz novaâ drama v 3-h dějstvìah, s farncuzskago Gans Matis (Polskìj Evrej)</dc:title>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599865</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">No 29 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w sobotę dnia 10 (22) listopada 1873 roku, przedstawi pierwszy raz nowy dramat w 3-ch aktach, z francuzkiego Hans-Mathis (Żyd Polski)</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570015/NDIGDZS030823.pdf</dc:identifier>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

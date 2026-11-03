@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878753">
+    <dc:issued xml:lang="pl">1879</dc:issued>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878753/NDIGDZS089894.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1879</dc:date>
+    <dc:subject xml:lang="pl">urzędnicy</dc:subject>
+    <dc:subject xml:lang="pl">Szpital św. Łazarza (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Laura Gruber Tochter des verst. k.k. Finanz-Wache Oberkommissärs, verschied nach langen Leiden am 4. Febraur 1879 im 26. Lebensjahre. [...]</dc:title>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">Gruber, Laura (1853?-1879)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:913000</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 535</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

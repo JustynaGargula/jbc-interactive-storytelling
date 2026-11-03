@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539454">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001681</dc:source>
+    <dc:title xml:lang="pl">Małopolska : pour le week-end</dc:title>
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:description xml:lang="pl">Nouvelle édition</dc:description>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:566906</dc:relation>
+    <dc:publisher xml:lang="pl">Département du Tourisme, du Sport et de la Promotion de l’Office du Maréchal de la Voïvodie de Małopolska. L’Ensemble chargé du Système Régional d’Information Touristique</dc:publisher>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

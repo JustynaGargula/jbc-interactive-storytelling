@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847367">
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:issued xml:lang="pl">2014</dc:issued>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że dnia 25 lipca 2014 roku, przeżywszy lat 93 […] odeszła od nas do Pana ś. p. Zofia Bażela z domu Ostoya-Karlińska […]</dc:title>
+    <dc:date xml:lang="pl">2014</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847367/NDIGDZS074176.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bart-Be 113</dc:source>
+    <dc:subject xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">kadry</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:879475</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Bażela, Zofia (1921?-2014)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

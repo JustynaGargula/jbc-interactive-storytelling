@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/465963">
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:title xml:lang="pl">No 28 S dozvolenìâ Načalʹstva Obŝestvo Dramatičeskih Artistov pod direkcìeû Anastazìâ Trapšo, vʺ subbotu 22 dekabrâ (3 ânvarâ) 1873/4 goda, vʺ pervyj razʺ melodrama vʺ 3 dějstvìahʺ s˝ francuzskago Erekmana Šatrâna p. n. : Gansʺ-Matysʺ ili polʹskìj Evrej</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/465963/NDIGDZS022771.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491648</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/42</dc:source>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dyrekcyą Anastazego Trapszo, w sobotę dnia 22 grudnia (3 stycznia) 1873/4 roku, po raz pierwszy melodramat w 3-ch aktach Erkmana Chatriana z francuzkiego pod tytułem : Hans-Mathis czyli Żyd polski</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878587">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 409</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Grabiański, Władysław</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:905108</dc:relation>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Władysław Grabiański z Dąbrowy w Królestwie Polskiem przeżywszy lat 39 [...] w dniu 12 b. m. zakończył życie [...]</dc:title>
+    <dc:date xml:lang="pl">1870-1900</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878587/NDIGDZS085763.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Szpital św. Łazarza (Kraków)</dc:subject>
+    <dc:issued xml:lang="pl">1870-1900</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

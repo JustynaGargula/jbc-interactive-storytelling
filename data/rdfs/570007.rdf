@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570143">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:600109</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Masken-Ball in Verbindung mit einem Volksbilde, unter dem Tittel Schnitter-Fest</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:title xml:lang="pl">Bal maskowy z połączeniem obrazu ludowego z tańcami i śpiewami, pod tytułem Dożynki</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570143/NDIGDZS032467.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224630 V a/4</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

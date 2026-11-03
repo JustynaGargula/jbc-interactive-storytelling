@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878409">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 372</dc:source>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Wild, Karol Kazimierz (1824-1885)</dc:subject>
+    <dc:title xml:lang="pl">Karol Wild księgarz, b. Radny i Poseł m. Lwowa do Rady Państwa, przeżywszy lat 61 [...] zmarł po krótkiej i ciężkiej słabości dnia 7go marca [...]</dc:title>
+    <dc:issued xml:lang="pl">1885</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878409/NDIGDZS090306.pdf</dc:identifier>
+    <dc:date xml:lang="pl">1885</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910982</dc:relation>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Lwów (Ukraina ; region)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

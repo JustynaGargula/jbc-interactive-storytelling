@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847114">
+    <dc:subject xml:lang="pl">nauczyciele akademiccy</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bart-Be 27</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Przejęci głębokim żalem i smutkiem zawiadamiamy, że 13 sierpnia 2004 r. niespowdziewanie odszedł w wieku 44 lat ś. p. Dr. Roman Bartoszcze Adiunkt [...]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:876825</dc:relation>
+    <dc:date xml:lang="pl">2004</dc:date>
+    <dc:subject xml:lang="pl">Bartoszcze, Roman (1960?-2004)</dc:subject>
+    <dc:issued xml:lang="pl">2004</dc:issued>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847114/NDIGDZS071273.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Uniwersytet Jagielloński w Krakowie</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

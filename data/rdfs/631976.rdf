@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/631976">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 804981 V, T.3/54</dc:source>
+    <dc:date xml:lang="pl">[1944]</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/631976/NDIGDZS030303.pdf</dc:identifier>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:type xml:lang="pl">plakat</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564069</dc:relation>
+    <dc:issued xml:lang="pl">[1944]</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">[Niemiecki plakat antybolszewicki]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+  </rdf:Description>
+</rdf:RDF>
+

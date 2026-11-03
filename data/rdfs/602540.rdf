@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/602540">
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605526</dc:relation>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/602540/NDIGDZS030810.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 24 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w czwartek, dnia 1 (13) listopada, 1873 roku, na benefis Leopolda Tomaszewicza przedstawi pierwszy raz dzieło sceniczne w 5-ciu aktach Oszustka Paryzka</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:title xml:lang="pl">No 24 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v četverg, 1 (13) noâbrâ 1873 goda, na benefis Leopolʹda Tomaševiča dano budet v pervyj raz sceničeskoe sočinenìe v 5-ti dějstvìâh Parižskaâ Obmanšica</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/29</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

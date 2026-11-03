@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878648">
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:date xml:lang="pl">1879</dc:date>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906394</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Piotr Gralewski właściciel dóbr Chorągwicy, przeżywszy lat 85 [...] w dniu 16 Lutego 1879 r. przeniósł się do wieczności [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1879</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 458</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878648/NDIGDZS087332.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Gralewski, Piotr (1794?-1879)</dc:subject>
+    <dc:subject xml:lang="pl">ziemiaństwo</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

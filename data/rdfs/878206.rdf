@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878206">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910965</dc:relation>
+    <dc:date xml:lang="pl">1880</dc:date>
+    <dc:subject xml:lang="pl">Wilczek, Józef (1805-1880)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 361</dc:source>
+    <dc:title xml:lang="pl">X. Józef Wilczek Doktor Ś. Teologii [...] przeżywszy lat 75 [...] w dniu 26 Wrześna 1880 r. [...] przeniósł się do wieczności [...]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878206/NDIGDZS090261.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">1880</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

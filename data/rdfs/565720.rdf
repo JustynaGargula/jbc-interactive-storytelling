@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/550999">
+    <dc:subject xml:lang="pl">fotografia</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:579917</dc:relation>
+    <dc:title xml:lang="pl">Magazyn aparatów i wszelkich przyborów fotograficznych przy ulicy Floryańskiej L. 40, obok Hotelu Polskiego, poleca aparaty statywowe i ręczne wszelkich systemów, płyty suche nadzwyczaj czułe, papiery do kopiowania wyrobu krajowego i zagranicznego, chemikalia w płynach i patronach, lampy i latarki rubinowe oraz wszelkie przybory w zakres sztuki fotograficznej wchodzące</dc:title>
+    <dc:date xml:lang="pl">ca 1890</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/550999/NDIGDZS019110.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 21</dc:source>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">ulotka reklamowa</dc:subject>
+    <dc:issued xml:lang="pl">ca 1890</dc:issued>
+    <dc:subject xml:lang="pl">Kleinberg, Wilhelm (1865 – 1942)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

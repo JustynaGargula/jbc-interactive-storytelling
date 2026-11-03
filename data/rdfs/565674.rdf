@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/565674">
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:publisher xml:lang="pl">Département du Tourisme, du Sport et de la Promotion de l’Office du Maréchal de la Voïvodie de Małopolska. L’Ensemble chargé du Système Régional d’Information Touristique</dc:publisher>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001697</dc:source>
+    <dc:creator xml:lang="pl">Baturo, Iwona</dc:creator>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:title xml:lang="pl">Małopolska : sentier de l’architecture en bois</dc:title>
+    <dc:coverage xml:lang="pl">[21 w.]</dc:coverage>
+    <dc:subject xml:lang="pl">budownictwo drewniane</dc:subject>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:595253</dc:relation>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+  </rdf:Description>
+</rdf:RDF>
+

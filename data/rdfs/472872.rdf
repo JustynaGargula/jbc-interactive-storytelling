@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472872">
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, vo vtornik 30 oktâbrâ (11 noâbrâ) 1873 g. Malyâ neprìâtnosti, Pervyj muž, Probudilosʹ u nej serdce</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498397</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472872/NDIGDZS028556.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:title xml:lang="pl">No 2 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juljana Grabińskiego, we wtorek dnia 30 października (11 Listopada) 1873 r. Małe przeszkody, Pierwszy mąż, Zbudziło się w niej serce</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/3</dc:source>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

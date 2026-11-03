@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878555">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878555/NDIGDZS090580.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:date xml:lang="pl">1875</dc:date>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 414</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:913653</dc:relation>
+    <dc:subject xml:lang="pl">Wiser, Amalie von (1847-1875)</dc:subject>
+    <dc:issued xml:lang="pl">1875</dc:issued>
+    <dc:title xml:lang="pl">Frau Amalie von Wiser, geborene Hesse, ist gestern 5 Uhr früh [...] schmerzlos im Herrn entschlafen [...]</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/527986">
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">litografia</dc:subject>
+    <dc:title xml:lang="pl">Za dozwoleniem Zwierzchności Teatr, nowo-przybyłe artystki z Warszawy: panna Paszkiewicz i panna Bütner wystąpią w rolach niżej oznaczonych, w niedzielę dnia 28 września 1873 r. Komornik-Poeta i Żarłok bez Pieniędzy</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 21/1</dc:source>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:title xml:lang="pl">No 9 S dozvolenìâ Načalʹstva Teatr, novo-pribavšìâ iz g. Varšavy aktrisy, dûvica Paškevič i dûvica Bûtner, v pervyj raz otʺigraût v voskresenìe 16 sentâbrâ 1873 goda Sudebnyj Pristav-Poet i Žažduŝìj bez Deneg</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:554737</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/527986/NDIGDZS028667.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

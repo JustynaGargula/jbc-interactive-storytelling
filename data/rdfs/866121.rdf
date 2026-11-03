@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/866121">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:900080</dc:relation>
+    <dc:subject xml:lang="pl">Chruścicki, Tadeusz (1934-2001)</dc:subject>
+    <dc:date xml:lang="pl">2001</dc:date>
+    <dc:issued xml:lang="pl">2001</dc:issued>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/866121/NDIGDZS084526.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Ca-Chrz 291</dc:source>
+    <dc:title xml:lang="pl">Pogrzeb śp. Tadeusza Chruścickiego odbędzie się w piątek 27 lipca 2001 r. na cmentarzu Rakowickim w Krakowie [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

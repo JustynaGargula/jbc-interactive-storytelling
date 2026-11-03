@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/681681">
+    <dc:title xml:lang="pl">Międzynarodowy teatr wystawy, Teatr Polski dziś w niedziela 11 września 1892 Straszny Dwór, Krakowiacy i Górale</dc:title>
+    <dc:date xml:lang="pl">1892</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/681681/NDIGDZS033620.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:605883</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">Internationales Aufstellung Theater, Polnische Theater heute Sonntag den 11 September 1892 Der Beifterhof, Krakowiaken und Goralen</dc:title>
+    <dc:issued xml:lang="pl">1892</dc:issued>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 34/3</dc:source>
+    <dc:publisher xml:lang="pl">Johan N. Vernay</dc:publisher>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

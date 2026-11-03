@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510172">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535813</dc:relation>
+    <dc:title xml:lang="pl">I. Krakowskie Targi Wzorów 1940 23 XI - 1 XII</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">okupacja niemiecka w Polsce (1939-1945)</dc:subject>
+    <dc:issued xml:lang="pl">1940</dc:issued>
+    <dc:title xml:lang="pl">I. Krakauer Mustermesse</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:subject xml:lang="pl">Izba Przemysłowo-Handlowa (Kraków)</dc:subject>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510172/NDIGDZS026157.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1940</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 21</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/865595">
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że w dniu 21 czerwca 2008 r. zmarł prof. Dr hab. Andrzej Cencora. Kierownik Zakładu Chorób Naczyń Instytutu Fizjoterapii Wydziału Nauk o Zdrowiu Uniwersytetu Jagiellońskiego Collegium Medicum [...]</dc:title>
+    <dc:date xml:lang="pl">2008</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:891040</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Ca-Chrz 43</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:issued xml:lang="pl">2008</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/865595/NDIGDZS080246.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">Cencora, Andrzej (?-2008)</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

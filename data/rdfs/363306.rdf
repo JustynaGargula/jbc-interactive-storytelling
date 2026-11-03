@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/363306">
+    <dc:issued xml:lang="pl">[1888]</dc:issued>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:date xml:lang="pl">[1888]</dc:date>
+    <dc:subject xml:lang="pl">Mickiewicz, Adam (1798-1855)</dc:subject>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:381634</dc:relation>
+    <dc:publisher xml:lang="pl">Drukarnia Związkowa (Kraków)</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:381634</dc:relation>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/363306/PDF/NDIGDZS017984.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/363306/PDF/NDIGDZS017984.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 15029 III 272</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pomniki</dc:subject>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:format xml:lang="en">application/pdf</dc:format>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:creator xml:lang="pl">Czerwiński, Jan L. (1847–1903)</dc:creator>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">W sprawie pomnika Mickiewicza</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

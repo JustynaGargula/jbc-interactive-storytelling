@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466110">
+    <dc:title xml:lang="pl">No 14 S dozvolenìâ Načalʹstva Teatr Lûdovika Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, vo vtornik 5 (17) Ìûnâ1879 g., rolʹ Galʹki ispolnit g-ža Kržiškovskaâ (Maharžinskaâ) : Galʹka, opera v 4 dějstvìâh, slova V. Volʹskago, muzyka Monûški</dc:title>
+    <dc:issued xml:lang="pl">[1879]</dc:issued>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491784</dc:relation>
+    <dc:title xml:lang="pl">No 14 Za pozwoleniem Zwierzchności Teatr Ludwika. Towarzystwo Artystów Dramatycznych pod dyrekcyją Julijana Grabińskiego we wtorek 5 (17) czerwca 1879 r., rolę Halki wykona pani Krzyszkowska (Macharzyńska) : Halka, opera w 4 aktach, słowa W. Wolskiego, muzyka Stanisława Moniuszki</dc:title>
+    <dc:subject xml:lang="pl">Wolski, Włodzimierz (1824-1882)</dc:subject>
+    <dc:publisher xml:lang="pl">Drukarnia Michała Żelichowskiego</dc:publisher>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">[1879]</dc:date>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466110/NDIGDZS023988.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 13/3</dc:source>
+    <dc:subject xml:lang="pl">Kielce (Polska ; region)</dc:subject>
+    <dc:subject xml:lang="pl">Moniuszko, Stanisław (1819-1872) </dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

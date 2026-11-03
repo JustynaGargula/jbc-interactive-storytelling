@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570026">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:title xml:lang="pl">No 35 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, vo vtornik 20 noâbrâ (2 dekabrâ ) 1873 goda, dany budut komedìâ v 1-m dějstvìi Novomodnoe Volokitstvo, komedìâ v 1-m dějstvìi, s německago Tolʹko Odno Slovo, komedìâ v 1-m dějstvìi, s francuzskago Dva Brata</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570026/NDIGDZS030830.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599871</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Gregorowicz, Jan Kanty</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/40</dc:source>
+    <dc:title xml:lang="pl">35 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek dnia 20 listopada (2 grudnia) 1873 roku, przedstawi oryginalna komedja w 1-m akcie Nowomodne Zaloty, komedja w 1-m akcie, z niemieckiego Tylko Jedno Słowo, komedja w 1-m akcie z francuzkiego zpolszczona Dwaj Bracia.</dc:title>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

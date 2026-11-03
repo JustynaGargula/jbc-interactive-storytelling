@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/870530">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że 28 lutego 2020 roku zmarł prof. dr hab. Erhard Cziomer emerytowany profesor Uniwersytetu Jagiellońskiego w Krakowie [...] Rektor, Senat, Dziekan i Rada Wydziału Studiów Międzynarodowych i Politycznych UJ oraz cała Społeczność Akademicka Uniwersytetu Jagiellońskiego</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">2021</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">Cziomer, Erhard (1940-2020)</dc:subject>
+    <dc:subject xml:lang="pl">profesorowie</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:905733</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Czar-Czyż 169</dc:source>
+    <dc:date xml:lang="pl">2021</dc:date>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/870530/NDIGDZS085889.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">politolodzy</dc:subject>
+    <dc:subject xml:lang="pl">historycy</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

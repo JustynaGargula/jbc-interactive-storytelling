@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/496807">
+    <dc:language xml:lang="pl">fre</dc:language>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 639986 III 178</dc:source>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/496807/NDIGDZS024981.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/496807/NDIGDZS024981.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Legation de Pologne : le 17 avril 1943 le Conseil des Ministres de Pologne, s'étant réuni dans le but d'examiner toutes les informations accessibles relatives aux officiers polonais dont les corps viennent d'étre retrouvés près de Smolensk</dc:title>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:421007</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:421007</dc:relation>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:description xml:lang="pl">Maszynopis powielany</dc:description>
+  </rdf:Description>
+</rdf:RDF>
+

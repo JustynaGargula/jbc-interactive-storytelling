@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684446">
+    <dc:relation xml:lang="en">oai:jbc.bj.uj.edu.pl:publication:399850</dc:relation>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:399850</dc:relation>
+    <dc:subject xml:lang="pl">Żelazowski, Roman (1853-1930)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 5/35</dc:source>
+    <dc:title xml:lang="pl">Artisty Lodzinskago Teatra, pervaâ gastolʹ Romana Želâzovskago v mestnom teatrě, v četverg 15-go fevralâ 1896 goda Želězozavodčik (Le maitre des forges)</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">[1896]</dc:issued>
+    <dc:identifier xml:lang="en">https://jbc.bj.uj.edu.pl/Content/684446/NDIGDZS020947.pdf</dc:identifier>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684446/NDIGDZS020947.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Częstochowa (Polska ; region)</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 37 Artyści Teatru Łódzkiego, pierwszy występ Romana Żelazowskiego w teatrze miejscowym, w czwartek dnia 27-go lutego 1896 roku : Właściciel kuźnic (Le maitre des Forges) =</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:format xml:lang="en">application/octet-stream</dc:format>
+    <dc:format xml:lang="pl">application/octet-stream</dc:format>
+    <dc:subject xml:lang="pl">Teatr Łódzki (Polska)</dc:subject>
+    <dc:date xml:lang="pl">[1896]</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

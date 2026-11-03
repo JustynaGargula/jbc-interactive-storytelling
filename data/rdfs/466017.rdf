@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466017">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466017/NDIGDZS022773.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 30 S dozvolenìâ Načalʹstva Obŝestvo Dramatičeskih Artistov pod direkcìeû Anastazìâ Trapšo, vo vtornikʺ 25 dekabrâ (6 ânvarâ) 1873/4 goda : Robertʺ i Bertranʺ ili dwa vora</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Za pozwoleniem Zwierzchności Towarzystwo Artystów Dramatycznych pod dyrekcyą Anastazego Trapszo, we wtorek dnia 25 grudnia (6 stycznia) 1873/4 roku : Robert i Bertrand czyli dwaj złodzieje</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 10/44</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:publisher xml:lang="pl">Tipografìâ O. Mročka</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:491708</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

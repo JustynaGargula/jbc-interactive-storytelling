@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570018">
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570018/NDIGDZS030827.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 33 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w sobotę dnia 17 (29) listopada 1873 roku, przedstawi komedja w 3-ch aktach Szlachectwo Duszy, zakończy komedjo-opera w 1-m akcie, z francuzkiego Czuła Struna</dc:title>
+    <dc:subject xml:lang="pl">Chęciński, Jan (1826-1874)</dc:subject>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/38</dc:source>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599868</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">No 33 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v subbotu 17 (29) noâbrâ 1873 goda, dany budut komedìâ v 3-h dějstvìah Blagorodstvo Duši, vodevilʹ v 1-m dějstvìi, s francuzskago Čuvstvitelʹnaâ Struna</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+  </rdf:Description>
+</rdf:RDF>
+

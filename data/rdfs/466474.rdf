@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466474">
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Nr 9 S dozvolenìâ Načalʹstva Deutsches Theater in Lodz im „ Paradies”, Sonntag den 9 (21) December 1873 : Neu zum ersten male: Hans Sachs</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466474/NDIGDZS026489.pdf</dc:identifier>
+    <dc:issued xml:lang="pl">[1873]</dc:issued>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492129</dc:relation>
+    <dc:subject xml:lang="pl">Łódź (Polska ; region)</dc:subject>
+    <dc:date xml:lang="pl">[1873]</dc:date>
+    <dc:publisher xml:lang="pl">J. Petersilge</dc:publisher>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 17/21</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

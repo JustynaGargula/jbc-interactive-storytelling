@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878654">
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906401</dc:relation>
+    <dc:issued xml:lang="pl">1895</dc:issued>
+    <dc:subject xml:lang="pl">Gramatyka, Antonina (1817?-1895)</dc:subject>
+    <dc:date xml:lang="pl">1895</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:title xml:lang="pl">Antonina z Mengerów Gramatykowa wdowa po c. k. staroście powiatowym, przeżywszy lat 78 [...] zasnęła w Panu dnia 10 czerwca 1895 roku [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878654/NDIGDZS087411.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Kościół Przemienienia Pańskiego (Kraków)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 464</dc:source>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

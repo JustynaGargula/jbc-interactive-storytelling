@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509250">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509250/NDIGMUZ025493.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">koncert skrzypkowy</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Krakau : Montag den 7. März 1853 Abschieds-Concert der Opernsängerin Frau Liebe-Grünberg und der jungen Violinvirtuosin Fräulein Johanna Bierlich...</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:534733</dc:relation>
+    <dc:subject xml:lang="pl">Bierlich, Johanna</dc:subject>
+    <dc:issued xml:lang="pl">[1853]</dc:issued>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:date xml:lang="pl">[1853]</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Dnia 7 marca 1853 roku danym będzie w Salach Teatralnych koncert przez p. J. Bierlich i p. Liebe-Grünberg</dc:title>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 1, 74</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

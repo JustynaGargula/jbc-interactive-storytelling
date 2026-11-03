@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/682325">
+    <dc:title xml:lang="pl">Na cel dobroczynny Teatr Amatorski w Wieliczce w niedzielę dnia 15 marca 1896 : wieczorek muzykalno-wokalny</dc:title>
+    <dc:issued xml:lang="pl">1896</dc:issued>
+    <dc:subject xml:lang="pl">koncert wokalny</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:publisher xml:lang="pl">J. Liwiński</dc:publisher>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 5,22</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:subject xml:lang="pl">teatr amatorski</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/682325/NDIGMUZ036702.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:645894</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:date xml:lang="pl">1896</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

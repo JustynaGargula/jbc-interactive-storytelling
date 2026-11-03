@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/475606">
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">https://polona.pl/item/narzeczone-komedia-w-2-aktach,NzI1Mzg1MjM/6/#info:metadata Narzeczone : komedia w 2 aktach</dc:relation>
+    <dc:relation xml:lang="pl">http://www.pbc.gda.pl/publication/16419 Dzieła Józefa Korzeniowskiego. T. 10</dc:relation>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/35</dc:source>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:501139</dc:relation>
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, vo vtornik 25 dekabrâ 1873 g. (6 ânvarâ 1874 g.) Nevěsty, Dlâ čego, Do zavtraka</dc:title>
+    <dc:subject xml:lang="pl">Korzeniowski, Józef (1797-1863)</dc:subject>
+    <dc:title xml:lang="pl">No 34 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juliana Grabińskiego, we wtorek dnia 25 grudnia 1873 r. (6 stycznia 1874 roku) Narzeczone, Dla czego, Przed śniadaniem</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/475606/NDIGDZS028577.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Fredro, Jan Aleksander (1829-1891)</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

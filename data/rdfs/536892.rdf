@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536892">
+    <dc:title xml:lang="pl">No 1 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, v subbotu 22 sentâbrâ (4 oktâbrâ) 1873 goda novaâ komedìâ v 5-ti dějstvìâh Lûbovʹ Bĕdnago Ûnoši (Le roman d'un joune homme pauvre)</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564150</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/2</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536892/NDIGDZS030749.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:title xml:lang="pl">No 1 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w sobotę dnia 22 września (4 października) 1873 roku, nowa komedja w 5-ciu aktach Miłość Ubogiego Młodzieńca (Le roman d'un joune homme pauvre)</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

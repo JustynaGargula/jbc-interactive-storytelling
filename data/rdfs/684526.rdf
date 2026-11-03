@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/684526">
+    <dc:title xml:lang="pl">S dozvolenìâ Načalʹstva G. Sandomìr, v doma Gna Vajrauha teatr pod direkcìeû Vladislava Dembskago v voskresenʹe 20 sentâbrâ 1873 goda dana budet komedìâ Měŝane i Krestʹâne ili Torgovcy Skota</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:description xml:lang="pl">Litografia</dc:description>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 7 Za pozwoleniem Zwierzchności M. Sandomierz, w Domu W-go Wajraucha teatr pod dyrekcją Władysława Dębskiego w niedzielę d. 5 października 1873 r. daną będzie komedja Mieszczanie i Kmiotki czyli Handlarze Bydła</dc:title>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/684526/NDIGDZS031518.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:608455</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 28/7</dc:source>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

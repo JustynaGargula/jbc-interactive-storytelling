@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878567">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Nowy Cmentarz Podgórski (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bud-Bży 209</dc:source>
+    <dc:subject xml:lang="pl">druki ulotne 20 w.</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:916071</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:issued xml:lang="pl">1966</dc:issued>
+    <dc:subject xml:lang="pl">uroczystości żałobne</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878567/NDIGDZS091579.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Bugajski, Bolesław (?-1966)</dc:subject>
+    <dc:date xml:lang="pl">1966</dc:date>
+    <dc:title xml:lang="pl">Ś. p. inż. architekt Bolesław Bugajski nauczyciel technikum budowlanego […] zasnął w Panu dnia 4 VIII 1966 r.</dc:title>
+    <dc:subject xml:lang="pl">Sanktuarium MB Nieustającej Pomocy (Kraków ; budynek)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

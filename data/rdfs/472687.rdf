@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/472687">
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/472687/NDIGDZS028558.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 56 Teatr Lubelski Towarzystwo Artystów Opery, Operetki i Dramatu pod artystycznym kierunkiem L. Siedleckiego, w sobotę 19-go stycznia 1895 roku, benefis Wacława Szymborskiego, pierwszy raz Sen Nocy Letniej</dc:title>
+    <dc:publisher xml:lang="pl">Drukarnia Rządowa (Lublin)</dc:publisher>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">Szymborski, Wacław (1866-1932)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1895</dc:issued>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:498256</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">Lûblinskìj Teatr Obŝestvo Artistov Opery, Operetki i Dramy pod artističeskim upravlenìem L. Sědleckago, v subbotu 7-go ânvarâ 1895 goda, benefis Vaclava Šimborskago, pervyj raz Con Lětnej Noči</dc:title>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Opery, Operetki i Dramatu</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/1</dc:source>
+    <dc:date xml:lang="pl">1895</dc:date>
+    <dc:publisher xml:lang="pl">Lûblinskaâ Gubernskaâ Tipografiâ</dc:publisher>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

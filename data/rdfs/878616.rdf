@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878616">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907120</dc:relation>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1860</dc:issued>
+    <dc:date xml:lang="pl">1860</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878616/NDIGDZS087013.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:title xml:lang="pl">Aleksandra z Lubieńskich Grafczyńska Żona po b. Urzędniku b. wolnego M. Krakowa przeżywszy lat 46 [...] w dniu 17 Lipca 1860 zakończyła życie [...]</dc:title>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Grafczyńska, Aleksandra (1814?-1860)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 442</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Kościół Zwiastowania NMP (Kraków)</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

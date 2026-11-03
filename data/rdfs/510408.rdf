@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510408">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 51</dc:source>
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:subject xml:lang="pl">Waffenschutzstaffel. 14. Waffen-SS-Grenadier-Division „Galizien”</dc:subject>
+    <dc:date xml:lang="pl">[1943]</dc:date>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:536408</dc:relation>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:language xml:lang="pl">ukr</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:title xml:lang="pl">Merkblatt für Freiwillige der SS-Schützen-Division Galizien</dc:title>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510408/NDIGDZS026176.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Vkazìvki dlâ ohotnikìv SS Strìlec'koï Dìviziï Galičina</dc:title>
+    <dc:issued xml:lang="pl">[1943]</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

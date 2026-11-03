@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/509969">
+    <dc:subject xml:lang="pl">Servais, Fr.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/509969/NDIGMUZ032098.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 3, 15</dc:source>
+    <dc:subject xml:lang="pl">Teatr hr. Skarbka we Lwowie</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535474</dc:relation>
+    <dc:date xml:lang="pl">[1859]</dc:date>
+    <dc:title xml:lang="pl">Kaiserl. königl. privilegirtes Gräfl. Skarbek'sches Theater in Lemberg : Samstag den 19. Februar 1859, unter der technischen Leitung des Herrn Wilhelm Schmidts : letztes Concert des Herrn Fr. Servais</dc:title>
+    <dc:subject xml:lang="pl">Schmidts, Wilhelm</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">[1859]</dc:issued>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:subject xml:lang="pl">koncert instrumentalny</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570023">
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:title xml:lang="pl">No 34 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v voskresenʹe 18 (30) noâbrâ 1873 goda, dana budet v pervyj raz drama s muzykoû, v 4-ch dějstvìah Zloděânìe</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599870</dc:relation>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570023/NDIGDZS030829.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/39</dc:source>
+    <dc:title xml:lang="pl">No 34 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w niedzielę dnia 18 (30) listopada 1873 roku, przedstawi pierwszy raz dzieło dramatyczne z muzyką w 4-ch aktach Zbrodnia</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

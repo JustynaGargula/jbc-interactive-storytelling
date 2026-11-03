@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/474494">
+    <dc:title xml:lang="pl">Zimnìj Teatr Obŝestvo Dramatičeskih Artistov pod direkcìeû Ûlìâna Grabinskago, v voskresenʹe 15 (27) dekabrâ 1873 g., pervyj raz Karikatury ili Protektory i Protežiruemye, Nočleg v Apeninah</dc:title>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:publisher xml:lang="pl">Tip. Lûblin. Gub. Prav.</dc:publisher>
+    <dc:title xml:lang="pl">No 30 Teatr Zimowy Towarzystwo Artystów Dramatycznych pod dyrekcją Juliana Grabińskiego, w niedzielę dnia 15 (27) grudnia 1873 r., pierwszy raz Karykatury czyli Protegujący i Protegowani, Nocleg w Appeninach</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:subject xml:lang="pl">Fredro, Aleksander (1793-1876)</dc:subject>
+    <dc:subject xml:lang="pl">Towarzystwo Artystów Dramatycznych</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/474494/NDIGDZS028571.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:500021</dc:relation>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/31</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

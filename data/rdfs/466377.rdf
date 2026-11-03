@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/466377">
+    <dc:subject xml:lang="pl">litografia</dc:subject>
+    <dc:title xml:lang="pl">No 13 Teatr Krakowski w Krynicy, we wtorek dnia 20 sierpnia 1872 r. : komedya w 1 akcie przez Jana Aleks. hr. Fredrę: Consilium facultatis, zakończy komiczna operetka w 1 akcie z muzyką J. Offenbacha, przełożył Wł. L. Anczyc: Joasia płacze Jaś się śmieje</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:date xml:lang="pl">[1872]</dc:date>
+    <dc:subject xml:lang="pl">teatr polski 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 14/73</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/466377/NDIGDZS026298.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:492043</dc:relation>
+    <dc:issued xml:lang="pl">[1872]</dc:issued>
+    <dc:subject xml:lang="pl">Fredro, Jan Aleksander (1829-1891)</dc:subject>
+    <dc:subject xml:lang="pl">Teatr Krakowski 19 w.</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

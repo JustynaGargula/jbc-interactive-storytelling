@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/485363">
+    <dc:title xml:lang="pl">No 86 Lûblinskij Teatr v četverg 20-go fevralâ 1896 goda, v Benefis Vaclava Šimborskago v pervyj raz Borʹba Ženŝin, Doktor Roben, Skazka o volšebnoj korolevně, steklânom grobě i govorâŝem zerkalʹcě</dc:title>
+    <dc:issued xml:lang="pl">1897</dc:issued>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:publisher xml:lang="pl">Drukarnia Rządowa (Lublin)</dc:publisher>
+    <dc:date xml:lang="pl">1897</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:publisher xml:lang="pl">Lûblinskaâ Gubernskaâ Tipografiâ</dc:publisher>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:511520</dc:relation>
+    <dc:title xml:lang="pl">No 86 Teatr Lubelski w czwartek dnia 4-go marca 1897 roku, Benefis Wacława Szymborskiego pierwszy raz Walka Kobiet, Doktór Robinson, Bajka o zaczarowanej królewnie, szklanej trumnie i zwierciadełku gadającem</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 20/47</dc:source>
+    <dc:subject xml:lang="pl">Teatr Lubelski (Polska)</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/485363/NDIGDZS028660.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Szymborski, Wacław (1866-1932)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

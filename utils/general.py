@@ -3,7 +3,7 @@ from typing import List, Optional
 import uuid
 import pandas as pd
 import streamlit as st
-from models import Document
+from models import Document, KnowledgeGraph
 
 def print_llm_usage(
         provider: str,
@@ -195,3 +195,17 @@ def translate_names_to_english(names_to_translate: List[str], all_english_names:
         else:
             translated_names.append(name)
     return translated_names
+
+def write_subject_names_to_file(kg: KnowledgeGraph, file_path:str="locales/subjects_pl.txt") -> None:
+    """
+    Writes a list of subject names to a text file.
+
+    :param kg: KnowledgeGraph object containing the subject names
+    :type kg: KnowledgeGraph
+    :param file_path: Path to the output text file
+    :type file_path: str
+    """
+    topics = kg.get_all_subject_names()
+    with open(file_path, "w", encoding="utf-8") as f:
+        for topic in topics:
+            f.write(topic + "\n")

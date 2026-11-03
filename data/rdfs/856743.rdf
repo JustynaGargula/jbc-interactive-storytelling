@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/856743">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:881291</dc:relation>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że w dniu 5 sierpnia 2006 r. zmarł prof. dr hab. med. Marian Barczyński, emerytowany profesor zwyczajny, nauczyciel akademicki w 1 Katedrze i Klinice Chirurgii Ogólnej w okresie od 1957 r. do1961 r. oraz 1963 r. do 1984 r. [...]</dc:title>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bab-Bars 241</dc:source>
+    <dc:issued xml:lang="pl">2006</dc:issued>
+    <dc:date xml:lang="pl">2006</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/856743/NDIGDZS075149.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Barczyński, Marian (1930-2006)</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

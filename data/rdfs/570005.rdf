@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570005">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599854</dc:relation>
+    <dc:issued xml:lang="pl">1874</dc:issued>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/23</dc:source>
+    <dc:title xml:lang="pl">No 49 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, we wtorek dnia 1 (13) stycznia 1874 roku przedstawi czarodziejsko-komiczna komedjo-opera w 2-ch aktach, 5-ciu obrazach Gość z Tamtego Świata</dc:title>
+    <dc:title xml:lang="pl">No 49 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, vo vtornik 1 (13) ânvarâ 1874 goda dana budet čarodějsko-komičeskaâ komedìâ-opera, v 2-h dějstvìah, 5-ti kartinah Gostʹ s Togo Swěta</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570005/NDIGDZS030774.pdf</dc:identifier>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1874</dc:date>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:language xml:lang="pl">rus</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

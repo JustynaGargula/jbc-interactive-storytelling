@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/847372">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bart-Be 118</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:879486</dc:relation>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">nauczyciele akademiccy</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem zawiadamiamy, że w dniu 16 października 2008 roku po ciężkiej chorobie zmarł w Krakowie w wieku 65 lat ś. p. dr Andrzej Beauvale urodzony 16.11.1943 roku we Lwowie, prawy człowiek, zawsze pomocny przyjaciel […]</dc:title>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">2008</dc:date>
+    <dc:subject xml:lang="pl">Instytut Psychologii Uniwersytetu Jagiellońskiego</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">Beauvale, Andrzej (1943-2008)</dc:subject>
+    <dc:issued xml:lang="pl">2008</dc:issued>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/847372/NDIGDZS074183.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

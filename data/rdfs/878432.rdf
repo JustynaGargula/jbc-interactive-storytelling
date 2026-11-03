@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878432">
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:911360</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 396</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878432/NDIGDZS090451.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:date xml:lang="pl">1891</dc:date>
+    <dc:issued xml:lang="pl">1891</dc:issued>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:subject xml:lang="pl">Windthorst, Ludwig (1812-1891)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:title xml:lang="pl">Za duszę ś. p. Ludwika Windthorsta znakomitego Obrońcy praw Kościoła katolickiego i Rzecznika naszej narodowości odprawi się msza święta żałobna [...] dnia 17 Marca 1891 r. o godzinie 10 rano, jako w dniu Jego pogrzebu [...]</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

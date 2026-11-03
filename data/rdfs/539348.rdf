@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/539348">
+    <dc:description xml:lang="pl">New release.</dc:description>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">muzea</dc:subject>
+    <dc:subject xml:lang="pl">poradniki</dc:subject>
+    <dc:subject xml:lang="pl">turystyka</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001676</dc:source>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:publisher xml:lang="pl">Departament Turystyki, Sportu i Promocji Urzędu Marszałkowskiego Województwa Małopolskiego. Zespół ds. Regionalnego Systemu Informacji Turystycznej</dc:publisher>
+    <dc:language xml:lang="pl">eng</dc:language>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+    <dc:title xml:lang="pl">Małopolska : museums</dc:title>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser.</dc:contributor>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:566660</dc:relation>
+  </rdf:Description>
+</rdf:RDF>
+

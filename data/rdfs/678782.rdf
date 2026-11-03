@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/678782">
+    <dc:title xml:lang="pl">Koncert symfoniczny orkiestry p. Karola Meydera z berlińskiego „Concerthaus” ... : sobota 29 kwietnia (11 maja) 1895 r.</dc:title>
+    <dc:publisher xml:lang="pl">M. Lewiński</dc:publisher>
+    <dc:date xml:lang="pl">1895</dc:date>
+    <dc:title xml:lang="pl">Simfoničeskij koncert orkestra g. Karla Mejdera iz berlinskago „Concerthaus” ... : subbota 29 aprělâ 1895 goda</dc:title>
+    <dc:subject xml:lang="pl">Meyder, Karol</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:646762</dc:relation>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Muz. DŻS 8,9</dc:source>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:description xml:lang="pl">Afisz dwustronny</dc:description>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/678782/NDIGMUZ036734.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">afisz muzyczny</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1895</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

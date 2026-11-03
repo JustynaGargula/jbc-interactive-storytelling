@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/537004">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">Kamiński, Jan Nepomucen (1777-1855)</dc:subject>
+    <dc:title xml:lang="pl">No 10 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w niedzielę dnia 7 (19) października 1873 roku, szkic dramatyczny w 4-ch aktach ze śpiewami i tańcami, napisany przez J. N. Kamińskiego Staroświecczyzna i Postęp Czasu</dc:title>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564302</dc:relation>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/537004/NDIGDZS030759.pdf</dc:identifier>
+    <dc:relation xml:lang="pl">https://www.sbc.org.pl/publication/119261 Dziwak z uprzedzenia czyli Staroświecczyzna i Postęp czasu czyli Dziwak z uprzedzenia (Despotyczna starościanka). Komedja ze śpiewami w 4ch aktach przez J. N. Kamińskiego</dc:relation>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:title xml:lang="pl">No 10 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, v voskresenʹe 7 (19) oktâbrâ 1873 goda dramatičeskoe sočinenìe v 4-h dějstvìâh, s pěnìem i tancami, soč. I. N. Kaminskago Starina i Progress</dc:title>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/11</dc:source>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:date xml:lang="pl">1873</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

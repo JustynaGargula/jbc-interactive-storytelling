@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/875673">
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:title xml:lang="pl">Ze smutkiem i żalem zawiadamiamy, że w dniu 7 lipca 2003 r. zmarła ś. p. Halina Borek córka płk. Józefa Kutyby zamordowanego w Katyniu. Współtworzyła Stowarzyszenie Roniny Katyńskiej i była jej prezesem w latach 1989-1993 [...]</dc:title>
+    <dc:subject xml:lang="pl">Borek, Halina (?-2003)</dc:subject>
+    <dc:date xml:lang="pl">2003</dc:date>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/875673/NDIGDZS088671.pdf</dc:identifier>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:909034</dc:relation>
+    <dc:issued xml:lang="pl">2003</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI Bn-Bor 214</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+

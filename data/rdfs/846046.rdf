@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/846046">
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:877342</dc:relation>
+    <dc:date xml:lang="pl">2018</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:issued xml:lang="pl">2018</dc:issued>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/846046/NDIGDZS072158.pdf</dc:identifier>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:title xml:lang="pl">Z głębokim żalem informujemy, że 17 października 2018 zmarł prof. dr hab. Jerzy Aleksandrowicz</dc:title>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ DŻS XXI A 86</dc:source>
+    <dc:subject xml:lang="pl">Aleksandrowicz, Jerzy Witold (1936-2018)</dc:subject>
+  </rdf:Description>
+</rdf:RDF>
+

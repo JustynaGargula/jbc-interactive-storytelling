@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/569832">
+    <dc:subject xml:lang="pl">przewodniki</dc:subject>
+    <dc:contributor xml:lang="pl">EuroInterpret - Dominik Moser. Tłumacz</dc:contributor>
+    <dc:title xml:lang="pl">Małopolska : santuari e luoghi di culto</dc:title>
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:creator xml:lang="pl">Bzowski, Krzysztof</dc:creator>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:language xml:lang="pl">ita</dc:language>
+    <dc:date xml:lang="pl">2017</dc:date>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, BJ Oz 001704</dc:source>
+    <dc:issued xml:lang="pl">2017</dc:issued>
+    <dc:subject xml:lang="pl">sanktuaria chrześcijańskie</dc:subject>
+    <dc:publisher xml:lang="pl">Dipartimento del Turismo e della Promozione dell’Ufficio di Presidenza della Provincia della Małopolska. Gruppo per il Sistema Regionale dell’Informazione Turistica</dc:publisher>
+    <dc:subject xml:lang="pl">Małopolska (Polska ; województwo)</dc:subject>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:creator xml:lang="pl">Antoszewska, Adelina</dc:creator>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599561</dc:relation>
+    <dc:publisher xml:lang="pl">Małopolska Organizacja Turystyczna</dc:publisher>
+  </rdf:Description>
+</rdf:RDF>
+

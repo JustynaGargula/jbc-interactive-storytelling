@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878625">
+    <dc:subject xml:lang="pl">kupcy</dc:subject>
+    <dc:subject xml:lang="pl">Graff, Edward (1827-1875)</dc:subject>
+    <dc:date xml:lang="pl">1875</dc:date>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:907135</dc:relation>
+    <dc:issued xml:lang="pl">1875</dc:issued>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:subject xml:lang="pl">pogrzeb</dc:subject>
+    <dc:title xml:lang="pl">Edward Graff Kupiec i obywatel miasta Krakowa, przeżywszy lat 48 [...] zakończył życie dnia 18 Lutego 1875 r. [...]</dc:title>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 447</dc:source>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878625/NDIGDZS087042.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

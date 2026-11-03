@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878531">
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:date xml:lang="pl">1865</dc:date>
+    <dc:issued xml:lang="pl">1865</dc:issued>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:910693</dc:relation>
+    <dc:title xml:lang="pl">Walery Wielogłowski były oficer wojsk polskich [...] przeżywszy lat 60 [...] rozstał się z tym światem na dniu 11. Lipca 1865 roku [...]</dc:title>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:subject xml:lang="pl">Wielogłowski, Walery (1805-1865)</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Wi 315</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878531/NDIGDZS089372.pdf</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>
+

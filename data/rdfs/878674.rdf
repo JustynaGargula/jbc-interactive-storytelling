@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/878674">
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224649 V Gr 483</dc:source>
+    <dc:date xml:lang="pl">1889</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/878674/NDIGDZS087719.pdf</dc:identifier>
+    <dc:title xml:lang="pl">Marya z Krywultów Grinerowa przeżywszy lat 63 [...] zasnęła w Panu dnia 3 Lipca 1889 roku [...]</dc:title>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:906643</dc:relation>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1889</dc:issued>
+    <dc:subject xml:lang="pl">Grinerowa, Maria (1824?-1889)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+  </rdf:Description>
+</rdf:RDF>
+

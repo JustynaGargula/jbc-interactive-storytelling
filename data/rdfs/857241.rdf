@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/857241">
+    <dc:subject xml:lang="pl">Bilski, Ryszard (1927-2004)</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, XXI Bia-Bło 204</dc:source>
+    <dc:subject xml:lang="pl">nabożeństwo żałobne</dc:subject>
+    <dc:subject xml:lang="pl">Cmentarz Rakowicki (Kraków)</dc:subject>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:887347</dc:relation>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:title xml:lang="pl">Ś. p. prof. dr hab. med. Ryszard Bilski [...] zmarł dnia 7 listopada 2004 r.</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/857241/NDIGDZS078744.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">socjologia</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">społeczeństwo</dc:subject>
+    <dc:subject xml:lang="pl">religia i duchowość</dc:subject>
+    <dc:date xml:lang="pl">2004</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 21 w.</dc:subject>
+    <dc:type xml:lang="pl">nekrolog</dc:type>
+    <dc:issued xml:lang="pl">2004</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

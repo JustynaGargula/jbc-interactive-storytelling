@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/23007">
+    <dc:rights xml:lang="pl">Copyright</dc:rights>
+    <dc:subject xml:lang="pl">klimat</dc:subject>
+    <dc:format xml:lang="pl">text/html</dc:format>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:28455</dc:relation>
+    <dc:subject xml:lang="pl">Kraków (Polska ; region)</dc:subject>
+    <dc:issued xml:lang="pl">2010</dc:issued>
+    <dc:title xml:lang="pl">Wieloletnie zmiany struktury mezoklimatu miasta na przykładzie Krakowa</dc:title>
+    <dc:subject xml:lang="pl">mikroklimat miejski</dc:subject>
+    <dc:publisher xml:lang="pl">Instytut Geografii i Gospodarki Przestrzennej Uniwersytetu Jagiellońskiego</dc:publisher>
+    <dc:coverage xml:lang="pl">21 w.</dc:coverage>
+    <dc:creator xml:lang="pl">Bokwa, Anita</dc:creator>
+    <dc:format xml:lang="pl">application/pdf</dc:format>
+    <dc:type xml:lang="pl">e-książka</dc:type>
+    <dc:source xml:lang="pl">Uniwersytet Jagielloński. Instytut Geografii i Gospodarki Przestrzennej</dc:source>
+    <dc:date xml:lang="pl">2010</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+  </rdf:Description>
+</rdf:RDF>
+

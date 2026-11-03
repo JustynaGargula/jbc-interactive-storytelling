@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/570020">
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:title xml:lang="pl">No 32 V teatrĕ g. Spana Dramatičeskoû Truppoû pod upravlenìem Pavla Rataeviča, v četverg 15 (27) noâbrâ 1873 goda, na benefis Ippolita Radzʹìnskago dana budet v pervyj raz drama v 6-ti kartinah, s francuzskago Mopra</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:599869</dc:relation>
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/37</dc:source>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/570020/NDIGDZS030828.pdf</dc:identifier>
+    <dc:title xml:lang="pl">No 32 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w czwartek dnia 15 (27) listopada 1873 roku, na benefis Hipolita Radzyńskiego przedstawi pierwszy raz dramat w 6-u obrazach, z francuzkiego Mauprat</dc:title>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+    <dc:date xml:lang="pl">1873</dc:date>
+  </rdf:Description>
+</rdf:RDF>
+

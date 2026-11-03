@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/536906">
+    <dc:subject xml:lang="pl">Towarzystwo Dramatyczne</dc:subject>
+    <dc:date xml:lang="pl">1873</dc:date>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:subject xml:lang="pl">Bliziński, Józef (1827-1893)</dc:subject>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:title xml:lang="pl">No 5 V teatrĕ g. Spana Dramatičeskaâ Truppa pod upravlenìem Pavla Rataeviča, v subbotu 29 sentâbrâ (11oktâbrâ) 1873 goda, v pervyj raz komedìâ v 1-m dějstvìi, soč. Ìosifa Blizinskago Staryj Holostâk, komedìâ v 1-m dějstvìi s francuzskago Vozvraŝenìe, šutka-vodevilʹ v 1-m dějstvìi, s německago Probudilosʹ u Neâ Serdce</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:564195</dc:relation>
+    <dc:language xml:lang="pl">rus</dc:language>
+    <dc:subject xml:lang="pl">teatr 19 w.</dc:subject>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/536906/NDIGDZS030754.pdf</dc:identifier>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224660 IV 24/6</dc:source>
+    <dc:title xml:lang="pl">No 5 W teatrze p. Spahna Towarzystwo Dramatyczne pod dyrekcją Pawła Ratajewicza, w sobotę dnia 29 września (11 października) 1873 roku, pierwszy raz komedja w 1-m akcie przez Józefa Blizińskiego napisana Kawaler Marcowy, nastąpi komedja w 1-m akcie z francuzkiego Powrót, zakończy krotofila ze śpiewkami w 1-ym akcie z niemieckiego Zbudziło się w Niéj Serce</dc:title>
+    <dc:issued xml:lang="pl">1873</dc:issued>
+  </rdf:Description>
+</rdf:RDF>
+

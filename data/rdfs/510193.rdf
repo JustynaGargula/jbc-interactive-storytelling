@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/510193">
+    <dc:type xml:lang="pl">druk ulotny</dc:type>
+    <dc:issued xml:lang="pl">1943</dc:issued>
+    <dc:subject xml:lang="pl">II wojna światowa (1939-1945)</dc:subject>
+    <dc:date xml:lang="pl">1943</dc:date>
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:subject xml:lang="pl">Generalne Gubernatorstwo (1939-1945 ; terytorium pod okupacją niemiecką)</dc:subject>
+    <dc:subject xml:lang="pl">druki ulotne z lat 1939-1945</dc:subject>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 749040 III 36</dc:source>
+    <dc:subject xml:lang="pl">ubezpieczenie społeczne</dc:subject>
+    <dc:language xml:lang="pl">ger</dc:language>
+    <dc:title xml:lang="pl">Pouczenie w sprawie ubezpieczenia społecznego w Generalnym Gubernatorstwie, dotyczące obliczania, wysokości i uiszczania składek za ubezpieczenie chorobowe, emerytalne pracowników umysłowych i robotników, wypadkowe oraz do Funduszu Pracy. Nr. 3</dc:title>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/510193/NDIGDZS026164.pdf</dc:identifier>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:535833</dc:relation>
+    <dc:coverage xml:lang="pl">20 w.</dc:coverage>
+    <dc:subject xml:lang="pl">okupacja niemiecka w Polsce (1939-1945)</dc:subject>
+    <dc:title xml:lang="pl">Merkblatt für die Sozialversicherung des Generalgouvernements über die Berechnung, Höhe und Zahlung der Beiträge zur Kranken-, Angestellten-, Invaliden- und Unfallversicherung sowie zum Arbeitsfonds</dc:title>
+  </rdf:Description>
+</rdf:RDF>
+

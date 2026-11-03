@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="http://jbc.bj.uj.edu.pl/Content/549932">
+    <dc:rights xml:lang="pl">Domena publiczna (public domain)</dc:rights>
+    <dc:date xml:lang="pl">1872</dc:date>
+    <dc:subject xml:lang="pl">druki ulotne 19 w.</dc:subject>
+    <dc:title xml:lang="pl">Nakładem Wydawnictwa „Czytelni Ludowej” A. Nowoleckiego w Krakowie : w stuletnią rocznicę pierwszego podziału Polski opuściło prasę dziełko pod tytułem Szkic historyczny dziejów 30 letniego panowania Stanisława Augusta</dc:title>
+    <dc:coverage xml:lang="pl">19 w.</dc:coverage>
+    <dc:issued xml:lang="pl">1872</dc:issued>
+    <dc:language xml:lang="pl">pol</dc:language>
+    <dc:identifier xml:lang="pl">https://jbc.bj.uj.edu.pl/Content/549932/NDIGDZS019055.pdf</dc:identifier>
+    <dc:subject xml:lang="pl">Wydawnictwo „Czytelni Ludowej”</dc:subject>
+    <dc:relation xml:lang="pl">oai:jbc.bj.uj.edu.pl:publication:578436</dc:relation>
+    <dc:type xml:lang="pl">afisz</dc:type>
+    <dc:source xml:lang="pl">Biblioteka Jagiellońska, 224655 V 5/11</dc:source>
+  </rdf:Description>
+</rdf:RDF>
+
