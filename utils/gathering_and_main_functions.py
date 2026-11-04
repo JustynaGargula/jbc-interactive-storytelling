@@ -61,7 +61,7 @@ def import_knowledge_graph_from_jsonld_file(jsonld_file: str) -> KnowledgeGraph:
     return kg
 
 @st.cache_data(show_spinner=False)
-def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_path: str, allowed_centuries: List[int], jsonld_output_file: str, already_downloaded_rdfs: bool = False, already_saved_jsonld: bool = False) -> KnowledgeGraph:
+def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_path: str, allowed_centuries: List[int], jsonld_output_file: str, already_downloaded_rdfs: bool = False, want_to_save_jsonld: bool = True) -> KnowledgeGraph:
     """
     Tworzy graf wiedzy na podstawie pliku RIS i folderu z rdfami.
 
@@ -95,7 +95,7 @@ def get_knowledge_graph_from_ris(ris_files_directory_path: str,  rdfs_directory_
     kg = build_kg_from_rdf(g, allowed_centuries)
     print(f"Wczytano {len(kg.documents)} dokumentów do grafu wiedzy.")
 
-    if not already_saved_jsonld:
+    if want_to_save_jsonld:
         jsonld_graph = export_kg_to_jsonld(kg)
         save_jsonld_to_file(jsonld_graph, jsonld_output_file)
 

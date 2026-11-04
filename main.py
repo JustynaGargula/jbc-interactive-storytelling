@@ -41,7 +41,7 @@ with st.spinner(page_text.get("main_file").get("loading_spinner_text")):
     if os.path.exists(jsonld_output_file_pl):
         kg = import_knowledge_graph_from_jsonld_file(jsonld_output_file_pl)
     else:
-        kg = get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, jsonld_output_file_pl, already_downloaded_rdfs=True, already_saved_jsonld=False)
+        kg = get_knowledge_graph_from_ris(ris_directory_path, rdfs_directory_path, allowed_centuries, jsonld_output_file_pl, already_downloaded_rdfs=True, want_to_save_jsonld=False)
     dates__range = kg.get_dates_range()
 
 display_interface_main_part(dates__range, kg)
