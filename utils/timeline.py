@@ -12,20 +12,19 @@ import plotly.express as px
 # else:
 #     page_text_part = {"modal_header": None}
 
-def generate_timeline(data: List[Document]) -> Optional[px.scatter]:
+def generate_timeline(df: pd.DataFrame) -> Optional[px.scatter]:
     """
     Generuje oś czasu na podstawie podanych dokumentów.
 
-    :param data: Lista dokumentów do wygenerowania osi czasu
-    :type data: List[Document]
+    :param df: DataFrame zawierający dane dokumentów
+    :type df: pd.DataFrame
     :return: Wygenerowana oś czasu lub None, jeśli dane są puste
     :rtype: px.scatter | None
     """
-    if not data:
+    if df.empty:
         return None
 
     page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
-    df = convert_data_to_dataframe(data)
 
     # Grupowanie dokumentów według typu i roku, aby ustalić pozycję na osi Y, żeby uniknąć nakładania się punktów
     STACK_STEP = 0.3    # odstęp Y między punktami w słupku (1.0 = pełny poziom)
@@ -78,8 +77,8 @@ def show_document_dialog(row: pd.Series) -> None:
     """
     Wyświetla okienko modalne z informacjami o dokumencie.
 
-    :param doc: Dokument do wyświetlenia
-    :type doc: Document
+    :param row: Wiersz DataFrame zawierający informacje o dokumencie
+    :type row: pd.Series
     """
     page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
     st.write(f"**{page_text_part.get('title')}:** {row['title']}")
@@ -106,8 +105,11 @@ def display_timeline(fig: px.scatter, description: str, df: pd.DataFrame, page_t
     :type page_text_part: dict
     """
     page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
+    min_year = int(df['year'].min())
+    max_year = int(df['year'].max())
 
-    with st.container(border=True, horizontal=True):
+    col1, col2 = st.columns([0.9, 0.1], gap="medium")
+    with col1.container(border=True, horizontal=True):
         event = st.plotly_chart(
             fig,
             width="stretch",
@@ -117,17 +119,33 @@ def display_timeline(fig: px.scatter, description: str, df: pd.DataFrame, page_t
         )
         st.markdown("", help=page_text_part.get("help_text"))
 
-    # wyświetlanie metryk pod osią czasu
+    # zmiana zakresu dat na osi czasu
+    with col2:
+        with st.form(key="timeline_date_select_form", border=False):
+            with st.container(border=False, horizontal_alignment="center", width="content"):
+                st.markdown(f"##### {page_text_part.get('date_change_header')}", help=page_text_part.get("date_change_help_text"))
+                selected_start_date = st.number_input(page_text_part.get('start_date_label'), value=min_year, min_value=min_year, max_value=max_year)
+                selected_end_date = st.number_input(page_text_part.get('end_date_label'), value=max_year, min_value=min_year, max_value=max_year)
+                submitted = st.form_submit_button(page_text_part.get('apply_button_label'))
+                if submitted:
+                    if selected_end_date<selected_start_date:
+                        st.warning(page_text_part.get("wrong_date_warning"))
+                    else:
+                        crop_timeline_to_date_range(df, selected_start_date, selected_end_date)
+                        st.rerun()
+
+    # wyświetlenie metryk pod osią czasu
+    st.space("xxsmall")
+    st.write(f"**{page_text_part.get('metrics_header')}**")
     col1, col2, col3 = st.columns(3)
     with col1:
         st.metric(page_text_part.get("documents_number"), len(df))
     with col2:
-        st.metric(page_text_part.get("date_range_label"), f"{int(df['year'].min())} - {int(df['year'].max())}")
+        st.metric(page_text_part.get("date_range_label"), f"{min_year} - {max_year}")
     with col3:
         st.metric(page_text_part.get("documents_types_label"), len(df['type'].unique()))
 
     # wyświetlenie krótkiego opisu dokumentów na osi czasu
-    st.space("small")
     st.markdown(f"**{page_text_part.get('description_label')}**")
     st.write(description)
 
@@ -159,3 +177,19 @@ def generate_timeline_description(df: pd.DataFrame) -> str:
     prompt = f"{page_text_part.get('prompt_pt1')}{df.to_string(index=False)}\n{page_text_part.get('prompt_pt2')}\n\n"
     description = handle_llm(prompt)
     return description
+
+def crop_timeline_to_date_range(df: pd.DataFrame, start_date: int, end_date: int) -> None:
+    """
+    Przycina dane osi czasu do określonego zakresu dat, a konkretnie tworzy nową oś czasu według podanego zakresu dat.
+
+    :param df: DataFrame zawierający dane dokumentów
+    :type df: pd.DataFrame
+    :param start_date: Data początkowa
+    :type start_date: int
+    :param end_date: Data końcowa
+    :type end_date: int
+    """
+    with st.spinner(st.session_state["page_text"].get("utils_display_interface_main_part").get("generating_timeline_spinner_text")):
+        new_df = df.drop(df[(df['year'] < start_date) | (df['year'] > end_date)].index)
+        new_fig = generate_timeline(new_df)
+        st.session_state["timeline_fig"] = new_fig

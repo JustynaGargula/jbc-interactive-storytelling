@@ -298,7 +298,8 @@ def handle_generating_output(page_text_part, output_type, story_depth, choices_p
     elif output_type == page_text_part.get("timeline"):
         with story_placeholder.container():
             with st.spinner(page_text_part.get("generating_timeline_spinner_text")):
-                timeline = generate_timeline(data)
+                df = convert_data_to_dataframe(data)
+                timeline = generate_timeline(df)
                 description = generate_timeline_description(df)
             if timeline:
                 st.session_state["timeline_fig"] = timeline

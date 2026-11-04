@@ -48,7 +48,14 @@
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
         "prompt_pt2": "Zadanie: Opisz w paru zdaniach dokumenty pokazane na osi czasu (ty masz je w konktekście).",
         "description_label": "Opis dokumentów na osi czasu",
-        "help_text": "Kliknij na dowolną kropkę na osi czasu, aby wyświetlić informacje o odpowiadającym mu dokumencie."
+        "help_text": "Kliknij na dowolną kropkę na osi czasu, aby wyświetlić informacje o odpowiadającym mu dokumencie.",
+        "date_change_header": "Zmień daty",
+        "date_change_help_text": "Wybierając daty i klikając przycisk \"Zastosuj\" możesz zawęzić wykres do wybranego zakresu dat. Nie zmienia to informacji wyświetlanych poniżej. Można wrócić do pierwotnego zakresu wpisując odpowiednie daty.",
+        "start_date_label": "Data początkowa",
+        "end_date_label": "Data końcowa",
+        "apply_button_label": "Zastosuj",
+        "wrong_date_warning": "Data końcowa nie może być większa od daty początkowej",
+        "metrics_header": "Dane o wszystkich znalezionych dokumentach"
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Tryb zaawansowany",

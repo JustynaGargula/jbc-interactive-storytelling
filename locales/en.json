@@ -48,7 +48,14 @@
         "prompt_pt1": "Context: Use these data primarily:",
         "prompt_pt2": "Task: Describe the documents shown on the timeline (you have them in context) in a few sentences.",
         "description_label": "Description of documents on the timeline",
-        "help_text": "Click on any dot on the timeline to display information about the corresponding document."
+        "help_text": "Click on any dot on the timeline to display information about the corresponding document.",
+        "date_change_header": "Change dates",
+        "date_change_help_text": "By selecting dates and clicking the \"Apply\" button, you can narrow the chart to the selected date range. This does not change the information displayed below. You can return to the original range by entering the appropriate dates.",
+        "start_date_label": "Start date",
+        "end_date_label": "End date",
+        "apply_button_label": "Apply",
+        "wrong_date_warning": "The end date cannot be later than the start date",
+        "metrics_header": "Data about all found documents"
     },
     "utils_display_interface_main_part": {
         "advanced_mode_label": "Advanced mode",
