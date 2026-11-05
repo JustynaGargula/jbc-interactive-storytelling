@@ -20,7 +20,18 @@
         "error_404": "⚠️ **Nie znaleziono zasobu.**",
         "info_404": "💡 Sprawdź czy endpoint API jest poprawny.",
         "other_error": "⚠️ **Wystąpił nieoczekiwany błąd:**",
-        "other_error_details": "Szczegóły błędu (dla deweloperów)"
+        "other_error_details": "Szczegóły błędu (dla deweloperów)",
+        "o_no_api_key": "⚠️ **Brakuje klucza OpenRouter.**\n\nUstaw `openrouter_api_key` w sekcji `[llm]` pliku `.streamlit/secrets.toml`.",
+        "o_error_403": "⚠️ **Problem z autoryzacją OpenRouter.**\n\nSprawdź `openrouter_api_key`.",
+        "o_error_402": "⚠️ **Brak środków lub limitu kredytów na koncie OpenRouter.**",
+        "o_error_404": "⚠️ **Nie znaleziono modelu OpenRouter.**\n\nSprawdź `openrouter_model`.",
+        "o_error_429": "⚠️ **Przekroczono limit zapytań do OpenRouter.**\n\nSpróbuj ponownie później.",
+        "o_error_500": "⚠️ **OpenRouter albo dostawca modelu jest chwilowo niedostępny.**\n\nSpróbuj ponownie za chwilę.",
+        "o_timeout": "⚠️ **Zapytanie do OpenRouter przekroczyło limit czasu.**",
+        "o_connection_error": "⚠️ **Błąd połączenia z OpenRouter.**",
+        "o_format_error": "⚠️ **Nieoczekiwany format odpowiedzi z OpenRouter.**",
+        "o_other_error": "⚠️ **Wystąpił nieoczekiwany błąd OpenRouter:**"
+
     },
     "utils_generate_interactive_story_from_data": {
         "prompt_pt1": "Kontekst: Skorzystaj przede wszystkim z tych danych:",
@@ -110,7 +121,8 @@
         "fit_type_options": ["lub", "oraz"],
         "fit_type_help_text": "Wybierz, czy dokumenty mają pasować do co najmniej jednego z wybranych tematów - dopasowanie \"lub\", czy do wszystkich wybranych tematów - dopasowanie \"oraz\" (wynik będzie na podstawie tylko tych dokumentów, które pasują do każdego z wybranych tematów).",
         "other_output_types_info": " Wygeneruj inny wynik do tych samych filtrów:",
-        "ai_generated_content_warning": "*⚠️ **Uwaga:** Wygenerowana opowieść jest tworzona przez sztuczną inteligencję i może zawierać nieścisłości historyczne. Zawsze sprawdzaj informacje w źródłach historycznych.*"
+        "ai_generated_content_warning": "*⚠️ **Uwaga:** Wygenerowana opowieść jest tworzona przez sztuczną inteligencję na podstawie ograniczonych danych i może zawierać nieścisłości historyczne. Zawsze sprawdzaj informacje w źródłach historycznych.*",
+        "data_truncated_info": "Ze względu na ograniczenia użycia modelu LLM ograniczono liczbę znalezionych dokumentów do"
     },
     "utils_display_interactive_story": {
         "story_ending": "Koniec opowieści",
@@ -120,7 +132,8 @@
     },
     "general": {
         "none": "brak",
-        "sources": "Żródła"
+        "sources": "Żródła",
+        "prompt_part": "Nie dodawaj dodatkowych pytań do użytkownika ani nie proś go o wykonanie żadnej czynności."
     },
     "evaluation_module": {
         "header": "Moduł oceny",

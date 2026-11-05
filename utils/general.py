@@ -79,6 +79,52 @@ def convert_data_to_dataframe(data: List[Document]) -> pd.DataFrame:
     df = df.sort_values('year')
     return df
 
+def convert_dataframe_to_data(df: pd.DataFrame) -> List[Document]:
+    """
+    Konwertuje DataFrame Pandas na listę obiektów Document.
+
+    Funkcja jest odwrotnością convert_data_to_dataframe(), ale nie wszytskie pola dokumentu są odtwarzane w ten sposób.
+
+    :param df: DataFrame zawierający dane dokumentów
+    :type df: pd.DataFrame
+    :return: Lista obiektów Document
+    :rtype: List[Document]
+    """
+    data = []
+
+    if df is None or df.empty:
+        return data
+
+    for _, row in df.iterrows():
+        # Odtworzenie listy tematów
+        subjects_value = row.get('subjects', '')
+        if pd.notna(subjects_value) and subjects_value:
+            subjects = [
+                subject.strip()
+                for subject in str(subjects_value).split(',')
+                if subject.strip()
+            ]
+        else:
+            subjects = []
+
+        year_value = row.get('year')
+        year = int(year_value) if pd.notna(year_value) else None
+        date_raw = str(year) if year is not None else ''
+
+        document = Document(
+            identifier=str(row.get('url', '')),
+            title=str(row.get('title', '')),
+            subjects=subjects,
+            date_raw=date_raw,
+            year=year,
+            type=str(row.get('type', ''))
+        )
+
+        data.append(document)
+
+    return data
+
+
 def show_button_status(placeholder, text):
     with placeholder:
         st.info(text)

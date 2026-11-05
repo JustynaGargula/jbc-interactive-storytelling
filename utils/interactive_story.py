@@ -28,8 +28,9 @@ def generate_interactive_story_from_data(data: List[Document], story_depth: int,
         choices_per_chapter = 2
 
     page_text_part = st.session_state["page_text"].get("utils_generate_interactive_story_from_data")
+    general_prompt_part = st.session_state["page_text"].get("general").get("prompt_part")
 
-    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
+    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}{general_prompt_part}"
     if user_prompt:
         prompt += f" {page_text_part.get('prompt_pt3')} {user_prompt}"
 

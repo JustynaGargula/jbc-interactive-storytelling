@@ -103,10 +103,11 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str], story_schem
     """
     Obsługuje komunikację z OpenRouter.
     """
+    page_text_part = st.session_state["page_text"].get("utils_handle_llm")
+
     if not api_key:
         st.error(
-            "⚠️ **Brakuje klucza OpenRouter.**\n\n"
-            "Ustaw `openrouter_api_key` w sekcji `[llm]` pliku `.streamlit/secrets.toml`."
+            page_text_part.get("o_no_api_key")
         )
         return None
 
@@ -152,24 +153,24 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str], story_schem
         )
 
         if response.status_code in (401, 403):
-            st.error("⚠️ **Problem z autoryzacją OpenRouter.**\n\nSprawdź `openrouter_api_key`.")
+            st.error(page_text_part.get("o_error_403"))
             return None
 
         if response.status_code == 402:
-            st.error("⚠️ **Brak środków lub limitu kredytów na koncie OpenRouter.**")
+            st.error(page_text_part.get("o_error_402"))
             return None
 
         if response.status_code == 404:
-            st.error("⚠️ **Nie znaleziono modelu OpenRouter.**\n\nSprawdź `openrouter_model`.")
+            st.error(page_text_part.get("o_error_404"))
             return None
 
         if response.status_code == 429:
-            st.error("⚠️ **Przekroczono limit zapytań do OpenRouter.**\n\nSpróbuj ponownie później.")
+            st.error(page_text_part.get("o_error_429"))
             return None
 
         if response.status_code >= 500:
-            st.error("⚠️ **OpenRouter albo dostawca modelu jest chwilowo niedostępny.**")
-            with st.expander("Szczegóły błędu (dla deweloperów)"):
+            st.error(page_text_part.get("o_error_500"))
+            with st.expander(page_text_part.get("other_error_details")):
                 st.code(response.text)
             return None
 
@@ -190,24 +191,24 @@ def call_openrouter(prompt: str, model: str, api_key: Optional[str], story_schem
         return response_data["choices"][0]["message"]["content"]
 
     except requests.Timeout:
-        st.error("⚠️ **Zapytanie do OpenRouter przekroczyło limit czasu.**")
+        st.error(page_text_part.get("o_timeout"))
         return None
 
     except requests.RequestException as e:
-        st.error("⚠️ **Błąd połączenia z OpenRouter.**")
-        with st.expander("Szczegóły błędu (dla deweloperów)"):
+        st.error(page_text_part.get("o_connection_error"))
+        with st.expander(page_text_part.get("other_error_details")):
             st.code(str(e))
         return None
 
     except (KeyError, IndexError, TypeError) as e:
-        st.error("⚠️ **Nieoczekiwany format odpowiedzi z OpenRouter.**")
-        with st.expander("Szczegóły odpowiedzi API"):
+        st.error(page_text_part.get("o_format_error"))
+        with st.expander(page_text_part.get("other_error_details")):
             st.code(str(e))
         return None
 
     except Exception as e:
-        st.error(f"⚠️ **Wystąpił nieoczekiwany błąd OpenRouter:**\n\n{type(e).__name__}")
-        with st.expander("Szczegóły błędu (dla deweloperów)"):
+        st.error(f"{page_text_part.get('o_other_error')}\n\n{type(e).__name__}")
+        with st.expander(page_text_part.get("other_error_details")):
             st.code(str(e))
         return None
 

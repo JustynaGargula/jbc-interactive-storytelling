@@ -189,7 +189,7 @@ def get_data_based_on_text_query(query: str, kg: KnowledgeGraph, selected_relate
     if not query:
         return None
 
-    prompt = f"Na podstawie poniższego opisu tekstowego oraz dostępnej listy tematów dobierz tematy i daty pasujące do opisu. Nie wykonuj zadania z opisu, bo to zrobi inny moduł. Ty tylko znajdź pasujące tematy i daty. Opis: {query}. Lista tematów: {kg.get_all_subject_names()}. Jako odpowiedź zwróć mi słownik (json) w formacie: {{'selected_subject_names': [lista pasujących tematów z nazwami jak w załaczonej liście]'selected_date_range': [dopasowany zakres dat, np. (1800, 1900)]}}. Jeśli nie znajdziesz żadnych pasujących tematów lub dat, zwróć pustą listę dla tematów i None dla zakresu dat. Pamiętaj o zachowaniu kodowania UTF-8 w odpowiedzi, ponieważ tematy mogą zawierać polskie znaki. Odpowiedź powinna być tylko i wyłącznie tekstem w formacie json, bez żadnych dodatkowych komentarzy czy objaśnień."
+    prompt = f"Na podstawie poniższego opisu tekstowego oraz dostępnej listy tematów dobierz tematy i daty pasujące do opisu. Nie wykonuj zadania z opisu, bo to zrobi inny moduł. Ty tylko znajdź pasujące tematy i daty. Opis: {query}. Lista tematów: {kg.get_all_subject_names()}. Jako odpowiedź zwróć mi słownik (json) w formacie: {{'selected_subject_names': [lista pasujących tematów z nazwami jak w załaczonej liście]'selected_date_range': [dopasowany zakres dat, np. [1800, 1900]]}}. Jeśli nie znajdziesz żadnych pasujących tematów lub dat, zwróć pustą listę dla tematów i None dla zakresu dat. Pamiętaj o zachowaniu kodowania UTF-8 w odpowiedzi, ponieważ tematy mogą zawierać polskie znaki. Odpowiedź powinna być tylko i wyłącznie tekstem w formacie json, bez żadnych dodatkowych komentarzy czy objaśnień."
     response = handle_llm(prompt)
     try:
         if response is not None:
@@ -211,4 +211,5 @@ def get_data_based_on_text_query(query: str, kg: KnowledgeGraph, selected_relate
             return None
     except Exception as e:
         print(f"Error decoding LLM response: {e}")
+        print(f"LLM response: {response}")
         return None

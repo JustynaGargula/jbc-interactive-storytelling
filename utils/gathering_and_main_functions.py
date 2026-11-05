@@ -6,7 +6,7 @@ import streamlit as st
 from models import Document, KnowledgeGraph, Relation, Subject
 from .downloading_data_and_creating_graph import build_kg_from_rdf, create_graph, export_kg_to_jsonld, get_ids, get_rdfs, save_jsonld_to_file, save_rdfs_to_file
 from .filtering_data import get_data_based_on_selected_filters, get_data_based_on_text_query
-from .general import convert_data_to_dataframe, show_button_status
+from .general import convert_data_to_dataframe, convert_dataframe_to_data, show_button_status
 from .interactive_story import display_interactive_story, generate_interactive_story_from_data
 from .historical_story import display_historical_story, generate_historical_story_from_data
 from .timeline import display_timeline, generate_timeline, generate_timeline_description
@@ -137,6 +137,8 @@ def display_interface_main_part(dates_range: tuple, kg: KnowledgeGraph):
         st.session_state["timeline_fig"] = None
     if "timeline_description" not in st.session_state:
         st.session_state["timeline_description"] = None
+    if "is_data_truncated" not in st.session_state:
+        st.session_state["is_data_truncated"] = None
 
     # generowanie
     if generate_button:
@@ -145,7 +147,7 @@ def display_interface_main_part(dates_range: tuple, kg: KnowledgeGraph):
 
     # gnerowanie z przycisku pod wynikiem
     if st.session_state.get("second_generate"):
-        is_output, df = handle_generating_output(page_text_part, st.session_state["other_output_type"], story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder)
+        is_output, df = handle_generating_output(page_text_part, st.session_state["other_output_type"], story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder, second_generate=True)
 
     # wyświetlanie interaktywnej opowieści
     if st.session_state.get("interactive_story"):
@@ -183,6 +185,8 @@ def display_interface_main_part(dates_range: tuple, kg: KnowledgeGraph):
     if output_type and is_output:
         st.divider()
         st.markdown(page_text_part.get("ai_generated_content_warning"))
+        if st.session_state["is_data_truncated"]:
+            st.write(f"*{page_text_part.get('data_truncated_info')} {len(df)}.*")
 
         current_output_type =  st.session_state["other_output_type"] or output_type
         other_output_types = page_text_part.get("output_type_options").copy()
@@ -249,26 +253,37 @@ def display_whole_filters_sections(page_text_part, dates_range):
 
     return output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, generate_button, user_query
 
-def handle_generating_output(page_text_part, output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder):
+def handle_generating_output(page_text_part, output_type, story_depth, choices_per_chapter, filters_choice, selected_subject_names, fit_type, selected_date_range, selected_related, user_query, kg, story_placeholder, second_generate=False):
     is_output = False
-    with st.spinner(page_text_part.get("getting_data_spinner_text")):
-        if filters_choice == page_text_part.get("filters_choice_options")[0]:
-            data = get_data_based_on_selected_filters(
-                selected_subject_names,
-                selected_date_range,
-                selected_related,
-                kg,
-                fit_type=fit_type
-            )
-        elif filters_choice == page_text_part.get("filters_choice_options")[1]:
-            data = get_data_based_on_text_query(user_query, kg, selected_related)
-        if not data:
-            if fit_type == "or":
-                st.warning(page_text_part.get("no_documents_warning"))
-            else:
-                st.warning(page_text_part.get("no_documents_warning2"))
-            return is_output, None
-        df = convert_data_to_dataframe(data)
+    if second_generate:
+        df = st.session_state["df"]
+        data = convert_dataframe_to_data(df)
+    else:
+        # przy kolejnym generowaniu nie szukamy ponownie danych
+        st.session_state["is_data_truncated"] = False
+        allowed_documents_amount = 300
+        with st.spinner(page_text_part.get("getting_data_spinner_text")):
+            if filters_choice == page_text_part.get("filters_choice_options")[0]:
+                data = get_data_based_on_selected_filters(
+                    selected_subject_names,
+                    selected_date_range,
+                    selected_related,
+                    kg,
+                    fit_type=fit_type
+                )
+            elif filters_choice == page_text_part.get("filters_choice_options")[1]:
+                data = get_data_based_on_text_query(user_query, kg, selected_related)
+            if not data:
+                if fit_type == "or":
+                    st.warning(page_text_part.get("no_documents_warning"))
+                else:
+                    st.warning(page_text_part.get("no_documents_warning2"))
+                return is_output, None
+            elif len(data) > allowed_documents_amount:
+                data = data[:300]
+                st.session_state["is_data_truncated"] = True
+            df = convert_data_to_dataframe(data)
+
     reset_interactive_story_and_timeline()
 
     if output_type == page_text_part.get("historical_story"):
@@ -283,6 +298,7 @@ def handle_generating_output(page_text_part, output_type, story_depth, choices_p
                 is_output = True
             else:
                 st.warning(page_text_part.get("no_story_warning"))
+        st.session_state["df"] = df
 
     elif output_type == page_text_part.get("interactive_story"):
         with story_placeholder.container():

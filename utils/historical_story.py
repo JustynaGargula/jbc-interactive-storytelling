@@ -21,7 +21,8 @@ def generate_historical_story_from_data(data: List[Document], user_prompt) -> Op
     if not data:
         return None
     page_text_part = st.session_state["page_text"].get("utils_generate_historical_story_from_data")
-    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}"
+    general_prompt_part = st.session_state["page_text"].get("general").get("prompt_part")
+    prompt = f"{page_text_part.get('prompt_pt1')} {data}{page_text_part.get('prompt_pt2')}{general_prompt_part}"
     if user_prompt:
         prompt += f" {page_text_part.get('prompt_pt3')} {user_prompt}"
     story_schema = get_story_schema()

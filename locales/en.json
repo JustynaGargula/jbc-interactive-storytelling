@@ -20,7 +20,17 @@
         "error_404": "⚠️ **Resource not found.**",
         "info_404": "💡 Check if the API endpoint is correct.",
         "other_error": "⚠️ **An unexpected error occurred:**",
-        "other_error_details": "Error details (for developers)"
+        "other_error_details": "Error details (for developers)",
+        "o_no_api_key": "⚠️ **Missing OpenRouter key.**\n\nSet `openrouter_api_key` in the `[llm]` section of the `.streamlit/secrets.toml` file.",
+        "o_error_403": "⚠️ **Authorization problem with OpenRouter.**\n\nCheck the `openrouter_api_key`.",
+        "o_error_402": "⚠️ **Insufficient funds or credit limit on the OpenRouter account.**",
+        "o_error_404": "⚠️ **OpenRouter model not found.**\n\nCheck the `openrouter_model`.",
+        "o_error_429": "⚠️ **OpenRouter request limit exceeded.**\n\nTry again later.",
+        "o_error_500": "⚠️ **OpenRouter or model provider is temporarily unavailable.**\n\nTry again in a moment.",
+        "o_timeout": "⚠️ **OpenRouter request timeout.**",
+        "o_connection_error": "⚠️ **Connection error with OpenRouter.**",
+        "o_format_error": "⚠️ **Unexpected response format from OpenRouter.**",
+        "o_other_error": "⚠️ **An unexpected error occurred with OpenRouter:**"
     },
     "utils_generate_interactive_story_from_data": {
         "prompt_pt1": "Context: Use these data primarily:",
@@ -110,7 +120,8 @@
         "fit_type_options": ["or", "and"],
         "fit_type_help_text": "Choose whether documents should match at least one of the selected topics - \"or\" matching or all selected topics - \"and\" matching (result will be based only on documents that match every selected topic).",
         "other_output_types_info": " Generate a different result for the same filters:",
-        "ai_generated_content_warning": "*⚠️ **Warning:** The generated story is created by artificial intelligence and may contain historical inaccuracies. Always verify information in historical sources.*"
+        "ai_generated_content_warning": "*⚠️ **Warning:** The generated story is created by artificial intelligence based on limited data and may contain historical inaccuracies. Always verify information in historical sources.*",
+        "data_truncated_info": "Due to LLM model usage limits amount of found documents was truncated to"
     },
     "utils_display_interactive_story": {
         "story_ending": "The end of the story",
@@ -120,7 +131,8 @@
     },
     "general": {
         "none": "none",
-        "sources": "Sources"
+        "sources": "Sources",
+        "prompt_part": "Do not add additional questions to the user or ask them to perform any action."
     },
     "evaluation_module": {
         "header": "Evaluation module",

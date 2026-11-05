@@ -21,7 +21,7 @@ def generate_timeline(df: pd.DataFrame) -> Optional[px.scatter]:
     :return: Wygenerowana oś czasu lub None, jeśli dane są puste
     :rtype: px.scatter | None
     """
-    if df.empty:
+    if df is None or df.empty:
         return None
 
     page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
@@ -173,8 +173,9 @@ def generate_timeline_description(df: pd.DataFrame) -> str:
     :return: Opis osi czasu
     :rtype: str
     """
+    general_prompt_part = st.session_state["page_text"].get("general").get("prompt_part")
     page_text_part = st.session_state["page_text"].get("utils_generate_timeline")
-    prompt = f"{page_text_part.get('prompt_pt1')}{df.to_string(index=False)}\n{page_text_part.get('prompt_pt2')}\n\n"
+    prompt = f"{page_text_part.get('prompt_pt1')}{df.to_string(index=False)}\n{page_text_part.get('prompt_pt2')}{general_prompt_part}\n\n"
     description = handle_llm(prompt)
     return description
 
