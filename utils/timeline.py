@@ -55,7 +55,6 @@ def generate_timeline(df: pd.DataFrame) -> Optional[px.scatter]:
             'height': False,
         },
         custom_data=['url'],
-        # title=f'{page_text_part.get("title_pt1")} {len(df)} {page_text_part.get("title_pt2")}',
         labels={ 'type': page_text_part.get("type"), 'year': page_text_part.get("year"), 'date_display': page_text_part.get("date_display"), 'subjects': page_text_part.get("subjects") },
         size_max=15,
     )
@@ -134,6 +133,8 @@ def display_timeline(fig: px.scatter, description: str, df: pd.DataFrame, page_t
                         crop_timeline_to_date_range(df, selected_start_date, selected_end_date)
                         st.rerun()
 
+    spinner_placeholder = st.empty()
+
     # wyświetlenie metryk pod osią czasu
     st.space("xxsmall")
     st.write(f"**{page_text_part.get('metrics_header')}**")
@@ -150,19 +151,20 @@ def display_timeline(fig: px.scatter, description: str, df: pd.DataFrame, page_t
     st.write(description)
 
     # obsługa kliknięcia w punkt na osi czasu
-    points = event.selection.points if event and event.selection else []
-    if not points:
-        st.session_state.pop("last_opened_doc", None)
-        return
+    with spinner_placeholder.spinner(f"## {page_text_part.get('modal_spinner_text')}"):
+        points = event.selection.points if event and event.selection else []
+        if not points:
+            st.session_state.pop("last_opened_doc", None)
+            return
 
-    identifier = points[0]["customdata"][0]
-    matches = df[df['url'] == identifier]
+        identifier = points[0]["customdata"][0]
+        matches = df[df['url'] == identifier]
 
-    if not matches.empty and st.session_state.get("last_opened_doc") != identifier:
-        st.session_state["last_opened_doc"] = identifier
-        title = st.session_state.get("page_text").get("utils_generate_timeline").get("modal_header")
-        dialog = st.dialog(title, width="large")(show_document_dialog)
-        dialog(matches.iloc[0])
+        if not matches.empty and st.session_state.get("last_opened_doc") != identifier:
+            st.session_state["last_opened_doc"] = identifier
+            title = st.session_state.get("page_text").get("utils_generate_timeline").get("modal_header")
+            dialog = st.dialog(title, width="large")(show_document_dialog)
+            dialog(matches.iloc[0])
 
 def generate_timeline_description(df: pd.DataFrame) -> str:
     """

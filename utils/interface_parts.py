@@ -6,13 +6,14 @@ from .general import read_names_from_file, translate_names_to_polish
 from .filtering_data import display_and_collect_subject_filters
 
 def display_result_type_options(page_text_part: str, is_advanced_mode_on: bool):
+    medium_length = 1200
     output_type = st.segmented_control(
         page_text_part.get("output_type_label"),
         page_text_part.get("output_type_options"),
-        selection_mode="single", default=page_text_part.get("timeline"), width=1200)
+        selection_mode="single", default=page_text_part.get("timeline"), required=True, width=medium_length)
 
     if output_type == page_text_part.get("interactive_story") and is_advanced_mode_on:
-        col1, col2 = st.columns(2, vertical_alignment="center")
+        col1, col2 = st.columns(2, vertical_alignment="center", width=int(1/2*medium_length))
         with col1:
             story_depth = st.number_input(page_text_part.get("story_depth_label"), min_value=1, max_value=5, value=3, step=1, help=page_text_part.get("story_depth_help_text"))
         with col2:

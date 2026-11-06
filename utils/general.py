@@ -53,7 +53,7 @@ def convert_data_to_dataframe(data: List[Document]) -> pd.DataFrame:
         all_polish_subjects = read_names_from_file("subjects", "pl")
         for doc in data:
             doc_type = translate_names_to_english([doc.type], all_english_types, all_polish_types)[0]
-            doc_subjects = ', '.join(translate_names_to_english(doc.subjects, all_english_subjects, all_polish_subjects))
+            doc_subjects = ', '.join(translate_names_to_english(remove_duplicates_from_list(doc.subjects), all_english_subjects, all_polish_subjects))
             timeline_data.append({
                 'title': doc.title,
                 'year': doc.year,
@@ -64,7 +64,7 @@ def convert_data_to_dataframe(data: List[Document]) -> pd.DataFrame:
             })
     else:
         for doc in data:
-            subjects = ', '.join(doc.subjects)
+            subjects = ', '.join(remove_duplicates_from_list(doc.subjects))
             timeline_data.append({
                 'title': doc.title,
                 'year': doc.year,
@@ -255,3 +255,10 @@ def write_subject_names_to_file(kg: KnowledgeGraph, file_path:str="locales/subje
     with open(file_path, "w", encoding="utf-8") as f:
         for topic in topics:
             f.write(topic + "\n")
+
+def remove_duplicates_from_list(str_list: List[str]) -> List[str]:
+    list_without_duplicates = []
+    for item in str_list:
+        if item not in list_without_duplicates:
+            list_without_duplicates.append(item)
+    return list_without_duplicates
